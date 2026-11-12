@@ -3,7 +3,7 @@
   "title": "Ngân hàng câu hỏi Kỹ thuật cảm biến",
   "source": "Các câu hỏi và hình ảnh được người dùng cung cấp trong cuộc trò chuyện ngày 12/11/2026",
   "language": "vi",
-  "count": 76,
+  "count": 80,
   "answer_visibility": "Store answers separately from quiz UI in production",
   "questions": [
     {
@@ -1089,6 +1089,60 @@
       "options": [
         "True",
         "False"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C077",
+      "topic": "general",
+      "type": "true_false",
+      "prompt": "Độ trôi là thay đổi dần của chỉ thị khi đại lượng cần đo không đổi.",
+      "answer": true,
+      "options": [
+        "True",
+        "False"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C078",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Một yếu tố ảnh hưởng ngoài đại lượng cần đo tạo ra đại lượng nào?",
+      "answer": "Độ nhạy chéo",
+      "options": [
+        "Span bắt buộc",
+        "Độ nhạy chéo",
+        "Độ phân giải lý tưởng",
+        "Tần số Nyquist cố định"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C079",
+      "topic": "mechanical",
+      "type": "single_choice",
+      "prompt": "Đơn vị SI của áp suất là gì?",
+      "answer": "Pa",
+      "options": [
+        "Pa",
+        "N·m",
+        "Wb",
+        "A"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C080",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Cảm biến có đặc tuyến y = 2x + (-3), x = 5. Giá trị y bằng bao nhiêu?",
+      "answer": "7",
+      "options": [
+        "7",
+        "13",
+        "17",
+        "4"
       ],
       "ui": "radio"
     }
