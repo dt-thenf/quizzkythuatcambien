@@ -1,0 +1,1072 @@
+{
+  "schema_version": "1.0.0",
+  "title": "Ngân hàng câu hỏi Kỹ thuật cảm biến",
+  "source": "Các câu hỏi và hình ảnh được người dùng cung cấp trong cuộc trò chuyện ngày 12/11/2026",
+  "language": "vi",
+  "count": 74,
+  "answer_visibility": "Store answers separately from quiz UI in production",
+  "questions": [
+    {
+      "id": "C001",
+      "topic": "general",
+      "type": "true_false",
+      "prompt": "Hiệu chuẩn xác lập quan hệ giữa giá trị chuẩn đầu vào và tín hiệu đầu ra.",
+      "answer": true,
+      "options": [
+        "True",
+        "False"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C002",
+      "topic": "general",
+      "type": "true_false",
+      "prompt": "Mạch đệm có thể giảm ảnh hưởng tải của tầng sau lên cảm biến.",
+      "answer": true,
+      "options": [
+        "True",
+        "False"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C003",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Đặc trưng nào mô tả hai đầu ra khác nhau tại cùng đầu vào khi quét tăng và giảm?",
+      "answer": "Hysteresis",
+      "options": [
+        "Span",
+        "Resolution",
+        "Offset duy nhất",
+        "Hysteresis"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C004",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Trước ADC, nhiễu cao tần có thể cần xử lý bằng gì?",
+      "answer": "Bộ lọc chống alias",
+      "options": [
+        "Bộ lọc chống alias",
+        "Chỉ đổi tên biến",
+        "Chỉ đổi màu đồ thị",
+        "Chỉ lưu thêm mẫu đã alias"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C005",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Cảm biến có đặc tuyến y = 7x + (2), x = 10. Giá trị y bằng bao nhiêu?",
+      "answer": "72",
+      "options": [
+        "68",
+        "82",
+        "19",
+        "72"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C006",
+      "topic": "general",
+      "type": "matching",
+      "prompt": "Ghép mỗi mục bên trái với mô tả tương ứng bên phải.",
+      "answer": [
+        {
+          "left": "Range",
+          "right": "Khoảng từ giới hạn dưới đến giới hạn trên"
+        },
+        {
+          "left": "Resolution",
+          "right": "Biến thiên đầu vào nhỏ nhất phân biệt được"
+        },
+        {
+          "left": "Hysteresis",
+          "right": "Đầu ra phụ thuộc chiều quét đầu vào"
+        },
+        {
+          "left": "Calibration",
+          "right": "Xác lập quan hệ với chuẩn"
+        }
+      ],
+      "options": [
+        "Biến thiên đầu vào nhỏ nhất phân biệt được",
+        "Xác lập quan hệ với chuẩn",
+        "Đầu ra phụ thuộc chiều quét đầu vào",
+        "Khoảng từ giới hạn dưới đến giới hạn trên"
+      ],
+      "ui": "dropdown_per_row",
+      "screenshot": "screenshots/image.png",
+      "source_question_number": 6
+    },
+    {
+      "id": "C007",
+      "topic": "general",
+      "type": "numeric",
+      "prompt": "Đường chuẩn V = 1.0T + 1.8, V tính bằng V và T bằng °C. Khi V = 20.80 V, tính T theo °C.",
+      "answer": 19,
+      "unit": "°C",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số theo đơn vị yêu cầu, dùng dấu chấm thập phân."
+    },
+    {
+      "id": "C008",
+      "topic": "general",
+      "type": "fill_blank",
+      "prompt": "Tên tiếng Anh của sai lệch điểm không là _____.",
+      "answer": "Offset",
+      "ui": "text_input",
+      "input_hint": "Điền thuật ngữ, không thêm dấu chấm cuối câu."
+    },
+    {
+      "id": "C009",
+      "topic": "optical",
+      "type": "true_false",
+      "prompt": "Photodiode có thể tạo dòng quang khi không phân cực ngoài.",
+      "answer": true,
+      "options": [
+        "True",
+        "False"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C010",
+      "topic": "optical",
+      "type": "true_false",
+      "prompt": "Chỉ biết lux luôn đủ để suy ra chính xác công suất quang tới photodiode ở mọi phổ.",
+      "answer": false,
+      "options": [
+        "True",
+        "False"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C011",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Trong E = hc/λ, khi λ tăng gấp đôi thì E thay đổi thế nào?",
+      "answer": "Giảm một nửa",
+      "options": [
+        "Tăng bốn lần",
+        "Tăng gấp đôi",
+        "Giảm một nửa",
+        "Giữ nguyên"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C012",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Dùng hình mạch bên phải với dữ kiện mới, không đọc R từ đồ thị. LDR R1 lên nguồn 3.6 V, R2 = 82 kΩ xuống GND. Cho RLDR = 850 kΩ. Vout tại nút giữa bằng bao nhiêu? Chọn giá trị làm tròn 3 chữ số thập phân.",
+      "answer": "0.317 V",
+      "options": [
+        "3.917 V",
+        "0.158 V",
+        "3.283 V",
+        "0.317 V"
+      ],
+      "ui": "radio",
+      "figure": "figures/ldr-voltage-divider.svg",
+      "screenshot": "screenshots/image(1).png"
+    },
+    {
+      "id": "C013",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Photodiode có responsivity 0.25 A/W, nhận công suất quang 15 µW. Bỏ qua dòng tối. Dòng quang bằng bao nhiêu?",
+      "answer": "3.75 µA",
+      "options": [
+        "1.88 µA",
+        "3.75 µA",
+        "37.50 µA",
+        "7.50 µA"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C014",
+      "topic": "optical",
+      "type": "matching",
+      "prompt": "Ghép mỗi mục bên trái với mô tả tương ứng bên phải.",
+      "answer": [
+        {
+          "left": "LDR",
+          "right": "Điện trở thay đổi theo độ chiếu sáng"
+        },
+        {
+          "left": "Retro-reflective",
+          "right": "Dùng bộ phản xạ đối diện"
+        },
+        {
+          "left": "Responsivity",
+          "right": "Tỷ số dòng quang/công suất quang"
+        },
+        {
+          "left": "Dark current",
+          "right": "Dòng khi không có ánh sáng tới"
+        }
+      ],
+      "options": [
+        "Dòng khi không có ánh sáng tới",
+        "Điện trở thay đổi theo độ chiếu sáng",
+        "Tỷ số dòng quang/công suất quang",
+        "Dùng bộ phản xạ đối diện"
+      ],
+      "ui": "dropdown_per_row",
+      "screenshot": "screenshots/image(2).png",
+      "source_question_number": 14
+    },
+    {
+      "id": "C015",
+      "topic": "optical",
+      "type": "numeric",
+      "prompt": "Dùng hình mạch bên phải với dữ kiện mới, không đọc R từ đồ thị. LDR R1 nối nguồn 7.4 V, R2 = 164 kΩ nối GND. Cho RLDR = 750 kΩ. Tính Vout theo V, bỏ qua tải đầu ra.",
+      "answer": 1.327789934354486,
+      "unit": "V",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số theo đơn vị yêu cầu, dùng dấu chấm thập phân.",
+      "figure": "figures/ldr-voltage-divider.svg",
+      "screenshot": "screenshots/image(3).png"
+    },
+    {
+      "id": "C016",
+      "topic": "optical",
+      "type": "numeric",
+      "prompt": "Ánh sáng đơn sắc có λ = 760 nm. Dùng hc = 1240 eV·nm. Tính năng lượng một photon theo eV.",
+      "answer": 1.631578947368421,
+      "unit": "eV",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số theo đơn vị yêu cầu, dùng dấu chấm thập phân."
+    },
+    {
+      "id": "C017",
+      "topic": "optical",
+      "type": "numeric",
+      "prompt": "Mật độ công suất quang Ee = 38 W/m² chiếu đều diện tích 11 mm². Tính công suất quang tới theo µW.",
+      "answer": 418,
+      "unit": "µW",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số theo đơn vị yêu cầu, dùng dấu chấm thập phân."
+    },
+    {
+      "id": "C018",
+      "topic": "optical",
+      "type": "fill_blank",
+      "prompt": "Tên tiếng Anh của diode quang là _____.",
+      "answer": "Photodiode",
+      "ui": "text_input",
+      "input_hint": "Điền thuật ngữ, không thêm dấu chấm cuối câu."
+    },
+    {
+      "id": "C019",
+      "topic": "thermal",
+      "type": "true_false",
+      "prompt": "Độ dẫn điện bán dẫn bằng q(nµn + pµp).",
+      "answer": true,
+      "options": [
+        "True",
+        "False"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C020",
+      "topic": "thermal",
+      "type": "true_false",
+      "prompt": "Chênh lệch 10 °C có độ lớn bằng chênh lệch 10 K.",
+      "answer": true,
+      "options": [
+        "True",
+        "False"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C021",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Hiệu ứng tạo điện áp thermocouple là gì?",
+      "answer": "Seebeck",
+      "options": [
+        "Hall",
+        "Seebeck",
+        "Doppler",
+        "Coriolis"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C022",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Pt100 có R₀ = 100 Ω tại 0 °C, α = 0,00385 °C⁻¹. Theo mô hình tuyến tính, R tại 71 °C là bao nhiêu?",
+      "answer": "127.335 Ω",
+      "options": [
+        "127.335 Ω",
+        "100.273 Ω",
+        "137.335 Ω",
+        "72.665 Ω"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C023",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Cặp nhiệt điện có αab = 36 µV/K không đổi, đầu nóng 155 °C, đầu lạnh 19 °C. Điện áp xấp xỉ bằng bao nhiêu?",
+      "answer": "4.896 mV",
+      "options": [
+        "0.490 mV",
+        "4896.000 mV",
+        "4.896 mV",
+        "5.580 mV"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C024",
+      "topic": "thermal",
+      "type": "matching",
+      "prompt": "Ghép mỗi mục bên trái với mô tả tương ứng bên phải.",
+      "answer": [
+        {
+          "left": "RTD platinum",
+          "right": "Điện trở kim loại phụ thuộc nhiệt độ"
+        },
+        {
+          "left": "NTC",
+          "right": "Điện trở giảm khi nhiệt độ tăng"
+        },
+        {
+          "left": "PTC",
+          "right": "Điện trở tăng khi nhiệt độ tăng"
+        },
+        {
+          "left": "Silicon RTD",
+          "right": "Độ dẫn liên quan mật độ và độ linh động hạt tải"
+        }
+      ],
+      "options": [
+        "Điện trở giảm khi nhiệt độ tăng",
+        "Điện trở tăng khi nhiệt độ tăng",
+        "Độ dẫn liên quan mật độ và độ linh động hạt tải",
+        "Điện trở kim loại phụ thuộc nhiệt độ"
+      ],
+      "ui": "dropdown_per_row",
+      "screenshot": "screenshots/image(4).png",
+      "source_question_number": 24
+    },
+    {
+      "id": "C025",
+      "topic": "thermal",
+      "type": "numeric",
+      "prompt": "Thanh silic dài 17 mm, rộng 7 mm, dày 1.6 mm. n = p = 1.9×10¹² cm⁻³, µn = 1220, µp = 410 cm²/(V·s), q = 1,6×10⁻¹⁹ C. Tính điện trở theo kΩ.",
+      "answer": 30.631602011162883,
+      "unit": "kΩ",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số theo đơn vị yêu cầu, dùng dấu chấm thập phân."
+    },
+    {
+      "id": "C026",
+      "topic": "thermal",
+      "type": "numeric",
+      "prompt": "RTD có R₀ = 250 Ω tại 20 °C và α = 0.0034 °C⁻¹. Đo R = 293.350000 Ω. Theo mô hình tuyến tính, tính T theo °C.",
+      "answer": 71,
+      "unit": "°C",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số theo đơn vị yêu cầu, dùng dấu chấm thập phân."
+    },
+    {
+      "id": "C027",
+      "topic": "thermal",
+      "type": "numeric",
+      "prompt": "RTD silic có R₀ = 10 kΩ tại T₀ = 20 °C. Dùng R(T) = R₀[1+a(T−T₀)+b(T−T₀)²], a = 0.0067 °C⁻¹, b = 0.0000150 °C⁻². Tính R tại 67 °C theo kΩ.",
+      "answer": 13.480349999999998,
+      "unit": "kΩ",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số theo đơn vị yêu cầu, dùng dấu chấm thập phân."
+    },
+    {
+      "id": "C028",
+      "topic": "thermal",
+      "type": "numeric",
+      "prompt": "NTC có R₀ = 14 kΩ tại 25 °C, β = 3750 K. Dùng R = R₀exp[β(1/T−1/T₀)], T theo K. Tính R tại 57 °C theo kΩ. Lấy T(K) = t(°C)+273,15.",
+      "answer": 4.13699269098732,
+      "unit": "kΩ",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số theo đơn vị yêu cầu, dùng dấu chấm thập phân."
+    },
+    {
+      "id": "C029",
+      "topic": "thermal",
+      "type": "numeric",
+      "prompt": "Điện trở cảm biến Rs = 9.4 kΩ nối tiếp Rf = 9.0 kΩ vào nguồn 4.8 V. Hệ số tự đốt nóng k = 0.16 °C/mW. Dùng điện trở tại nhiệt độ môi trường, bỏ qua phản hồi nhiệt. Tính ΔT theo °C.",
+      "answer": 0.10235160680529302,
+      "unit": "°C",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số theo đơn vị yêu cầu, dùng dấu chấm thập phân."
+    },
+    {
+      "id": "C030",
+      "topic": "thermal",
+      "type": "fill_blank",
+      "prompt": "Ký hiệu hệ số vật liệu trong mô hình NTC đơn giản, viết tên chữ Hy Lạp bằng tiếng Anh là _____.",
+      "answer": "Beta",
+      "ui": "text_input",
+      "input_hint": "Điền thuật ngữ, không thêm dấu chấm cuối câu."
+    },
+    {
+      "id": "C031",
+      "topic": "electromagnetic",
+      "type": "true_false",
+      "prompt": "Cảm biến điện dung công nghiệp có thể phát hiện nhiều vật liệu phi kim.",
+      "answer": true,
+      "options": [
+        "True",
+        "False"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C032",
+      "topic": "electromagnetic",
+      "type": "true_false",
+      "prompt": "Trong Φ = BA cho từ trường đều vuông góc, tăng A gấp đôi làm Φ giảm một nửa.",
+      "answer": false,
+      "options": [
+        "True",
+        "False"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C033",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "Đơn vị mật độ từ thông B là gì?",
+      "answer": "Tesla",
+      "options": [
+        "Volt",
+        "Tesla",
+        "Weber",
+        "Henry"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C034",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "Tụ cảm biến có C = 27 pF. Khoảng cách bản tụ tăng 4 lần, A và ε giữ nguyên. Điện dung mới là bao nhiêu?",
+      "answer": "6.750 pF",
+      "options": [
+        "27.000 pF",
+        "108.000 pF",
+        "6.750 pF",
+        "31.000 pF"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C035",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "LVDT có V1 = 0.93 V, V2 = 1.41 V cùng tham chiếu pha. Theo quy ước Vout = V2−V1, đầu ra bằng bao nhiêu?",
+      "answer": "0.480 V",
+      "options": [
+        "0.480 V",
+        "2.340 V",
+        "0.960 V",
+        "-0.480 V"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C036",
+      "topic": "electromagnetic",
+      "type": "matching",
+      "prompt": "Ghép mỗi mục bên trái với mô tả tương ứng bên phải. Các ký hiệu đánh số theo hình trong đề mẫu.",
+      "answer": [
+        {
+          "left": "Ký hiệu (1)",
+          "right": "Tiệm cận điện dung"
+        },
+        {
+          "left": "Ký hiệu (2)",
+          "right": "Tiệm cận điện cảm đầu ra chuyển mạch"
+        },
+        {
+          "left": "Ký hiệu (4)",
+          "right": "Điện cảm có đầu ra tương tự U/I"
+        },
+        {
+          "left": "LVDT",
+          "right": "Đo dịch chuyển tuyến tính bằng hỗ cảm vi sai"
+        }
+      ],
+      "options": [
+        "Tiệm cận điện cảm đầu ra chuyển mạch",
+        "Điện cảm có đầu ra tương tự U/I",
+        "Tiệm cận điện dung",
+        "Đo dịch chuyển tuyến tính bằng hỗ cảm vi sai"
+      ],
+      "ui": "dropdown_per_row",
+      "figure": "figures/proximity-symbols.svg",
+      "screenshot": "screenshots/image(5).png"
+    },
+    {
+      "id": "C037",
+      "topic": "electromagnetic",
+      "type": "numeric",
+      "prompt": "Từ trường đều B = 0.12 T vuông góc diện tích A = 5 cm². Tính Φ theo µWb.",
+      "answer": 60,
+      "unit": "µWb",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số theo đơn vị yêu cầu, dùng dấu chấm thập phân."
+    },
+    {
+      "id": "C038",
+      "topic": "electromagnetic",
+      "type": "fill_blank",
+      "prompt": "Tên tiếng Anh của cảm biến điện dung là _____ sensor.",
+      "answer": "Capacitive",
+      "ui": "text_input",
+      "input_hint": "Điền thuật ngữ, không thêm dấu chấm cuối câu."
+    },
+    {
+      "id": "C039",
+      "topic": "mechanical",
+      "type": "true_false",
+      "prompt": "Theo khoảng giá trị trong slide, gauge factor bán dẫn thường lớn hơn gauge factor kim loại.",
+      "answer": true,
+      "options": [
+        "True",
+        "False"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C040",
+      "topic": "mechanical",
+      "type": "true_false",
+      "prompt": "Rosette 0°/45°/90° có thể dùng để suy ra biến dạng trong mặt phẳng.",
+      "answer": true,
+      "options": [
+        "True",
+        "False"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C041",
+      "topic": "mechanical",
+      "type": "single_choice",
+      "prompt": "Vì sao constantan được dùng trong strain gauge theo slide?",
+      "answer": "Hệ số nhiệt điện trở thấp",
+      "options": [
+        "Không có điện trở",
+        "Không chịu biến dạng",
+        "Hệ số nhiệt điện trở thấp",
+        "Chỉ đo được nhiệt độ"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C042",
+      "topic": "mechanical",
+      "type": "single_choice",
+      "prompt": "Quan sát hình cắt từ bài giảng. Bốn gauge full bridge load cell được bố trí phù hợp để làm gì?",
+      "answer": "Các thay đổi do kéo/nén cộng tín hiệu ở đầu ra",
+      "options": [
+        "Mọi thay đổi tải triệt tiêu nhau",
+        "Không cần hiệu chuẩn",
+        "Các thay đổi do kéo/nén cộng tín hiệu ở đầu ra",
+        "Loại bỏ mọi sai số tuyệt đối"
+      ],
+      "ui": "radio",
+      "figure": "figures/strain-gauge-full-bridge.svg",
+      "screenshot": "screenshots/image(6).png"
+    },
+    {
+      "id": "C043",
+      "topic": "smart",
+      "type": "single_choice",
+      "prompt": "Giao tiếp điển hình với cảm biến MEMS số là gì?",
+      "answer": "I²C/SPI",
+      "options": [
+        "Chỉ cầu Wheatstone",
+        "I²C/SPI",
+        "Chỉ ống Bourdon",
+        "Chỉ cơ cấu piston"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C044",
+      "topic": "mechanical",
+      "type": "matching",
+      "prompt": "Ghép ký hiệu sơ đồ trong hình với cấu hình cầu, dựa trên số gauge hoạt động màu đỏ.",
+      "answer": [
+        {
+          "left": "Sơ đồ (a)",
+          "right": "Quarter bridge: 1 gauge"
+        },
+        {
+          "left": "Sơ đồ (b)",
+          "right": "Full bridge: 4 gauge"
+        },
+        {
+          "left": "Sơ đồ (c) và (d)",
+          "right": "Half bridge: 2 gauge"
+        }
+      ],
+      "options": [
+        "Quarter bridge: 1 gauge",
+        "Full bridge: 4 gauge",
+        "Half bridge: 2 gauge"
+      ],
+      "ui": "dropdown_per_row",
+      "figure": "figures/strain-gauge-bridge-types.svg",
+      "screenshot": "screenshots/image(7).png",
+      "source_question_number": 44
+    },
+    {
+      "id": "C045",
+      "topic": "mechanical",
+      "type": "numeric",
+      "prompt": "Gauge R₀=240 Ω, GF=2,1, ε=800 µε. Tính ΔR theo Ω.",
+      "answer": 0.4032,
+      "unit": "Ω",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số theo đơn vị yêu cầu, dùng dấu chấm thập phân."
+    },
+    {
+      "id": "C046",
+      "topic": "smart",
+      "type": "fill_blank",
+      "prompt": "Điền tên hiệu ứng liên kết drive–sense của MEMS gyro: _____.",
+      "answer": "Coriolis",
+      "ui": "text_input",
+      "input_hint": "Điền thuật ngữ, không thêm dấu chấm cuối câu."
+    },
+    {
+      "id": "C047",
+      "topic": "smart",
+      "type": "true_false",
+      "prompt": "MEMS có thể chứa dầm hoặc màng cơ học biến dạng.",
+      "answer": true,
+      "options": [
+        "True",
+        "False"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C048",
+      "topic": "smart",
+      "type": "single_choice",
+      "prompt": "Bộ đệm dữ liệu first-in first-out có tên viết tắt gì?",
+      "answer": "FIFO",
+      "options": [
+        "LVDT",
+        "FIFO",
+        "GF",
+        "RTD"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C049",
+      "topic": "interface",
+      "type": "single_choice",
+      "prompt": "Op-amp không đảo lý tưởng có điện trở hồi tiếp Rf = 36 kΩ và Rg = 8 kΩ từ ngõ − xuống mass. Vin = 0.032 V, nguồn đủ tránh bão hòa. Vout bằng bao nhiêu?",
+      "answer": "0.1760 V",
+      "options": [
+        "0.1760 V",
+        "0.3520 V",
+        "0.0320 V",
+        "-0.1760 V"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C050",
+      "topic": "smart",
+      "type": "fill_blank",
+      "prompt": "Tên viết tắt hệ thống vi cơ điện tử là _____.",
+      "answer": "MEMS",
+      "ui": "text_input",
+      "input_hint": "Điền thuật ngữ, không thêm dấu chấm cuối câu."
+    },
+    {
+      "id": "C051",
+      "topic": "general",
+      "type": "true_false",
+      "prompt": "Độ nhạy tĩnh được xác định bằng tỷ số biến thiên đầu ra và biến thiên đầu vào.",
+      "answer": true,
+      "options": [
+        "True",
+        "False"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C052",
+      "topic": "thermal",
+      "type": "true_false",
+      "prompt": "RTD cần mạch kích thích để biến điện trở thành tín hiệu điện áp.",
+      "answer": true,
+      "options": [
+        "True",
+        "False"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C053",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Trong y = ax + b, a biểu thị gì?",
+      "answer": "Độ nhạy",
+      "options": [
+        "Dải đo",
+        "Độ nhạy",
+        "Điểm không",
+        "Giới hạn trên"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C054",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "Đơn vị SI của điện dung là gì?",
+      "answer": "F",
+      "options": [
+        "H",
+        "S/m",
+        "F",
+        "T"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C055",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Cảm biến có đặc tuyến y = 6x + (1), x = 9. Giá trị y bằng bao nhiêu?",
+      "answer": "55",
+      "options": [
+        "55",
+        "53",
+        "65",
+        "16"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C056",
+      "topic": "general",
+      "type": "matching",
+      "prompt": "Ghép mỗi mục bên trái với mô tả tương ứng bên phải.",
+      "answer": [
+        {
+          "left": "Range",
+          "right": "Khoảng từ giới hạn dưới đến giới hạn trên"
+        },
+        {
+          "left": "Resolution",
+          "right": "Biến thiên đầu vào nhỏ nhất phân biệt được"
+        },
+        {
+          "left": "Hysteresis",
+          "right": "Đầu ra phụ thuộc chiều quét đầu vào"
+        },
+        {
+          "left": "Calibration",
+          "right": "Xác lập quan hệ với chuẩn"
+        }
+      ],
+      "options": [
+        "Khoảng từ giới hạn dưới đến giới hạn trên",
+        "Xác lập quan hệ với chuẩn",
+        "Đầu ra phụ thuộc chiều quét đầu vào",
+        "Biến thiên đầu vào nhỏ nhất phân biệt được"
+      ],
+      "ui": "dropdown_per_row",
+      "screenshot": "screenshots/image(8).png",
+      "source_question_number": 6,
+      "duplicate_of": "C006"
+    },
+    {
+      "id": "C057",
+      "topic": "general",
+      "type": "numeric",
+      "prompt": "Đường chuẩn V = 0.8T + 1.4, V tính bằng V và T bằng °C. Khi V = 15.00 V, tính T theo °C.",
+      "answer": 17,
+      "unit": "°C",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số theo đơn vị yêu cầu, dùng dấu chấm thập phân."
+    },
+    {
+      "id": "C058",
+      "topic": "optical",
+      "type": "true_false",
+      "prompt": "PIN photodiode có lớp i là bán dẫn gần như nội tại.",
+      "answer": true,
+      "options": [
+        "True",
+        "False"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C059",
+      "topic": "optical",
+      "type": "true_false",
+      "prompt": "Cảm biến quang khuếch tán thu ánh sáng phản xạ trực tiếp từ vật.",
+      "answer": true,
+      "options": [
+        "True",
+        "False"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C060",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Muốn đổi dòng quang nhỏ thành điện áp, dùng gì?",
+      "answer": "TIA",
+      "options": [
+        "Ống Bourdon",
+        "TIA",
+        "Cặp nhiệt điện",
+        "Bộ đếm vòng quay"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C061",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Dùng hình mạch bên phải với dữ kiện mới, không đọc R từ đồ thị. LDR R1 nối nguồn 9 V, R2 = 244 kΩ xuống GND. Cho RLDR = 180 kΩ. Vout tại nút giữa bằng bao nhiêu? Chọn giá trị làm tròn 3 chữ số thập phân.",
+      "answer": "5.179 V",
+      "options": [
+        "3.821 V",
+        "5.179 V",
+        "14.179 V",
+        "2.590 V"
+      ],
+      "ui": "radio",
+      "figure": "figures/ldr-voltage-divider.svg",
+      "screenshot": "screenshots/image(9).png"
+    },
+    {
+      "id": "C062",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Photodiode có responsivity 0.40 A/W, nhận công suất quang 30 µW. Bỏ qua dòng tối. Dòng quang bằng bao nhiêu?",
+      "answer": "12.00 µA",
+      "options": [
+        "6.00 µA",
+        "120.00 µA",
+        "24.00 µA",
+        "12.00 µA"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C063",
+      "topic": "optical",
+      "type": "matching",
+      "prompt": "Ghép mỗi mục bên trái với mô tả tương ứng bên phải.",
+      "answer": [
+        {
+          "left": "Photodiode",
+          "right": "Tách hạt tải quang nhờ tiếp giáp bán dẫn"
+        },
+        {
+          "left": "Phototransistor",
+          "right": "Phần tử quang có khuếch đại dòng BJT"
+        },
+        {
+          "left": "Through-beam",
+          "right": "Bộ phát và thu ở hai phía đường quang"
+        },
+        {
+          "left": "Diffuse",
+          "right": "Thu ánh sáng phản xạ trực tiếp từ vật"
+        }
+      ],
+      "options": [
+        "Tách hạt tải quang nhờ tiếp giáp bán dẫn",
+        "Thu ánh sáng phản xạ trực tiếp từ vật",
+        "Phần tử quang có khuếch đại dòng BJT",
+        "Bộ phát và thu ở hai phía đường quang"
+      ],
+      "ui": "dropdown_per_row",
+      "screenshot": "screenshots/image(10).png",
+      "source_question_number": 14
+    },
+    {
+      "id": "C064",
+      "topic": "optical",
+      "type": "numeric",
+      "prompt": "Dùng hình mạch bên phải với dữ kiện mới, không đọc R từ đồ thị. LDR R1 nối nguồn 6.2 V, R2 = 128 kΩ nối GND. Cho RLDR = 160 kΩ. Tính Vout theo V, bỏ qua tải đầu ra.",
+      "answer": 2.7555555555555555,
+      "unit": "V",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số theo đơn vị yêu cầu, dùng dấu chấm thập phân.",
+      "figure": "figures/ldr-voltage-divider.svg",
+      "screenshot": "screenshots/image(20261112-102727).png"
+    },
+    {
+      "id": "C065",
+      "topic": "optical",
+      "type": "numeric",
+      "prompt": "Ánh sáng đơn sắc có λ = 640 nm. Dùng hc = 1240 eV·nm. Tính năng lượng một photon theo eV.",
+      "answer": 1.9375,
+      "unit": "eV",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số theo đơn vị yêu cầu, dùng dấu chấm thập phân."
+    },
+    {
+      "id": "C066",
+      "topic": "optical",
+      "type": "numeric",
+      "prompt": "Dòng quang sau trừ dòng tối là 11 µA, responsivity 0.29 A/W. Tính công suất quang tới theo µW.",
+      "answer": 37.931034482758626,
+      "unit": "µW",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số theo đơn vị yêu cầu, dùng dấu chấm thập phân."
+    },
+    {
+      "id": "C067",
+      "topic": "optical",
+      "type": "fill_blank",
+      "prompt": "Tên tiếng Anh của độ đáp ứng đơn vị A/W là _____.",
+      "answer": "Responsivity",
+      "ui": "text_input",
+      "input_hint": "Điền thuật ngữ, không thêm dấu chấm cuối câu."
+    },
+    {
+      "id": "C068",
+      "topic": "thermal",
+      "type": "true_false",
+      "prompt": "Tăng dòng kích thích RTD không làm tăng tự đốt nóng.",
+      "answer": false,
+      "options": [
+        "True",
+        "False"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C069",
+      "topic": "thermal",
+      "type": "true_false",
+      "prompt": "Mô hình RTD silic bậc hai phải nêu rõ nhiệt độ tham chiếu.",
+      "answer": true,
+      "options": [
+        "True",
+        "False"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C070",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Trong tính tự đốt nóng bậc đầu, P của phần tử điện trở bằng gì?",
+      "answer": "I²R",
+      "options": [
+        "I/R",
+        "I²R",
+        "IR²",
+        "R/I²"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C071",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Pt100 có R₀ = 100 Ω tại 0 °C, α = 0,00385 °C⁻¹. Theo mô hình tuyến tính, R tại 29 °C là bao nhiêu?",
+      "answer": "111.165 Ω",
+      "options": [
+        "88.835 Ω",
+        "111.165 Ω",
+        "121.165 Ω",
+        "100.112 Ω"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C072",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Cặp nhiệt điện có αab = 38 µV/K không đổi, đầu nóng 170 °C, đầu lạnh 21 °C. Điện áp xấp xỉ bằng bao nhiêu?",
+      "answer": "5.662 mV",
+      "options": [
+        "0.566 mV",
+        "6.460 mV",
+        "5662.000 mV",
+        "5.662 mV"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C073",
+      "topic": "thermal",
+      "type": "matching",
+      "prompt": "Ghép mỗi mục bên trái với mô tả tương ứng bên phải.",
+      "answer": [
+        {
+          "left": "PTC",
+          "right": "Điện trở tăng khi nhiệt độ tăng"
+        },
+        {
+          "left": "Cold junction",
+          "right": "Mối nối nhiệt độ tham chiếu"
+        },
+        {
+          "left": "Self-heating",
+          "right": "Nhiệt tăng do công suất kích thích"
+        },
+        {
+          "left": "Đo RTD bốn dây",
+          "right": "Tách đường cấp dòng và đo áp"
+        }
+      ],
+      "options": [
+        "Mối nối nhiệt độ tham chiếu",
+        "Nhiệt tăng do công suất kích thích",
+        "Tách đường cấp dòng và đo áp",
+        "Điện trở tăng khi nhiệt độ tăng"
+      ],
+      "ui": "dropdown_per_row",
+      "screenshot": "screenshots/image(20261112-102924).png",
+      "source_question_number": 24
+    },
+    {
+      "id": "C074",
+      "topic": "thermal",
+      "type": "numeric",
+      "prompt": "Thanh silic dài 15 mm, rộng 6 mm, dày 1.5 mm. n = p = 1.7×10¹² cm⁻³, µn = 1200, µp = 400 cm²/(V·s), q = 1,6×10⁻¹⁹ C. Tính điện trở theo kΩ.",
+      "answer": 38.29656862745098,
+      "unit": "kΩ",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số theo đơn vị yêu cầu, dùng dấu chấm thập phân."
+    }
+  ]
+}
