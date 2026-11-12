@@ -3,7 +3,7 @@
   "title": "Ngân hàng câu hỏi Kỹ thuật cảm biến",
   "source": "Các câu hỏi và hình ảnh được người dùng cung cấp trong cuộc trò chuyện ngày 12/11/2026",
   "language": "vi",
-  "count": 80,
+  "count": 84,
   "answer_visibility": "Store answers separately from quiz UI in production",
   "questions": [
     {
@@ -1143,6 +1143,84 @@
         "13",
         "17",
         "4"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C081",
+      "topic": "general",
+      "type": "matching",
+      "prompt": "Ghép mỗi mục bên trái với mô tả tương ứng bên phải.",
+      "answer": [
+        {
+          "left": "Span",
+          "right": "Chênh lệch hai giới hạn dải đo"
+        },
+        {
+          "left": "Hysteresis",
+          "right": "Đầu ra phụ thuộc chiều quét đầu vào"
+        },
+        {
+          "left": "Repeatability",
+          "right": "Độ chụm trong cùng điều kiện đo"
+        },
+        {
+          "left": "Cross-sensitivity",
+          "right": "Ảnh hưởng của đại lượng phụ"
+        }
+      ],
+      "options": [
+        "Độ chụm trong cùng điều kiện đo",
+        "Chênh lệch hai giới hạn dải đo",
+        "Đầu ra phụ thuộc chiều quét đầu vào",
+        "Ảnh hưởng của đại lượng phụ"
+      ],
+      "ui": "dropdown_per_row",
+      "form": {
+        "layout": "two_column",
+        "left_column_label": "Mục",
+        "right_column_label": "Mô tả tương ứng",
+        "control": "select",
+        "placeholder": "[ Choose ]",
+        "option_order": "preserve",
+        "show_question_number": true,
+        "score_points": 0.2
+      },
+      "screenshot": "screenshots/image(20261112-183415).png",
+      "source_question_number": 6
+    },
+    {
+      "id": "C082",
+      "topic": "general",
+      "type": "fill_blank",
+      "prompt": "Tên tiếng Anh của cơ cấu chấp hành là _____.",
+      "answer": "Actuator",
+      "ui": "text_input",
+      "input_hint": "Điền thuật ngữ, không thêm dấu chấm cuối câu."
+    },
+    {
+      "id": "C083",
+      "topic": "optical",
+      "type": "true_false",
+      "prompt": "Photodiode chỉ có thể hoạt động khi phân cực thuận mạnh.",
+      "answer": false,
+      "options": [
+        "True",
+        "False"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C084",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Đại lượng Ip/Popt được gọi là gì?",
+      "answer": "Responsivity",
+      "options": [
+        "Hysteresis",
+        "Span nhiệt",
+        "Responsivity",
+        "Gauge factor"
       ],
       "ui": "radio"
     }

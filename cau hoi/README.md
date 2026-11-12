@@ -4,9 +4,9 @@ Nguồn dữ liệu: các câu hỏi người dùng cung cấp trong hội tho�
 
 ## Cấu trúc
 
-- `questions.json`: 80 câu hỏi, mã C001–C080; giữ tất cả biến thể số liệu và phương án từ hội thoại.
+- `questions.json`: 84 câu hỏi, mã C001–C084; giữ tất cả biến thể số liệu và phương án từ hội thoại.
 - `figures/*.png`: **4 hình được cắt trực tiếp từ ảnh câu hỏi gốc** do người dùng cung cấp, không phải hình vẽ lại. Có bản kê nguồn và tọa độ cắt tại `figures/SOURCES.md`.
-- `screenshots/`: đường dẫn dành riêng cho **ảnh chụp gốc từ hội thoại**; hiện tệp PNG chưa được đẩy lên GitHub vì kết nối GitHub tại phiên này chỉ nhận nội dung văn bản qua API. Ảnh PNG gốc được cung cấp trong tệp ZIP đính kèm cùng câu trả lời để có thể đưa vào đúng đường dẫn.
+- `screenshots/`: chứa **ảnh chụp gốc từ hội thoại** để đối chiếu form. Hiện có ảnh `image(20261112-183415).png` cho câu ghép cặp Span/Hysteresis/Repeatability/Cross-sensitivity. Các file ảnh khác trong dữ liệu có thể vẫn chưa được đưa lên repo.
 
 ## Schema
 
@@ -18,11 +18,12 @@ Mỗi phần tử `questions` có:
 - `options`: các đáp án lựa chọn theo thứ tự thấy trong đề gốc; dạng `matching` có danh sách các mô tả để chọn; `true_false` có True/False.
 - `ui`: cách trình bày form: `radio`, `dropdown_per_row`, `numeric_input`, `text_input`.
 - `figure` (nếu có): đường dẫn hình PNG được cắt trực tiếp từ ảnh gốc.
-- `screenshot` (nếu có): đường dẫn tương đối của ảnh gốc PNG trong gói bổ sung.
+- `screenshot` (nếu có): đường dẫn tương đối của ảnh gốc PNG. Ảnh nào đã nằm trong `screenshots/` sẽ hiển thị trực tiếp từ repo.
+- `form` (nếu có): các thuộc tính giao diện bổ sung để giữ nguyên form gốc (layout, loại control, placeholder, thứ tự tùy chọn, số câu, điểm). Khi render matching, mỗi nhãn `answer[].left` là một hàng có dropdown và một placeholder `[ Choose ]`.
 - `source_question_number` (nếu có): số câu hiển thị trong screenshot.
 - `duplicate_of` (nếu có): chỉ câu trùng nội dung nhưng có ảnh đề hoặc thứ tự lựa chọn khác.
 
-`count` là số câu, hiện **80**. Thứ tự các câu trong mảng là thứ tự xuất hiện trong hội thoại, không phải thứ tự số Question trên website nguồn.
+`count` là số câu, hiện **84**. Thứ tự các câu trong mảng là thứ tự xuất hiện trong hội thoại, không phải thứ tự số Question trên website nguồn.
 
 ## Dùng cho web quiz
 
@@ -44,7 +45,7 @@ Mỗi phần tử `questions` có:
 - Tất cả câu hỏi có mã duy nhất.
 - Mọi câu `single_choice` có đáp án nằm trong `options`.
 - Mọi cặp `matching` có mô tả nằm trong `options`.
-- 20 true_false, 29 single_choice, 16 numeric, 7 fill_blank, 8 matching = 80.
+- 21 true_false, 30 single_choice, 16 numeric, 8 fill_blank, 9 matching = 84.
 
 ## Bổ sung ảnh nguồn lên GitHub
 
