@@ -3,7 +3,7 @@
   "title": "Ngân hàng câu hỏi Kỹ thuật cảm biến",
   "source": "Các câu hỏi và hình ảnh được người dùng cung cấp trong cuộc trò chuyện ngày 12/11/2026",
   "language": "vi",
-  "count": 154,
+  "count": 210,
   "answer_visibility": "Store answers separately from quiz UI in production",
   "questions": [
     {
@@ -2416,6 +2416,698 @@
       ],
       "ui": "radio",
       "answer_label": "Sai"
+    },
+    {
+      "id": "C155",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Theo quy ước tự phát điện/biến đổi trở kháng trong đề, thiết bị nào là cảm biến tích cực?",
+      "answer": "Cặp nhiệt điện",
+      "options": [
+        "RTD Pt100",
+        "Tụ điện đo độ ẩm",
+        "Cặp nhiệt điện",
+        "LDR đo bằng mạch chia áp"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C156",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Đại lượng điện thay đổi trực tiếp trong RTD kim loại là gì?",
+      "answer": "Điện trở",
+      "options": [
+        "Bước sóng phát xạ",
+        "Điện tích áp điện",
+        "Tần số sóng mang",
+        "Điện trở"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C157",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Công thức tổng quát cho độ dẫn điện bán dẫn có cả electron và lỗ trống là gì?",
+      "answer": "σ=q(nμn+pμp)",
+      "options": [
+        "σ=q(nμp−pμn)",
+        "σ=(n+p)/q",
+        "σ=q(nμn+pμp)",
+        "σ=q/(nμn+pμp)"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C158",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Khi σ có đơn vị S/cm, chiều dài và tiết diện nên dùng đơn vị nào trong R=L/(σA)?",
+      "answer": "cm và cm²",
+      "options": [
+        "cm và cm²",
+        "cm và mm²",
+        "m và cm²",
+        "mm và cm²"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C159",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Tiết diện hình chữ nhật 8 mm × 2,5 mm bằng bao nhiêu cm²?",
+      "answer": "0,20 cm²",
+      "options": [
+        "0,020 cm²",
+        "2,0 cm²",
+        "0,20 cm²",
+        "20 cm²"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C160",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Trong mô hình tuyến tính Pt100, R0=100 Ω tại 0 °C và α=0,00385 °C⁻¹. Giá trị ở 100 °C là gì?",
+      "answer": "138,5 Ω",
+      "options": [
+        "103,85 Ω",
+        "100,385 Ω",
+        "385 Ω",
+        "138,5 Ω"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C161",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Hiệu ứng trực tiếp tạo suất điện động của cặp nhiệt điện là gì?",
+      "answer": "Seebeck",
+      "options": [
+        "Peltier",
+        "Hall",
+        "Seebeck",
+        "Doppler"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C162",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Muốn suy ra nhiệt độ mối nóng từ điện áp cặp nhiệt điện, cần biết hoặc bù đại lượng nào?",
+      "answer": "Nhiệt độ mối tham chiếu",
+      "options": [
+        "Độ chiếu sáng môi trường",
+        "Màu sắc mối nóng",
+        "Nhiệt độ mối tham chiếu",
+        "Điện trở cách điện của vỏ bằng không"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C163",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Mô hình R(T)=R0 exp[β(1/T−1/T0)] của NTC yêu cầu T và T0 theo đơn vị nào?",
+      "answer": "K",
+      "options": [
+        "°C",
+        "K",
+        "Có thể tùy ý dùng °C hoặc K",
+        "°F"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C164",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Trong mô hình photodiode tiếp giáp p–n, vùng nào có điện trường giúp phân tách cặp electron–lỗ trống?",
+      "answer": "Vùng nghèo",
+      "options": [
+        "Vùng nghèo",
+        "Chỉ dây nối ngoài",
+        "Chỉ lớp kim loại tiếp xúc",
+        "Chỉ lớp vỏ bảo vệ"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C165",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Ứng dụng nào phù hợp trực tiếp với LDR và mạch so sánh ngưỡng?",
+      "answer": "Bật đèn khi trời tối",
+      "options": [
+        "Đo nhiệt độ bằng Seebeck",
+        "Đo lực bằng biến dạng đàn hồi",
+        "Bật đèn khi trời tối",
+        "Đo từ trường bằng Hall"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C166",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Đầu ra tại cùng một đầu vào khác nhau giữa lượt tăng và giảm đầu vào. Đây là đặc trưng nào?",
+      "answer": "Hysteresis",
+      "options": [
+        "Thời gian lấy mẫu",
+        "Hysteresis",
+        "Span",
+        "Độ phân giải"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C167",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Cảm biến có dải −40 đến 160 °C. Span bằng bao nhiêu?",
+      "answer": "200 °C",
+      "options": [
+        "200 °C",
+        "120 °C",
+        "160 °C",
+        "−40 °C"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C168",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Đường chuẩn Vout=0,025T+0,40 với Vout tính bằng V và T bằng °C. Độ nhạy là gì?",
+      "answer": "0,025 V/°C",
+      "options": [
+        "40 °C/V",
+        "0,40 V/°C",
+        "0,025 V/°C",
+        "0,425 V/°C"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C169",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Giả sử điện trở không đổi, tăng dòng kích thích RTD gấp đôi làm công suất tiêu tán thay đổi thế nào?",
+      "answer": "Tăng 4 lần",
+      "options": [
+        "Tăng 4 lần",
+        "Tăng 2 lần",
+        "Không đổi",
+        "Giảm 2 lần"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C170",
+      "topic": "smart",
+      "type": "single_choice",
+      "prompt": "Chức năng nào thể hiện rõ việc tích hợp xử lý của cảm biến thông minh?",
+      "answer": "Bù sai số và truyền dữ liệu đã xử lý",
+      "options": [
+        "Luôn bỏ hoàn toàn nguồn điện",
+        "Bù sai số và truyền dữ liệu đã xử lý",
+        "Luôn không cần hiệu chuẩn",
+        "Luôn không có độ trễ"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C171",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "Cảm biến tiệm cận điện cảm thông thường phù hợp nhất để phát hiện mục tiêu nào?",
+      "answer": "Tấm thép",
+      "options": [
+        "Tấm thép",
+        "Tấm kính không phủ kim loại",
+        "Chai nhựa rỗng không kim loại",
+        "Miếng gỗ khô không kim loại"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C172",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "Đặc tính vật liệu nào ảnh hưởng trực tiếp khả năng phát hiện của cảm biến tiệm cận điện dung?",
+      "answer": "Hằng số điện môi",
+      "options": [
+        "Chỉ vận tốc âm trong vật",
+        "Hằng số điện môi",
+        "Chỉ màu sơn",
+        "Chỉ hệ số Seebeck"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C173",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Cấu hình quang thu–phát độc lập (through-beam) có cách bố trí nào?",
+      "answer": "Đầu phát và đầu thu đặt đối diện hai phía vùng phát hiện",
+      "options": [
+        "Một đầu phát–thu chỉ nhận phản xạ từ vật",
+        "Đầu phát và đầu thu đặt đối diện hai phía vùng phát hiện",
+        "Một đầu phát–thu và gương phản xạ",
+        "Chỉ một cuộn cảm và lõi kim loại"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C174",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Cấu hình nào dùng gương phản xạ để đưa ánh sáng về đầu thu cùng cụm với đầu phát?",
+      "answer": "Quang phản xạ ngược",
+      "options": [
+        "Quang thu–phát độc lập",
+        "Tiệm cận điện cảm",
+        "Tiệm cận điện dung",
+        "Quang phản xạ ngược"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C175",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Khi cảm biến quang khuếch tán phát hiện vật đen kém ổn định hơn vật trắng ở cùng vị trí, nguyên nhân phù hợp nhất là gì?",
+      "answer": "Khác độ phản xạ bề mặt",
+      "options": [
+        "Khác hệ số Seebeck",
+        "Khác điện trở dây kích thích RTD",
+        "Khác độ phản xạ bề mặt",
+        "Khác điện tích electron cơ bản"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C176",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "Một cảm biến từ được thiết kế nhận biết nam châm. Đối tượng tác động trực tiếp lên phần tử nhạy là gì?",
+      "answer": "Từ trường",
+      "options": [
+        "Mọi kim loại bất kể từ tính",
+        "Từ trường",
+        "Mọi vật trong suốt",
+        "Chỉ nước tinh khiết"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C177",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Mô hình R(T)=R20[1+a(T−20)+b(T−20)²]. Khi T=20 °C thì R(T) bằng gì?",
+      "answer": "R20",
+      "options": [
+        "R20(1+20a)",
+        "0 Ω",
+        "R20",
+        "R20(1+400b)"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C178",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Trong các phần tử LDR, thermistor dạng hạt, cặp nhiệt điện có vỏ và photodiode không kèm mạch lọc chậm, phần tử nào thường có đáp ứng nội tại nhanh nhất?",
+      "answer": "Photodiode",
+      "options": [
+        "Cặp nhiệt điện có vỏ",
+        "LDR",
+        "Thermistor dạng hạt",
+        "Photodiode"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C179",
+      "topic": "mechanical",
+      "type": "single_choice",
+      "prompt": "Đại lượng cơ học được loadcell đo trực tiếp để từ đó suy ra khối lượng trong cân là gì?",
+      "answer": "Lực",
+      "options": [
+        "Độ chiếu sáng",
+        "Vận tốc quay",
+        "Lực",
+        "Độ dẫn điện của chất lỏng"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C180",
+      "topic": "thermal",
+      "type": "numeric",
+      "prompt": "Một mẫu bán dẫn có n=p=2e+12 cm⁻³, μn=1400 cm²/(V·s), μp=400 cm²/(V·s), q=1,6×10⁻¹⁹ C. Theo σ=q(nμn+pμp), tính độ dẫn điện theo mS/cm. Chỉ nhập số, làm tròn 3 chữ số thập phân.",
+      "answer": 0.576,
+      "display_answer": "0.576",
+      "rounding_decimals": 3,
+      "unit": "mS/cm",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số, làm tròn 3 chữ số thập phân."
+    },
+    {
+      "id": "C181",
+      "topic": "thermal",
+      "type": "numeric",
+      "prompt": "Một mẫu bán dẫn có n=p=3e+12 cm⁻³, μn=1350 cm²/(V·s), μp=450 cm²/(V·s), q=1,6×10⁻¹⁹ C. Theo σ=q(nμn+pμp), tính độ dẫn điện theo mS/cm. Chỉ nhập số, làm tròn 3 chữ số thập phân.",
+      "answer": 0.864,
+      "display_answer": "0.864",
+      "rounding_decimals": 3,
+      "unit": "mS/cm",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số, làm tròn 3 chữ số thập phân."
+    },
+    {
+      "id": "C182",
+      "topic": "thermal",
+      "type": "numeric",
+      "prompt": "Một mẫu bán dẫn có n=p=1e+12 cm⁻³, μn=1500 cm²/(V·s), μp=500 cm²/(V·s), q=1,6×10⁻¹⁹ C. Theo σ=q(nμn+pμp), tính độ dẫn điện theo mS/cm. Chỉ nhập số, làm tròn 3 chữ số thập phân.",
+      "answer": 0.32,
+      "display_answer": "0.320",
+      "rounding_decimals": 3,
+      "unit": "mS/cm",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số, làm tròn 3 chữ số thập phân."
+    },
+    {
+      "id": "C183",
+      "topic": "thermal",
+      "type": "numeric",
+      "prompt": "Một mẫu bán dẫn có n=p=2.5e+12 cm⁻³, μn=1200 cm²/(V·s), μp=400 cm²/(V·s), q=1,6×10⁻¹⁹ C. Theo σ=q(nμn+pμp), tính độ dẫn điện theo mS/cm. Chỉ nhập số, làm tròn 3 chữ số thập phân.",
+      "answer": 0.64,
+      "display_answer": "0.640",
+      "rounding_decimals": 3,
+      "unit": "mS/cm",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số, làm tròn 3 chữ số thập phân."
+    },
+    {
+      "id": "C184",
+      "topic": "thermal",
+      "type": "numeric",
+      "prompt": "Thanh bán dẫn dài 24 mm, rộng 8 mm, dày 2 mm, có độ dẫn điện σ=0.0006 S/cm. Dùng R=L/(σA), tính điện trở theo kΩ. Làm tròn 2 chữ số thập phân.",
+      "answer": 25,
+      "display_answer": "25.00",
+      "rounding_decimals": 2,
+      "unit": "kΩ",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số, làm tròn 2 chữ số thập phân."
+    },
+    {
+      "id": "C185",
+      "topic": "thermal",
+      "type": "numeric",
+      "prompt": "Thanh bán dẫn dài 18 mm, rộng 6 mm, dày 1.5 mm, có độ dẫn điện σ=0.0008 S/cm. Dùng R=L/(σA), tính điện trở theo kΩ. Làm tròn 2 chữ số thập phân.",
+      "answer": 25,
+      "display_answer": "25.00",
+      "rounding_decimals": 2,
+      "unit": "kΩ",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số, làm tròn 2 chữ số thập phân."
+    },
+    {
+      "id": "C186",
+      "topic": "thermal",
+      "type": "numeric",
+      "prompt": "Thanh bán dẫn dài 30 mm, rộng 10 mm, dày 2 mm, có độ dẫn điện σ=0.0005 S/cm. Dùng R=L/(σA), tính điện trở theo kΩ. Làm tròn 2 chữ số thập phân.",
+      "answer": 30,
+      "display_answer": "30.00",
+      "rounding_decimals": 2,
+      "unit": "kΩ",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số, làm tròn 2 chữ số thập phân."
+    },
+    {
+      "id": "C187",
+      "topic": "thermal",
+      "type": "numeric",
+      "prompt": "Thanh bán dẫn dài 16 mm, rộng 8 mm, dày 1 mm, có độ dẫn điện σ=0.001 S/cm. Dùng R=L/(σA), tính điện trở theo kΩ. Làm tròn 2 chữ số thập phân.",
+      "answer": 20,
+      "display_answer": "20.00",
+      "rounding_decimals": 2,
+      "unit": "kΩ",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số, làm tròn 2 chữ số thập phân."
+    },
+    {
+      "id": "C188",
+      "topic": "thermal",
+      "type": "numeric",
+      "prompt": "RTD được mô tả bởi R(T)=Rref[1+α(T−Tref)], với Rref=100 Ω tại Tref=0 °C và α=0.00385 °C⁻¹. Tính R tại 80 °C theo Ω. Làm tròn 2 chữ số thập phân.",
+      "answer": 130.8,
+      "display_answer": "130.80",
+      "rounding_decimals": 2,
+      "unit": "Ω",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số, làm tròn 2 chữ số thập phân."
+    },
+    {
+      "id": "C189",
+      "topic": "thermal",
+      "type": "numeric",
+      "prompt": "RTD được mô tả bởi R(T)=Rref[1+α(T−Tref)], với Rref=100 Ω tại Tref=0 °C và α=0.00385 °C⁻¹. Tính R tại -20 °C theo Ω. Làm tròn 2 chữ số thập phân.",
+      "answer": 92.3,
+      "display_answer": "92.30",
+      "rounding_decimals": 2,
+      "unit": "Ω",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số, làm tròn 2 chữ số thập phân."
+    },
+    {
+      "id": "C190",
+      "topic": "thermal",
+      "type": "numeric",
+      "prompt": "RTD được mô tả bởi R(T)=Rref[1+α(T−Tref)], với Rref=1000 Ω tại Tref=0 °C và α=0.00385 °C⁻¹. Tính R tại 60 °C theo Ω. Làm tròn 2 chữ số thập phân.",
+      "answer": 1231,
+      "display_answer": "1231.00",
+      "rounding_decimals": 2,
+      "unit": "Ω",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số, làm tròn 2 chữ số thập phân."
+    },
+    {
+      "id": "C191",
+      "topic": "thermal",
+      "type": "numeric",
+      "prompt": "RTD được mô tả bởi R(T)=Rref[1+α(T−Tref)], với Rref=12000 Ω tại Tref=20 °C và α=0.006 °C⁻¹. Tính R tại 100 °C theo Ω. Làm tròn 2 chữ số thập phân.",
+      "answer": 17760,
+      "display_answer": "17760.00",
+      "rounding_decimals": 2,
+      "unit": "Ω",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số, làm tròn 2 chữ số thập phân."
+    },
+    {
+      "id": "C192",
+      "topic": "thermal",
+      "type": "numeric",
+      "prompt": "RTD được mô tả bởi R(T)=Rref[1+α(T−Tref)], với Rref=15000 Ω tại Tref=20 °C và α=0.005 °C⁻¹. Tính R tại -10 °C theo Ω. Làm tròn 2 chữ số thập phân.",
+      "answer": 12750,
+      "display_answer": "12750.00",
+      "rounding_decimals": 2,
+      "unit": "Ω",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số, làm tròn 2 chữ số thập phân."
+    },
+    {
+      "id": "C193",
+      "topic": "thermal",
+      "type": "numeric",
+      "prompt": "RTD silic có R20=18 kΩ. Mô hình R(T)=R20[1+a(T−20)+b(T−20)²], a=0.007 °C⁻¹ và b=1.5e-05 °C⁻². Tính R tại -20 °C theo kΩ. Làm tròn 3 chữ số thập phân.",
+      "answer": 13.392,
+      "display_answer": "13.392",
+      "rounding_decimals": 3,
+      "unit": "kΩ",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số, làm tròn 3 chữ số thập phân."
+    },
+    {
+      "id": "C194",
+      "topic": "thermal",
+      "type": "numeric",
+      "prompt": "RTD silic có R20=22 kΩ. Mô hình R(T)=R20[1+a(T−20)+b(T−20)²], a=0.0075 °C⁻¹ và b=1.8e-05 °C⁻². Tính R tại 120 °C theo kΩ. Làm tròn 3 chữ số thập phân.",
+      "answer": 42.46,
+      "display_answer": "42.460",
+      "rounding_decimals": 3,
+      "unit": "kΩ",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số, làm tròn 3 chữ số thập phân."
+    },
+    {
+      "id": "C195",
+      "topic": "thermal",
+      "type": "numeric",
+      "prompt": "RTD có R20=20 kΩ. Mô hình tuyến tính: Rlin=R20[1+0.006(T−20)]. Mô hình bậc hai: Rquad=R20[1+0.007(T−20)+1.5e-05(T−20)²]. Tại T=100 °C, tính ε=|Rquad−Rlin|/Rlin×100% theo %. Làm tròn 2 chữ số thập phân.",
+      "answer": 11.89,
+      "display_answer": "11.89",
+      "rounding_decimals": 2,
+      "unit": "%",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số, làm tròn 2 chữ số thập phân."
+    },
+    {
+      "id": "C196",
+      "topic": "thermal",
+      "type": "numeric",
+      "prompt": "RTD có R20=16 kΩ. Mô hình tuyến tính: Rlin=R20[1+0.005(T−20)]. Mô hình bậc hai: Rquad=R20[1+0.0065(T−20)+1.2e-05(T−20)²]. Tại T=80 °C, tính ε=|Rquad−Rlin|/Rlin×100% theo %. Làm tròn 2 chữ số thập phân.",
+      "answer": 10.25,
+      "display_answer": "10.25",
+      "rounding_decimals": 2,
+      "unit": "%",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số, làm tròn 2 chữ số thập phân."
+    },
+    {
+      "id": "C197",
+      "topic": "thermal",
+      "type": "numeric",
+      "prompt": "Cặp nhiệt điện có hệ số Seebeck không đổi S=40 µV/K, mối nóng 350 °C và mối tham chiếu 25 °C. Theo E=S(Th−Tc), tính điện áp E theo mV. Làm tròn 2 chữ số thập phân.",
+      "answer": 13,
+      "display_answer": "13.00",
+      "rounding_decimals": 2,
+      "unit": "mV",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số, làm tròn 2 chữ số thập phân."
+    },
+    {
+      "id": "C198",
+      "topic": "thermal",
+      "type": "numeric",
+      "prompt": "Cặp nhiệt điện có hệ số Seebeck không đổi S=50 µV/K, mối nóng 600 °C và mối tham chiếu 20 °C. Theo E=S(Th−Tc), tính điện áp E theo mV. Làm tròn 2 chữ số thập phân.",
+      "answer": 29,
+      "display_answer": "29.00",
+      "rounding_decimals": 2,
+      "unit": "mV",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số, làm tròn 2 chữ số thập phân."
+    },
+    {
+      "id": "C199",
+      "topic": "thermal",
+      "type": "numeric",
+      "prompt": "Cặp nhiệt điện có hệ số Seebeck không đổi S=45 µV/K, mối nóng 900 °C và mối tham chiếu 0 °C. Theo E=S(Th−Tc), tính điện áp E theo mV. Làm tròn 2 chữ số thập phân.",
+      "answer": 40.5,
+      "display_answer": "40.50",
+      "rounding_decimals": 2,
+      "unit": "mV",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số, làm tròn 2 chữ số thập phân."
+    },
+    {
+      "id": "C200",
+      "topic": "thermal",
+      "type": "numeric",
+      "prompt": "Cặp nhiệt điện có hệ số Seebeck không đổi S=38 µV/K, mối nóng 250 °C và mối tham chiếu 30 °C. Theo E=S(Th−Tc), tính điện áp E theo mV. Làm tròn 2 chữ số thập phân.",
+      "answer": 8.36,
+      "display_answer": "8.36",
+      "rounding_decimals": 2,
+      "unit": "mV",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số, làm tròn 2 chữ số thập phân."
+    },
+    {
+      "id": "C201",
+      "topic": "thermal",
+      "type": "fill_blank",
+      "prompt": "Điền tên hiệu ứng tạo suất điện động trong cặp nhiệt điện khi có chênh nhiệt độ: hiệu ứng ________. Chỉ điền phần còn thiếu.",
+      "answer": "Seebeck",
+      "ui": "text_input",
+      "input_hint": "Chỉ điền phần còn thiếu."
+    },
+    {
+      "id": "C202",
+      "topic": "general",
+      "type": "fill_blank",
+      "prompt": "Điền cụm từ tiếng Việt: hệ số góc của đường chuẩn đầu ra–đầu vào được gọi là ________ của cảm biến. Chỉ điền phần còn thiếu.",
+      "answer": "Độ nhạy",
+      "ui": "text_input",
+      "input_hint": "Chỉ điền phần còn thiếu."
+    },
+    {
+      "id": "C203",
+      "topic": "general",
+      "type": "fill_blank",
+      "prompt": "Điền thuật ngữ tiếng Anh chỉ độ trễ đặc tính giữa đường tăng và đường giảm đầu vào: ________. Chỉ điền phần còn thiếu.",
+      "answer": "Hysteresis",
+      "ui": "text_input",
+      "input_hint": "Chỉ điền phần còn thiếu."
+    },
+    {
+      "id": "C204",
+      "topic": "thermal",
+      "type": "fill_blank",
+      "prompt": "Điền tên tiếng Việt của kim loại ký hiệu Pt trong Pt100: ________. Chỉ điền phần còn thiếu.",
+      "answer": "Bạch kim",
+      "ui": "text_input",
+      "input_hint": "Chỉ điền phần còn thiếu."
+    },
+    {
+      "id": "C205",
+      "topic": "optical",
+      "type": "fill_blank",
+      "prompt": "Điền viết tắt tiếng Anh 3 chữ cái của cảm biến quang điện trở: ________. Chỉ điền phần còn thiếu.",
+      "answer": "LDR",
+      "ui": "text_input",
+      "input_hint": "Chỉ điền phần còn thiếu."
+    },
+    {
+      "id": "C206",
+      "topic": "thermal",
+      "type": "fill_blank",
+      "prompt": "Điền cụm từ tiếng Việt chỉ hiện tượng nhiệt độ RTD tăng do công suất điện của chính mạch đo: ________. Chỉ điền phần còn thiếu.",
+      "answer": "Tự đốt nóng",
+      "ui": "text_input",
+      "input_hint": "Chỉ điền phần còn thiếu."
+    },
+    {
+      "id": "C207",
+      "topic": "electromagnetic",
+      "type": "fill_blank",
+      "prompt": "Điền từ còn thiếu: cảm biến tiệm cận ________ dùng cuộn dây để phát hiện mục tiêu kim loại. Chỉ điền phần còn thiếu.",
+      "answer": "Điện cảm",
+      "ui": "text_input",
+      "input_hint": "Chỉ điền phần còn thiếu."
+    },
+    {
+      "id": "C208",
+      "topic": "electromagnetic",
+      "type": "fill_blank",
+      "prompt": "Điền từ còn thiếu: cảm biến tiệm cận ________ khai thác sự thay đổi điện dung khi mục tiêu đi vào vùng nhạy. Chỉ điền phần còn thiếu.",
+      "answer": "Điện dung",
+      "ui": "text_input",
+      "input_hint": "Chỉ điền phần còn thiếu."
+    },
+    {
+      "id": "C209",
+      "topic": "optical",
+      "type": "fill_blank",
+      "prompt": "Điền cụm từ tiếng Việt chỉ vùng có điện trường tại tiếp giáp p–n giúp thu hạt tải quang sinh: ________. Chỉ điền phần còn thiếu.",
+      "answer": "Vùng nghèo",
+      "ui": "text_input",
+      "input_hint": "Chỉ điền phần còn thiếu."
+    },
+    {
+      "id": "C210",
+      "topic": "thermal",
+      "type": "fill_blank",
+      "prompt": "Điền tên đại lượng σ trong σ=q(nμn+pμp): ________. Chỉ điền phần còn thiếu.",
+      "answer": "Độ dẫn điện",
+      "ui": "text_input",
+      "input_hint": "Chỉ điền phần còn thiếu."
     }
   ]
 }
