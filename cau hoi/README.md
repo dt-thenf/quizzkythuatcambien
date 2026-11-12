@@ -6,7 +6,7 @@ Nguồn dữ liệu: các câu hỏi người dùng cung cấp trong hội tho�
 
 - `questions.json`: 114 câu hỏi, mã C001–C114; giữ tất cả biến thể số liệu và phương án từ hội thoại.
 - `figures/*.png`: **5 hình được cắt trực tiếp từ ảnh câu hỏi gốc** do người dùng cung cấp, không phải hình vẽ lại. Có bản kê nguồn và tọa độ cắt tại `figures/SOURCES.md`.
-- `screenshots/`: chứa **ảnh chụp gốc từ hội thoại** để đối chiếu form. Đã bổ sung ảnh chụp gốc cho các câu ghép cặp, sơ đồ LDR, ký hiệu cảm biến và accelerometer tại các đường dẫn tương ứng. Một số ảnh cũ trong trường `screenshot` có thể vẫn chưa có trong repo.
+- `screenshots/`: chứa **ảnh chụp gốc từ hội thoại** để đối chiếu form. Đã bổ sung ảnh chụp gốc cho các câu ghép cặp, sơ đồ LDR, ký hiệu cảm biến và accelerometer tại các đường dẫn tương ứng. Đã khôi phục đủ ảnh gốc mà toàn bộ trường `screenshot` trong `questions.json` tham chiếu đến; các liên kết ảnh hiện có trong repo.
 
 ## Schema
 
