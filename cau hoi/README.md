@@ -4,7 +4,7 @@ Nguồn dữ liệu: các câu hỏi người dùng cung cấp trong hội tho�
 
 ## Cấu trúc
 
-- `questions.json`: 74 câu hỏi, mã C001–C074; giữ tất cả biến thể số liệu và phương án từ hội thoại.
+- `questions.json`: 75 câu hỏi, mã C001–C075; giữ tất cả biến thể số liệu và phương án từ hội thoại.
 - `figures/*.png`: **4 hình được cắt trực tiếp từ ảnh câu hỏi gốc** do người dùng cung cấp, không phải hình vẽ lại. Có bản kê nguồn và tọa độ cắt tại `figures/SOURCES.md`.
 - `screenshots/`: đường dẫn dành riêng cho **ảnh chụp gốc từ hội thoại**; hiện tệp PNG chưa được đẩy lên GitHub vì kết nối GitHub tại phiên này chỉ nhận nội dung văn bản qua API. Ảnh PNG gốc được cung cấp trong tệp ZIP đính kèm cùng câu trả lời để có thể đưa vào đúng đường dẫn.
 
@@ -22,7 +22,7 @@ Mỗi phần tử `questions` có:
 - `source_question_number` (nếu có): số câu hiển thị trong screenshot.
 - `duplicate_of` (nếu có): chỉ câu trùng nội dung nhưng có ảnh đề hoặc thứ tự lựa chọn khác.
 
-`count` là số câu, hiện **74**. Thứ tự các câu trong mảng là thứ tự xuất hiện trong hội thoại, không phải thứ tự số Question trên website nguồn.
+`count` là số câu, hiện **75**. Thứ tự các câu trong mảng là thứ tự xuất hiện trong hội thoại, không phải thứ tự số Question trên website nguồn.
 
 ## Dùng cho web quiz
 
@@ -44,7 +44,7 @@ Mỗi phần tử `questions` có:
 - Tất cả câu hỏi có mã duy nhất.
 - Mọi câu `single_choice` có đáp án nằm trong `options`.
 - Mọi cặp `matching` có mô tả nằm trong `options`.
-- 17 true_false, 26 single_choice, 16 numeric, 7 fill_blank, 8 matching = 74.
+- 18 true_false, 26 single_choice, 16 numeric, 7 fill_blank, 8 matching = 75.
 
 ## Bổ sung ảnh nguồn lên GitHub
 
