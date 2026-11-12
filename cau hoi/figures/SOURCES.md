@@ -10,3 +10,15 @@ Các ảnh PNG ở đây được **cắt trực tiếp từ ảnh chụp câu h
 | `strain-gauge-bridge-types.png` | `image(7).png` | `(41,244,848,789)` | C044 |
 
 Dùng `questions.json` để chọn ảnh qua trường `figure`. Không cần hiển thị khung trình duyệt, nút chọn hay menu dropdown của ảnh gốc.
+
+## Ảnh cập nhật ngày 13/11/2026
+
+Các hình dưới đây được cắt **trực tiếp** từ ảnh chụp mới (không tái vẽ) và ghi đè hình dùng chung khi hình đó đã tồn tại:
+
+| Hình sử dụng trong câu hỏi | Ảnh chụp nguồn | Vùng crop (left, top, right, bottom) |
+| --- | --- | --- |
+| `ldr-voltage-divider.png` | `image(20261112-183742).png` | `(25, 118, 1150, 657)` |
+| `proximity-symbols.png` | `image(20261112-184708).png` | `(20, 82, 1165, 759)` |
+| `accelerometer-mass-spring-damper.png` | `image(20261112-184828).png` | `(25, 95, 1180, 362)` |
+
+Đồng thời lưu ảnh chụp nguyên bản của form trong `../screenshots/` để phục dựng chính xác loại câu hỏi, thứ tự nhãn, phương án, điều khiển và placeholder.

@@ -3,7 +3,7 @@
   "title": "Ngân hàng câu hỏi Kỹ thuật cảm biến",
   "source": "Các câu hỏi và hình ảnh được người dùng cung cấp trong cuộc trò chuyện ngày 12/11/2026",
   "language": "vi",
-  "count": 84,
+  "count": 114,
   "answer_visibility": "Store answers separately from quiz UI in production",
   "questions": [
     {
@@ -455,8 +455,8 @@
       "prompt": "Đơn vị mật độ từ thông B là gì?",
       "answer": "Tesla",
       "options": [
-        "Volt",
         "Tesla",
+        "Volt",
         "Weber",
         "Henry"
       ],
@@ -909,14 +909,21 @@
         }
       ],
       "options": [
-        "Tách hạt tải quang nhờ tiếp giáp bán dẫn",
-        "Thu ánh sáng phản xạ trực tiếp từ vật",
         "Phần tử quang có khuếch đại dòng BJT",
-        "Bộ phát và thu ở hai phía đường quang"
+        "Bộ phát và thu ở hai phía đường quang",
+        "Thu ánh sáng phản xạ trực tiếp từ vật",
+        "Tách hạt tải quang nhờ tiếp giáp bán dẫn"
       ],
       "ui": "dropdown_per_row",
-      "screenshot": "screenshots/image(10).png",
-      "source_question_number": 14
+      "screenshot": "screenshots/image(20261112-183727).png",
+      "source_question_number": 14,
+      "form": {
+        "layout": "two_column",
+        "control": "select",
+        "placeholder": "[ Choose ]",
+        "option_order": "preserve",
+        "score_points": 0.2
+      }
     },
     {
       "id": "C064",
@@ -991,8 +998,8 @@
       "answer": "I²R",
       "options": [
         "I/R",
-        "I²R",
         "IR²",
+        "I²R",
         "R/I²"
       ],
       "ui": "radio"
@@ -1004,8 +1011,8 @@
       "prompt": "Pt100 có R₀ = 100 Ω tại 0 °C, α = 0,00385 °C⁻¹. Theo mô hình tuyến tính, R tại 29 °C là bao nhiêu?",
       "answer": "111.165 Ω",
       "options": [
-        "88.835 Ω",
         "111.165 Ω",
+        "88.835 Ω",
         "121.165 Ω",
         "100.112 Ω"
       ],
@@ -1019,9 +1026,9 @@
       "answer": "5.662 mV",
       "options": [
         "0.566 mV",
-        "6.460 mV",
+        "5.662 mV",
         "5662.000 mV",
-        "5.662 mV"
+        "6.460 mV"
       ],
       "ui": "radio"
     },
@@ -1223,6 +1230,439 @@
         "Gauge factor"
       ],
       "ui": "radio"
+    },
+    {
+      "id": "C085",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Dùng hình mạch bên phải với dữ kiện mới, không đọc R từ đồ thị. LDR R1 lên nguồn 6 V, R2 = 154 kΩ xuống GND. Cho RLDR = 850 kΩ. Vout tại nút giữa bằng bao nhiêu? Chọn giá trị làm tròn 3 chữ số thập phân.",
+      "answer": "0.920 V",
+      "options": [
+        "0.460 V",
+        "0.920 V",
+        "6.920 V",
+        "5.080 V"
+      ],
+      "ui": "radio",
+      "figure": "figures/ldr-voltage-divider.png",
+      "screenshot": "screenshots/image(20261112-183617).png"
+    },
+    {
+      "id": "C086",
+      "topic": "optical",
+      "type": "numeric",
+      "prompt": "Dùng hình mạch bên phải với dữ kiện mới, không đọc R từ đồ thị. LDR R1 nối nguồn 7 V, R2 = 152 kΩ nối GND. Cho RLDR = 160 kΩ. Tính Vout theo V, bỏ qua tải đầu ra.",
+      "answer": 3.41025641025641,
+      "unit": "V",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số theo đơn vị yêu cầu, dùng dấu chấm thập phân.",
+      "figure": "figures/ldr-voltage-divider.png",
+      "screenshot": "screenshots/image(20261112-183742).png"
+    },
+    {
+      "id": "C087",
+      "topic": "thermal",
+      "type": "matching",
+      "prompt": "Ghép mỗi mục bên trái với mô tả tương ứng bên phải.",
+      "answer": [
+        {
+          "left": "Thermocouple",
+          "right": "Tạo điện áp nhiệt điện"
+        },
+        {
+          "left": "Seebeck",
+          "right": "Hiệu ứng tạo emf do chênh nhiệt"
+        },
+        {
+          "left": "Cold junction",
+          "right": "Mối nối nhiệt độ tham chiếu"
+        },
+        {
+          "left": "Đo RTD bốn dây",
+          "right": "Tách đường cấp dòng và đo áp"
+        }
+      ],
+      "options": [
+        "Hiệu ứng tạo emf do chênh nhiệt",
+        "Mối nối nhiệt độ tham chiếu",
+        "Tách đường cấp dòng và đo áp",
+        "Tạo điện áp nhiệt điện"
+      ],
+      "ui": "dropdown_per_row",
+      "form": {
+        "layout": "two_column",
+        "control": "select",
+        "placeholder": "[ Choose ]",
+        "option_order": "preserve",
+        "score_points": 0.2
+      },
+      "screenshot": "screenshots/image(20261112-184503).png",
+      "source_question_number": 24
+    },
+    {
+      "id": "C088",
+      "topic": "electromagnetic",
+      "type": "matching",
+      "prompt": "Ghép mỗi mục bên trái với mô tả tương ứng bên phải. Các ký hiệu đánh số theo hình trong đề mẫu.",
+      "answer": [
+        {
+          "left": "Ký hiệu (4)",
+          "right": "Điện cảm có đầu ra tương tự U/I"
+        },
+        {
+          "left": "Ký hiệu (5)",
+          "right": "Cảm biến tiệm cận từ trở theo đề mẫu"
+        },
+        {
+          "left": "LVDT",
+          "right": "Đo dịch chuyển tuyến tính bằng hỗ cảm vi sai"
+        },
+        {
+          "left": "Hall",
+          "right": "Điện áp ngang phụ thuộc từ trường"
+        }
+      ],
+      "options": [
+        "Điện cảm có đầu ra tương tự U/I",
+        "Đo dịch chuyển tuyến tính bằng hỗ cảm vi sai",
+        "Điện áp ngang phụ thuộc từ trường",
+        "Cảm biến tiệm cận từ trở theo đề mẫu"
+      ],
+      "ui": "dropdown_per_row",
+      "form": {
+        "layout": "two_column",
+        "control": "select",
+        "placeholder": "[ Choose ]",
+        "option_order": "preserve",
+        "score_points": 0.2
+      },
+      "figure": "figures/proximity-symbols.png",
+      "screenshot": "screenshots/image(20261112-184708).png"
+    },
+    {
+      "id": "C089",
+      "topic": "mechanical",
+      "type": "single_choice",
+      "prompt": "Quan sát hình cắt từ bài giảng. Yếu tố nào quyết định đáp ứng động của mô hình accelerometer?",
+      "answer": "Khối lượng, độ cứng và giảm chấn",
+      "options": [
+        "Chỉ chiều dài cáp nguồn",
+        "Chỉ màu vỏ",
+        "Chỉ tên hãng",
+        "Khối lượng, độ cứng và giảm chấn"
+      ],
+      "ui": "radio",
+      "figure": "figures/accelerometer-mass-spring-damper.png",
+      "screenshot": "screenshots/image(20261112-184828).png"
+    },
+    {
+      "id": "C090",
+      "topic": "mechanical",
+      "type": "matching",
+      "prompt": "Ghép cấu hình cầu với độ lớn đầu ra tín hiệu nhỏ, khi mắc kéo–nén phù hợp.",
+      "answer": [
+        {
+          "left": "Quarter bridge",
+          "right": "Vex·GF·ε/4"
+        },
+        {
+          "left": "Half bridge",
+          "right": "Vex·GF·ε/2"
+        },
+        {
+          "left": "Full bridge",
+          "right": "Vex·GF·ε"
+        }
+      ],
+      "options": [
+        "Vex·GF·ε/4",
+        "Vex·GF·ε/2",
+        "Vex·GF·ε"
+      ],
+      "ui": "dropdown_per_row",
+      "form": {
+        "layout": "two_column",
+        "control": "select",
+        "placeholder": "[ Choose ]",
+        "option_order": "preserve",
+        "score_points": 0.2
+      },
+      "screenshot": "screenshots/image(20261112-184904).png"
+    },
+    {
+      "id": "C091",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Photodiode có responsivity 0.20 A/W, nhận công suất quang 10 µW. Bỏ qua dòng tối. Dòng quang bằng bao nhiêu?",
+      "answer": "2.00 µA",
+      "options": [
+        "4.00 µA",
+        "1.00 µA",
+        "20.00 µA",
+        "2.00 µA"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C092",
+      "topic": "optical",
+      "type": "numeric",
+      "prompt": "Ánh sáng đơn sắc có λ = 400 nm. Dùng hc = 1240 eV·nm. Tính năng lượng một photon theo eV.",
+      "answer": 3.1,
+      "unit": "eV",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số theo đơn vị yêu cầu, dùng dấu chấm thập phân."
+    },
+    {
+      "id": "C093",
+      "topic": "optical",
+      "type": "fill_blank",
+      "prompt": "Tên tiếng Anh của cấu hình thu phát độc lập là _____.",
+      "answer": "Through-beam",
+      "ui": "text_input",
+      "input_hint": "Điền thuật ngữ, không thêm dấu chấm cuối câu."
+    },
+    {
+      "id": "C094",
+      "topic": "thermal",
+      "type": "true_false",
+      "prompt": "Trong mô hình tuyến tính, RTD kim loại có R(T) = R₀[1 + α(T−T₀)].",
+      "answer": true,
+      "options": [
+        "True",
+        "False"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C095",
+      "topic": "thermal",
+      "type": "numeric",
+      "prompt": "Thanh silic dài 21 mm, rộng 9 mm, dày 1.8 mm. n = p = 2.3×10¹² cm⁻³, µn = 1260, µp = 430 cm²/(V·s), q = 1,6×10⁻¹⁹ C. Tính điện trở theo kΩ.",
+      "answer": 20.843457298306795,
+      "unit": "kΩ",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số theo đơn vị yêu cầu, dùng dấu chấm thập phân."
+    },
+    {
+      "id": "C096",
+      "topic": "thermal",
+      "type": "numeric",
+      "prompt": "RTD silic có R₀ = 9 kΩ tại T₀ = 20 °C. Dùng R(T) = R₀[1+a(T−T₀)+b(T−T₀)²], a = 0.0066 °C⁻¹, b = 0.0000145 °C⁻². Tính R tại 61 °C theo kΩ.",
+      "answer": 11.6547705,
+      "unit": "kΩ",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số theo đơn vị yêu cầu, dùng dấu chấm thập phân."
+    },
+    {
+      "id": "C097",
+      "topic": "thermal",
+      "type": "numeric",
+      "prompt": "NTC có R₀ = 7 kΩ tại 25 °C, β = 3400 K. Dùng R = R₀exp[β(1/T−1/T₀)], T theo K. Tính R tại 36 °C theo kΩ. Lấy T(K) = t(°C)+273,15.",
+      "answer": 4.6652980919290945,
+      "unit": "kΩ",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số theo đơn vị yêu cầu, dùng dấu chấm thập phân."
+    },
+    {
+      "id": "C098",
+      "topic": "thermal",
+      "type": "fill_blank",
+      "prompt": "Tên tiếng Anh của mối nối tham chiếu thermocouple là _____.",
+      "answer": "Cold junction",
+      "ui": "text_input",
+      "input_hint": "Điền thuật ngữ, không thêm dấu chấm cuối câu."
+    },
+    {
+      "id": "C099",
+      "topic": "electromagnetic",
+      "type": "true_false",
+      "prompt": "Điện dung vi sai bằng nhau tại vị trí đối xứng lý tưởng.",
+      "answer": true,
+      "options": [
+        "True",
+        "False"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C100",
+      "topic": "electromagnetic",
+      "type": "true_false",
+      "prompt": "Hall chỉ có thể dùng với mục tiêu phi từ.",
+      "answer": false,
+      "options": [
+        "True",
+        "False"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C101",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "Tụ cảm biến có C = 15 pF. Khoảng cách bản tụ tăng 2 lần, A và ε giữ nguyên. Điện dung mới là bao nhiêu?",
+      "answer": "7.500 pF",
+      "options": [
+        "30.000 pF",
+        "15.000 pF",
+        "17.000 pF",
+        "7.500 pF"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C102",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "LVDT có V1 = 0.80 V, V2 = 1.20 V cùng tham chiếu pha. Theo quy ước Vout = V2−V1, đầu ra bằng bao nhiêu?",
+      "answer": "0.400 V",
+      "options": [
+        "-0.400 V",
+        "0.800 V",
+        "0.400 V",
+        "2.000 V"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C103",
+      "topic": "electromagnetic",
+      "type": "numeric",
+      "prompt": "Tụ phẳng có A = 140 mm², d = 0.80 mm, εr = 2.8. Dùng ε₀ = 8,85×10⁻¹² F/m, bỏ qua hiệu ứng mép. Tính C theo pF.",
+      "answer": 4.3365,
+      "unit": "pF",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số theo đơn vị yêu cầu, dùng dấu chấm thập phân."
+    },
+    {
+      "id": "C104",
+      "topic": "electromagnetic",
+      "type": "fill_blank",
+      "prompt": "Tên đơn vị SI của B bằng tiếng Anh là _____.",
+      "answer": "Tesla",
+      "ui": "text_input",
+      "input_hint": "Điền thuật ngữ, không thêm dấu chấm cuối câu."
+    },
+    {
+      "id": "C105",
+      "topic": "mechanical",
+      "type": "true_false",
+      "prompt": "Strain gauge kim loại hoàn toàn không chịu ảnh hưởng của nhiệt độ.",
+      "answer": false,
+      "options": [
+        "True",
+        "False"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C106",
+      "topic": "mechanical",
+      "type": "true_false",
+      "prompt": "Trong rơi tự do lý tưởng, accelerometer đọc gần 0 g.",
+      "answer": true,
+      "options": [
+        "True",
+        "False"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C107",
+      "topic": "mechanical",
+      "type": "single_choice",
+      "prompt": "Đo xoắn thuần thường bố trí cặp gauge ở hướng nào?",
+      "answer": "±45°",
+      "options": [
+        "Chỉ một hướng bất kỳ",
+        "±45°",
+        "0° và 0°",
+        "90° và 90°"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C108",
+      "topic": "smart",
+      "type": "single_choice",
+      "prompt": "Complementary filter trong slide thường tin cậy gyro ở miền nào?",
+      "answer": "Tần số cao",
+      "options": [
+        "Tần số cao",
+        "Mọi tần số và không cần accel",
+        "Chỉ DC vô hạn",
+        "Chỉ tần số bằng 0"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C109",
+      "topic": "mechanical",
+      "type": "numeric",
+      "prompt": "Proof mass m=0,035 kg, gia tốc 6,4 m/s². Tính lực quán tính theo N.",
+      "answer": 0.224,
+      "unit": "N",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số, dùng dấu chấm thập phân."
+    },
+    {
+      "id": "C110",
+      "topic": "mechanical",
+      "type": "fill_blank",
+      "prompt": "Điền tên tiếng Anh gồm hai từ của mạch cầu dùng phổ biến với strain gauge: _____.",
+      "answer": "Wheatstone bridge",
+      "ui": "text_input",
+      "input_hint": "Không thêm dấu chấm cuối câu."
+    },
+    {
+      "id": "C111",
+      "topic": "smart",
+      "type": "true_false",
+      "prompt": "Cảm biến thông minh có thể tích hợp ADC, bù và giao tiếp số.",
+      "answer": true,
+      "options": [
+        "True",
+        "False"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C112",
+      "topic": "smart",
+      "type": "single_choice",
+      "prompt": "Cần bù độ lệch theo nhiệt độ, chức năng phù hợp là gì?",
+      "answer": "Temperature compensation",
+      "options": [
+        "Chỉ đổi vỏ",
+        "Temperature compensation",
+        "Chỉ tăng công suất phát",
+        "Chỉ đổi đơn vị hiển thị"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C113",
+      "topic": "interface",
+      "type": "single_choice",
+      "prompt": "Op-amp không đảo lý tưởng có điện trở hồi tiếp Rf = 42 kΩ và Rg = 10 kΩ từ ngõ − xuống mass. Vin = 0.036 V, nguồn đủ tránh bão hòa. Vout bằng bao nhiêu?",
+      "answer": "0.1872 V",
+      "options": [
+        "0.1872 V",
+        "-0.1872 V",
+        "0.0360 V",
+        "0.3744 V"
+      ],
+      "ui": "radio"
+    },
+    {
+      "id": "C114",
+      "topic": "smart",
+      "type": "fill_blank",
+      "prompt": "Tên tiếng Anh của khắc/ăn mòn vi chế tạo là _____.",
+      "answer": "Etching",
+      "ui": "text_input",
+      "input_hint": "Điền thuật ngữ, không thêm dấu chấm cuối câu."
     }
   ]
 }

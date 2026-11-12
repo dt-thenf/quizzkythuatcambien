@@ -4,9 +4,9 @@ Nguồn dữ liệu: các câu hỏi người dùng cung cấp trong hội tho�
 
 ## Cấu trúc
 
-- `questions.json`: 84 câu hỏi, mã C001–C084; giữ tất cả biến thể số liệu và phương án từ hội thoại.
-- `figures/*.png`: **4 hình được cắt trực tiếp từ ảnh câu hỏi gốc** do người dùng cung cấp, không phải hình vẽ lại. Có bản kê nguồn và tọa độ cắt tại `figures/SOURCES.md`.
-- `screenshots/`: chứa **ảnh chụp gốc từ hội thoại** để đối chiếu form. Hiện có ảnh `image(20261112-183415).png` cho câu ghép cặp Span/Hysteresis/Repeatability/Cross-sensitivity. Các file ảnh khác trong dữ liệu có thể vẫn chưa được đưa lên repo.
+- `questions.json`: 114 câu hỏi, mã C001–C114; giữ tất cả biến thể số liệu và phương án từ hội thoại.
+- `figures/*.png`: **5 hình được cắt trực tiếp từ ảnh câu hỏi gốc** do người dùng cung cấp, không phải hình vẽ lại. Có bản kê nguồn và tọa độ cắt tại `figures/SOURCES.md`.
+- `screenshots/`: chứa **ảnh chụp gốc từ hội thoại** để đối chiếu form. Đã bổ sung ảnh chụp gốc cho các câu ghép cặp, sơ đồ LDR, ký hiệu cảm biến và accelerometer tại các đường dẫn tương ứng. Một số ảnh cũ trong trường `screenshot` có thể vẫn chưa có trong repo.
 
 ## Schema
 
@@ -23,7 +23,7 @@ Mỗi phần tử `questions` có:
 - `source_question_number` (nếu có): số câu hiển thị trong screenshot.
 - `duplicate_of` (nếu có): chỉ câu trùng nội dung nhưng có ảnh đề hoặc thứ tự lựa chọn khác.
 
-`count` là số câu, hiện **84**. Thứ tự các câu trong mảng là thứ tự xuất hiện trong hội thoại, không phải thứ tự số Question trên website nguồn.
+`count` là số câu, hiện **114**. Thứ tự các câu trong mảng là thứ tự xuất hiện trong hội thoại, không phải thứ tự số Question trên website nguồn.
 
 ## Dùng cho web quiz
 
@@ -45,7 +45,7 @@ Mỗi phần tử `questions` có:
 - Tất cả câu hỏi có mã duy nhất.
 - Mọi câu `single_choice` có đáp án nằm trong `options`.
 - Mọi cặp `matching` có mô tả nằm trong `options`.
-- 21 true_false, 30 single_choice, 16 numeric, 8 fill_blank, 9 matching = 84.
+- 27 true_false, 39 single_choice, 23 numeric, 13 fill_blank, 12 matching = 114.
 
 ## Bổ sung ảnh nguồn lên GitHub
 
