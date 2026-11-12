@@ -27,15 +27,15 @@ Mỗi phần tử `questions` có:
 
 ## Dùng cho web quiz
 
-1. Fetch `/cau%20hoi/questions.json` (nếu site phục vụ trực tiếp root repo) hoặc import file JSON khi build.
-2. Hiển thị `prompt`; nếu `figure` tồn tại, hiển thị ảnh PNG ở đường dẫn `cau hoi/` + giá trị `figure`. Ảnh đã được cắt riêng, không cần ảnh chụp toàn bộ form.
+1. Fetch `/cauhoi_viet/questions.json` (nếu site phục vụ trực tiếp root repo) hoặc import file JSON khi build.
+2. Hiển thị `prompt`; nếu `figure` tồn tại, hiển thị ảnh PNG ở đường dẫn `cauhoi_viet/` + giá trị `figure`. Ảnh đã được cắt riêng, không cần ảnh chụp toàn bộ form.
 3. Render theo `type` và `ui`: radio cho single choice/true-false; ô nhập cho numeric/fill_blank; dropdown theo hàng cho matching.
 4. Kiểm tra đáp án: so sánh chuỗi cho lựa chọn, boolean cho đúng/sai; numeric so sánh với dung sai được chọn riêng (không so sánh IEEE floating-point chính xác tuyệt đối); matching so sánh mọi cặp.
 5. **Không gửi trường `answer` xuống client nếu cần bảo mật đáp án kiểm tra thật**. Nên tách sang backend hoặc API riêng. Với web ôn tập offline, có thể dùng trực tiếp JSON.
 
 ## Lưu ý bảo toàn nguồn
 
-- Bốn hình minh họa trong `figures/` được **cắt từ ảnh chụp gốc**, đã bỏ phần đầu đề và form chọn đáp án. Phần biểu đồ, ký hiệu và sơ đồ mạch được giữ nguyên như ảnh gửi, không dựng lại.
+- Các hình minh họa trong `figures/` được **cắt từ ảnh chụp gốc**, đã bỏ phần đầu đề và form chọn đáp án. Phần biểu đồ, ký hiệu và sơ đồ mạch được giữ nguyên như ảnh gửi, không dựng lại.
 - Một số câu hỏi nhập số không nêu số chữ số làm tròn: `answer` lưu giá trị tính toán đầy đủ, frontend tự chọn dung sai phù hợp.
 - Đáp án là kết quả tổng hợp từ hội thoại và công thức, không được xem là đáp án chính thức của giảng viên.
 - Có những screenshot chỉ cho thấy một phần dropdown hoặc một phần mạch. Những lựa chọn ghi trong JSON dựa vào các mục thấy rõ trong ảnh và câu trả lời trước đó.
@@ -49,7 +49,7 @@ Mỗi phần tử `questions` có:
 
 ## Bổ sung ảnh nguồn lên GitHub
 
-Giải nén gói PNG đính kèm vào đúng thư mục `cau hoi/screenshots/` và commit. Ví dụ: `cau hoi/screenshots/image(7).png`. Sau khi upload, các khóa `screenshot` trong JSON sẽ trỏ đến tệp tồn tại, không cần sửa dữ liệu.
+Ảnh chụp gốc đã được đưa vào thư mục `cauhoi_viet/screenshots/`. Các câu mới thuộc ngân hàng này chỉ nên thêm khi có yêu cầu riêng. Ví dụ: `cauhoi_viet/screenshots/image(7).png`. Sau khi upload, các khóa `screenshot` trong JSON sẽ trỏ đến tệp tồn tại, không cần sửa dữ liệu.
 
 ## Mở rộng
 
