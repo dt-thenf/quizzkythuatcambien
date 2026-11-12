@@ -175,7 +175,7 @@
         "0.317 V"
       ],
       "ui": "radio",
-      "figure": "figures/ldr-voltage-divider.svg",
+      "figure": "figures/ldr-voltage-divider.png",
       "screenshot": "screenshots/image(1).png"
     },
     {
@@ -234,7 +234,7 @@
       "unit": "V",
       "ui": "numeric_input",
       "input_hint": "Chỉ nhập số theo đơn vị yêu cầu, dùng dấu chấm thập phân.",
-      "figure": "figures/ldr-voltage-divider.svg",
+      "figure": "figures/ldr-voltage-divider.png",
       "screenshot": "screenshots/image(3).png"
     },
     {
@@ -520,7 +520,7 @@
         "Đo dịch chuyển tuyến tính bằng hỗ cảm vi sai"
       ],
       "ui": "dropdown_per_row",
-      "figure": "figures/proximity-symbols.svg",
+      "figure": "figures/proximity-symbols.png",
       "screenshot": "screenshots/image(5).png"
     },
     {
@@ -593,7 +593,7 @@
         "Loại bỏ mọi sai số tuyệt đối"
       ],
       "ui": "radio",
-      "figure": "figures/strain-gauge-full-bridge.svg",
+      "figure": "figures/strain-gauge-full-bridge.png",
       "screenshot": "screenshots/image(6).png"
     },
     {
@@ -635,7 +635,7 @@
         "Half bridge: 2 gauge"
       ],
       "ui": "dropdown_per_row",
-      "figure": "figures/strain-gauge-bridge-types.svg",
+      "figure": "figures/strain-gauge-bridge-types.png",
       "screenshot": "screenshots/image(7).png",
       "source_question_number": 44
     },
@@ -868,7 +868,7 @@
         "2.590 V"
       ],
       "ui": "radio",
-      "figure": "figures/ldr-voltage-divider.svg",
+      "figure": "figures/ldr-voltage-divider.png",
       "screenshot": "screenshots/image(9).png"
     },
     {
@@ -927,7 +927,7 @@
       "unit": "V",
       "ui": "numeric_input",
       "input_hint": "Chỉ nhập số theo đơn vị yêu cầu, dùng dấu chấm thập phân.",
-      "figure": "figures/ldr-voltage-divider.svg",
+      "figure": "figures/ldr-voltage-divider.png",
       "screenshot": "screenshots/image(20261112-102727).png"
     },
     {
