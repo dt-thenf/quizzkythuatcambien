@@ -22,3 +22,20 @@ Các hình dưới đây được cắt **trực tiếp** từ ảnh chụp mớ
 | `accelerometer-mass-spring-damper.png` | `image(20261112-184828).png` | `(25, 95, 1180, 362)` |
 
 Đồng thời lưu ảnh chụp nguyên bản của form trong `../screenshots/` để phục dựng chính xác loại câu hỏi, thứ tự nhãn, phương án, điều khiển và placeholder.
+
+## Ảnh nguồn ngày 13/11/2026 – 20 câu hỏi hình ảnh mới
+
+Ảnh cắt trực tiếp từ screenshot gốc, không tái vẽ hoặc thêm thành phần. Đã thay `proximity-symbols.png` bằng vùng cắt từ `image(20261112-193432).png`; các câu cũ dùng đường dẫn chung tự động cập nhật. Các sơ đồ có số liệu khác nhau được lưu thành ảnh riêng.
+
+| Ảnh minh họa | Screenshot gốc | Tọa độ cắt (px) |
+| --- | --- | --- |
+| `proximity-symbols.png` | `image(20261112-193432).png` | (28, 110, 910, 640) |
+| `calibration-slope-0-100.png` | `image(20261112-193709).png` | (30, 125, 922, 637) |
+| `rtd-self-heating-5v.png` | `image(20261112-193750).png` | (245, 216, 780, 1030) |
+| `rtd-self-heating-9v.png` | `image(20261112-193804).png` | (238, 220, 780, 1034) |
+| `rtd-self-heating-6v.png` | `image(20261112-193820).png` | (240, 242, 795, 1052) |
+| `rtd-self-heating-12v.png` | `image(20261112-193853).png` | (230, 242, 785, 1055) |
+| `ldr-dark-470k.png` | `image(20261112-193924).png` | (222, 214, 740, 1008) |
+| `ldr-light-47k.png` | `image(20261112-193935).png` | (220, 201, 750, 946) |
+| `ldr-dim-150k.png` | `image(20261112-193946).png` | (220, 205, 745, 960) |
+| `ldr-bright-10k.png` | `image(20261112-194002).png` | (225, 199, 755, 1000) |

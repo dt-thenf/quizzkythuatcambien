@@ -3,7 +3,7 @@
   "title": "Ngân hàng câu hỏi Kỹ thuật cảm biến",
   "source": "Các câu hỏi và hình ảnh được người dùng cung cấp trong cuộc trò chuyện ngày 12/11/2026",
   "language": "vi",
-  "count": 114,
+  "count": 154,
   "answer_visibility": "Store answers separately from quiz UI in production",
   "questions": [
     {
@@ -1663,6 +1663,759 @@
       "answer": "Etching",
       "ui": "text_input",
       "input_hint": "Điền thuật ngữ, không thêm dấu chấm cuối câu."
+    },
+    {
+      "id": "C115",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "Trong hình ký hiệu, phần tử ở vị trí (1) biểu thị nguyên lý nào?",
+      "answer": "Điện dung",
+      "options": [
+        "Quang",
+        "Điện dung",
+        "Điện cảm",
+        "Nhiệt điện"
+      ],
+      "ui": "radio",
+      "screenshot": "screenshots/image(20261112-193345).png",
+      "figure": "figures/proximity-symbols.png"
+    },
+    {
+      "id": "C116",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "Trong hình ký hiệu, phần tử ở vị trí (2) biểu thị nguyên lý nào?",
+      "answer": "Điện cảm",
+      "options": [
+        "Áp điện",
+        "Quang",
+        "Điện cảm",
+        "Điện dung"
+      ],
+      "ui": "radio",
+      "screenshot": "screenshots/image(20261112-193359).png",
+      "figure": "figures/proximity-symbols.png"
+    },
+    {
+      "id": "C117",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Trong hình ký hiệu, phần tử ở vị trí (3) thuộc nhóm nào?",
+      "answer": "Cảm biến quang",
+      "options": [
+        "Cảm biến quang",
+        "Cảm biến điện dung",
+        "Cặp nhiệt điện",
+        "RTD kim loại"
+      ],
+      "ui": "radio",
+      "screenshot": "screenshots/image(20261112-193410).png",
+      "figure": "figures/proximity-symbols.png"
+    },
+    {
+      "id": "C118",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "Trong hình ký hiệu, vị trí (4) có cuộn dây và các nhãn U/I. Nhận định nào phù hợp nhất?",
+      "answer": "Cảm biến điện cảm có đầu ra tương tự",
+      "options": [
+        "LDR không có mạch đầu ra",
+        "Cặp nhiệt điện có hai mối nối",
+        "Cảm biến điện cảm có đầu ra tương tự",
+        "Cảm biến điện dung chỉ đầu ra đóng/ngắt"
+      ],
+      "ui": "radio",
+      "screenshot": "screenshots/image(20261112-193422).png",
+      "figure": "figures/proximity-symbols.png"
+    },
+    {
+      "id": "C119",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "Trong hình ký hiệu, hình móng ngựa ở vị trí (5) gợi ý nhóm cảm biến nào?",
+      "answer": "Cảm biến từ",
+      "options": [
+        "Cảm biến nhiệt điện",
+        "Cảm biến từ",
+        "Cảm biến quang",
+        "Cảm biến điện dung"
+      ],
+      "ui": "radio",
+      "screenshot": "screenshots/image(20261112-193432).png",
+      "figure": "figures/proximity-symbols.png"
+    },
+    {
+      "id": "C120",
+      "topic": "general",
+      "type": "numeric",
+      "prompt": "Đường chuẩn tuyến tính trong hình đi qua (0 °C; 0,50 V) và (100 °C; 3,50 V). Tính độ nhạy theo mV/°C. Chỉ nhập số.",
+      "answer": 30,
+      "display_answer": "30",
+      "rounding_decimals": 0,
+      "unit": "mV/°C",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số.",
+      "screenshot": "screenshots/image(20261112-193709).png",
+      "figure": "figures/calibration-slope-0-100.png"
+    },
+    {
+      "id": "C121",
+      "topic": "thermal",
+      "type": "numeric",
+      "prompt": "Mạch trong hình có Vcc=5 V, Rs=10 kΩ và RTD=15 kΩ tại nhiệt độ môi trường. Hệ số tự đốt nóng D=0.2 °C/mW. Tính ΔT=D·P theo °C, với P=Vcc²·RTD/(Rs+RTD)². Dùng xấp xỉ một bước, coi điện trở không đổi khi nóng lên. Làm tròn 3 chữ số thập phân.",
+      "answer": 0.12,
+      "display_answer": "0.120",
+      "rounding_decimals": 3,
+      "unit": "°C",
+      "ui": "numeric_input",
+      "input_hint": "Làm tròn 3 chữ số thập phân.",
+      "screenshot": "screenshots/image(20261112-193750).png",
+      "figure": "figures/rtd-self-heating-5v.png"
+    },
+    {
+      "id": "C122",
+      "topic": "thermal",
+      "type": "numeric",
+      "prompt": "Mạch trong hình có Vcc=9 V, Rs=12 kΩ và RTD=18 kΩ tại nhiệt độ môi trường. Hệ số tự đốt nóng D=0.15 °C/mW. Tính ΔT=D·P theo °C, với P=Vcc²·RTD/(Rs+RTD)². Dùng xấp xỉ một bước, coi điện trở không đổi khi nóng lên. Làm tròn 3 chữ số thập phân.",
+      "answer": 0.243,
+      "display_answer": "0.243",
+      "rounding_decimals": 3,
+      "unit": "°C",
+      "ui": "numeric_input",
+      "input_hint": "Làm tròn 3 chữ số thập phân.",
+      "screenshot": "screenshots/image(20261112-193804).png",
+      "figure": "figures/rtd-self-heating-9v.png"
+    },
+    {
+      "id": "C123",
+      "topic": "thermal",
+      "type": "numeric",
+      "prompt": "Mạch trong hình có Vcc=6 V, Rs=10 kΩ và RTD=20 kΩ tại nhiệt độ môi trường. Hệ số tự đốt nóng D=0.25 °C/mW. Tính ΔT=D·P theo °C, với P=Vcc²·RTD/(Rs+RTD)². Dùng xấp xỉ một bước, coi điện trở không đổi khi nóng lên. Làm tròn 3 chữ số thập phân.",
+      "answer": 0.2,
+      "display_answer": "0.200",
+      "rounding_decimals": 3,
+      "unit": "°C",
+      "ui": "numeric_input",
+      "input_hint": "Làm tròn 3 chữ số thập phân.",
+      "screenshot": "screenshots/image(20261112-193820).png",
+      "figure": "figures/rtd-self-heating-6v.png"
+    },
+    {
+      "id": "C124",
+      "topic": "thermal",
+      "type": "numeric",
+      "prompt": "Mạch trong hình có Vcc=12 V, Rs=22 kΩ và RTD=33 kΩ tại nhiệt độ môi trường. Hệ số tự đốt nóng D=0.1 °C/mW. Tính ΔT=D·P theo °C, với P=Vcc²·RTD/(Rs+RTD)². Dùng xấp xỉ một bước, coi điện trở không đổi khi nóng lên. Làm tròn 3 chữ số thập phân.",
+      "answer": 0.157,
+      "display_answer": "0.157",
+      "rounding_decimals": 3,
+      "unit": "°C",
+      "ui": "numeric_input",
+      "input_hint": "Làm tròn 3 chữ số thập phân.",
+      "screenshot": "screenshots/image(20261112-193853).png",
+      "figure": "figures/rtd-self-heating-12v.png"
+    },
+    {
+      "id": "C125",
+      "topic": "optical",
+      "type": "numeric",
+      "prompt": "Trong mạch ở hình, tại điều kiện tối, RLDR=470 kΩ, R2=100 kΩ và Vcc=5 V. LDR nằm nhánh trên, R2 nối GND; Vout đo so với GND. Tính Vout theo V. Làm tròn 3 chữ số thập phân.",
+      "answer": 0.877,
+      "display_answer": "0.877",
+      "rounding_decimals": 3,
+      "unit": "V",
+      "ui": "numeric_input",
+      "input_hint": "Làm tròn 3 chữ số thập phân.",
+      "screenshot": "screenshots/image(20261112-193924).png",
+      "figure": "figures/ldr-dark-470k.png"
+    },
+    {
+      "id": "C126",
+      "topic": "optical",
+      "type": "numeric",
+      "prompt": "Trong mạch ở hình, tại điều kiện sáng, RLDR=47 kΩ, R2=22 kΩ và Vcc=3.3 V. LDR nằm nhánh trên, R2 nối GND; Vout đo so với GND. Tính Vout theo V. Làm tròn 3 chữ số thập phân.",
+      "answer": 1.052,
+      "display_answer": "1.052",
+      "rounding_decimals": 3,
+      "unit": "V",
+      "ui": "numeric_input",
+      "input_hint": "Làm tròn 3 chữ số thập phân.",
+      "screenshot": "screenshots/image(20261112-193935).png",
+      "figure": "figures/ldr-light-47k.png"
+    },
+    {
+      "id": "C127",
+      "topic": "optical",
+      "type": "numeric",
+      "prompt": "Trong mạch ở hình, tại điều kiện ánh sáng yếu, RLDR=150 kΩ, R2=47 kΩ và Vcc=9 V. LDR nằm nhánh trên, R2 nối GND; Vout đo so với GND. Tính Vout theo V. Làm tròn 3 chữ số thập phân.",
+      "answer": 2.147,
+      "display_answer": "2.147",
+      "rounding_decimals": 3,
+      "unit": "V",
+      "ui": "numeric_input",
+      "input_hint": "Làm tròn 3 chữ số thập phân.",
+      "screenshot": "screenshots/image(20261112-193946).png",
+      "figure": "figures/ldr-dim-150k.png"
+    },
+    {
+      "id": "C128",
+      "topic": "optical",
+      "type": "numeric",
+      "prompt": "Trong mạch ở hình, tại điều kiện ánh sáng mạnh, RLDR=10 kΩ, R2=33 kΩ và Vcc=5 V. LDR nằm nhánh trên, R2 nối GND; Vout đo so với GND. Tính Vout theo V. Làm tròn 3 chữ số thập phân.",
+      "answer": 3.837,
+      "display_answer": "3.837",
+      "rounding_decimals": 3,
+      "unit": "V",
+      "ui": "numeric_input",
+      "input_hint": "Làm tròn 3 chữ số thập phân.",
+      "screenshot": "screenshots/image(20261112-194002).png",
+      "figure": "figures/ldr-bright-10k.png"
+    },
+    {
+      "id": "C129",
+      "topic": "electromagnetic",
+      "type": "matching",
+      "prompt": "Ghép vị trí trong hình với nhóm cảm biến phù hợp. Mỗi mô tả dùng một lần. Mỗi cặp đúng được 0,25 điểm.",
+      "answer": [
+        {
+          "left": "Ký hiệu (1)",
+          "right": "Tiệm cận điện dung"
+        },
+        {
+          "left": "Ký hiệu (2)",
+          "right": "Tiệm cận điện cảm"
+        },
+        {
+          "left": "Ký hiệu (3)",
+          "right": "Cảm biến quang"
+        },
+        {
+          "left": "Ký hiệu (5)",
+          "right": "Cảm biến từ"
+        }
+      ],
+      "options": [
+        "Tiệm cận điện cảm",
+        "Cảm biến quang",
+        "Cảm biến từ",
+        "Tiệm cận điện dung"
+      ],
+      "ui": "dropdown_per_row",
+      "form": {
+        "layout": "two_column",
+        "control": "select",
+        "placeholder": "[ Choose ]",
+        "option_order": "preserve",
+        "one_use_per_option": true,
+        "score_points": 1,
+        "pair_points": 0.25,
+        "source_options_raw": [
+          "<p>Tiệm cận điện cảm</p>",
+          "<p>Cảm biến quang</p>",
+          "<p>Cảm biến từ</p>",
+          "<p>Tiệm cận điện dung</p>"
+        ]
+      },
+      "screenshot": "screenshots/image(20261112-194143).png",
+      "figure": "figures/proximity-symbols.png"
+    },
+    {
+      "id": "C130",
+      "topic": "general",
+      "type": "matching",
+      "prompt": "Theo quy ước tự phát điện/biến đổi trở kháng của đề, ghép phần tử với cơ chế chuyển đổi. Mỗi mô tả dùng một lần. Mỗi cặp đúng được 0,25 điểm.",
+      "answer": [
+        {
+          "left": "Cặp nhiệt điện",
+          "right": "Tự tạo suất điện động do chênh nhiệt độ"
+        },
+        {
+          "left": "RTD kim loại",
+          "right": "Biến đổi điện trở theo nhiệt độ"
+        },
+        {
+          "left": "LDR",
+          "right": "Biến đổi điện trở theo độ chiếu sáng"
+        },
+        {
+          "left": "Cảm biến điện dung",
+          "right": "Biến đổi điện dung theo tác động của mục tiêu"
+        }
+      ],
+      "options": [
+        "Tự tạo suất điện động do chênh nhiệt độ",
+        "Biến đổi điện dung theo tác động của mục tiêu",
+        "Biến đổi điện trở theo nhiệt độ",
+        "Biến đổi điện trở theo độ chiếu sáng"
+      ],
+      "ui": "dropdown_per_row",
+      "form": {
+        "layout": "two_column",
+        "control": "select",
+        "placeholder": "[ Choose ]",
+        "option_order": "preserve",
+        "one_use_per_option": true,
+        "score_points": 1,
+        "pair_points": 0.25,
+        "source_options_raw": [
+          "<p>Tự tạo suất điện động do chênh nhiệt độ</p>",
+          "<p>Biến đổi điện dung theo tác động của mục tiêu</p>",
+          "<p>Biến đổi điện trở theo nhiệt độ</p>",
+          "<p>Biến đổi điện trở theo độ chiếu sáng</p>"
+        ]
+      },
+      "screenshot": "screenshots/image(20261112-194155).png",
+      "source_question_number": 92
+    },
+    {
+      "id": "C131",
+      "topic": "general",
+      "type": "matching",
+      "prompt": "Ghép đặc trưng cảm biến với định nghĩa. Mỗi mô tả dùng một lần. Mỗi cặp đúng được 0,25 điểm.",
+      "answer": [
+        {
+          "left": "Độ nhạy",
+          "right": "Đạo hàm đầu ra theo đầu vào"
+        },
+        {
+          "left": "Span",
+          "right": "Hiệu giữa giới hạn trên và dưới của dải đo"
+        },
+        {
+          "left": "Hysteresis",
+          "right": "Khác đầu ra tại cùng đầu vào giữa chiều tăng và giảm"
+        },
+        {
+          "left": "Độ phân giải",
+          "right": "Biến thiên đầu vào nhỏ nhất có thể phân biệt trong điều kiện quy định"
+        }
+      ],
+      "options": [
+        "Đạo hàm đầu ra theo đầu vào",
+        "Khác đầu ra tại cùng đầu vào giữa chiều tăng và giảm",
+        "Biến thiên đầu vào nhỏ nhất có thể phân biệt trong điều kiện quy định",
+        "Hiệu giữa giới hạn trên và dưới của dải đo"
+      ],
+      "ui": "dropdown_per_row",
+      "form": {
+        "layout": "two_column",
+        "control": "select",
+        "placeholder": "[ Choose ]",
+        "option_order": "preserve",
+        "one_use_per_option": true,
+        "score_points": 1,
+        "pair_points": 0.25,
+        "source_options_raw": [
+          "<p>Đạo hàm đầu ra theo đầu vào</p>",
+          "<p>Khác đầu ra tại cùng đầu vào giữa chiều tăng và giảm</p>",
+          "<p>Biến thiên đầu vào nhỏ nhất có thể phân biệt trong điều kiện quy định</p>",
+          "<p>Hiệu giữa giới hạn trên và dưới của dải đo</p>"
+        ]
+      },
+      "screenshot": "screenshots/image(20261112-194207).png"
+    },
+    {
+      "id": "C132",
+      "topic": "thermal",
+      "type": "matching",
+      "prompt": "Ghép công thức với đại lượng cần tính. Mỗi mô tả dùng một lần. Mỗi cặp đúng được 0,25 điểm.",
+      "answer": [
+        {
+          "left": "q(nμn+pμp)",
+          "right": "Độ dẫn điện bán dẫn"
+        },
+        {
+          "left": "L/(σA)",
+          "right": "Điện trở thanh đồng nhất"
+        },
+        {
+          "left": "I²R",
+          "right": "Công suất tiêu tán trên điện trở"
+        },
+        {
+          "left": "S(Th−Tc)",
+          "right": "Suất điện động cặp nhiệt điện trong mô hình S hằng"
+        }
+      ],
+      "options": [
+        "Công suất tiêu tán trên điện trở",
+        "Điện trở thanh đồng nhất",
+        "Suất điện động cặp nhiệt điện trong mô hình S hằng",
+        "Độ dẫn điện bán dẫn"
+      ],
+      "ui": "dropdown_per_row",
+      "form": {
+        "layout": "two_column",
+        "control": "select",
+        "placeholder": "[ Choose ]",
+        "option_order": "preserve",
+        "one_use_per_option": true,
+        "score_points": 1,
+        "pair_points": 0.25,
+        "source_options_raw": [
+          "<p>Công suất tiêu tán trên điện trở</p>",
+          "<p>Điện trở thanh đồng nhất</p>",
+          "<p>Suất điện động cặp nhiệt điện trong mô hình S hằng</p>",
+          "<p>Độ dẫn điện bán dẫn</p>"
+        ]
+      },
+      "screenshot": "screenshots/image(20261112-194217).png",
+      "source_question_number": 94
+    },
+    {
+      "id": "C133",
+      "topic": "thermal",
+      "type": "matching",
+      "prompt": "Ghép đại lượng với đơn vị phù hợp khi dùng hệ cm cho bài bán dẫn. Mỗi mô tả dùng một lần. Mỗi cặp đúng được 0,25 điểm.",
+      "answer": [
+        {
+          "left": "Nồng độ hạt tải",
+          "right": "cm⁻³"
+        },
+        {
+          "left": "Độ linh động",
+          "right": "cm²/(V·s)"
+        },
+        {
+          "left": "Độ dẫn điện",
+          "right": "S/cm"
+        },
+        {
+          "left": "Tiết diện",
+          "right": "cm²"
+        }
+      ],
+      "options": [
+        "S/cm",
+        "cm⁻³",
+        "cm²/(V·s)",
+        "cm²"
+      ],
+      "ui": "dropdown_per_row",
+      "form": {
+        "layout": "two_column",
+        "control": "select",
+        "placeholder": "[ Choose ]",
+        "option_order": "preserve",
+        "one_use_per_option": true,
+        "score_points": 1,
+        "pair_points": 0.25,
+        "source_options_raw": [
+          "<p>S/cm</p>",
+          "<p>cm⁻³</p>",
+          "<p>cm²/(V·s)</p>",
+          "<p>cm²</p>"
+        ]
+      },
+      "screenshot": "screenshots/image(20261112-194228).png",
+      "source_question_number": 95
+    },
+    {
+      "id": "C134",
+      "topic": "thermal",
+      "type": "matching",
+      "prompt": "Ghép ký hiệu với ý nghĩa trong mô hình R(T)=Rref[1+aΔT+bΔT²], ΔT=T−Tref. Mỗi mô tả dùng một lần. Mỗi cặp đúng được 0,25 điểm.",
+      "answer": [
+        {
+          "left": "Rref",
+          "right": "Điện trở tại nhiệt độ tham chiếu"
+        },
+        {
+          "left": "Tref",
+          "right": "Nhiệt độ tham chiếu"
+        },
+        {
+          "left": "a",
+          "right": "Hệ số bậc nhất, đơn vị °C⁻¹"
+        },
+        {
+          "left": "b",
+          "right": "Hệ số bậc hai, đơn vị °C⁻²"
+        }
+      ],
+      "options": [
+        "Hệ số bậc nhất, đơn vị °C⁻¹",
+        "Điện trở tại nhiệt độ tham chiếu",
+        "Nhiệt độ tham chiếu",
+        "Hệ số bậc hai, đơn vị °C⁻²"
+      ],
+      "ui": "dropdown_per_row",
+      "form": {
+        "layout": "two_column",
+        "control": "select",
+        "placeholder": "[ Choose ]",
+        "option_order": "preserve",
+        "one_use_per_option": true,
+        "score_points": 1,
+        "pair_points": 0.25,
+        "source_options_raw": [
+          "<p>Hệ số bậc nhất, đơn vị °C⁻¹</p>",
+          "<p>Điện trở tại nhiệt độ tham chiếu</p>",
+          "<p>Nhiệt độ tham chiếu</p>",
+          "<p>Hệ số bậc hai, đơn vị °C⁻²</p>"
+        ]
+      },
+      "screenshot": "screenshots/image(20261112-194313).png",
+      "source_question_number": 96
+    },
+    {
+      "id": "C135",
+      "topic": "thermal",
+      "type": "true_false",
+      "prompt": "Theo quy ước tự phát điện/biến đổi trở kháng của đề, cặp nhiệt điện là cảm biến tích cực vì tự tạo suất điện động khi hai mối nối có nhiệt độ khác nhau.",
+      "answer": true,
+      "options": [
+        "Sai",
+        "Đúng"
+      ],
+      "ui": "radio",
+      "answer_label": "Đúng"
+    },
+    {
+      "id": "C136",
+      "topic": "thermal",
+      "type": "true_false",
+      "prompt": "Theo quy ước của đề, RTD kim loại là cảm biến thụ động vì cần mạch kích thích để đo sự thay đổi điện trở.",
+      "answer": true,
+      "options": [
+        "Sai",
+        "Đúng"
+      ],
+      "ui": "radio",
+      "answer_label": "Đúng"
+    },
+    {
+      "id": "C137",
+      "topic": "electromagnetic",
+      "type": "true_false",
+      "prompt": "Nếu dùng n và p theo cm⁻³, độ linh động theo cm²/(V·s), công thức σ=q(nμn+pμp) cho σ theo S/cm.",
+      "answer": true,
+      "options": [
+        "Sai",
+        "Đúng"
+      ],
+      "ui": "radio",
+      "answer_label": "Đúng"
+    },
+    {
+      "id": "C138",
+      "topic": "electromagnetic",
+      "type": "true_false",
+      "prompt": "Khi hình học và nồng độ hạt tải không đổi, tăng đồng thời hai độ linh động lên gấp đôi làm điện trở thanh bán dẫn tăng gấp đôi.",
+      "answer": false,
+      "options": [
+        "Sai",
+        "Đúng"
+      ],
+      "ui": "radio",
+      "answer_label": "Sai"
+    },
+    {
+      "id": "C139",
+      "topic": "thermal",
+      "type": "true_false",
+      "prompt": "Trong mô hình RTD tuyến tính với α>0 và trong miền mô hình còn phù hợp, điện trở tăng khi nhiệt độ tăng.",
+      "answer": true,
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "ui": "radio",
+      "answer_label": "Đúng"
+    },
+    {
+      "id": "C140",
+      "topic": "thermal",
+      "type": "true_false",
+      "prompt": "Trong ký hiệu Pt100, số 100 chỉ điện trở danh định 100 Ω tại 100 °C.",
+      "answer": false,
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "ui": "radio",
+      "answer_label": "Sai"
+    },
+    {
+      "id": "C141",
+      "topic": "thermal",
+      "type": "true_false",
+      "prompt": "Trong R(T)=Rref[1+a(T−Tref)+b(T−Tref)²], hệ số b có đơn vị °C⁻² nếu độ chênh nhiệt độ được tính bằng °C.",
+      "answer": true,
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "ui": "radio",
+      "answer_label": "Đúng"
+    },
+    {
+      "id": "C142",
+      "topic": "thermal",
+      "type": "true_false",
+      "prompt": "Trong mạch đo điện trở, hiện tượng tự đốt nóng có thể làm nhiệt độ cảm biến cao hơn nhiệt độ môi trường cần đo.",
+      "answer": true,
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "ui": "radio",
+      "answer_label": "Đúng"
+    },
+    {
+      "id": "C143",
+      "topic": "general",
+      "type": "true_false",
+      "prompt": "Với dòng kích thích không đổi, giảm dòng xuống một nửa làm công suất tự đốt nóng giảm còn một nửa, khi điện trở không đổi.",
+      "answer": false,
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "ui": "radio",
+      "answer_label": "Sai"
+    },
+    {
+      "id": "C144",
+      "topic": "thermal",
+      "type": "true_false",
+      "prompt": "Trong mô hình hệ số Seebeck không đổi, suất điện động phụ thuộc độ chênh nhiệt độ giữa mối nóng và mối tham chiếu.",
+      "answer": true,
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "ui": "radio",
+      "answer_label": "Đúng"
+    },
+    {
+      "id": "C145",
+      "topic": "thermal",
+      "type": "true_false",
+      "prompt": "Chênh lệch nhiệt độ 80 °C có độ lớn bằng chênh lệch nhiệt độ 80 K.",
+      "answer": true,
+      "options": [
+        "Sai",
+        "Đúng"
+      ],
+      "ui": "radio",
+      "answer_label": "Đúng"
+    },
+    {
+      "id": "C146",
+      "topic": "optical",
+      "type": "true_false",
+      "prompt": "Với LDR thông dụng và điều kiện khác giữ nguyên, tăng độ chiếu sáng thường làm điện trở tăng.",
+      "answer": false,
+      "options": [
+        "Sai",
+        "Đúng"
+      ],
+      "ui": "radio",
+      "answer_label": "Sai"
+    },
+    {
+      "id": "C147",
+      "topic": "optical",
+      "type": "true_false",
+      "prompt": "Trong mạch Vcc—LDR—Vout—R2—GND, điện áp Vout tăng khi điện trở LDR giảm, với Vcc và R2 không đổi.",
+      "answer": true,
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "ui": "radio",
+      "answer_label": "Đúng"
+    },
+    {
+      "id": "C148",
+      "topic": "optical",
+      "type": "true_false",
+      "prompt": "Trong mạch Vcc—R2—Vout—LDR—GND, điện áp Vout luôn có cùng xu hướng biến thiên theo ánh sáng như mạch có LDR ở nhánh trên.",
+      "answer": false,
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "ui": "radio",
+      "answer_label": "Sai"
+    },
+    {
+      "id": "C149",
+      "topic": "electromagnetic",
+      "type": "true_false",
+      "prompt": "Cảm biến tiệm cận điện cảm thông thường dùng để phát hiện mục tiêu kim loại.",
+      "answer": true,
+      "options": [
+        "Sai",
+        "Đúng"
+      ],
+      "ui": "radio",
+      "answer_label": "Đúng"
+    },
+    {
+      "id": "C150",
+      "topic": "electromagnetic",
+      "type": "true_false",
+      "prompt": "Cảm biến tiệm cận điện dung luôn phát hiện mọi vật liệu ở cùng một khoảng cách, không phụ thuộc kích thước hay hằng số điện môi.",
+      "answer": false,
+      "options": [
+        "Sai",
+        "Đúng"
+      ],
+      "ui": "radio",
+      "answer_label": "Sai"
+    },
+    {
+      "id": "C151",
+      "topic": "optical",
+      "type": "true_false",
+      "prompt": "Cảm biến quang khuếch tán thu ánh sáng phản xạ từ chính bề mặt mục tiêu nên có thể bị ảnh hưởng bởi màu sắc mục tiêu.",
+      "answer": true,
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "ui": "radio",
+      "answer_label": "Đúng"
+    },
+    {
+      "id": "C152",
+      "topic": "electromagnetic",
+      "type": "true_false",
+      "prompt": "Hysteresis là sự khác nhau của đầu ra tại cùng đầu vào khi đầu vào được tiếp cận theo chiều tăng và chiều giảm.",
+      "answer": true,
+      "options": [
+        "Sai",
+        "Đúng"
+      ],
+      "ui": "radio",
+      "answer_label": "Đúng"
+    },
+    {
+      "id": "C153",
+      "topic": "general",
+      "type": "true_false",
+      "prompt": "Với đường chuẩn y=ax+b, thay đổi b nhưng giữ a không đổi làm thay đổi độ nhạy vi phân dy/dx.",
+      "answer": false,
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "ui": "radio",
+      "answer_label": "Sai"
+    },
+    {
+      "id": "C154",
+      "topic": "general",
+      "type": "true_false",
+      "prompt": "Mọi cảm biến thông minh đều có thời gian đáp ứng ngắn hơn mọi cảm biến thông thường.",
+      "answer": false,
+      "options": [
+        "Sai",
+        "Đúng"
+      ],
+      "ui": "radio",
+      "answer_label": "Sai"
     }
   ]
 }
