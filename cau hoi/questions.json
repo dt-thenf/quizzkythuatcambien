@@ -3,7 +3,7 @@
   "title": "Ngân hàng câu hỏi Kỹ thuật cảm biến",
   "source": "Các câu hỏi và hình ảnh được người dùng cung cấp trong cuộc trò chuyện ngày 12/11/2026",
   "language": "vi",
-  "count": 74,
+  "count": 75,
   "answer_visibility": "Store answers separately from quiz UI in production",
   "questions": [
     {
@@ -1067,6 +1067,18 @@
       "unit": "kΩ",
       "ui": "numeric_input",
       "input_hint": "Chỉ nhập số theo đơn vị yêu cầu, dùng dấu chấm thập phân."
+    },
+    {
+      "id": "C075",
+      "topic": "general",
+      "type": "true_false",
+      "prompt": "Độ nhạy chéo mô tả ảnh hưởng của đại lượng ngoài đại lượng cần đo.",
+      "answer": true,
+      "options": [
+        "True",
+        "False"
+      ],
+      "ui": "radio"
     }
   ]
 }
