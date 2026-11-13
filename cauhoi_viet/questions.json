@@ -3,7 +3,7 @@
   "title": "Ngân hàng câu hỏi Kỹ thuật cảm biến",
   "source": "Các câu hỏi và hình ảnh được người dùng cung cấp trong cuộc trò chuyện ngày 12/11/2026",
   "language": "vi",
-  "count": 210,
+  "count": 226,
   "answer_visibility": "Store answers separately from quiz UI in production",
   "questions": [
     {
@@ -3660,6 +3660,343 @@
       "answer": "Độ dẫn điện",
       "ui": "text_input",
       "input_hint": "Chỉ điền phần còn thiếu."
+    },
+    {
+      "id": "C211",
+      "topic": "general",
+      "type": "matching",
+      "prompt": "Ghép mỗi mục bên trái với mô tả tương ứng bên phải.",
+      "answer": [
+        {
+          "left": "Resolution",
+          "right": "Biến thiên đầu vào nhỏ nhất phân biệt được"
+        },
+        {
+          "left": "Hysteresis",
+          "right": "Đầu ra phụ thuộc chiều quét đầu vào"
+        },
+        {
+          "left": "Offset",
+          "right": "Sai lệch điểm không"
+        },
+        {
+          "left": "Cross-sensitivity",
+          "right": "Ảnh hưởng của đại lượng phụ"
+        }
+      ],
+      "options": [
+        "Ảnh hưởng của đại lượng phụ",
+        "Biến thiên đầu vào nhỏ nhất phân biệt được",
+        "Đầu ra phụ thuộc chiều quét đầu vào",
+        "Sai lệch điểm không"
+      ],
+      "ui": "dropdown_per_row",
+      "form": {
+        "layout": "two_column",
+        "control": "select",
+        "placeholder": "[ Choose ]",
+        "option_order": "preserve"
+      },
+      "screenshot": "screenshots/original-070325.png",
+      "source_batch": "2026-11-13 Viet"
+    },
+    {
+      "id": "C212",
+      "topic": "optical",
+      "type": "numeric",
+      "prompt": "Dùng hình mạch bên phải với dữ kiện mới, không đọc R từ đồ thị. LDR R1 nối nguồn 5 V, R2 = 92 kΩ nối GND. Cho RLDR = 750 kΩ. Tính Vout theo V, bỏ qua tải đầu ra.",
+      "answer": 0.5463182897862233,
+      "unit": "V",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số theo đơn vị yêu cầu, dùng dấu chấm thập phân.",
+      "display_answer": "0.546318",
+      "figure": "figures/ldr-voltage-divider.png",
+      "screenshot": "screenshots/original-070703.png",
+      "calculation": "Vout=5×92/(750+92)=0.5463182898 V",
+      "source_batch": "2026-11-13 Viet"
+    },
+    {
+      "id": "C213",
+      "topic": "electromagnetic",
+      "type": "matching",
+      "prompt": "Ghép mỗi mục bên trái với mô tả tương ứng bên phải. Các ký hiệu đánh số theo hình trong đề mẫu.",
+      "answer": [
+        {
+          "left": "Ký hiệu (1)",
+          "right": "Tiệm cận điện dung"
+        },
+        {
+          "left": "Ký hiệu (2)",
+          "right": "Tiệm cận điện cảm đầu ra chuyển mạch"
+        },
+        {
+          "left": "Ký hiệu (3)",
+          "right": "Cảm biến quang khuếch tán theo đề mẫu"
+        },
+        {
+          "left": "LVDT",
+          "right": "Đo dịch chuyển tuyến tính bằng hỗ cảm vi sai"
+        }
+      ],
+      "options": [
+        "Tiệm cận điện dung",
+        "Tiệm cận điện cảm đầu ra chuyển mạch",
+        "Cảm biến quang khuếch tán theo đề mẫu",
+        "Đo dịch chuyển tuyến tính bằng hỗ cảm vi sai"
+      ],
+      "ui": "dropdown_per_row",
+      "form": {
+        "layout": "two_column",
+        "control": "select",
+        "placeholder": "[ Choose ]",
+        "option_order": "preserve"
+      },
+      "screenshot": "screenshots/original-071349.png",
+      "figure": "figures/proximity-symbols.png",
+      "source_batch": "2026-11-13 Viet"
+    },
+    {
+      "id": "C214",
+      "topic": "mechanical",
+      "type": "matching",
+      "prompt": "Ghép bước xử lý load cell với vai trò.",
+      "answer": [
+        {
+          "left": "Zero/tare",
+          "right": "Chỉnh điểm không"
+        },
+        {
+          "left": "Span calibration",
+          "right": "Xác định độ nhạy bằng tải chuẩn"
+        },
+        {
+          "left": "Ratiometric conversion",
+          "right": "Giảm ảnh hưởng biến thiên Vex"
+        },
+        {
+          "left": "Filtering",
+          "right": "Giới hạn băng thông và giảm nhiễu"
+        }
+      ],
+      "options": [
+        "Giới hạn băng thông và giảm nhiễu",
+        "Xác định độ nhạy bằng tải chuẩn",
+        "Chỉnh điểm không",
+        "Giảm ảnh hưởng biến thiên Vex"
+      ],
+      "ui": "dropdown_per_row",
+      "form": {
+        "layout": "two_column",
+        "control": "select",
+        "placeholder": "[ Choose ]",
+        "option_order": "preserve"
+      },
+      "screenshot": "screenshots/original-071701.png",
+      "source_batch": "2026-11-13 Viet"
+    },
+    {
+      "id": "C215",
+      "topic": "general",
+      "type": "true_false",
+      "prompt": "Cảm biến tuyến tính trong dải xét có độ nhạy tĩnh không đổi.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": true,
+      "answer_label": "True",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "source_batch": "2026-11-13 Viet"
+    },
+    {
+      "id": "C216",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Đầu ra có sai lệch cố định so với chuẩn ở mọi mức. Cần hiệu chỉnh gì trước?",
+      "options": [
+        "Bước sóng nguồn nuôi",
+        "Số chân giao tiếp",
+        "Offset",
+        "Màu vỏ"
+      ],
+      "answer": "Offset",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "source_batch": "2026-11-13 Viet"
+    },
+    {
+      "id": "C217",
+      "topic": "general",
+      "type": "numeric",
+      "prompt": "Cảm biến có dải đo từ -40 đến 120 °C. Tính span theo °C. Chỉ nhập số theo đơn vị yêu cầu, dùng dấu chấm thập phân.",
+      "answer": 160,
+      "unit": "°C",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số theo đơn vị yêu cầu, dùng dấu chấm thập phân.",
+      "calculation": "Span=120−(−40)=160 °C",
+      "source_batch": "2026-11-13 Viet"
+    },
+    {
+      "id": "C218",
+      "topic": "optical",
+      "type": "true_false",
+      "prompt": "Responsivity của photodiode có đơn vị A/W.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": true,
+      "answer_label": "True",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "source_batch": "2026-11-13 Viet"
+    },
+    {
+      "id": "C219",
+      "topic": "optical",
+      "type": "true_false",
+      "prompt": "Photodiode luôn chậm hơn LDR trong các ứng dụng dò sáng thông thường.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": false,
+      "answer_label": "False",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "source_batch": "2026-11-13 Viet"
+    },
+    {
+      "id": "C220",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Cần dò tín hiệu ánh sáng biến thiên nhanh. Phần tử nào thường phù hợp hơn LDR?",
+      "options": [
+        "Photodiode",
+        "RTD",
+        "Strain gauge",
+        "Ống Bourdon"
+      ],
+      "answer": "Photodiode",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "source_batch": "2026-11-13 Viet"
+    },
+    {
+      "id": "C221",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Photodiode có responsivity 0.65 A/W, nhận công suất quang 55 µW. Bỏ qua dòng tối. Dòng quang bằng bao nhiêu?",
+      "options": [
+        "35.75 µA",
+        "17.88 µA",
+        "71.50 µA",
+        "357.50 µA"
+      ],
+      "answer": "35.75 µA",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "calculation": "I=0.65×55=35.75 µA",
+      "source_batch": "2026-11-13 Viet"
+    },
+    {
+      "id": "C222",
+      "topic": "optical",
+      "type": "numeric",
+      "prompt": "Ánh sáng đơn sắc có λ = 440 nm. Dùng hc = 1240 eV·nm. Tính năng lượng một photon theo eV. Chỉ nhập số theo đơn vị yêu cầu, dùng dấu chấm thập phân.",
+      "answer": 2.8181818181818183,
+      "unit": "eV",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số theo đơn vị yêu cầu, dùng dấu chấm thập phân.",
+      "display_answer": "2.818182",
+      "calculation": "E=1240/440=2.8181818 eV",
+      "source_batch": "2026-11-13 Viet"
+    },
+    {
+      "id": "C223",
+      "topic": "optical",
+      "type": "numeric",
+      "prompt": "Dòng quang sau trừ dòng tối là 5 µA, responsivity 0.25 A/W. Tính công suất quang tới theo µW. Chỉ nhập số theo đơn vị yêu cầu, dùng dấu chấm thập phân.",
+      "answer": 20,
+      "unit": "µW",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số theo đơn vị yêu cầu, dùng dấu chấm thập phân.",
+      "calculation": "P=I/R=5/0.25=20 µW",
+      "source_batch": "2026-11-13 Viet"
+    },
+    {
+      "id": "C224",
+      "topic": "optical",
+      "type": "fill_blank",
+      "prompt": "Tên viết tắt của transimpedance amplifier là _____. Điền thuật ngữ, không thêm dấu chấm cuối câu.",
+      "answer": "TIA",
+      "ui": "text_input",
+      "input_hint": "Điền thuật ngữ, không thêm dấu chấm cuối câu.",
+      "source_batch": "2026-11-13 Viet"
+    },
+    {
+      "id": "C225",
+      "topic": "thermal",
+      "type": "true_false",
+      "prompt": "Mắc RTD bốn dây giúp giảm ảnh hưởng điện trở dây lên phép đo.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": true,
+      "answer_label": "True",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "source_batch": "2026-11-13 Viet"
+    },
+    {
+      "id": "C226",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Để giảm ảnh hưởng điện trở dây đo RTD, chọn cấu hình nào?",
+      "options": [
+        "Bốn dây",
+        "Hai dây rất dài",
+        "Ngắn mạch cảm biến",
+        "Nối thêm điện trở dây"
+      ],
+      "answer": "Bốn dây",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "source_batch": "2026-11-13 Viet"
     }
   ]
 }
