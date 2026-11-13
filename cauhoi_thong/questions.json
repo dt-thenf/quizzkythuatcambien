@@ -3,7 +3,7 @@
   "title": "Ngân hàng câu hỏi cauhoi_thong",
   "source": "Câu hỏi được bổ sung từ các lượt mới theo yêu cầu người dùng",
   "language": "vi",
-  "count": 56,
+  "count": 81,
   "answer_visibility": "Store answers separately from quiz UI in production",
   "questions": [
     {
@@ -1194,6 +1194,501 @@
         "screenshots/original-060731.png"
       ],
       "source_note": "Mạch photodiode phân cực thuận; ánh sáng gây dòng quang ngược, giảm điện áp trên R."
+    },
+    {
+      "id": "C057",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Trong mô hình y = f(P,T,Vₛ,RH,...), nếu P là measurand thì ∂y/∂T biểu diễn:",
+      "options": [
+        "Độ nhạy chéo theo nhiệt độ",
+        "Độ trễ thời gian",
+        "Độ phân giải ADC",
+        "Độ nhạy chính theo P"
+      ],
+      "answer": "Độ nhạy chéo theo nhiệt độ",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C058",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Đối với cảm biến có đặc tuyến phi tuyến mạnh, phương pháp nào phù hợp nhất để xây dựng mô hình hiệu chuẩn?",
+      "options": [
+        "Chỉ điều chỉnh điểm 0",
+        "Chỉ hiệu chuẩn 1 điểm",
+        "Không cần hiệu chuẩn",
+        "Hiệu chuẩn nhiều điểm"
+      ],
+      "answer": "Hiệu chuẩn nhiều điểm",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C059",
+      "topic": "general",
+      "type": "multiple_choice",
+      "prompt": "Phát biểu nào đúng về hiệu chuẩn cảm biến?",
+      "options": [
+        "Có thể dùng hàm nghịch đảo để suy ra measurand từ tín hiệu đo",
+        "Thiết lập quan hệ giữa giá trị chuẩn đầu vào và chỉ thị/tín hiệu ra",
+        "Cần nêu điều kiện đo và chuẩn tham chiếu",
+        "Luôn đồng nghĩa với điều chỉnh phần cứng"
+      ],
+      "answer": [
+        "Có thể dùng hàm nghịch đảo để suy ra measurand từ tín hiệu đo",
+        "Thiết lập quan hệ giữa giá trị chuẩn đầu vào và chỉ thị/tín hiệu ra",
+        "Cần nêu điều kiện đo và chuẩn tham chiếu"
+      ],
+      "ui": "checkbox",
+      "form": {
+        "layout": "vertical",
+        "control": "checkbox",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C060",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Một cảm biến công suất có dải từ −32 dBm đến +20 dBm. Dải động theo dB là:",
+      "options": [
+        "64 dB",
+        "12 dB",
+        "52 dB",
+        "32 dB"
+      ],
+      "answer": "52 dB",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C061",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Analog sensor có đặc điểm nào?",
+      "options": [
+        "Không cần nguồn kích thích",
+        "Luôn giao tiếp I²C",
+        "Chỉ có hai mức 0 và 1",
+        "Tín hiệu ra liên tục"
+      ],
+      "answer": "Tín hiệu ra liên tục",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C062",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Theo định nghĩa trong bài giảng, cảm biến (sensor) là gì?",
+      "options": [
+        "Phần tử chỉ dùng để hiển thị kết quả đo",
+        "Thiết bị luôn biến điện năng thành cơ năng",
+        "Thiết bị chỉ dùng để khuếch đại tín hiệu điện",
+        "Phần tử trực tiếp chịu tác động của đại lượng cần đo và tạo ra đáp ứng có quan hệ với đại lượng đó"
+      ],
+      "answer": "Phần tử trực tiếp chịu tác động của đại lượng cần đo và tạo ra đáp ứng có quan hệ với đại lượng đó",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C063",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Một cảm biến nhiệt độ có thang 0–500 °C và accuracy ±0.2% FS. Nếu datasheet quy định theo %FS, giới hạn sai số là:",
+      "options": [
+        "±0.5 °C",
+        "±0.1 °C",
+        "±1.0 °C",
+        "±2.0 °C"
+      ],
+      "answer": "±1.0 °C",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C064",
+      "topic": "thermal",
+      "type": "multiple_choice",
+      "prompt": "RTD được mô tả phù hợp nhất bằng các đặc điểm nào?",
+      "options": [
+        "Thuộc nhóm cảm biến cần kích thích",
+        "Là cảm biến tự phát theo quy ước của bài",
+        "Thuộc cơ chế chuyển đổi điện trở R",
+        "Đại lượng đo làm thay đổi điện trở"
+      ],
+      "answer": [
+        "Thuộc nhóm cảm biến cần kích thích",
+        "Thuộc cơ chế chuyển đổi điện trở R",
+        "Đại lượng đo làm thay đổi điện trở"
+      ],
+      "ui": "checkbox",
+      "form": {
+        "layout": "vertical",
+        "control": "checkbox",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C065",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Độ phân giải (resolution) là gì?",
+      "options": [
+        "Sai số trung bình của 10 lần đo",
+        "Giá trị đầu vào lớn nhất cảm biến chịu được",
+        "Thời gian cảm biến đạt 90%",
+        "Biến thiên nhỏ nhất của đầu vào tạo ra thay đổi đầu ra có thể phân biệt"
+      ],
+      "answer": "Biến thiên nhỏ nhất của đầu vào tạo ra thay đổi đầu ra có thể phân biệt",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C066",
+      "topic": "thermal",
+      "type": "multiple_choice",
+      "prompt": "Theo các cách phân loại trong bài giảng, cặp nhiệt điện (thermocouple) có thể được mô tả là:",
+      "options": [
+        "Cảm biến analog",
+        "Cảm biến thụ động/cần kích thích",
+        "Cảm biến tích cực/tực phát (self-generating)",
+        "Cảm biến dựa trên hiệu ứng nhiệt điện"
+      ],
+      "answer": [
+        "Cảm biến analog",
+        "Cảm biến tích cực/tực phát (self-generating)",
+        "Cảm biến dựa trên hiệu ứng nhiệt điện"
+      ],
+      "ui": "checkbox",
+      "form": {
+        "layout": "vertical",
+        "control": "checkbox",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C067",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Một cảm biến có đầu ra 0.3 V khi x = 0 và chỉ bắt đầu phân biệt được tín hiệu khi x ≥ 2 đơn vị. Cặp giá trị đúng là:",
+      "options": [
+        "Offset = 0.3 V; threshold = 0",
+        "Offset = 2; threshold = 0.3 V",
+        "Offset = 0.3 V; threshold = 2",
+        "Offset = 0; threshold = 2"
+      ],
+      "answer": "Offset = 0.3 V; threshold = 2",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C068",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Đại lượng cần đo trong một phép đo cảm biến được gọi là ______.",
+      "options": [
+        "actuator",
+        "measurand",
+        "offset",
+        "bandwidth"
+      ],
+      "answer": "measurand",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C069",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Hàm truyền tĩnh tổng quát của cảm biến được viết dưới dạng nào?",
+      "options": [
+        "G(s) = X(s)/Y(s)",
+        "y = f(x)",
+        "P = VI",
+        "Q = dF"
+      ],
+      "answer": "y = f(x)",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C070",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Một cảm biến có dải 0–200 kPa và sai số tuyến tính ±0.1% FS. Độ lệch cực đại tương ứng là:",
+      "options": [
+        "±0.1 kPa",
+        "±2 kPa",
+        "±0.2 kPa",
+        "±0.02 kPa"
+      ],
+      "answer": "±0.2 kPa",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C071",
+      "topic": "general",
+      "type": "multiple_choice",
+      "prompt": "Cơ chế chuyển đổi – cảm biến tiêu biểu nào phù hợp?",
+      "options": [
+        "Điện trở – strain gauge",
+        "Nhiệt điện – photodiode",
+        "Điện cảm – LVDT",
+        "Điện dung – gia tốc kế MEMS"
+      ],
+      "answer": [
+        "Điện trở – strain gauge",
+        "Điện cảm – LVDT",
+        "Điện dung – gia tốc kế MEMS"
+      ],
+      "ui": "checkbox",
+      "form": {
+        "layout": "vertical",
+        "control": "checkbox",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C072",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Cảm biến có hàm truyền y = 0.4x + 0.2. Khi x = 5, y bằng:",
+      "options": [
+        "1.8",
+        "2.0",
+        "2.4",
+        "2.2"
+      ],
+      "answer": "2.2",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C073",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Tại cùng một giá trị đầu vào, đầu ra là 2.1 V khi tăng đầu vào và 2.0 V khi giảm đầu vào. Hiện tượng này là:",
+      "options": [
+        "Hysteresis",
+        "Offset",
+        "Quantization",
+        "Drift"
+      ],
+      "answer": "Hysteresis",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C074",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Đơn vị SI cơ bản của nhiệt độ nhiệt động lực học là gì?",
+      "options": [
+        "W",
+        "°C",
+        "K",
+        "J"
+      ],
+      "answer": "K",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C075",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Cảm biến DS18B20 được nêu trong bài giảng là ví dụ của nhóm nào?",
+      "options": [
+        "Analog sensor",
+        "Digital sensor",
+        "Cảm biến áp điện",
+        "Cảm biến điện cảm"
+      ],
+      "answer": "Digital sensor",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C076",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "LDR/photoconductor dựa chủ yếu trên hiện tượng nào?",
+      "options": [
+        "Hall",
+        "Quang điện ngoài",
+        "Quang dẫn",
+        "Nhiệt điện"
+      ],
+      "answer": "Quang dẫn",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C077",
+      "topic": "interface",
+      "type": "single_choice",
+      "prompt": "Điều kiện cân bằng tổng quát của cầu Wheatstone là:",
+      "options": [
+        "R₁+R₂ = R₃+R₄",
+        "R₁R₂ = R₃+R₄",
+        "R₁/R₂ = R₃/R₄",
+        "R₁ = R₂ = 0"
+      ],
+      "answer": "R₁/R₂ = R₃/R₄",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C078",
+      "topic": "mechanical",
+      "type": "single_choice",
+      "prompt": "Vì sao cảm biến áp điện không lý tưởng cho phép đo lực tĩnh kéo dài?",
+      "options": [
+        "Vì chỉ hoạt động ở 0 °C",
+        "Vì không tạo điện tích khi có lực",
+        "Vì luôn cần ADC 24 bit",
+        "Vì điện tích dần bị rò qua điện trở cách điện và mạch đo"
+      ],
+      "answer": "Vì điện tích dần bị rò qua điện trở cách điện và mạch đo",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C079",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Đầu vào tăng từ 20 lên 50 đơn vị làm đầu ra tăng từ 1.2 V lên 2.7 V. Độ nhạy trung bình là:",
+      "options": [
+        "0.5 V/đv",
+        "0.02 V/đv",
+        "0.05 V/đv",
+        "20 V/đv"
+      ],
+      "answer": "0.05 V/đv",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C080",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Theo quy ước dùng trong bài giảng, cảm biến tích cực (active sensor) có đặc điểm nào?",
+      "options": [
+        "Chỉ thay đổi điện trở",
+        "Chỉ có đầu ra số",
+        "Luôn cần nguồn kích thích ngoài",
+        "Đại lượng cần đo trực tiếp tạo ra tín hiệu điện"
+      ],
+      "answer": "Đại lượng cần đo trực tiếp tạo ra tín hiệu điện",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C081",
+      "topic": "general",
+      "type": "multiple_choice",
+      "prompt": "Cảm biến nào được xếp vào nhóm thụ động/cần kích thích trong bài giảng?",
+      "options": [
+        "RTD",
+        "Strain gauge",
+        "Cảm biến điện dung",
+        "Cặp nhiệt điện"
+      ],
+      "answer": [
+        "RTD",
+        "Strain gauge",
+        "Cảm biến điện dung"
+      ],
+      "ui": "checkbox",
+      "form": {
+        "layout": "vertical",
+        "control": "checkbox",
+        "option_order": "preserve"
+      }
     }
   ]
 }
