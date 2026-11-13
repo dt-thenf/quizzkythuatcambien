@@ -3,7 +3,7 @@
   "title": "Ngân hàng câu hỏi cauhoi_thong",
   "source": "Câu hỏi được bổ sung từ các lượt mới theo yêu cầu người dùng",
   "language": "vi",
-  "count": 274,
+  "count": 310,
   "answer_visibility": "Store answers separately from quiz UI in production",
   "questions": [
     {
@@ -5802,6 +5802,717 @@
         "Điện trở nhỏ"
       ],
       "answer": "Khả năng lặp lại cao",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C275",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "Vật liệu nào cho khoảng cách phát hiện lớn nhất trong cảm biến tiệm cận điện cảm?",
+      "options": [
+        "Thép",
+        "Niken",
+        "Nhôm",
+        "Đồng thau"
+      ],
+      "answer": "Thép",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C276",
+      "topic": "electromagnetic",
+      "type": "multiple_choice",
+      "prompt": "Điện trường tồn tại ở đâu? (câu hỏi nhiều đáp án)",
+      "options": [
+        "giữa hai bản tụ điện",
+        "xung quanh hạt mang điện tích",
+        "bên trong dây dẫn mang dòng điện",
+        "giữa hai điện cực cathode và anode của tế bào quang điện chân không"
+      ],
+      "answer": [
+        "giữa hai bản tụ điện",
+        "xung quanh hạt mang điện tích",
+        "bên trong dây dẫn mang dòng điện",
+        "giữa hai điện cực cathode và anode của tế bào quang điện chân không"
+      ],
+      "ui": "checkbox",
+      "form": {
+        "layout": "vertical",
+        "control": "checkbox",
+        "option_order": "preserve"
+      },
+      "source_note": "Trong dây dẫn có điện trở, một điện trường dọc dây duy trì dòng điện; trong vật dẫn lý tưởng ở cân bằng tĩnh điện E bên trong bằng 0. Giữa các điện cực quang điện có E khi áp điện áp."
+    },
+    {
+      "id": "C277",
+      "topic": "electromagnetic",
+      "type": "true_false",
+      "prompt": "Tụ điện ở đầu của cảm biến tiệm cận điện dung được cấu tạo từ hai tấm điện cực đặt song song với nhau.",
+      "options": {
+        "source_note": "Cảm biến tiệm cận điện dung công nghiệp dùng điện cực cảm biến và điện cực tham chiếu, thường hình trụ rỗng và đĩa; không phải hai bản song song cổ điển."
+      },
+      "answer": false,
+      "answer_label": "False",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C278",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "Thành phần nào không có trong mạch công tắc điện dung?",
+      "options": [
+        "Mạch xuất tín hiệu",
+        "Giải điều chế",
+        "Diode laser",
+        "Dao động"
+      ],
+      "answer": "Diode laser",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C279",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "Công tắc điện dung phản ứng với thay đổi:",
+      "options": [
+        "Nhiệt độ",
+        "Điện trở của vật thể",
+        "Độ nhám bề mặt",
+        "Điện dung trong mạch cộng hưởng RC"
+      ],
+      "answer": "Điện dung trong mạch cộng hưởng RC",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C280",
+      "topic": "electromagnetic",
+      "type": "true_false",
+      "prompt": "Tụ điện ở đầu của cảm biến tiệm cận điện dung có dạng xylanh",
+      "options": {
+        "source_note": "Một bản điện cực thường dạng xi lanh rỗng, bản kia là đĩa trong lỗ mở."
+      },
+      "answer": true,
+      "answer_label": "True",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C281",
+      "topic": "electromagnetic",
+      "type": "true_false",
+      "prompt": "Đường sức từ trường hướng vào cực nam, hướng ra cực bắc",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": true,
+      "answer_label": "True",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C282",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "Nguyên lý hoạt động của cảm biến tiệm cận điện dung là:",
+      "options": [
+        "Do sự thay đổi điện tích trên hai bản tụ ở đầu cảm biến",
+        "Do sự thay đổi khoảng cách giữa hai bản tụ ở đầu cảm biến",
+        "Do sự thay đổi điện dung của tụ điện do sự hiện diện của vật thể làm thay đổi biên độ dao động của mạch bên trong cảm biến",
+        "Do sự thay đổi điện trường giữa hai bản cực ở đầu cảm biến"
+      ],
+      "answer": "Do sự thay đổi điện dung của tụ điện do sự hiện diện của vật thể làm thay đổi biên độ dao động của mạch bên trong cảm biến",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C283",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "Loại cảm biến nào phát hiện từ trường thông qua thay đổi điện trở?",
+      "options": [
+        "Cảm biến áp điện",
+        "Cảm biến điện cảm",
+        "Công tắc điện dung",
+        "Cảm biến từ điện trở"
+      ],
+      "answer": "Cảm biến từ điện trở",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C284",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "Cảm biến tiệm cận điện dung có thể phát hiện được nước trong chai nhựa dày 4 mm không?",
+      "options": [
+        "Không",
+        "Có"
+      ],
+      "answer": "Có",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "review_status": "needs_review",
+      "source_note": "Bài giảng nói độ dày thành không kim loại nên nhỏ hơn 4 mm; một số datasheet cho phép tối đa 4 mm hoặc 1–5 mm tùy loại, mặt cảm biến và chỉnh độ nhạy. Câu không có model nên không có kết luận tuyệt đối.",
+      "verification": {
+        "source": "Chapter 4_Cảm biến điện và từ; Balluff Capacitive Sensors Basics",
+        "url": "https://assets.balluff.com/WebBinary1/MAN_MIC_BASICS_CAPACITIVE_EN_A22_DRW_950371_02_000.pdf"
+      }
+    },
+    {
+      "id": "C285",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "Đối với cảm biến tiệm cận điện cảm, khoảng cách phát hiện tấm đồng bằng bao nhiêu lần so với khoảng cách phát hiện của tấm thép S235?",
+      "options": [
+        "0.7",
+        "0.5",
+        "0.3",
+        "0.9"
+      ],
+      "answer": "0.3",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "source_note": "Hệ số quy đổi khoảng cách phát hiện thay đổi theo model; giá trị 0.3 là xấp xỉ thường dùng cho đồng so với thép."
+    },
+    {
+      "id": "C286",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "Cấu hình nào thường được sử dụng trong cảm biến tiệm cận điện dung?",
+      "options": [
+        "Ống dẫn rỗng hình trụ với một đĩa ở đáy",
+        "Lõi solenoid di chuyển",
+        "Cáp đồng trục",
+        "Hai bản điện trở song song"
+      ],
+      "answer": "Ống dẫn rỗng hình trụ với một đĩa ở đáy",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C287",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "Trong đồng hồ đo nhiên liệu điện dung, điện dung thay đổi:",
+      "options": [
+        "Theo hàm mũ của mức nhiên liệu",
+        "Theo hàm logarit",
+        "Tuyến tính theo mức nhiên liệu",
+        "Ngẫu nhiên"
+      ],
+      "answer": "Tuyến tính theo mức nhiên liệu",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C288",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "Từ trường tồn tại ở đâu?",
+      "options": [
+        "Xung quanh dòng điện AC",
+        "Bề mặt Trái Đất",
+        "Xung quanh dòng điện DC",
+        "Xung quanh nam châm vĩnh cửu"
+      ],
+      "answer": "Xung quanh nam châm vĩnh cửu",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "review_status": "needs_review",
+      "alternative_answers": [
+        "Xung quanh dòng điện AC",
+        "Bề mặt Trái Đất",
+        "Xung quanh dòng điện DC"
+      ],
+      "source_note": "Từ trường tồn tại ở cả bốn trường hợp. Câu trắc nghiệm một lựa chọn không có đáp án duy nhất; giữ form radio từ đề."
+    },
+    {
+      "id": "C289",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "Vật liệu nào không có momen từ?",
+      "options": [
+        "Sắt từ",
+        "Thuận từ",
+        "Nghịch từ"
+      ],
+      "answer": "Nghịch từ",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "source_note": "Vật liệu nghịch từ không có moment từ vĩnh cửu thuần ở trạng thái không có trường; dưới từ trường ngoài vẫn có moment cảm ứng ngược chiều."
+    },
+    {
+      "id": "C290",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "Trong LVDT, khi lõi ở vị trí trung tâm, điện áp đầu ra là:",
+      "options": [
+        "Bằng 0",
+        "Âm",
+        "Cực đại",
+        "Không xác định"
+      ],
+      "answer": "Bằng 0",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C291",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "Hằng số điện môi của chất nào sau đây lớn nhất",
+      "options": [
+        "Nước",
+        "Gỗ",
+        "Nylon",
+        "Thủy tinh"
+      ],
+      "answer": "Nước",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C292",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "Cảm biến tiệm cận điện cảm phát hiện:",
+      "options": [
+        "Mọi loại vật liệu",
+        "Chất lỏng điện môi",
+        "Vật thể trong suốt",
+        "Chỉ vật liệu kim loại"
+      ],
+      "answer": "Chỉ vật liệu kim loại",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C293",
+      "topic": "electromagnetic",
+      "type": "multiple_choice",
+      "prompt": "Điện dung của tụ điện phụ thuộc vào các yếu tố nào sau đây? (câu hỏi nhiều đáp án)",
+      "options": [
+        "Vật liệu cách điện giữa hai bản cực của tụ điện",
+        "Khoảng cách giữa hai bản cực của tụ điện",
+        "Diện tích phần không giao nhau giữa hai bản cực tụ điện",
+        "Diện tích phần giao nhau giữa hai bản cực tụ điện"
+      ],
+      "answer": [
+        "Vật liệu cách điện giữa hai bản cực của tụ điện",
+        "Khoảng cách giữa hai bản cực của tụ điện",
+        "Diện tích phần giao nhau giữa hai bản cực tụ điện"
+      ],
+      "ui": "checkbox",
+      "form": {
+        "layout": "vertical",
+        "control": "checkbox",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C294",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "Hằng số điện môi của môi trường nào dưới đây bé nhất?",
+      "options": [
+        "Cao su",
+        "Mica",
+        "Glycerin",
+        "Không khí"
+      ],
+      "answer": "Không khí",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C295",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "Hiện tượng vật lý mà cảm biến điện cảm dựa vào là:",
+      "options": [
+        "Thay đổi điện dung",
+        "Giãn nở nhiệt",
+        "Phản xạ ánh sáng",
+        "Dòng điện xoáy"
+      ],
+      "answer": "Dòng điện xoáy",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C296",
+      "topic": "electromagnetic",
+      "type": "true_false",
+      "prompt": "Điện dung của tụ điện (cổ điển) có thể đạt đến 1F?",
+      "options": {
+        "source_note": "Tụ điện thông thường ít khi đạt 1 F; siêu tụ điện có thể đạt hoặc vượt mức này, nên câu phụ thuộc cách hiểu 'cổ điển'."
+      },
+      "answer": false,
+      "answer_label": "False",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C297",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "Ưu điểm của cảm biến tiện cậm điện dung so với cảm biến tiệm cận điện cảm là:",
+      "options": [
+        "Không bị nhiễu bởi từ trường",
+        "Khoảng cách làm việc xa hơn",
+        "Có thể phát hiện được mọi vật liệu"
+      ],
+      "answer": "Có thể phát hiện được mọi vật liệu",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "source_note": "Theo nghĩa có thể phát hiện nhiều loại vật liệu kim loại và phi kim có hằng số điện môi lớn hơn 1; mức độ phát hiện phụ thuộc môi trường/diện tích."
+    },
+    {
+      "id": "C298",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "LVDT dùng để đo:",
+      "options": [
+        "Nhiệt độ",
+        "Điện dung",
+        "Điện trở",
+        "Chuyển vị tuyến tính"
+      ],
+      "answer": "Chuyển vị tuyến tính",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C299",
+      "topic": "electromagnetic",
+      "type": "multiple_choice",
+      "prompt": "Khoảng cách làm việc của cảm biến tiệm cận điện dung phụ thuộc vào các yếu tố nào? (câu hỏi nhiều đáp án)",
+      "options": [
+        "Kích thước của cảm biến",
+        "Kích thước của vật thể",
+        "Cách lắp đặt cảm biến (flush or non-flush)",
+        "Loại vật liệu của vật thể"
+      ],
+      "answer": [
+        "Kích thước của cảm biến",
+        "Kích thước của vật thể",
+        "Cách lắp đặt cảm biến (flush or non-flush)",
+        "Loại vật liệu của vật thể"
+      ],
+      "ui": "checkbox",
+      "form": {
+        "layout": "vertical",
+        "control": "checkbox",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C300",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "Yếu tố nào không ảnh hưởng đến khoảng cách làm việc của cảm biến tiệm cận điện cảm?",
+      "options": [
+        "Đường kính dây dẫn của cuộn dây",
+        "Số vòng dây",
+        "Bán kính cuộn dây",
+        "Vật liệu từ xung quanh"
+      ],
+      "answer": "Đường kính dây dẫn của cuộn dây",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "review_status": "needs_review",
+      "source_note": "Đường kính dây làm thay đổi điện trở, tổn hao và hệ số Q của cuộn dây nên cũng có thể ảnh hưởng gián tiếp tới khoảng cách phát hiện. Đề không có phương án hoàn toàn không ảnh hưởng."
+    },
+    {
+      "id": "C301",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "Ưu điểm của cảm biến tiệm cận điện cảm so với cảm biến tiệm cận điện dung là:",
+      "options": [
+        "Khoảng cách làm việc lớn hơn",
+        "Thời gian đáp ứng nhanh hơn",
+        "Hoạt động tốt trong môi trường bụi bẩn và có độ ẩm cao"
+      ],
+      "answer": "Hoạt động tốt trong môi trường bụi bẩn và có độ ẩm cao",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C302",
+      "topic": "electromagnetic",
+      "type": "true_false",
+      "prompt": "Hiện tượng cảm ứng điện từ là hiện tượng hình thành điện áp trên một cuộn dây kín khi cho nam châm di chuyển qua nó.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": true,
+      "answer_label": "True",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C303",
+      "topic": "electromagnetic",
+      "type": "true_false",
+      "prompt": "Nguyên lý hoạt động của cảm biến tiệm cận điện cảm là do từ trường của cuộn dây tác động lên vật dẫn điện sinh ra dòng Fu-co, từ đó dòng Fu-co sinh ra từ trường thứ cấp tác động ngược lại từ trường của cuộn dây làm thay đổi hệ số tự cảm của cuộn dây, dẫn đến mạch dao động của cảm biến thay đổi biên độ dao động.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": true,
+      "answer_label": "True",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C304",
+      "topic": "electromagnetic",
+      "type": "true_false",
+      "prompt": "Cuộn dây có nhiều vòng thì từ trường sinh ra càng mạnh.",
+      "options": {
+        "source_note": "Đúng nếu giữ các thông số khác (cường độ dòng điện, lõi, hình học) không đổi."
+      },
+      "answer": true,
+      "answer_label": "True",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C305",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "Cho các vật thể sau đây tiến đến gần bề mặt của cảm biến tiệm cận điện dung. Cảm biến sẽ phát hiện vật thể nào sớm nhất?",
+      "options": [
+        "Dép cao su",
+        "chai nhựa lavie chứa nước",
+        "Thìa inox",
+        "Cốc thủy tinh không chứa nước",
+        "Lon coca-cola chứa nước"
+      ],
+      "answer": "Lon coca-cola chứa nước",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "review_status": "needs_review",
+      "alternative_answers": [
+        "chai nhựa lavie chứa nước",
+        "Thìa inox"
+      ],
+      "source_note": "Không đủ thông tin về kích thước, hằng số điện môi hiệu dụng, cấu trúc kim loại và khoảng cách; vật kim loại có thể gây đáp ứng điện dung lớn nhưng chưa chắc phát hiện sớm nhất."
+    },
+    {
+      "id": "C306",
+      "topic": "electromagnetic",
+      "type": "true_false",
+      "prompt": "Cường độ từ trường bên ngoài cuộn dây mang dòng điện lớn hơn bên trong nó",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": false,
+      "answer_label": "False",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C307",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "Cảm biến tiệm cận điện dung có phát hiện được nước trong lon nhôm không?",
+      "options": [
+        "Có",
+        "Không"
+      ],
+      "answer": "Không",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "source_note": "Không thể đo riêng sự có mặt của nước xuyên qua thành lon nhôm dẫn điện; cảm biến có thể phát hiện bản thân lon."
+    },
+    {
+      "id": "C308",
+      "topic": "electromagnetic",
+      "type": "multiple_choice",
+      "prompt": "Cảm biến tiệm cận điện cảm không thể phát hiện được vật nào dưới đây? (nhiều đáp án)",
+      "options": [
+        "Muỗng inox",
+        "Dây chuyền vàng",
+        "Thùng các tông",
+        "Cây bút chì",
+        "Đinh sắt"
+      ],
+      "answer": [
+        "Thùng các tông",
+        "Cây bút chì"
+      ],
+      "ui": "checkbox",
+      "form": {
+        "layout": "vertical",
+        "control": "checkbox",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C309",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "Cảm biến tiệm cận điện dung không thể phát hiện vật liệu nào sau đây?",
+      "options": [
+        "Than chì",
+        "Dầu ăn",
+        "Gỗ",
+        "Nước cất",
+        "Tất cả đáp án đều sai"
+      ],
+      "answer": "Tất cả đáp án đều sai",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "source_note": "Độ nhạy và khoảng cách khác nhau theo vật liệu; không thể khẳng định cùng một khoảng cách cho mọi vật."
+    },
+    {
+      "id": "C310",
+      "topic": "electromagnetic",
+      "type": "true_false",
+      "prompt": "Cuộn dây có lõi sắt thì từ trường yếu hơn cuộn dây có lõi đồng",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": false,
+      "answer_label": "False",
       "ui": "radio",
       "form": {
         "layout": "vertical",
