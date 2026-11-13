@@ -3,7 +3,7 @@
   "title": "Ngân hàng câu hỏi cauhoi_thong",
   "source": "Câu hỏi được bổ sung từ các lượt mới theo yêu cầu người dùng",
   "language": "vi",
-  "count": 310,
+  "count": 342,
   "answer_visibility": "Store answers separately from quiz UI in production",
   "questions": [
     {
@@ -6527,6 +6527,638 @@
         "control": "radio",
         "option_order": "preserve"
       }
+    },
+    {
+      "id": "C311",
+      "topic": "mechanical",
+      "type": "multiple_choice",
+      "prompt": "Load cell là cảm biến đo: (nhiều đáp án)",
+      "options": [
+        "Khối lượng",
+        "Ứng suất",
+        "Áp suất",
+        "Lực",
+        "Biến dạng"
+      ],
+      "answer": [
+        "Khối lượng",
+        "Lực"
+      ],
+      "ui": "checkbox",
+      "form": {
+        "layout": "vertical",
+        "control": "checkbox",
+        "option_order": "preserve"
+      },
+      "review_status": "needs_review",
+      "source_note": "Load cell chuyển lực thành tín hiệu; khối lượng suy ra qua trọng lực. Ứng suất/biến dạng là đại lượng nội tại mà strain gauge trên thân load cell phản ánh, không phải luôn là measurand đầu vào."
+    },
+    {
+      "id": "C312",
+      "topic": "mechanical",
+      "type": "single_choice",
+      "prompt": "Tại sao cảm biến biến dạng bán dẫn không phù hợp trong môi trường nhiệt độ cao?",
+      "options": [
+        "Điện trở bị trôi theo nhiệt độ",
+        "Bão hòa nhanh",
+        "Không đo được biến dạng âm",
+        "Độ nhạy thấp"
+      ],
+      "answer": "Điện trở bị trôi theo nhiệt độ",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C313",
+      "topic": "mechanical",
+      "type": "single_choice",
+      "prompt": "Loại cảm biến nào phù hợp nhất để đo lực với độ nhạy cao?",
+      "options": [
+        "Cảm biến biến dạng bán dẫn",
+        "Ống Bourdon",
+        "Cảm biến biến dạng điện trở",
+        "Cảm biến điện dung"
+      ],
+      "answer": "Cảm biến biến dạng bán dẫn",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C314",
+      "topic": "mechanical",
+      "type": "single_choice",
+      "prompt": "Loại cảm biến nào có tốc độ đáp ứng nhanh nhất trong các lựa chọn sau?",
+      "options": [
+        "cảm biến biến dạng bán dẫn",
+        "cảm biến áp suất cơ học",
+        "cảm biến điện trở",
+        "cảm biến áp điện"
+      ],
+      "answer": "cảm biến áp điện",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C315",
+      "topic": "mechanical",
+      "type": "single_choice",
+      "prompt": "Nguyên lý cảm ứng vận tốc điện từ dựa trên hiện tượng nào?",
+      "options": [
+        "Hiệu ứng Joule",
+        "Định luật cảm ứng Faraday",
+        "Hiệu ứng Hall",
+        "Hiệu ứng Doppler"
+      ],
+      "answer": "Định luật cảm ứng Faraday",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C316",
+      "topic": "mechanical",
+      "type": "single_choice",
+      "prompt": "Cấu hình cảm biến nào cho phép đo biến dạng theo nhiều phương khác nhau trên cùng một bề mặt?",
+      "options": [
+        "Load cell",
+        "Cấu hình rosette 45° hoặc 120°",
+        "Strain gauge đơn trục",
+        "Cảm biến từ trưởng"
+      ],
+      "answer": "Cấu hình rosette 45° hoặc 120°",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C317",
+      "topic": "mechanical",
+      "type": "single_choice",
+      "prompt": "Hệ số đo (Gauge factor) của cảm biến biến dạng kim loại thường nằm trong khoảng:",
+      "options": [
+        "100–1000",
+        "2–6",
+        "40–200",
+        "0,01–0,5"
+      ],
+      "answer": "2–6",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C318",
+      "topic": "mechanical",
+      "type": "single_choice",
+      "prompt": "Tactile sensor (cảm biến xúc giác) có thể hoạt động dựa trên nguyên lý nào?",
+      "options": [
+        "Dựa vào sự thay đổi điện trở",
+        "Dựa vào biên độ và tần số dao động input và output truyền qua cảm biến",
+        "Dựa vào sự thay đổi điện dung"
+      ],
+      "answer": "Dựa vào sự thay đổi điện trở",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "review_status": "needs_review",
+      "alternative_answers": [
+        "Dựa vào sự thay đổi điện dung"
+      ],
+      "source_note": "Cả cảm biến xúc giác kiểu điện trở và kiểu điện dung đều phổ biến; câu hỏi dạng radio không có duy nhất một đáp án."
+    },
+    {
+      "id": "C319",
+      "topic": "mechanical",
+      "type": "true_false",
+      "prompt": "Nguyên lý hoạt động của load cell sử dụng cảm biến biến dạng gắn lên thân của nó.",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "answer": true,
+      "answer_label": "Đúng",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C320",
+      "topic": "mechanical",
+      "type": "single_choice",
+      "prompt": "Vật liệu nào thường được sử dụng trong cảm biến áp điện?",
+      "options": [
+        "Graphit",
+        "Constantan",
+        "Thạch anh",
+        "Silicon"
+      ],
+      "answer": "Thạch anh",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C321",
+      "topic": "mechanical",
+      "type": "single_choice",
+      "prompt": "Muốn đo biến dạng của vật, cảm biến biến dạng thường:",
+      "options": [
+        "Dán trực tiếp lên bề mặt của cấu trúc cần khảo sát",
+        "Có con trượt cơ học liên kết với vật trên bề mặt của cấu trúc cần khảo sát",
+        "Cách bề mặt của cấu trúc cần khảo sát một khoảng nhỏ",
+        "Có tiết diện theo đổi theo chiều dịch chuyển bề mặt của cấu trúc cần khảo sát"
+      ],
+      "answer": "Dán trực tiếp lên bề mặt của cấu trúc cần khảo sát",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C322",
+      "topic": "mechanical",
+      "type": "single_choice",
+      "prompt": "Loại cảm biến gia tốc nào phù hợp nhất để tích hợp trong thiết bị MEMS?",
+      "options": [
+        "Cảm biến điện dung",
+        "Cảm biến quang",
+        "Cảm biến biến dạng",
+        "Cảm biến từ"
+      ],
+      "answer": "Cảm biến điện dung",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C323",
+      "topic": "mechanical",
+      "type": "single_choice",
+      "prompt": "Loại cảm biến nào phù hợp nhất để đo dao động của cánh tua-bin tốc độ cao?",
+      "options": [
+        "Cảm biến áp điện",
+        "Load cell",
+        "Cảm biến biến dạng điện trở",
+        "Cảm biến điện dung"
+      ],
+      "answer": "Cảm biến áp điện",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C324",
+      "topic": "mechanical",
+      "type": "single_choice",
+      "prompt": "Nguyên lý hoạt động của cảm biến gia tốc dựa trên định luật vật lý nào?",
+      "options": [
+        "Định luật II Newton",
+        "Định luật Hooke",
+        "Định luật Kirchhoff",
+        "Định luật Ohm"
+      ],
+      "answer": "Định luật II Newton",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C325",
+      "topic": "mechanical",
+      "type": "multiple_choice",
+      "prompt": "Đơn vị của biến dạng là: (nhiều đáp án)",
+      "options": [
+        "%",
+        "Không có đơn vị",
+        "mét/mét",
+        "mét"
+      ],
+      "answer": [
+        "%",
+        "Không có đơn vị",
+        "mét/mét"
+      ],
+      "ui": "checkbox",
+      "form": {
+        "layout": "vertical",
+        "control": "checkbox",
+        "option_order": "preserve"
+      },
+      "source_note": "Biến dạng dài ε=ΔL/L0 là vô thứ nguyên, có thể ghi m/m hoặc phần trăm."
+    },
+    {
+      "id": "C326",
+      "topic": "mechanical",
+      "type": "single_choice",
+      "prompt": "Cảm biến biến dạng bán dẫn nhạy hơn cảm biến kim loại vì:",
+      "options": [
+        "Cấu trúc đơn giản hơn",
+        "Ít bị ảnh hưởng bởi nhiệt độ",
+        "Dễ chế tạo hơn",
+        "Có hệ số đo cao hơn"
+      ],
+      "answer": "Có hệ số đo cao hơn",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C327",
+      "topic": "mechanical",
+      "type": "single_choice",
+      "prompt": "Con quay hồi chuyển đo:",
+      "options": [
+        "Lực",
+        "Vận tốc góc",
+        "Vận tốc tuyến tính",
+        "Áp suất"
+      ],
+      "answer": "Vận tốc góc",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C328",
+      "topic": "mechanical",
+      "type": "single_choice",
+      "prompt": "Cảm biến áp điện (piezoelectric) tạo ra đầu ra là:",
+      "options": [
+        "Dòng điện tỷ lệ với nhiệt độ",
+        "Điện tích tỷ lệ với áp suất tác dụng",
+        "Điện áp tỷ lệ với biến dạng",
+        "Tần số tỷ lệ với lực"
+      ],
+      "answer": "Điện tích tỷ lệ với áp suất tác dụng",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "source_note": "Hiệu ứng áp điện trực tiếp tạo điện tích tỷ lệ với lực tác dụng; với diện tích cố định có thể suy ra áp suất."
+    },
+    {
+      "id": "C329",
+      "topic": "mechanical",
+      "type": "single_choice",
+      "prompt": "Một cảm biến strain gauge có điện trở ban đầu R0 = 350 Ω. Khi chịu biến dạng e = 0,001, điện trở tăng lên thành 352,45 Ω. Hệ số đo (gauge factor) là bao nhiêu?",
+      "options": [
+        "7",
+        "3.5",
+        "2.5",
+        "0.7"
+      ],
+      "answer": "7",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "calculation": "GF=(ΔR/R0)/ε=((352,45−350)/350)/0,001=7",
+      "source_note": "Biểu thức e=0001 trong đề có lỗi MathML; theo lựa chọn suy ra e=0,001."
+    },
+    {
+      "id": "C330",
+      "topic": "mechanical",
+      "type": "single_choice",
+      "prompt": "Biến dạng là gì?",
+      "options": [
+        "Là tỉ số của sự biến thiên chiều dài của vật trên chiều dài ban đầu",
+        "Là hiệu của chiều dài sau biến dạng trừ chiều dài trước biến dạng",
+        "Là sự biến đổi hình dạng của vật",
+        "Là sự thay đổi đặc tính của vật"
+      ],
+      "answer": "Là tỉ số của sự biến thiên chiều dài của vật trên chiều dài ban đầu",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C331",
+      "topic": "mechanical",
+      "type": "true_false",
+      "prompt": "Cảm biến biến dạng loại màng mỏng có độ nhạy nhỏ hơn cảm biến biến dạng loại dây",
+      "options": [
+        "Sai",
+        "Đúng"
+      ],
+      "answer": false,
+      "answer_label": "Sai",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "review_status": "needs_review",
+      "source_note": "Không thể khẳng định chiều so sánh khi chưa nêu vật liệu, hệ số GF, cấu hình và điều kiện. Hai dạng metal gauge có GF gần nhau."
+    },
+    {
+      "id": "C332",
+      "topic": "mechanical",
+      "type": "single_choice",
+      "prompt": "Thuộc tính vật lý nào thay đổi chủ yếu khi vật liệu bị biến dạng trong cảm biến biến dạng?",
+      "options": [
+        "Điện áp rơi",
+        "Điện cảm",
+        "Điện dung",
+        "Điện trở"
+      ],
+      "answer": "Điện trở",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C333",
+      "topic": "mechanical",
+      "type": "single_choice",
+      "prompt": "Ứng suất là:",
+      "options": [
+        "lực tác động trên một đơn vị diện tích theo phương pháp tuyến",
+        "lực tác động trên một đơn vị diện tích theo phương tiếp tuyến",
+        "phản lực tác dụng lên vật"
+      ],
+      "answer": "lực tác động trên một đơn vị diện tích theo phương pháp tuyến",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "review_status": "needs_review",
+      "alternative_answers": [
+        "lực tác động trên một đơn vị diện tích theo phương tiếp tuyến"
+      ],
+      "source_note": "Ứng suất bao gồm thành phần pháp tuyến và tiếp tuyến (ứng suất cắt). Đáp án chính là ứng suất pháp tuyến, nhưng câu hỏi thiếu loại ứng suất."
+    },
+    {
+      "id": "C334",
+      "topic": "mechanical",
+      "type": "single_choice",
+      "prompt": "Cảm biến nào sau đây là cảm biến áp suất cơ học?",
+      "options": [
+        "Ống Bourdon",
+        "Piezoresistive",
+        "Điện dung",
+        "Quang học"
+      ],
+      "answer": "Ống Bourdon",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C335",
+      "topic": "mechanical",
+      "type": "single_choice",
+      "prompt": "Cảm biến áp điện đặc biệt phù hợp để:",
+      "options": [
+        "Ứng dụng giá rẻ",
+        "Đo áp suất tĩnh",
+        "Đo các tín hiệu dao động tần số cao",
+        "Đo điện áp rơi"
+      ],
+      "answer": "Đo các tín hiệu dao động tần số cao",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C336",
+      "topic": "mechanical",
+      "type": "single_choice",
+      "prompt": "Cảm biến xúc giác thường dùng để đo:",
+      "options": [
+        "Từ trường",
+        "Rung động âm thanh",
+        "Độ ẩm",
+        "Áp lực tiếp xúc"
+      ],
+      "answer": "Áp lực tiếp xúc",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C337",
+      "topic": "mechanical",
+      "type": "single_choice",
+      "prompt": "Cảm biến gia tốc điện dung hoạt động bằng cách phát hiện sự thay đổi của:",
+      "options": [
+        "Điện cảm",
+        "Khuếch đại điện áp",
+        "Điện dung",
+        "Điện trở"
+      ],
+      "answer": "Điện dung",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C338",
+      "topic": "mechanical",
+      "type": "single_choice",
+      "prompt": "Cảm biến cơ học KHÔNG thường đo đại lượng nào sau đây?",
+      "options": [
+        "Áp suất",
+        "Lực",
+        "Gia tốc",
+        "Tần số"
+      ],
+      "answer": "Tần số",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C339",
+      "topic": "mechanical",
+      "type": "single_choice",
+      "prompt": "Chức năng chính của cảm biến cơ học là gì?",
+      "options": [
+        "Đo nhiễu điện từ",
+        "Chuyển đổi nhiệt thành điện",
+        "Chuyển đổi tín hiệu cơ học thành tín hiệu điện",
+        "Lưu trữ năng lượng điện"
+      ],
+      "answer": "Chuyển đổi tín hiệu cơ học thành tín hiệu điện",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C340",
+      "topic": "mechanical",
+      "type": "single_choice",
+      "prompt": "Nguyên lý cảm biến nào có độ nhạy biến dạng cao nhất?",
+      "options": [
+        "Cảm ứng",
+        "Điện trở",
+        "Piezoresistive",
+        "Piezoelectric"
+      ],
+      "answer": "Piezoresistive",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C341",
+      "topic": "mechanical",
+      "type": "single_choice",
+      "prompt": "Cảm biến vận tốc thường lấy tín hiệu từ:",
+      "options": [
+        "Thay đổi điện trở",
+        "Gia tốc hoặc dịch chuyển",
+        "Khuếch đại điện áp",
+        "Đo biến dạng"
+      ],
+      "answer": "Gia tốc hoặc dịch chuyển",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C342",
+      "topic": "mechanical",
+      "type": "single_choice",
+      "prompt": "Trong mạch chia áp, điều kiện để tín hiệu đầu ra tỷ lệ tuyến tính là gì?",
+      "options": [
+        "Hai điện trở hoạt động tuyến tính",
+        "Tín hiệu đầu vào có độ nhiễu thấp",
+        "Tụ điện đủ lớn",
+        "Có hồi tiếp âm"
+      ],
+      "answer": "Hai điện trở hoạt động tuyến tính",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "review_status": "needs_review",
+      "source_note": "Quan hệ Vout=Vcc·R2/(R1+R2) không tuyến tính theo điện trở biến đổi chỉ vì cả hai điện trở đều tuyến tính. Cần cấu hình biến thiên đối xứng, hồi tiếp hoặc tuyến tính hóa; không có đáp án hoàn toàn chính xác."
     }
   ]
 }
