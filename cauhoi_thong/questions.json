@@ -3,7 +3,7 @@
   "title": "Ngân hàng câu hỏi cauhoi_thong",
   "source": "Câu hỏi được bổ sung từ các lượt mới theo yêu cầu người dùng",
   "language": "vi",
-  "count": 270,
+  "count": 274,
   "answer_visibility": "Store answers separately from quiz UI in production",
   "questions": [
     {
@@ -4502,7 +4502,18 @@
         "option_order": "preserve"
       },
       "review_status": "needs_review",
-      "source_note": "Không thể suy ra sai số tự đốt nóng chỉ từ vật liệu: phụ thuộc dòng điện, điện trở và khả năng tản nhiệt."
+      "source_note": "Không thể suy ra sai số tự đốt nóng chỉ từ vật liệu: phụ thuộc dòng điện, điện trở và khả năng tản nhiệt.",
+      "option_variants": [
+        {
+          "options": [
+            "RTD Si",
+            "RTD Pt",
+            "RTD Ni",
+            "Thermistor"
+          ],
+          "answer": "RTD Pt"
+        }
+      ]
     },
     {
       "id": "C224",
@@ -4523,7 +4534,18 @@
         "option_order": "preserve"
       },
       "review_status": "needs_review",
-      "source_note": "Lựa chọn Pt1000 chỉ có thể ưu tiên khi mạch kích thích phù hợp, ví dụ cùng điện áp, không phải quy luật vật liệu."
+      "source_note": "Lựa chọn Pt1000 chỉ có thể ưu tiên khi mạch kích thích phù hợp, ví dụ cùng điện áp, không phải quy luật vật liệu.",
+      "option_variants": [
+        {
+          "options": [
+            "Balco2000",
+            "Pt1000",
+            "Ni1000",
+            "Pt100"
+          ],
+          "answer": "Pt1000"
+        }
+      ]
     },
     {
       "id": "C225",
@@ -4702,7 +4724,18 @@
         "control": "radio",
         "option_order": "preserve"
       },
-      "source_note": "Giả sử cùng TCR và xét độ nhạy tuyệt đối dR/dT=αR0."
+      "source_note": "Giả sử cùng TCR và xét độ nhạy tuyệt đối dR/dT=αR0.",
+      "option_variants": [
+        {
+          "options": [
+            "RTD Pt200",
+            "RTD Pt100",
+            "RTD Pt1000",
+            "RTD Pt500"
+          ],
+          "answer": "RTD Pt1000"
+        }
+      ]
     },
     {
       "id": "C233",
@@ -4721,7 +4754,18 @@
         "layout": "vertical",
         "control": "radio",
         "option_order": "preserve"
-      }
+      },
+      "option_variants": [
+        {
+          "options": [
+            "-100 đến 500 °C",
+            "-200 đến 800 °C",
+            "-50 đến 150 °C",
+            "0 đến 400 °C"
+          ],
+          "answer": "-50 đến 150 °C"
+        }
+      ]
     },
     {
       "id": "C234",
@@ -4898,7 +4942,18 @@
         "control": "radio",
         "option_order": "preserve"
       },
-      "calculation": "(0,712−0,646)×1000/1,457 ≈45,3°C"
+      "calculation": "(0,712−0,646)×1000/1,457 ≈45,3°C",
+      "option_variants": [
+        {
+          "options": [
+            "60°C",
+            "45°C",
+            "50°C",
+            "30°C"
+          ],
+          "answer": "45°C"
+        }
+      ]
     },
     {
       "id": "C244",
@@ -4918,7 +4973,18 @@
         "control": "radio",
         "option_order": "preserve"
       },
-      "calculation": "0,77×0,22=0,1694°C"
+      "calculation": "0,77×0,22=0,1694°C",
+      "option_variants": [
+        {
+          "options": [
+            "0,17°C",
+            "0,11°C",
+            "0,22°C",
+            "0,33°C"
+          ],
+          "answer": "0,17°C"
+        }
+      ]
     },
     {
       "id": "C245",
@@ -4958,7 +5024,18 @@
         "control": "radio",
         "option_order": "preserve"
       },
-      "calculation": "131 mV/90 °C≈1,456 mV/°C"
+      "calculation": "131 mV/90 °C≈1,456 mV/°C",
+      "option_variants": [
+        {
+          "options": [
+            "1,01 mV/°C",
+            "2,91 mV/°C",
+            "1,457 mV/°C",
+            "1,31 mV/°C"
+          ],
+          "answer": "1,457 mV/°C"
+        }
+      ]
     },
     {
       "id": "C247",
@@ -4977,7 +5054,18 @@
         "layout": "vertical",
         "control": "radio",
         "option_order": "preserve"
-      }
+      },
+      "option_variants": [
+        {
+          "options": [
+            "Nhiệt độ – điện trở",
+            "Nhiệt độ – suất điện động",
+            "Nhiệt độ – tốc độ truyền âm",
+            "Nhiệt độ – độ lệch góc"
+          ],
+          "answer": "Nhiệt độ – tốc độ truyền âm"
+        }
+      ]
     },
     {
       "id": "C248",
@@ -4996,7 +5084,18 @@
         "layout": "vertical",
         "control": "radio",
         "option_order": "preserve"
-      }
+      },
+      "option_variants": [
+        {
+          "options": [
+            "Không xảy ra hiện tượng tự đốt nóng",
+            "Điện áp đầu ra không phụ thuộc nhiệt độ",
+            "Dải đo nhiệt độ từ 0°C đến 100°C",
+            "Điện áp phân cực thuận tuyến tính theo nhiệt độ"
+          ],
+          "answer": "Điện áp phân cực thuận tuyến tính theo nhiệt độ"
+        }
+      ]
     },
     {
       "id": "C249",
@@ -5063,7 +5162,18 @@
         "layout": "vertical",
         "control": "radio",
         "option_order": "preserve"
-      }
+      },
+      "option_variants": [
+        {
+          "options": [
+            "Độ dẫn điện",
+            "Độ rộng vùng cấm (Eg)",
+            "Hằng số điện môi",
+            "Điện trở suất"
+          ],
+          "answer": "Độ rộng vùng cấm (Eg)"
+        }
+      ]
     },
     {
       "id": "C252",
@@ -5082,7 +5192,18 @@
         "layout": "vertical",
         "control": "radio",
         "option_order": "preserve"
-      }
+      },
+      "option_variants": [
+        {
+          "options": [
+            "Chromel – Alumel",
+            "Đồng – Constantan",
+            "Platinum – Rhodium",
+            "Sắt – Constantan"
+          ],
+          "answer": "Chromel – Alumel"
+        }
+      ]
     },
     {
       "id": "C253",
@@ -5132,7 +5253,18 @@
         "control": "radio",
         "option_order": "preserve"
       },
-      "calculation": "40 µV/°C×200°C=8000 µV=8 mV"
+      "calculation": "40 µV/°C×200°C=8000 µV=8 mV",
+      "option_variants": [
+        {
+          "options": [
+            "4 mV",
+            "6 mV",
+            "8 mV",
+            "10 mV"
+          ],
+          "answer": "8 mV"
+        }
+      ]
     },
     {
       "id": "C255",
@@ -5152,7 +5284,18 @@
         "control": "radio",
         "option_order": "preserve"
       },
-      "calculation": "LM35 có 10 mV/°C: 250/10=25°C"
+      "calculation": "LM35 có 10 mV/°C: 250/10=25°C",
+      "option_variants": [
+        {
+          "options": [
+            "25°C",
+            "250°C",
+            "2,5°C",
+            "0,25°C"
+          ],
+          "answer": "25°C"
+        }
+      ]
     },
     {
       "id": "C256",
@@ -5171,7 +5314,18 @@
         "layout": "vertical",
         "control": "radio",
         "option_order": "preserve"
-      }
+      },
+      "option_variants": [
+        {
+          "options": [
+            "Mảng pixel cảm biến",
+            "Mạch khuếch đại",
+            "Gương phản xạ",
+            "LED phát sáng"
+          ],
+          "answer": "Mảng pixel cảm biến"
+        }
+      ]
     },
     {
       "id": "C257",
@@ -5312,7 +5466,18 @@
         "option_order": "preserve"
       },
       "review_status": "needs_review",
-      "source_note": "Chương 3 của bài giảng ghi độ nhạy khoảng 10 mV/°C, nhưng ví dụ diode p-n đơn thông thường có dVf/dT khoảng −2 mV/°C; câu có khác biệt giữa bài giảng và mô hình diode điển hình."
+      "source_note": "Chương 3 của bài giảng ghi độ nhạy khoảng 10 mV/°C, nhưng ví dụ diode p-n đơn thông thường có dVf/dT khoảng −2 mV/°C; câu có khác biệt giữa bài giảng và mô hình diode điển hình.",
+      "option_variants": [
+        {
+          "options": [
+            "100 mV/°C",
+            "10 mV/°C",
+            "1 mV/°C",
+            "0,1 mV/°C"
+          ],
+          "answer": "10 mV/°C"
+        }
+      ]
     },
     {
       "id": "C262",
@@ -5333,7 +5498,18 @@
         "option_order": "preserve"
       },
       "review_status": "needs_review",
-      "source_note": "Có thể hiểu nguyên lý đo lưu lượng bằng trao đổi nhiệt trên dây nung, nhưng câu mô tả hai đầu dây điện trở chưa đủ rõ."
+      "source_note": "Có thể hiểu nguyên lý đo lưu lượng bằng trao đổi nhiệt trên dây nung, nhưng câu mô tả hai đầu dây điện trở chưa đủ rõ.",
+      "option_variants": [
+        {
+          "options": [
+            "Lưu lượng chất lỏng",
+            "Điện trở suất",
+            "Tốc độ truyền âm",
+            "Dòng điện"
+          ],
+          "answer": "Lưu lượng chất lỏng"
+        }
+      ]
     },
     {
       "id": "C263",
@@ -5354,7 +5530,18 @@
         "option_order": "preserve"
       },
       "calculation": "Giả sử độ nhạy 1,457 mV/°C từ câu liên quan: |ΔT|≈0,249/1,457=0,171°C; tương đối so với |−45°C|: 0,171/45×100≈0,38%.",
-      "source_note": "Nếu hiểu sai số tương đối của điện áp thì ≈0,032%, không có trong đáp án; chọn 0,38% khi hiểu sai số nhiệt độ như ngữ cảnh."
+      "source_note": "Nếu hiểu sai số tương đối của điện áp thì ≈0,032%, không có trong đáp án; chọn 0,38% khi hiểu sai số nhiệt độ như ngữ cảnh.",
+      "option_variants": [
+        {
+          "options": [
+            "0,22%",
+            "0,32%",
+            "0,38%",
+            "0,42%"
+          ],
+          "answer": "0,38%"
+        }
+      ]
     },
     {
       "id": "C264",
@@ -5562,6 +5749,65 @@
         "Bar"
       ],
       "source_note": "Pa = N/m² là đơn vị SI của ứng suất; bar cũng là đơn vị áp suất/ứng suất phi SI. Đề radio vì vậy không có một lựa chọn duy nhất nếu không yêu cầu đơn vị SI."
+    },
+    {
+      "id": "C271",
+      "topic": "thermal",
+      "type": "fill_blank",
+      "prompt": "RTD silicon được tích hợp nhiều trong vi mạch nhờ vào khả năng ________ với công nghệ CMOS.",
+      "answer": "tương thích",
+      "accepted_answers": [
+        "tương thích",
+        "tích hợp"
+      ],
+      "ui": "text_input",
+      "input_hint": "Điền từ còn thiếu."
+    },
+    {
+      "id": "C272",
+      "topic": "thermal",
+      "type": "fill_blank",
+      "prompt": "Sai số do tự đốt nóng có thể giảm bằng cách sử dụng ________.",
+      "answer": "dòng kích thích nhỏ",
+      "accepted_answers": [
+        "dòng kích thích nhỏ",
+        "dòng điện nhỏ",
+        "dòng kích thích thấp"
+      ],
+      "ui": "text_input",
+      "input_hint": "Điền cụm từ còn thiếu."
+    },
+    {
+      "id": "C273",
+      "topic": "thermal",
+      "type": "fill_blank",
+      "prompt": "Nhiệt điện trở NTC có đặc tính điện trở ________ khi nhiệt độ tăng.",
+      "answer": "giảm",
+      "accepted_answers": [
+        "giảm",
+        "giảm xuống"
+      ],
+      "ui": "text_input",
+      "input_hint": "Điền từ còn thiếu."
+    },
+    {
+      "id": "C274",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Đặc tính nào của RTD giúp tăng độ ổn định đo?",
+      "options": [
+        "Khả năng lặp lại cao",
+        "Hệ số nhiệt âm",
+        "Độ nhạy cao",
+        "Điện trở nhỏ"
+      ],
+      "answer": "Khả năng lặp lại cao",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
     }
   ]
 }
