@@ -1,10 +1,10 @@
 # Ngân hàng câu hỏi cauhoi_thong
 
-Đây là **ngân hàng đề mới, độc lập**, đã có **49 câu hỏi**. Tất cả câu hỏi được gửi sau khi thư mục này được tạo sẽ được thêm vào đây nếu chưa trùng **trong chính ngân hàng này**.
+Đây là **ngân hàng đề mới, độc lập**, đã có **190 câu hỏi**. Tất cả câu hỏi được gửi sau khi thư mục này được tạo sẽ được thêm vào đây nếu chưa trùng **trong chính ngân hàng này**.
 
 ## Cấu trúc
 
-- `questions.json`: dữ liệu câu hỏi và đáp án; hiện có 49 câu `C001–C049`.
+- `questions.json`: dữ liệu câu hỏi và đáp án; hiện có 190 câu `C001–C190`.
 - `figures/`: ảnh chỉ chứa phần sơ đồ, biểu đồ hoặc hình minh họa **cắt trực tiếp từ ảnh người dùng gửi**, không dựng lại.
 - `screenshots/`: ảnh chụp đầy đủ câu hỏi, gồm nội dung, các đáp án và form để đối chiếu.
 - `figures/README.md`, `screenshots/README.md`: thông tin thư mục ảnh riêng của ngân hàng này.
@@ -50,3 +50,12 @@ Mỗi phần tử `questions` có `id` (bắt đầu `C001`), `topic`, `type`, `
 - Đã nhập 7 câu ảnh (C050–C056), lưu 9 screenshot gốc và 4 hình được cắt trực tiếp từ ảnh đề.
 - Mạch photodiode phân cực thuận/ngược là hai trường hợp khác nhau dù phần chữ câu hỏi giống nhau; phân biệt bằng variant_key và figure.
 - screenshot_variants lưu các ảnh trùng nội dung với thứ tự radio khác nhau.
+
+## Đợt 3 — Ngân hàng cảm biến quang (13/11/2026)
+
+- Đã bổ sung **141 câu mới**, gồm 7 câu từ ảnh (C050–C056) và 134 câu hỏi dạng văn bản/checkbox (C057–C190).
+- **9 ảnh gốc** từ đề đã đưa vào `screenshots/`; **4 hình minh họa cắt trực tiếp** trong `figures/` (xem `IMAGE_SOURCES.md`).
+- Câu trắc nghiệm nhiều đáp án sử dụng `type=multiple_choice`, `ui=checkbox`, `answer` là mảng. Các câu riêng biệt dù cùng câu chữ nhưng sơ đồ phân cực ngược/thuận khác nhau có `variant_key` để phân biệt.
+- Những câu có cùng lời dẫn nhưng bộ phương án khác nhau được quản lý bằng `variant_key` hoặc `option_variants`, không mất nguyên bản form. `screenshot_variants` giữ ảnh đề trùng đã đổi thứ tự radio.
+- Một số câu gốc có vấn đề học thuật hoặc nhiều phương án sai: đánh dấu `review_status=needs_review`, ghi `source_note` và `alternative_answers` nếu thích hợp để rà soát trước khi công bố web thi chính thức.
+- Đã kiểm tra 190 ID duy nhất, trong đó 159 single_choice, 9 true_false, 15 fill_blank, 7 multiple_choice.

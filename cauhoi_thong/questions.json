@@ -3,7 +3,7 @@
   "title": "Ngân hàng câu hỏi cauhoi_thong",
   "source": "Câu hỏi được bổ sung từ các lượt mới theo yêu cầu người dùng",
   "language": "vi",
-  "count": 189,
+  "count": 190,
   "answer_visibility": "Store answers separately from quiz UI in production",
   "questions": [
     {
@@ -728,14 +728,15 @@
       "topic": "general",
       "type": "fill_blank",
       "prompt": "______________ là mối quan hệ giữa phản hồi và kích thích của cảm biến.",
-      "answer": "Đường cong chuẩn",
+      "answer": "Hàm truyền",
       "ui": "text_input",
       "input_hint": "Chỉ điền phần còn thiếu.",
       "accepted_answers": [
-        "Đường cong chuẩn",
-        "Đặc tuyến chuẩn",
-        "Đường đặc tính"
-      ]
+        "Hàm truyền",
+        "Hàm truyền cảm biến",
+        "Transfer function"
+      ],
+      "source_note": "Chương 1, mục 1.4.1: Hàm truyền là quan hệ giữa đáp ứng và kích thích; đường cong chuẩn là đường biểu diễn quan hệ đó."
     },
     {
       "id": "C037",
@@ -1119,7 +1120,19 @@
       "screenshot_variants": [
         "screenshots/original-060330.png"
       ],
-      "source_note": "Mạch photodiode phân cực ngược. Giữ hai bản đề cùng nội dung, có thứ tự phương án khác nhau."
+      "source_note": "Mạch photodiode phân cực ngược. Giữ hai bản đề cùng nội dung, có thứ tự phương án khác nhau.",
+      "option_variants": [
+        {
+          "options": [
+            "Tăng",
+            "Giảm",
+            "Không đổi",
+            "Lúc tăng lúc giảm"
+          ],
+          "answer": "Tăng",
+          "screenshot": "screenshots/original-060330.png"
+        }
+      ]
     },
     {
       "id": "C054",
@@ -1193,7 +1206,19 @@
       "screenshot_variants": [
         "screenshots/original-060731.png"
       ],
-      "source_note": "Mạch photodiode phân cực thuận; ánh sáng gây dòng quang ngược, giảm điện áp trên R."
+      "source_note": "Mạch photodiode phân cực thuận; ánh sáng gây dòng quang ngược, giảm điện áp trên R.",
+      "option_variants": [
+        {
+          "options": [
+            "Tăng",
+            "Giảm",
+            "Không đổi",
+            "Thay đổi bất kì"
+          ],
+          "answer": "Giảm",
+          "screenshot": "screenshots/original-060731.png"
+        }
+      ]
     },
     {
       "id": "C057",
@@ -1933,8 +1958,8 @@
         "control": "radio",
         "option_order": "preserve"
       },
-      "review_status": "needs_review",
-      "source_note": "Thuật ngữ độ trưng bức xạ có thể không tương ứng chính xác với độ chói (radiance/luminance); đây là lựa chọn gần nhất theo các phương án đề đưa ra."
+      "review_status": "source_verified",
+      "source_note": "Theo bảng trong Chương 2 (2.2): Radiance (độ trưng bức xạ) tương ứng Luminance (độ chói)."
     },
     {
       "id": "C095",
@@ -2123,7 +2148,19 @@
         "control": "radio",
         "option_order": "preserve"
       },
-      "source_note": "Câu này có lựa chọn gộp không phù hợp vì đo khối lượng không phải ứng dụng trực tiếp của tế bào quang điện."
+      "source_note": "Câu này có lựa chọn gộp không phù hợp vì đo khối lượng không phải ứng dụng trực tiếp của tế bào quang điện.",
+      "option_variants": [
+        {
+          "options": [
+            "Cả 3 đáp án được nêu",
+            "Đo khối lượng",
+            "rơle",
+            "Đo kích thước"
+          ],
+          "answer": "rơle",
+          "note": "Biến thể thứ hai trong cùng đợt đề. Giữ đúng thứ tự radio của bản này."
+        }
+      ]
     },
     {
       "id": "C105",
@@ -2505,7 +2542,17 @@
         "layout": "vertical",
         "control": "radio",
         "option_order": "preserve"
-      }
+      },
+      "option_variants": [
+        {
+          "options": [
+            "True",
+            "False"
+          ],
+          "answer_label": "True",
+          "answer": true
+        }
+      ]
     },
     {
       "id": "C126",
@@ -3708,6 +3755,27 @@
         "control": "radio",
         "option_order": "preserve"
       }
+    },
+    {
+      "id": "C190",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Chọn phát biểu sai về quang điện trở",
+      "variant_key": "geom-mobility-electrode-spacing",
+      "options": [
+        "độ linh động của hạt tải vật liệu làm quang điện trở càng lớn thì càng nhạy",
+        "khoảng cách giữa 2 điện cực quang điện trở càng bé thì càng nhạy",
+        "khoảng cách giữa 2 điện cực quang điện trở càng lớn thì càng nhạy",
+        "diện tích chiếu sáng của quang điện trở càng lớn thì càng nhạy"
+      ],
+      "answer": "khoảng cách giữa 2 điện cực quang điện trở càng lớn thì càng nhạy",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "source_note": "Biến thể với 4 phương án về độ linh động, khoảng cách điện cực và diện tích chiếu sáng; khác bài có phương án 'quang điện trở làm bằng kim loại'."
     }
   ]
 }
