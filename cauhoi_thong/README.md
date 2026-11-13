@@ -1,10 +1,10 @@
 # Ngân hàng câu hỏi cauhoi_thong
 
-Đây là **ngân hàng đề mới, độc lập**, đã có **14 câu hỏi**. Tất cả câu hỏi được gửi sau khi thư mục này được tạo sẽ được thêm vào đây nếu chưa trùng **trong chính ngân hàng này**.
+Đây là **ngân hàng đề mới, độc lập**, đã có **49 câu hỏi**. Tất cả câu hỏi được gửi sau khi thư mục này được tạo sẽ được thêm vào đây nếu chưa trùng **trong chính ngân hàng này**.
 
 ## Cấu trúc
 
-- `questions.json`: dữ liệu câu hỏi và đáp án; hiện có 14 câu `C001–C014`.
+- `questions.json`: dữ liệu câu hỏi và đáp án; hiện có 49 câu `C001–C049`.
 - `figures/`: ảnh chỉ chứa phần sơ đồ, biểu đồ hoặc hình minh họa **cắt trực tiếp từ ảnh người dùng gửi**, không dựng lại.
 - `screenshots/`: ảnh chụp đầy đủ câu hỏi, gồm nội dung, các đáp án và form để đối chiếu.
 - `figures/README.md`, `screenshots/README.md`: thông tin thư mục ảnh riêng của ngân hàng này.
@@ -37,3 +37,10 @@ Mỗi phần tử `questions` có `id` (bắt đầu `C001`), `topic`, `type`, `
 - Hai câu `C001`, `C002` có ảnh đề toàn bộ trong `screenshots/` và hình bảng thông số cắt riêng trong `figures/`.
 - `figure_table` (nếu có) lưu tiêu đề cột và từng hàng bảng để web có thể render bảng có cấu trúc, bên cạnh hình ảnh gốc.
 - `form.layout = "vertical"`, `form.control = "radio"`, `form.option_order = "preserve"` ghi nhận form trắc nghiệm với thứ tự phương án đúng ảnh nguồn. Các lựa chọn trống trên đề gốc được lưu đúng nguyên văn.
+
+## Đợt 2 — 35 câu mới (13/11/2026)
+
+- Đã bổ sung `C015–C049` (27 câu chọn một đáp án, 1 câu Đúng/Sai, 7 câu điền khuyết); một câu điền lặp lại nguyên nội dung nên không thêm bản trùng.
+- Các câu về CO₂ được gắn chủ đề `gas`, kèm nguồn datasheet Figaro và ghi chú khác biệt giữa CDM7160-C00 Rev. 03/18 (300–5.000 ppm) và Rev. 05/19 (360–5.000 ppm). Đây là khác biệt phiên bản, không thay đổi lựa chọn gốc của đề.
+- `accepted_answers` (nếu có) chứa các cách viết đồng nghĩa cho bài điền khuyết; `source_note` và `verification` là metadata phục vụ rà soát nguồn, không hiển thị bắt buộc trong form.
+- Không tạo ảnh vì 35 câu mới đều là văn bản. Toàn bộ ảnh đã có tại `figures/` và `screenshots/` được giữ nguyên.

@@ -3,7 +3,7 @@
   "title": "Ngân hàng câu hỏi cauhoi_thong",
   "source": "Câu hỏi được bổ sung từ các lượt mới theo yêu cầu người dùng",
   "language": "vi",
-  "count": 14,
+  "count": 49,
   "answer_visibility": "Store answers separately from quiz UI in production",
   "questions": [
     {
@@ -321,6 +321,710 @@
         "control": "radio",
         "option_order": "preserve"
       }
+    },
+    {
+      "id": "C015",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Khi nói một cảm biến nhiệt độ có thể đo được giá trị trong khoảng từ -50 oC đến 150 oC thì đó chính là",
+      "options": [
+        "Input full scale",
+        "Phạm vi làm việc (range) của cảm biến",
+        "Khoảng cảm biến (span)",
+        "Độ phân giải (resolution) của cảm biến"
+      ],
+      "answer": "Phạm vi làm việc (range) của cảm biến",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C016",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Cảm biến là thiết bị:",
+      "options": [
+        "Đo lường các đại lượng vật lý",
+        "Chuyển đổi từ dạng năng lượng này sang năng lượng khác.",
+        "Chuyển đổi các tín hiệu điện sang tín hiệu không điện",
+        "Cảm nhận và đáp ứng với các tín hiệu kích thích"
+      ],
+      "answer": "Cảm nhận và đáp ứng với các tín hiệu kích thích",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C017",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Theo **hiệu ứng vật lý**, cảm biến được phân loại thành:",
+      "options": [
+        "Nhiệt điện, áp điện, quang điện, Hall…",
+        "Tiếp xúc và không tiếp xúc",
+        "Analog và Digital",
+        "Tuyến tính và phi tuyến"
+      ],
+      "answer": "Nhiệt điện, áp điện, quang điện, Hall…",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C018",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Độ tuyến tính của cảm biến phản ánh:",
+      "options": [
+        "Sai lệch tối đa trong điều kiện môi trường khắc nghiệt",
+        "Mối quan hệ giữa độ chính xác và độ phân giải",
+        "Mức độ gần nhau giữa đặc tuyến thực và đặc tuyến tuyến tính lý tưởng",
+        "Sự ổn định của tín hiệu ra theo thời gian"
+      ],
+      "answer": "Mức độ gần nhau giữa đặc tuyến thực và đặc tuyến tuyến tính lý tưởng",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C019",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Thời gian đáp ứng T90 là:",
+      "options": [
+        "Thời gian bắt đầu đo",
+        "Thời gian đạt 90% giá trị cuối",
+        "Thời gian lấy mẫu",
+        "Thời gian ổn định hoàn toàn"
+      ],
+      "answer": "Thời gian đạt 90% giá trị cuối",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C020",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Một cảm biến có thông số các độ nhạy 10 mV/oC. Đây là cảm biến gì",
+      "options": [
+        "Cảm biến quang",
+        "Cảm biến vị trí",
+        "Đại lượng vật lý ngẫu nhiên",
+        "Cảm biến nhiệt độ"
+      ],
+      "answer": "Cảm biến nhiệt độ",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C021",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "**Xác định phát biểu đúng cho các loại sai số khi sử dụng cảm biến**:",
+      "options": [
+        "b. Sai số hệ thống có thể khắc phục được, còn sai số ngẫu nhiên thì không",
+        "d. Cả sai số hệ thống và sai số ngẫu nhiên đều không thể khắc phục",
+        "c. Cả sai số hệ thống và sai số ngẫu nhiên đều có thể khắc phục",
+        "a. Sai số hệ thống không khắc phục được, còn sai số ngẫu nhiên thì có thể khắc phục"
+      ],
+      "answer": "b. Sai số hệ thống có thể khắc phục được, còn sai số ngẫu nhiên thì không",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "source_note": "Theo phân loại trong câu hỏi: sai số hệ thống có thể hiệu chuẩn/bù; sai số ngẫu nhiên không thể loại bỏ hoàn toàn nhưng có thể giảm bằng lọc/lặp phép đo."
+    },
+    {
+      "id": "C022",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Theo **nguồn năng lượng hoạt động**, cảm biến được phân loại thành:",
+      "options": [
+        "Tích cực và thụ động",
+        "Tuyến tính và phi tuyến",
+        "Analog và Digital",
+        "Tiếp xúc và không tiếp xúc"
+      ],
+      "answer": "Tích cực và thụ động",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C023",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Chọn cảm biến phù hợp cần dựa vào:",
+      "options": [
+        "Kích thước",
+        "Yêu cầu ứng dụng (dải đo, độ chính xác, môi trường làm việc…)",
+        "Giá",
+        "Thương hiệu"
+      ],
+      "answer": "Yêu cầu ứng dụng (dải đo, độ chính xác, môi trường làm việc…)",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C024",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "**Một cảm biến được gọi là tuyến tính trong một dải đo xác định nếu**",
+      "options": [
+        "a. Trong dải chế độ đó có độ nhạy không phụ thuộc vào đại lượng đo",
+        "b. Trong dải chế độ đó có sai số không phụ thuộc vào đại lượng đo",
+        "c. Trong dải chế độ đó có độ nhạy phụ thuộc vào đại lượng đo",
+        "d. Trong dải chế độ đó có sai số phụ thuộc vào đại lượng đo"
+      ],
+      "answer": "a. Trong dải chế độ đó có độ nhạy không phụ thuộc vào đại lượng đo",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C025",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Hiệu ứng quang điện có thể được sử dụng để chế tạo cảm biến nào?",
+      "options": [
+        "Cả 3 đáp án nêu trong câu",
+        "Cảm biến đo thông lượng ánh sáng",
+        "Cảm biến đo dòng điện",
+        "Cảm biến đo điện áp"
+      ],
+      "answer": "Cảm biến đo thông lượng ánh sáng",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C026",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Dải đo (range) là:",
+      "options": [
+        "Độ phân giải",
+        "Sai số tối đa",
+        "Thời gian đáp ứng",
+        "Khoảng giá trị đầu vào cảm biến đo được"
+      ],
+      "answer": "Khoảng giá trị đầu vào cảm biến đo được",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C027",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Đường cong chuẩn cảm biến có dạng y = ax + b (với a, b là hằng số) thì a gọi là",
+      "options": [
+        "Độ lớn của kích thích",
+        "Độ nhạy của cảm biến",
+        "Độ rộng dải đo của cảm biến",
+        "Độ lớn của đáp ứng"
+      ],
+      "answer": "Độ nhạy của cảm biến",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C028",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Theo phương thức tương tác với đối tượng đo, cảm biến được phân loại thành:",
+      "options": [
+        "Tuyến tính và phi tuyến",
+        "Tĩnh và động",
+        "Tiếp xúc và không tiếp xúc",
+        "Điện và cơ"
+      ],
+      "answer": "Tiếp xúc và không tiếp xúc",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C029",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Theo dạng tín hiệu đầu ra, cảm biến được phân loại thành:",
+      "options": [
+        "Điện và không điện",
+        "Nhiệt và quang",
+        "Tích cực và thụ động",
+        "Analog và Digital"
+      ],
+      "answer": "Analog và Digital",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C030",
+      "topic": "interface",
+      "type": "single_choice",
+      "prompt": "Trong hệ đo, cảm biến thường cần thêm khối nào?",
+      "options": [
+        "Pin",
+        "Khuếch đại và xử lý tín hiệu",
+        "Vỏ",
+        "Công tắc"
+      ],
+      "answer": "Khuếch đại và xử lý tín hiệu",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C031",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "Hiệu ứng Hall có thể được sử dụng để chế tạo cảm biến nào?",
+      "options": [
+        "Cảm biến độ ẩm",
+        "Cả 3 đáp án nêu trong câu",
+        "Cảm biến vị trí",
+        "Cảm biến nhiệt độ"
+      ],
+      "answer": "Cảm biến vị trí",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C032",
+      "topic": "general",
+      "type": "true_false",
+      "prompt": "Độ nhanh của cảm biến thể hiện tốc độ thay đổi của kích thích đối với đáp ứng",
+      "options": [
+        "Sai",
+        "Đúng"
+      ],
+      "answer": false,
+      "answer_label": "Sai",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "source_note": "Trong tài liệu chương 1, độ nhanh/trễ thể hiện qua thời gian đáp ứng và hồi phục của cảm biến, không phải tốc độ biến thiên ngược từ kích thích đối với đáp ứng."
+    },
+    {
+      "id": "C033",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Cảm biến nhiệt độ có thể được chế tạo dựa trên nguyên lý nào sau đây:",
+      "options": [
+        "Hiệu ứng áp điện",
+        "Hiệu ứng nhiệt điện",
+        "Hiệu ứng hỏa nhiệt",
+        "Hiệu ứng cảm ứng"
+      ],
+      "answer": "Hiệu ứng nhiệt điện",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C034",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Sự khác biệt đúng giữa **độ trễ thời gian (delay)** và **độ trễ đặc tuyến (hysteresis)** là gì?",
+      "options": [
+        "Delay là sai số theo thời gian, còn hysteresis là sai số do nhiễu",
+        "Delay liên quan đến tốc độ đáp ứng, còn hysteresis phụ thuộc vào chiều biến thiên của tín hiệu",
+        "Delay và hysteresis là một",
+        "Hysteresis chỉ xuất hiện ở cảm biến điện, delay chỉ xuất hiện ở cảm biến cơ"
+      ],
+      "answer": "Delay liên quan đến tốc độ đáp ứng, còn hysteresis phụ thuộc vào chiều biến thiên của tín hiệu",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C035",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Cảm biến tích cực là cảm biến có đáp ứng là:",
+      "options": [
+        "Điện dung",
+        "Điện trở",
+        "Độ tự cảm",
+        "Dòng điện"
+      ],
+      "answer": "Dòng điện",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "source_note": "Trong các lựa chọn đã cho, tín hiệu tự phát là dòng điện; cảm biến tích cực cũng có thể tạo điện áp hoặc điện tích tùy cơ chế."
+    },
+    {
+      "id": "C036",
+      "topic": "general",
+      "type": "fill_blank",
+      "prompt": "______________ là mối quan hệ giữa phản hồi và kích thích của cảm biến.",
+      "answer": "Đường cong chuẩn",
+      "ui": "text_input",
+      "input_hint": "Chỉ điền phần còn thiếu.",
+      "accepted_answers": [
+        "Đường cong chuẩn",
+        "Đặc tuyến chuẩn",
+        "Đường đặc tính"
+      ]
+    },
+    {
+      "id": "C037",
+      "topic": "general",
+      "type": "fill_blank",
+      "prompt": "__________ của cảm biến được định nghĩa là tỷ lệ giữa sự thay đổi đầu ra và sự thay đổi đầu vào.",
+      "answer": "Độ nhạy",
+      "ui": "text_input",
+      "input_hint": "Chỉ điền phần còn thiếu.",
+      "accepted_answers": [
+        "Độ nhạy",
+        "Sensitivity"
+      ]
+    },
+    {
+      "id": "C038",
+      "topic": "general",
+      "type": "fill_blank",
+      "prompt": "Độ ổn định lâu dài của cảm biến thể hiện khả năng duy trì ______ của đầu ra theo thời gian, ngay cả khi có sự thay đổi môi trường hoặc sử dụng lâu dài.",
+      "answer": "tính ổn định",
+      "ui": "text_input",
+      "input_hint": "Chỉ điền phần còn thiếu.",
+      "accepted_answers": [
+        "tính ổn định",
+        "sự ổn định",
+        "tính nhất quán",
+        "sự nhất quán"
+      ]
+    },
+    {
+      "id": "C039",
+      "topic": "general",
+      "type": "fill_blank",
+      "prompt": "____________ đề cập đến khả năng của cảm biến tạo ra cùng một giá trị đầu ra khi cùng một giá trị đầu vào được áp dụng nhiều lần trong cùng điều kiện.",
+      "answer": "Độ lặp lại",
+      "ui": "text_input",
+      "input_hint": "Chỉ điền phần còn thiếu.",
+      "accepted_answers": [
+        "Độ lặp lại",
+        "Repeatability"
+      ]
+    },
+    {
+      "id": "C040",
+      "topic": "general",
+      "type": "fill_blank",
+      "prompt": "____________________ của cảm biến là khoảng từ giá trị nhỏ nhất đến giá trị lớn nhất của tín hiệu đầu vào mà tại đó cảm biến vẫn có thể tạo ra tín hiệu đầu ra.",
+      "answer": "Phạm vi làm việc",
+      "ui": "text_input",
+      "input_hint": "Chỉ điền phần còn thiếu.",
+      "accepted_answers": [
+        "Phạm vi làm việc",
+        "Dải đo",
+        "Range"
+      ]
+    },
+    {
+      "id": "C041",
+      "topic": "general",
+      "type": "fill_blank",
+      "prompt": "____________ trong cảm biến mô tả hiện tượng mà đầu ra không chỉ phụ thuộc vào giá trị đầu vào hiện tại, mà còn phụ thuộc vào việc đầu vào đang tăng hay giảm.",
+      "answer": "Độ trễ đặc tính",
+      "ui": "text_input",
+      "input_hint": "Chỉ điền phần còn thiếu.",
+      "accepted_answers": [
+        "Độ trễ đặc tính",
+        "Hysteresis",
+        "Hiện tượng trễ"
+      ]
+    },
+    {
+      "id": "C042",
+      "topic": "gas",
+      "type": "single_choice",
+      "prompt": "Dải đo của cảm biến CO₂ CDM7160 là:",
+      "options": [
+        "0–10,000 ppm",
+        "300–5000 ppm",
+        "0–1000 ppm",
+        "100–20,000 ppm"
+      ],
+      "answer": "300–5000 ppm",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "verification": {
+        "brand": "Figaro",
+        "model": "CDM7160",
+        "references": [
+          "https://www.figaro.co.jp/en/product/docs/cdm7160-c00_product%20infomation%28en%29_rev00.pdf",
+          "https://www.figaro.co.jp/en/product/docs/cdm7160-c00_product%20infomation%28en%29_rev02.pdf"
+        ]
+      },
+      "source_note": "Theo CDM7160-C00 Rev. 03/18: 300–5.000 ppm; tài liệu C00 Rev. 05/19 thay giới hạn dưới thành 360 ppm. Chọn phương án có trong đề theo phiên bản cũ."
+    },
+    {
+      "id": "C043",
+      "topic": "gas",
+      "type": "single_choice",
+      "prompt": "Giả sử cảm biến trên đo được giá trị CO₂ là 2000 ppm. Sai số tối đa theo datasheet là bao nhiêu?",
+      "options": [
+        "±50 ppm",
+        "±150 ppm",
+        "±110 ppm",
+        "±80 ppm"
+      ],
+      "answer": "±110 ppm",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "verification": {
+        "brand": "Figaro",
+        "model": "CDM7160",
+        "references": [
+          "https://www.figaro.co.jp/en/product/docs/cdm7160-c00_product%20infomation%28en%29_rev00.pdf",
+          "https://www.figaro.co.jp/en/product/docs/cdm7160-c00_product%20infomation%28en%29_rev02.pdf"
+        ]
+      },
+      "calculation": "±(50 ppm + 0.03 × 2000 ppm) = ±110 ppm"
+    },
+    {
+      "id": "C044",
+      "topic": "gas",
+      "type": "single_choice",
+      "prompt": "Chu kỳ đo (measurement interval) của cảm biến là:",
+      "options": [
+        "2 giây",
+        "0,5 giây",
+        "1 giây",
+        "10 giây"
+      ],
+      "answer": "2 giây",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "verification": {
+        "brand": "Figaro",
+        "model": "CDM7160",
+        "references": [
+          "https://www.figaro.co.jp/en/product/docs/cdm7160-c00_product%20infomation%28en%29_rev00.pdf",
+          "https://www.figaro.co.jp/en/product/docs/cdm7160-c00_product%20infomation%28en%29_rev02.pdf"
+        ]
+      }
+    },
+    {
+      "id": "C045",
+      "topic": "gas",
+      "type": "single_choice",
+      "prompt": "Với thời gian đáp ứng 90 giây, cảm biến này phù hợp nhất cho ứng dụng nào?",
+      "options": [
+        "Drone đo khí",
+        "Điều khiển HVAC (thông gió)",
+        "Cảnh báo cháy nhanh",
+        "Phát hiện rò rỉ khí tức thời"
+      ],
+      "answer": "Điều khiển HVAC (thông gió)",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "verification": {
+        "brand": "Figaro",
+        "model": "CDM7160",
+        "references": [
+          "https://www.figaro.co.jp/en/product/docs/cdm7160-c00_product%20infomation%28en%29_rev00.pdf",
+          "https://www.figaro.co.jp/en/product/docs/cdm7160-c00_product%20infomation%28en%29_rev02.pdf"
+        ]
+      },
+      "source_note": "Sử dụng T90=90 giây theo giả thiết nêu trong câu và bản Rev. 05/19."
+    },
+    {
+      "id": "C046",
+      "topic": "gas",
+      "type": "single_choice",
+      "prompt": "Module sử dụng bao nhiêu detector hồng ngoại?",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "answer": "2",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "verification": {
+        "brand": "Figaro",
+        "model": "CDM7160",
+        "references": [
+          "https://www.figaro.co.jp/en/product/docs/cdm7160-c00_product%20infomation%28en%29_rev00.pdf",
+          "https://www.figaro.co.jp/en/product/docs/cdm7160-c00_product%20infomation%28en%29_rev02.pdf"
+        ]
+      }
+    },
+    {
+      "id": "C047",
+      "topic": "gas",
+      "type": "single_choice",
+      "prompt": "Nguyên lý hoạt động của cảm biến CDM7160 là gì?",
+      "options": [
+        "Quang phổ Raman",
+        "Hồng ngoại không phân tán (NDIR)",
+        "Điện hóa (Electrochemical)",
+        "Oxit kim loại bán dẫn (MOS)"
+      ],
+      "answer": "Hồng ngoại không phân tán (NDIR)",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "verification": {
+        "brand": "Figaro",
+        "model": "CDM7160",
+        "references": [
+          "https://www.figaro.co.jp/en/product/docs/cdm7160-c00_product%20infomation%28en%29_rev00.pdf",
+          "https://www.figaro.co.jp/en/product/docs/cdm7160-c00_product%20infomation%28en%29_rev02.pdf"
+        ]
+      }
+    },
+    {
+      "id": "C048",
+      "topic": "gas",
+      "type": "single_choice",
+      "prompt": "Ứng dụng chính của cảm biến này là:",
+      "options": [
+        "Đo tốc độ gió",
+        "Phát hiện cháy",
+        "Đo áp suất khí",
+        "Kiểm soát chất lượng không khí trong nhà"
+      ],
+      "answer": "Kiểm soát chất lượng không khí trong nhà",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "verification": {
+        "brand": "Figaro",
+        "model": "CDM7160",
+        "references": [
+          "https://www.figaro.co.jp/en/product/docs/cdm7160-c00_product%20infomation%28en%29_rev00.pdf",
+          "https://www.figaro.co.jp/en/product/docs/cdm7160-c00_product%20infomation%28en%29_rev02.pdf"
+        ]
+      }
+    },
+    {
+      "id": "C049",
+      "topic": "gas",
+      "type": "single_choice",
+      "prompt": "Trong điều kiện độ ẩm 90% RH (có ngưng tụ), điều gì xảy ra?",
+      "options": [
+        "Có thể lỗi hoặc hỏng",
+        "Hoạt động bình thường",
+        "Đo chính xác hơn",
+        "Không ảnh hưởng"
+      ],
+      "answer": "Có thể lỗi hoặc hỏng",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "verification": {
+        "brand": "Figaro",
+        "model": "CDM7160",
+        "references": [
+          "https://www.figaro.co.jp/en/product/docs/cdm7160-c00_product%20infomation%28en%29_rev00.pdf",
+          "https://www.figaro.co.jp/en/product/docs/cdm7160-c00_product%20infomation%28en%29_rev02.pdf"
+        ]
+      },
+      "source_note": "Điều kiện vận hành của CDM7160: 0–85% RH, không ngưng tụ; 90% RH có ngưng tụ nằm ngoài giới hạn."
     }
   ]
 }
