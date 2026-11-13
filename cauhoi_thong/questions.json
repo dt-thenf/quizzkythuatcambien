@@ -3,7 +3,7 @@
   "title": "Ngân hàng câu hỏi cauhoi_thong",
   "source": "Câu hỏi được bổ sung từ các lượt mới theo yêu cầu người dùng",
   "language": "vi",
-  "count": 81,
+  "count": 118,
   "answer_visibility": "Store answers separately from quiz UI in production",
   "questions": [
     {
@@ -1687,6 +1687,696 @@
       "form": {
         "layout": "vertical",
         "control": "checkbox",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C082",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Cảm biến quang học có ưu điểm lớn nhất so với nhiều loại cảm biến khác là gì?",
+      "options": [
+        "Hoạt động ở khoảng cách xa",
+        "Không bị nhiễu ánh sáng môi trường",
+        "Không cần nguồn điện",
+        "Nhạy với lực cơ học"
+      ],
+      "answer": "Hoạt động ở khoảng cách xa",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C083",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Một phần tử cảm biến quang nhiệt nhận công suất bức xạ tới là 40 mW. Tại bước sóng đang xét, hệ số hấp thụ của phần tử bằng 0,35. Công suất bức xạ được hấp thụ bằng:",
+      "options": [
+        "35 mW",
+        "11,4 mW",
+        "14 mW",
+        "26 mW"
+      ],
+      "answer": "14 mW",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C084",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Độ nhạy của quang điện trở phụ thuộc vào yếu tố nào",
+      "options": [
+        "cả 3 yếu tố được nêu",
+        "độ linh động của hạt tải",
+        "diện tích chiếu sáng",
+        "khoảng cách giữa 2 điện cực"
+      ],
+      "answer": "cả 3 yếu tố được nêu",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C085",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Nguyên lý hoạt động của cảm biến quang học KHÔNG bao gồm hiệu ứng nào?",
+      "options": [
+        "Quang điện",
+        "Nhiệt",
+        "Từ trở",
+        "Quang dẫn"
+      ],
+      "answer": "Từ trở",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C086",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Trong quang điện trở, các điện cực thường được chế tạo theo dạng răng lược đan xen hoặc gấp khúc. Mục đích chính của cấu trúc này là:",
+      "options": [
+        "Làm tăng công thoát của vật liệu",
+        "Làm giảm hệ số hấp thụ ánh sáng của vật liệu",
+        "Làm tăng năng lượng vùng cấm",
+        "Tăng diện tích nhận ánh sáng đồng thời giảm khoảng cách di chuyển của hạt tải tới điện cực"
+      ],
+      "answer": "Tăng diện tích nhận ánh sáng đồng thời giảm khoảng cách di chuyển của hạt tải tới điện cực",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C087",
+      "topic": "optical",
+      "type": "multiple_choice",
+      "prompt": "Trong các cảm biến sau, cái nào thuộc loại cảm biến quang học?",
+      "options": [
+        "Phototransistor",
+        "Thermistor",
+        "Cảm biến Hall",
+        "Photodiode"
+      ],
+      "answer": [
+        "Phototransistor",
+        "Photodiode"
+      ],
+      "ui": "checkbox",
+      "form": {
+        "layout": "vertical",
+        "control": "checkbox",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C088",
+      "topic": "optical",
+      "type": "true_false",
+      "prompt": "Hiệu ứng quang điện ngoài dễ xảy ra đối với kim loại có công thoát thấp",
+      "options": [
+        "Sai",
+        "Đúng"
+      ],
+      "answer": true,
+      "answer_label": "Đúng",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C089",
+      "topic": "optical",
+      "type": "fill_blank",
+      "prompt": "Vật liệu bán dẫn như GaAs, InSb thường được sử dụng trong cảm biến dựa trên hiệu ứng ________.",
+      "answer": "quang dẫn",
+      "ui": "text_input",
+      "accepted_answers": [
+        "quang dẫn",
+        "quang điện trong"
+      ],
+      "source_note": "Hai vật liệu được nêu là nhóm vật liệu bán dẫn thường dùng trong bộ dò quang điện trong/quang dẫn."
+    },
+    {
+      "id": "C090",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Một quang điện trở được mắc vào nguồn điện áp 5 V. Điện trở trong bóng tối là 2,0 kΩ; khi được chiếu sáng, điện trở giảm xuống 1,25 kΩ. Nếu độ rọi tăng 4 lux, độ nhạy của cảm biến tính theo sự thay đổi dòng điện trên mỗi lux là:",
+      "options": [
+        "1,500 mA/lux",
+        "0,125 mA/lux",
+        "0,250 mA/lux",
+        "0,375 mA/lux"
+      ],
+      "answer": "0,375 mA/lux",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "calculation": "ΔI/ΔE=(5/1250−5/2000)×1000/4=0,375 mA/lux"
+    },
+    {
+      "id": "C091",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "chọn phát biểu sai về quang điện trở",
+      "options": [
+        "quang điện trở làm bằng bán dẫn",
+        "độ nhạy của quang điện trở phụ thuộc nhiệt độ làm việc",
+        "quang điện trở làm bằng kim loại",
+        "quang điện trở có độ nhạy không tuyến tính với cường độ sáng"
+      ],
+      "answer": "quang điện trở làm bằng kim loại",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C092",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Thiết bị cảm biến quang thu nhận ánh sáng và biến đổi thành:",
+      "options": [
+        "Dòng điện, điện áp",
+        "Các đại lượng vật lý ngẫu nhiên",
+        "Tín hiệu điện",
+        "Thông số mạch điện R, L, C"
+      ],
+      "answer": "Tín hiệu điện",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C093",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Đặc điểm của quang điện trở:",
+      "options": [
+        "Đặc tính điện trở - độ rọi là phi tuyến",
+        "Độ nhạy không phụ thuộc vào cường độ chiếu sáng",
+        "Độ nhạy không phụ thuộc vào nhiệt độ",
+        "Các thông số ổn định"
+      ],
+      "answer": "Đặc tính điện trở - độ rọi là phi tuyến",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C094",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Cặp đại lượng nào dưới đây tương ứng đúng giữa đại lượng bức xạ vật lý và đại lượng quang học theo cảm nhận của mắt người?",
+      "options": [
+        "Độ trưng bức xạ — Độ chói",
+        "Độ trưng bức xạ — Độ rọi",
+        "Độ chiếu xạ — Độ chói",
+        "Cường độ bức xạ — Quang thông"
+      ],
+      "answer": "Độ trưng bức xạ — Độ chói",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "review_status": "needs_review",
+      "source_note": "Thuật ngữ độ trưng bức xạ có thể không tương ứng chính xác với độ chói (radiance/luminance); đây là lựa chọn gần nhất theo các phương án đề đưa ra."
+    },
+    {
+      "id": "C095",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Điều kiện để xảy ra hiện tượng quang điện (photoelectric effect) là:",
+      "options": [
+        "Năng lượng của photon chiếu vào lớn hơn công thoát của vật liệu làm tế bào quang điện",
+        "Cần phải có đủ 3 điều kiện nêu ra trong câu.",
+        "Phải có hiệu điện thế đặt lên hai điện cực anode và cathode của tế bào quang điện",
+        "Cường độ ánh sáng phải đủ mạnh"
+      ],
+      "answer": "Năng lượng của photon chiếu vào lớn hơn công thoát của vật liệu làm tế bào quang điện",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C096",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Trong một bán dẫn loại n được chiếu sáng, mỗi photon được hấp thụ có đủ năng lượng sẽ tạo ra một cặp electron–lỗ trống. Phát biểu nào đúng về các hạt tải được tạo ra bởi ánh sáng?",
+      "options": [
+        "Chỉ có electron được tạo ra vì đây là bán dẫn loại n",
+        "Số electron được tạo ra lớn hơn số lỗ trống",
+        "Số electron và lỗ trống được tạo ra bằng nhau",
+        "Số lỗ trống được tạo ra lớn hơn số electron"
+      ],
+      "answer": "Số electron và lỗ trống được tạo ra bằng nhau",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C097",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Hạt tải cơ bản trong bán dẫn pha tạp loại n là:",
+      "options": [
+        "electron",
+        "ion âm",
+        "ion dương",
+        "lỗ trống"
+      ],
+      "answer": "electron",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C098",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Một kim loại có công thoát là 2,2 eV. Hỏi chiếu ánh sáng đỏ với bước sóng 700 nm lên bề mặt kim loại ở điều kiện nhiệt độ phòng có electron bức ra không?",
+      "options": [
+        "Còn tùy thuộc điều kiện môi trường",
+        "không xác định được",
+        "Không",
+        "Có"
+      ],
+      "answer": "Không",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "calculation": "1240/700≈1,77 eV < 2,2 eV"
+    },
+    {
+      "id": "C099",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Vật liệu nào thường dùng để chế tạo catot cho tế bào quang điện?",
+      "options": [
+        "Thủy tinh",
+        "Vật liệu kiềm (Li, Na, K...)",
+        "Silicon tinh khiết",
+        "Graphene"
+      ],
+      "answer": "Vật liệu kiềm (Li, Na, K...)",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C100",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Tên gọi khác của cảm biến quang dẫn là gì?",
+      "options": [
+        "Photodiode",
+        "CCD",
+        "Phototransistor",
+        "Quang điện trở (LDR)"
+      ],
+      "answer": "Quang điện trở (LDR)",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C101",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Một cảm biến quang điện sử dụng vật liệu Kali có công thoát φ = 2,3 eV. Tìm bước sóng dài nhất của ánh sáng có thể gây ra hiệu ứng quang điện.",
+      "options": [
+        "620 nm",
+        "380 nm",
+        "420 nm",
+        "540 nm"
+      ],
+      "answer": "540 nm",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "calculation": "λmax=1240/2,3=539,13 nm"
+    },
+    {
+      "id": "C102",
+      "topic": "optical",
+      "type": "multiple_choice",
+      "prompt": "Trong các cảm biến sau, cái nào KHÔNG thuộc loại cảm biến quang học?",
+      "options": [
+        "Phototransistor",
+        "Cảm biến Hall",
+        "Cảm biến tiệm cận cảm ứng (inductive sensor)",
+        "Photodiode"
+      ],
+      "answer": [
+        "Cảm biến Hall",
+        "Cảm biến tiệm cận cảm ứng (inductive sensor)"
+      ],
+      "ui": "checkbox",
+      "form": {
+        "layout": "vertical",
+        "control": "checkbox",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C103",
+      "topic": "optical",
+      "type": "fill_blank",
+      "prompt": "Tỷ số giữa số electron được giải phóng và số photon bị hấp thụ được gọi là ________.",
+      "answer": "hiệu suất lượng tử",
+      "ui": "text_input",
+      "accepted_answers": [
+        "hiệu suất lượng tử",
+        "quantum efficiency"
+      ]
+    },
+    {
+      "id": "C104",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Tế bào quang điện có thể được ứng dụng làm:",
+      "options": [
+        "Đo khoảng cách",
+        "Cả 3 đáp án được nêu",
+        "Đóng mở rơ le",
+        "Đo khối lượng"
+      ],
+      "answer": "Đóng mở rơ le",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "source_note": "Câu này có lựa chọn gộp không phù hợp vì đo khối lượng không phải ứng dụng trực tiếp của tế bào quang điện."
+    },
+    {
+      "id": "C105",
+      "topic": "optical",
+      "type": "fill_blank",
+      "prompt": "Hiện tượng electron hấp thụ photon và nhảy từ vùng hóa trị sang vùng dẫn trong bán dẫn gọi là ________.",
+      "answer": "quang điện trong",
+      "ui": "text_input",
+      "accepted_answers": [
+        "quang điện trong",
+        "quang dẫn",
+        "hiệu ứng quang dẫn"
+      ]
+    },
+    {
+      "id": "C106",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Một bộ dò cần hoạt động trong vùng hồng ngoại bước sóng dài. Vật liệu nào dưới đây phù hợp nhất?",
+      "options": [
+        "CdSe",
+        "InGaAs",
+        "HgCdTe",
+        "Si"
+      ],
+      "answer": "HgCdTe",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C107",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Hai vật liệu bán dẫn X và Y có năng lượng vùng cấm lần lượt là 0,8 eV và 1,6 eV. Nếu coi chúng là các bộ dò lý tưởng, quan hệ giữa bước sóng cắt của hai vật liệu là:",
+      "options": [
+        "λc,Y​=λc,X​/4",
+        "λc,Y =λc,X",
+        "λc,Y​=λc,X​/2",
+        "λ c,Y =2λc,X"
+      ],
+      "answer": "λc,Y​=λc,X​/2",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C108",
+      "topic": "optical",
+      "type": "true_false",
+      "prompt": "Điện trở tối của tế bào quang dẫn luôn bé hơn điện trở khi được chiếu sáng",
+      "options": [
+        "Sai",
+        "Đúng"
+      ],
+      "answer": false,
+      "answer_label": "Sai",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C109",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Hiệu ứng quang điện ngoài xảy ra chủ yếu ở loại vật liệu nào?",
+      "options": [
+        "Cả kim loại và bán dẫn",
+        "Điện môi",
+        "Kim loại",
+        "Bán dẫn"
+      ],
+      "answer": "Kim loại",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C110",
+      "topic": "optical",
+      "type": "fill_blank",
+      "prompt": "Đại lượng biểu thị mức năng lượng cần thiết để electron rời khỏi bề mặt vật liệu được gọi là ________.",
+      "answer": "công thoát",
+      "ui": "text_input",
+      "accepted_answers": [
+        "công thoát",
+        "work function"
+      ]
+    },
+    {
+      "id": "C111",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Đâu không phải là đặc điểm về độ nhạy của cảm biến quang điện trở",
+      "options": [
+        "Cảm biến quang điện trở có độ nhạy phi tuyến",
+        "Độ nhạy của cảm biến quang điện trở không phụ thuộc nhiệt độ",
+        "Độ nhạy của cảm biến quang điện trở phụ thuộc vào điện áp đặt vào nó",
+        "Độ nhạy của cảm biến quang điện trở không phụ thuộc vào bước sóng chiếu vào"
+      ],
+      "answer": "Độ nhạy của cảm biến quang điện trở không phụ thuộc nhiệt độ",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "review_status": "needs_review",
+      "alternative_answers": [
+        "Độ nhạy của cảm biến quang điện trở không phụ thuộc vào bước sóng chiếu vào"
+      ],
+      "source_note": "Hai lựa chọn 'không phụ thuộc nhiệt độ' và 'không phụ thuộc bước sóng' đều sai về vật lý; đề chọn một đáp án nhưng không có đáp án duy nhất."
+    },
+    {
+      "id": "C112",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Chiếu ánh sáng nhìn thấy vào 1 tấm đồng. Hỏi điện trở của nó có thay đổi không? (giả sử nhiệt độ không thay đổi)",
+      "options": [
+        "Không",
+        "Có"
+      ],
+      "answer": "Không",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C113",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Cảm biến quang học phát hiện loại bức xạ nào?",
+      "options": [
+        "Chỉ ánh sáng nhìn thấy",
+        "Từ IR xa đến UV",
+        "Chỉ tia hồng ngoại",
+        "Chỉ tia cực tím"
+      ],
+      "answer": "Từ IR xa đến UV",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C114",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Một quang điện trở có kích thước hình học không đổi. Khi được chiếu sáng, nồng độ electron và lỗ trống đều tăng 25%, trong khi độ linh động của chúng không thay đổi. So với trạng thái tối, điện trở của cảm biến xấp xỉ:",
+      "options": [
+        "Còn 75% giá trị ban đầu",
+        "Tăng 25%",
+        "Còn 80% giá trị ban đầu",
+        "Giảm 25%"
+      ],
+      "answer": "Còn 80% giá trị ban đầu",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C115",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Hiệu ứng quang điện trong xảy ra đối với vật liệu nào dưới đây:",
+      "options": [
+        "Oxit sắt",
+        "Silic",
+        "Nhôm",
+        "Nhựa Teflon"
+      ],
+      "answer": "Silic",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C116",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Hiện tượng quang điện (photoelectric effect) là hiện tượng:",
+      "options": [
+        "Thay đổi độ nhạy khi có ánh sáng thích hợp tác động",
+        "Điện tử thoát khỏi bề mặt một vật liệu khi bị ánh sáng thích hợp chiếu vào",
+        "Thay đổi điện cảm khi có ánh sáng thích hợp tác động",
+        "Thay đổi điện dung khi có ánh sáng thích hợp tác động"
+      ],
+      "answer": "Điện tử thoát khỏi bề mặt một vật liệu khi bị ánh sáng thích hợp chiếu vào",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C117",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Trong chất bán dẫn, khi photon làm electron chuyển từ vùng hóa trị sang vùng dẫn, hiệu ứng đó gọi là gì?",
+      "options": [
+        "Nhiệt điện",
+        "Điện di",
+        "Quang dẫn",
+        "Quang điện ngoài"
+      ],
+      "answer": "Quang dẫn",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C118",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Ứng dụng phổ biến nhất của phototransistor là:",
+      "options": [
+        "Máy đo nhịp tim",
+        "Camera CCD",
+        "Pin mặt trời",
+        "Cảm biến tiệm cận"
+      ],
+      "answer": "Cảm biến tiệm cận",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
         "option_order": "preserve"
       }
     }
