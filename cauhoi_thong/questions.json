@@ -3,7 +3,7 @@
   "title": "Ngân hàng câu hỏi cauhoi_thong",
   "source": "Câu hỏi được bổ sung từ các lượt mới theo yêu cầu người dùng",
   "language": "vi",
-  "count": 342,
+  "count": 354,
   "answer_visibility": "Store answers separately from quiz UI in production",
   "questions": [
     {
@@ -7159,6 +7159,239 @@
       },
       "review_status": "needs_review",
       "source_note": "Quan hệ Vout=Vcc·R2/(R1+R2) không tuyến tính theo điện trở biến đổi chỉ vì cả hai điện trở đều tuyến tính. Cần cấu hình biến thiên đối xứng, hồi tiếp hoặc tuyến tính hóa; không có đáp án hoàn toàn chính xác."
+    },
+    {
+      "id": "C343",
+      "topic": "smart",
+      "type": "single_choice",
+      "prompt": "Đâu không phải là đặc điểm phổ biến của cảm biến thông minh?",
+      "options": [
+        "Phát ra năng lượng điện",
+        "Giao tiếp với hệ thống chủ",
+        "Xử lý dữ liệu tại chỗ",
+        "Số hóa tín hiệu"
+      ],
+      "answer": "Phát ra năng lượng điện",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C344",
+      "topic": "smart",
+      "type": "single_choice",
+      "prompt": "Cảm biến thông minh khác cảm biến truyền thống chủ yếu ở điểm nào?",
+      "options": [
+        "Có đầu ra dạng analog",
+        "Kích thước nhỏ hơn",
+        "Có truyền thông không dây",
+        "Có khả năng xử lý tín hiệu tích hợp"
+      ],
+      "answer": "Có khả năng xử lý tín hiệu tích hợp",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C345",
+      "topic": "smart",
+      "type": "single_choice",
+      "prompt": "Mục đích chính của mạch xử lý tín hiệu (signal conditioning) là:",
+      "options": [
+        "Làm sạch, khuếch đại và chuyển đổi tín hiệu cảm biến",
+        "Mã hóa dữ liệu",
+        "Tạo ra tín hiệu đầu vào",
+        "Truyền tín hiệu không dây"
+      ],
+      "answer": "Làm sạch, khuếch đại và chuyển đổi tín hiệu cảm biến",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C346",
+      "topic": "smart",
+      "type": "single_choice",
+      "prompt": "Mạch nào sau đây chuyển đổi sự thay đổi điện trở thành điện áp?",
+      "options": [
+        "Mạch cầu Wheatstone",
+        "Mạch bảo vệ diode Zener",
+        "Mạch khuếch đại",
+        "Mạch so sánh"
+      ],
+      "answer": "Mạch cầu Wheatstone",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C347",
+      "topic": "smart",
+      "type": "single_choice",
+      "prompt": "Thiết bị nào thường gặp trong hệ thống chấp hành thông minh?",
+      "options": [
+        "LED",
+        "Động cơ hoặc van",
+        "Bộ ADC",
+        "Nhiệt điện trở"
+      ],
+      "answer": "Động cơ hoặc van",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C348",
+      "topic": "smart",
+      "type": "single_choice",
+      "prompt": "Công nghệ MEMS tích hợp cơ cấu cơ khí và điện tử bằng phương pháp:",
+      "options": [
+        "Gia công cơ CNC",
+        "Đúc nhựa",
+        "Quang khắc",
+        "Gia công vi mạch bán dẫn"
+      ],
+      "answer": "Gia công vi mạch bán dẫn",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "review_status": "needs_review",
+      "alternative_answers": [
+        "Quang khắc"
+      ],
+      "source_note": "Quang khắc là công đoạn quan trọng trong quy trình gia công vi mạch bán dẫn; cả hai lựa chọn có thể đúng, câu không có một đáp án duy nhất."
+    },
+    {
+      "id": "C349",
+      "topic": "smart",
+      "type": "single_choice",
+      "prompt": "Mục tiêu chính của mạch xử lý tín hiệu là:",
+      "options": [
+        "Bảo vệ cảm biến khỏi nhiễu điện",
+        "Giảm tiêu thụ điện năng toàn hệ thống",
+        "Điều chỉnh tín hiệu cảm biến để phù hợp với hệ xử lý kế tiếp",
+        "Tăng độ phân giải của bộ ADC"
+      ],
+      "answer": "Điều chỉnh tín hiệu cảm biến để phù hợp với hệ xử lý kế tiếp",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C350",
+      "topic": "smart",
+      "type": "single_choice",
+      "prompt": "Mô-đun truyền thông trong cảm biến thông minh có chức năng gì?",
+      "options": [
+        "Chuyển đổi tín hiệu vật lý",
+        "Phân tích tín hiệu",
+        "Truyền dữ liệu tới hệ điều khiển",
+        "Hiệu chuẩn cảm biến"
+      ],
+      "answer": "Truyền dữ liệu tới hệ điều khiển",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C351",
+      "topic": "smart",
+      "type": "single_choice",
+      "prompt": "Cảm biến nào sau đây được chế tạo từ công nghệ MEMS?",
+      "options": [
+        "Cảm biến từ Hall",
+        "RTD",
+        "Cảm biến gia tốc",
+        "Thermistor"
+      ],
+      "answer": "Cảm biến gia tốc",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C352",
+      "topic": "smart",
+      "type": "single_choice",
+      "prompt": "Trong hệ cảm biến thông minh, thành phần nào có chức năng hiệu chỉnh độ lệch và tuyến tính hóa tín hiệu?",
+      "options": [
+        "Mạch khuếch đại",
+        "Cảm biến chính",
+        "Nguồn điện",
+        "Bộ vi điều khiển"
+      ],
+      "answer": "Bộ vi điều khiển",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C353",
+      "topic": "smart",
+      "type": "single_choice",
+      "prompt": "Một cảm biến phát tín hiệu điện trở thay đổi khi nhiệt độ thay đổi. Để đo chính xác, nên dùng mạch nào?",
+      "options": [
+        "Bộ đếm",
+        "Mạch tạo xung",
+        "Mạch lọc RC",
+        "Cầu Wheatstone + amplifier"
+      ],
+      "answer": "Cầu Wheatstone + amplifier",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C354",
+      "topic": "smart",
+      "type": "single_choice",
+      "prompt": "So sánh cảm biến thông minh và cảm biến truyền thống:",
+      "options": [
+        "Cả hai đều cần bộ nhớ ngoài",
+        "Cảm biến thông minh có thể tự hiệu chuẩn và truyền dữ liệu",
+        "Cảm biến truyền thống có khả năng xử lý dữ liệu",
+        "Cảm biến thông minh luôn có đầu ra analog"
+      ],
+      "answer": "Cảm biến thông minh có thể tự hiệu chuẩn và truyền dữ liệu",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
     }
   ]
 }
