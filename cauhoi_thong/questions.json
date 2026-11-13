@@ -3,7 +3,7 @@
   "title": "Ngân hàng câu hỏi cauhoi_thong",
   "source": "Câu hỏi được bổ sung từ các lượt mới theo yêu cầu người dùng",
   "language": "vi",
-  "count": 196,
+  "count": 212,
   "answer_visibility": "Store answers separately from quiz UI in production",
   "questions": [
     {
@@ -3120,7 +3120,18 @@
         "control": "radio",
         "option_order": "preserve"
       },
-      "source_note": "Trong mô hình thực tế, điện trường vùng nghèo tách và thu hạt tải; đây là đáp án phù hợp nhất trong các lựa chọn được cung cấp."
+      "source_note": "Trong mô hình thực tế, điện trường vùng nghèo tách và thu hạt tải; đây là đáp án phù hợp nhất trong các lựa chọn được cung cấp.",
+      "option_variants": [
+        {
+          "options": [
+            "Khuếch đại tín hiệu",
+            "Tăng điện trở mạch",
+            "Giảm điện áp hoạt động",
+            "Hấp thụ photon và tạo electron–hole"
+          ],
+          "answer": "Hấp thụ photon và tạo electron–hole"
+        }
+      ]
     },
     {
       "id": "C156",
@@ -3938,6 +3949,252 @@
       "figure": "figures/rtd-comparison-graph.png",
       "screenshot": "screenshots/original-062404.png",
       "source_note": "Theo đồ thị, độ dốc |dR/dT| của đường semiconductor cao hơn các RTD kim loại trong một phần dải."
+    },
+    {
+      "id": "C197",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Trong cảm biến quang phản xạ ngược, vật thể được phát hiện khi:",
+      "options": [
+        "Phản xạ ánh sáng về cảm biến",
+        "Làm tăng cường độ ánh sáng",
+        "Tự phát ra ánh sáng",
+        "Chặn tia phản xạ từ reflector"
+      ],
+      "answer": "Chặn tia phản xạ từ reflector",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C198",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Ứng dụng phổ biến của photomultiplier là:",
+      "options": [
+        "Đèn chiếu sáng",
+        "Cảm biến tiệm cận",
+        "Máy đo bức xạ yếu",
+        "Thiết bị gia dụng"
+      ],
+      "answer": "Máy đo bức xạ yếu",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C199",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Đặc điểm chính của cảm biến khuếch tán là gì?",
+      "options": [
+        "Chỉ dùng trong bóng tối",
+        "Phát hiện vật bằng ánh sáng phản xạ từ chính vật đó",
+        "Sử dụng đầu phản xạ",
+        "Có thể phát hiện vật trong suốt"
+      ],
+      "answer": "Phát hiện vật bằng ánh sáng phản xạ từ chính vật đó",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C200",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Cảm biến thu phát độc lập loại bỏ nhiễu từ ánh sáng môi trường ngoài bằng cách nào?",
+      "options": [
+        "Sử dụng nguồn sáng có bước sóng nhìn thấy",
+        "Che chắn hoàn toàn cảm biến khỏi ánh sáng ngoài",
+        "Sử dụng ánh sáng điều chế và bộ lọc đồng bộ ở bộ thu",
+        "Tăng cường độ ánh sáng phát ra"
+      ],
+      "answer": "Sử dụng ánh sáng điều chế và bộ lọc đồng bộ ở bộ thu",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C201",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Trong cảm biến phản xạ ngược (retro-reflective), ánh sáng phản xạ từ gương được phân biệt với ánh sáng phản xạ trên vật bằng cách nào?",
+      "options": [
+        "Ánh sáng từ bộ phát được điều chế bằng âm thanh",
+        "Ánh sáng phản xạ từ gương có bước sóng khác",
+        "Bộ thu sử dụng cảm biến nhiệt để lọc ánh sáng",
+        "Bộ phát và bộ thu sử dụng kích lọc phân cực vuông góc nhau"
+      ],
+      "answer": "Bộ phát và bộ thu sử dụng kích lọc phân cực vuông góc nhau",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "source_note": "Chế độ retro-reflective phân cực sử dụng bộ lọc phân cực phát/thu phù hợp để giảm phản xạ gương từ vật bóng."
+    },
+    {
+      "id": "C202",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Trong phototransistor, ánh sáng thay đổi dòng điện:",
+      "options": [
+        "Cơ bản qua collector",
+        "Qua emitter",
+        "Qua base",
+        "Tất cả các đáp án đều đúng"
+      ],
+      "answer": "Qua base",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "source_note": "Photon tạo dòng tương đương dòng cực base, điều khiển dòng collector-emitter; câu hỏi hỏi về dòng được ánh sáng điều khiển trực tiếp."
+    },
+    {
+      "id": "C203",
+      "topic": "optical",
+      "type": "fill_blank",
+      "prompt": "Photomultiplier có khả năng khuếch đại tín hiệu ánh sáng nhờ vào các ________.",
+      "answer": "dynode",
+      "ui": "text_input",
+      "input_hint": "Chỉ điền phần còn thiếu.",
+      "accepted_answers": [
+        "dynode",
+        "dynodes",
+        "cực dynode",
+        "điện cực nhân"
+      ]
+    },
+    {
+      "id": "C204",
+      "topic": "optical",
+      "type": "fill_blank",
+      "prompt": "LDR là viết tắt của cụm từ tiếng Anh: ________.",
+      "answer": "Light Dependent Resistor",
+      "ui": "text_input",
+      "input_hint": "Chỉ điền phần còn thiếu."
+    },
+    {
+      "id": "C205",
+      "topic": "optical",
+      "type": "fill_blank",
+      "prompt": "LDR có điện trở ________ khi không có ánh sáng.",
+      "answer": "rất lớn",
+      "ui": "text_input",
+      "input_hint": "Chỉ điền phần còn thiếu.",
+      "accepted_answers": [
+        "rất lớn",
+        "cao",
+        "lớn"
+      ]
+    },
+    {
+      "id": "C206",
+      "topic": "optical",
+      "type": "fill_blank",
+      "prompt": "Phototransistor hoạt động như một ________ ánh sáng.",
+      "answer": "bộ khuếch đại",
+      "ui": "text_input",
+      "input_hint": "Chỉ điền phần còn thiếu.",
+      "accepted_answers": [
+        "bộ khuếch đại",
+        "bộ khuếch đại tín hiệu"
+      ]
+    },
+    {
+      "id": "C207",
+      "topic": "optical",
+      "type": "fill_blank",
+      "prompt": "Photodiode được phân cực ngược để tạo ra dòng điện ________ khi có ánh sáng chiếu vào.",
+      "answer": "quang",
+      "ui": "text_input",
+      "input_hint": "Chỉ điền phần còn thiếu.",
+      "accepted_answers": [
+        "quang",
+        "quang điện",
+        "photocurrent"
+      ]
+    },
+    {
+      "id": "C208",
+      "topic": "optical",
+      "type": "fill_blank",
+      "prompt": "Photodiode phản ứng với ánh sáng ________ hơn so với LDR.",
+      "answer": "nhanh",
+      "ui": "text_input",
+      "input_hint": "Chỉ điền phần còn thiếu."
+    },
+    {
+      "id": "C209",
+      "topic": "optical",
+      "type": "fill_blank",
+      "prompt": "Cảm biến khuếch tán phát hiện vật bằng ánh sáng phản xạ từ ________.",
+      "answer": "chính vật thể",
+      "ui": "text_input",
+      "input_hint": "Chỉ điền phần còn thiếu.",
+      "accepted_answers": [
+        "chính vật thể",
+        "bề mặt vật cần phát hiện",
+        "vật cần phát hiện"
+      ]
+    },
+    {
+      "id": "C210",
+      "topic": "optical",
+      "type": "fill_blank",
+      "prompt": "Trong cảm biến thu phát độc lập, tín hiệu được tạo ra khi ________ bị chắn.",
+      "answer": "tia sáng",
+      "ui": "text_input",
+      "input_hint": "Chỉ điền phần còn thiếu.",
+      "accepted_answers": [
+        "tia sáng",
+        "chùm sáng",
+        "chùm tia sáng"
+      ]
+    },
+    {
+      "id": "C211",
+      "topic": "optical",
+      "type": "fill_blank",
+      "prompt": "Cảm biến phản xạ gương sử dụng ________ để phản xạ ánh sáng về đầu thu.",
+      "answer": "gương phản xạ",
+      "ui": "text_input",
+      "input_hint": "Chỉ điền phần còn thiếu.",
+      "accepted_answers": [
+        "gương phản xạ",
+        "gương",
+        "reflector"
+      ]
+    },
+    {
+      "id": "C212",
+      "topic": "optical",
+      "type": "fill_blank",
+      "prompt": "Trong cảm biến khuếch tán, không cần sử dụng thêm ________ như đối với cảm biến phản xạ ngược.",
+      "answer": "gương phản xạ",
+      "ui": "text_input",
+      "input_hint": "Chỉ điền phần còn thiếu.",
+      "accepted_answers": [
+        "gương phản xạ",
+        "gương",
+        "reflector"
+      ]
     }
   ]
 }
