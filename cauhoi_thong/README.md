@@ -1,10 +1,10 @@
 # Ngân hàng câu hỏi cauhoi_thong
 
-Đây là **ngân hàng đề mới, độc lập**, đã có **266 câu hỏi**. Tất cả câu hỏi được gửi sau khi thư mục này được tạo sẽ được thêm vào đây nếu chưa trùng **trong chính ngân hàng này**.
+Đây là **ngân hàng đề mới, độc lập**, đã có **354 câu hỏi**. Tất cả câu hỏi được gửi sau khi thư mục này được tạo sẽ được thêm vào đây nếu chưa trùng **trong chính ngân hàng này**.
 
 ## Cấu trúc
 
-- `questions.json`: dữ liệu câu hỏi và đáp án; hiện có 266 câu `C001–C266`.
+- `questions.json`: dữ liệu câu hỏi và đáp án; hiện có 354 câu `C001–C354`.
 - `figures/`: ảnh chỉ chứa phần sơ đồ, biểu đồ hoặc hình minh họa **cắt trực tiếp từ ảnh người dùng gửi**, không dựng lại.
 - `screenshots/`: ảnh chụp đầy đủ câu hỏi, gồm nội dung, các đáp án và form để đối chiếu.
 - `figures/README.md`, `screenshots/README.md`: thông tin thư mục ảnh riêng của ngân hàng này.
@@ -79,3 +79,12 @@ Mỗi phần tử `questions` có `id` (bắt đầu `C001`), `topic`, `type`, `
 - Thêm `C267–C270`: 2 câu điện dung có hình, 1 câu ghép ký hiệu, 1 câu đơn vị ứng suất. 3 ảnh mới về RTD được lưu làm `option_variants` cho `C194–C196`, không tạo trùng.
 - 7 ảnh gốc được lưu trong `screenshots/`; 5 hình được cắt trực tiếp, trong đó thay thế 2 hình RTD cũ bằng vùng cắt từ ảnh mới nhất.
 - Các câu không đủ dữ kiện để chọn một đáp án duy nhất được đánh dấu `review_status=needs_review`.
+
+## Đợt 5 hoàn thiện — Ngân hàng 354 câu (13/11/2026)
+
+- Thêm **88 câu C267–C354**: 40 câu điện/từ và điện dung (gồm 4 câu gắn ảnh, 1 câu matching), 4 câu nhiệt độ, 32 câu cơ học và 12 câu MEMS/cảm biến thông minh.
+- Các câu đã tồn tại chỉ được cập nhật `option_variants`; không phát sinh câu trùng do đảo thứ tự phương án. Những bản đề có sơ đồ giống nhau được lưu `screenshot_variants`.
+- 7 screenshot và 5 phần hình cắt từ ảnh mới được đưa vào `screenshots/` và `figures/`. Hai hình RTD cũ đã được cắt lại từ screenshot mới nhất.
+- Các câu nhiều đáp án dùng `multiple_choice` + `ui=checkbox`. Câu ghép `C269` dùng **đúng schema cùng kiểu với ngân hàng tham khảo**: `answer=[{left,right}]`, `options`, `ui=dropdown_per_row`; do chỉ có 6 ký hiệu cho 8 hàng ghép, câu được đánh dấu cần rà soát.
+- **[Xem bảng đáp án C267–C354](dap_an_dot5.md)**. Những câu thiếu điều kiện hoặc có nhiều phương án hợp lý được gắn `review_status=needs_review` để người biên soạn kiểm tra trước khi mở web thi.
+- `cauhoi_viet` giữ nguyên, không phải đối tượng kiểm tra trùng hay cập nhật.

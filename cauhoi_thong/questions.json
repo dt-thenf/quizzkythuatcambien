@@ -5667,16 +5667,40 @@
         "(1)",
         "(6)"
       ],
-      "answer": {
-        "through beam sensor, bộ phát": "(1)",
-        "through beam sensor, bộ thu": "(3)",
-        "cảm biến tiệm cận điện cảm": "(2)",
-        "cảm biến tiệm cận điện dung": "(6)",
-        "cảm biến từ điện trở": "(5)",
-        "cảm biến quang phản xạ ngược": "(3)",
-        "cảm biến quang khuếch tán": "(3)",
-        "cảm biến tiệm cận điện cảm đầu ra tương tự": "(4)"
-      },
+      "answer": [
+        {
+          "left": "through beam sensor, bộ phát",
+          "right": "(1)"
+        },
+        {
+          "left": "through beam sensor, bộ thu",
+          "right": "(3)"
+        },
+        {
+          "left": "cảm biến tiệm cận điện cảm",
+          "right": "(2)"
+        },
+        {
+          "left": "cảm biến tiệm cận điện dung",
+          "right": "(6)"
+        },
+        {
+          "left": "cảm biến từ điện trở",
+          "right": "(5)"
+        },
+        {
+          "left": "cảm biến quang phản xạ ngược",
+          "right": "(3)"
+        },
+        {
+          "left": "cảm biến quang khuếch tán",
+          "right": "(3)"
+        },
+        {
+          "left": "cảm biến tiệm cận điện cảm đầu ra tương tự",
+          "right": "(4)"
+        }
+      ],
       "pairs": [
         {
           "label": "through beam sensor, bộ phát",
@@ -5711,7 +5735,7 @@
           "answer": "(4)"
         }
       ],
-      "ui": "matching_dropdown",
+      "ui": "dropdown_per_row",
       "form": {
         "layout": "vertical",
         "control": "select",
@@ -5721,7 +5745,15 @@
       "figure": "figures/sensor-symbols-1-6.png",
       "screenshot": "screenshots/original-064325.png",
       "review_status": "needs_review",
-      "source_note": "8 hàng ghép nhưng hình chỉ có 6 ký hiệu; ký hiệu quang (3) không đủ thông tin để phân biệt thu phát độc lập với phản xạ ngược và khuếch tán. Đáp án cho các nhóm quang chỉ là suy luận, cần kiểm tra đề gốc."
+      "source_note": "8 hàng ghép nhưng hình chỉ có 6 ký hiệu; ký hiệu quang (3) không đủ thông tin để phân biệt thu phát độc lập với phản xạ ngược và khuếch tán. Đáp án cho các nhóm quang chỉ là suy luận, cần kiểm tra đề gốc.",
+      "options": [
+        "(4)",
+        "(3)",
+        "(5)",
+        "(2)",
+        "(1)",
+        "(6)"
+      ]
     },
     {
       "id": "C270",
