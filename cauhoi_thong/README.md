@@ -1,10 +1,10 @@
 # Ngân hàng câu hỏi cauhoi_thong
 
-Đây là **ngân hàng đề mới, độc lập**, bắt đầu từ **0 câu hỏi**. Tất cả câu hỏi được gửi sau khi thư mục này được tạo sẽ được thêm vào đây nếu chưa trùng **trong chính ngân hàng này**.
+Đây là **ngân hàng đề mới, độc lập**, đã có **14 câu hỏi**. Tất cả câu hỏi được gửi sau khi thư mục này được tạo sẽ được thêm vào đây nếu chưa trùng **trong chính ngân hàng này**.
 
 ## Cấu trúc
 
-- `questions.json`: dữ liệu câu hỏi và đáp án; `questions: []` khi mới tạo.
+- `questions.json`: dữ liệu câu hỏi và đáp án; hiện có 14 câu `C001–C014`.
 - `figures/`: ảnh chỉ chứa phần sơ đồ, biểu đồ hoặc hình minh họa **cắt trực tiếp từ ảnh người dùng gửi**, không dựng lại.
 - `screenshots/`: ảnh chụp đầy đủ câu hỏi, gồm nội dung, các đáp án và form để đối chiếu.
 - `figures/README.md`, `screenshots/README.md`: thông tin thư mục ảnh riêng của ngân hàng này.
@@ -30,3 +30,10 @@ Mỗi phần tử `questions` có `id` (bắt đầu `C001`), `topic`, `type`, `
 5. Kiểm tra `answer` thuộc `options` khi chọn một; các cặp ghép thuộc `options`; và mọi đường dẫn ảnh có tệp tương ứng.
 
 Để làm web quiz, đọc riêng `cauhoi_thong/questions.json`. Với đề kiểm tra thật, không gửi trường `answer` trực tiếp tới client; cần chấm ở phía máy chủ.
+
+## Đợt 1 — 14 câu hỏi (13/11/2026)
+
+- Đã bổ sung 14 câu `C001–C014`, gồm 13 câu chọn một và 1 câu Đúng/Sai.
+- Hai câu `C001`, `C002` có ảnh đề toàn bộ trong `screenshots/` và hình bảng thông số cắt riêng trong `figures/`.
+- `figure_table` (nếu có) lưu tiêu đề cột và từng hàng bảng để web có thể render bảng có cấu trúc, bên cạnh hình ảnh gốc.
+- `form.layout = "vertical"`, `form.control = "radio"`, `form.option_order = "preserve"` ghi nhận form trắc nghiệm với thứ tự phương án đúng ảnh nguồn. Các lựa chọn trống trên đề gốc được lưu đúng nguyên văn.

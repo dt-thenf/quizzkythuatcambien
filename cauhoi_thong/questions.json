@@ -3,7 +3,324 @@
   "title": "Ngân hàng câu hỏi cauhoi_thong",
   "source": "Câu hỏi được bổ sung từ các lượt mới theo yêu cầu người dùng",
   "language": "vi",
-  "count": 0,
+  "count": 14,
   "answer_visibility": "Store answers separately from quiz UI in production",
-  "questions": []
+  "questions": [
+    {
+      "id": "C001",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Một cảm biến có thông số các độ nhạy như sau:\n\nHãy cho biết đại lượng đầu vào của cảm biến là đại lượng nào?",
+      "options": [
+        "a. Điện trở",
+        "b. Khoảng cách",
+        "c. Nhiệt độ",
+        "d. Đại lượng vật lý ngẫu nhiên"
+      ],
+      "answer": "b. Khoảng cách",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "figure": "figures/sensitivity-input-quantity.png",
+      "screenshot": "screenshots/C001-original.png",
+      "figure_table": {
+        "headers": [
+          "Độ nhạy chủ đạo",
+          "Độ nhạy phụ"
+        ],
+        "rows": [
+          [
+            "50 Ω/mm",
+            "1 Ω/°C"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "C002",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Chọn cảm biến tốt nhất về mặt kỹ thuật để đo vị trí với khoảng cần đo từ 0÷80mm",
+      "options": [
+        "Cảm biến 1",
+        "Cảm biến 3",
+        "Cảm biến 4",
+        "Cảm biến 2"
+      ],
+      "answer": "Cảm biến 1",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "figure": "figures/sensor-selection-0-80mm.png",
+      "screenshot": "screenshots/C002-original.png",
+      "figure_table": {
+        "headers": [
+          "Cảm biến",
+          "Độ nhạy chủ đạo",
+          "Độ nhạy phụ",
+          "Giới hạn đo"
+        ],
+        "rows": [
+          [
+            "1",
+            "140 mV/mm",
+            "2x10⁻² mV/°C",
+            "0 - 80mm"
+          ],
+          [
+            "2",
+            "150 mV/mm",
+            "10⁻² mV/°C",
+            "0 - 70mm"
+          ],
+          [
+            "3",
+            "100 mV/mm",
+            "2.5x10⁻² mV/°C",
+            "0 - 60mm"
+          ],
+          [
+            "4",
+            "160 mV/mm",
+            "4x10⁻² mV/°C",
+            "0 -100mm"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "C003",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Khi tín hiệu vào tăng rồi giảm, nhưng tín hiệu ra tại cùng một điểm không trùng nhau, hiện tượng này gọi là:",
+      "options": [
+        "Độ trễ thời gian",
+        "Độ lặp lại",
+        "Ngưỡng",
+        "Độ trễ đặc tính (Hysteresis)"
+      ],
+      "answer": "Độ trễ đặc tính (Hysteresis)",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C004",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Nếu đặc tuyến s = F(x) là phi tuyến, giải pháp thường dùng là:",
+      "options": [
+        "Giảm nhiễu",
+        "Bỏ qua",
+        "Tuyến tính hóa (linearization)",
+        "Tăng nguồn cấp"
+      ],
+      "answer": "Tuyến tính hóa (linearization)",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C005",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Tín hiệu đáp ứng s ở đầu ra của cảm biến được biểu diễn bởi hàm s = F(x) thì:",
+      "options": [
+        "(s) có thể là đại lượng vật lý bất kỳ",
+        "(s) là đại lượng kích thích của cảm biến",
+        "(s) chỉ có thể là dòng điện hoặc điện áp",
+        "(s) là đại lượng không điện"
+      ],
+      "answer": "(s) có thể là đại lượng vật lý bất kỳ",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C006",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Độ phân giải và ngưỡng khác nhau ở điểm nào?",
+      "options": [
+        "Độ phân giải liên quan đến bước thay đổi nhỏ nhất phân biệt được, ngưỡng là giá trị tối thiểu để cảm biến bắt đầu phản ứng",
+        "Ngưỡng luôn lớn hơn độ phân giải",
+        "Độ phân giải là sai số hệ thống, ngưỡng là sai số ngẫu nhiên",
+        "Hai khái niệm tương đương"
+      ],
+      "answer": "Độ phân giải liên quan đến bước thay đổi nhỏ nhất phân biệt được, ngưỡng là giá trị tối thiểu để cảm biến bắt đầu phản ứng",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C007",
+      "topic": "general",
+      "type": "true_false",
+      "prompt": "Cảm biến có vùng làm việc càng rộng thì càng nhạy:",
+      "options": [
+        "Sai",
+        "Đúng"
+      ],
+      "answer": false,
+      "answer_label": "Sai",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C008",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Một hệ đo yêu cầu phản ứng nhanh, cần ưu tiên thông số nào?",
+      "options": [
+        "Giá rẻ",
+        "Thời gian đáp ứng thấp",
+        "Kích thước",
+        "Độ chính xác"
+      ],
+      "answer": "Thời gian đáp ứng thấp",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C009",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Đường cong chuẩn dạng nào dễ sử dụng trong xử lý tín hiệu sau cảm biến",
+      "options": [
+        "Đường cong tuyến tính",
+        "Đường thẳng đứng",
+        "Đường thẳng ngang",
+        "Đường cong phi tuyến"
+      ],
+      "answer": "Đường cong tuyến tính",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C010",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Một cảm biến đo lực có độ tuyến tính 0.5% FS và độ chính xác tổng thể 1% FS. Kết luận nào đúng?",
+      "options": [
+        "Sai số tổng thể không phụ thuộc vào sai số tuyến tính",
+        "Sai số do phi tuyến nhỏ hơn sai số tổng thể",
+        "Sai số do phi tuyến lớn hơn sai số ngẫu nhiên",
+        "Sai số do phi tuyến chiếm toàn bộ sai số chính xác"
+      ],
+      "answer": "Sai số do phi tuyến nhỏ hơn sai số tổng thể",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C011",
+      "topic": "mechanical",
+      "type": "single_choice",
+      "prompt": "Để phối hợp trở kháng của cảm biến ứng suất (strain sensor) vào mạch đo thì đòi hỏi điều kiện nào",
+      "options": [
+        "No answer text provided.",
+        "Trở kháng cảm biến rất bé so với trở kháng mạch đo",
+        "Trở kháng của cảm biến rất lớn so với trở kháng mạch đo",
+        "Trở kháng của cảm biến tương đương trở kháng đầu vào mạch đo"
+      ],
+      "answer": "Trở kháng cảm biến rất bé so với trở kháng mạch đo",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "source_note": "Phương án 'No answer text provided.' là lựa chọn trống hiển thị trên đề gốc; được giữ nguyên để bảo toàn form."
+    },
+    {
+      "id": "C012",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "Cảm biến từ trường Hall hoạt động dựa trên hiện tượng:",
+      "options": [
+        "Sự thay đổi điện trở theo ánh sáng",
+        "Điện áp sinh ra khi có chênh lệch nhiệt độ",
+        "Điện tích sinh ra khi có lực cơ học",
+        "Điện áp sinh ra khi dòng điện chịu tác dụng của từ trường vuông góc"
+      ],
+      "answer": "Điện áp sinh ra khi dòng điện chịu tác dụng của từ trường vuông góc",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C013",
+      "topic": "general",
+      "type": "single_choice",
+      "prompt": "Nhiễu trong cảm biến thường gây ra:",
+      "options": [
+        "Sai số tuyến tính",
+        "Sai số ngẫu nhiên",
+        "Không ảnh hưởng",
+        "Sai số hệ thống"
+      ],
+      "answer": "Sai số ngẫu nhiên",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C014",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "Hiệu ứng cảm ứng điện từ có thể được sử dụng để chế tạo của cảm biến nào?",
+      "options": [
+        "Cảm biến vị trí",
+        "Cả cảm biến vận tốc và vị trí đều được",
+        "Cảm biến quang",
+        "Cảm biến vận tốc"
+      ],
+      "answer": "Cả cảm biến vận tốc và vị trí đều được",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    }
+  ]
 }
