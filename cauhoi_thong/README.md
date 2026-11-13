@@ -1,10 +1,10 @@
 # Ngân hàng câu hỏi cauhoi_thong
 
-Đây là **ngân hàng đề mới, độc lập**, đã có **196 câu hỏi**. Tất cả câu hỏi được gửi sau khi thư mục này được tạo sẽ được thêm vào đây nếu chưa trùng **trong chính ngân hàng này**.
+Đây là **ngân hàng đề mới, độc lập**, đã có **266 câu hỏi**. Tất cả câu hỏi được gửi sau khi thư mục này được tạo sẽ được thêm vào đây nếu chưa trùng **trong chính ngân hàng này**.
 
 ## Cấu trúc
 
-- `questions.json`: dữ liệu câu hỏi và đáp án; hiện có 196 câu `C001–C196`.
+- `questions.json`: dữ liệu câu hỏi và đáp án; hiện có 266 câu `C001–C266`.
 - `figures/`: ảnh chỉ chứa phần sơ đồ, biểu đồ hoặc hình minh họa **cắt trực tiếp từ ảnh người dùng gửi**, không dựng lại.
 - `screenshots/`: ảnh chụp đầy đủ câu hỏi, gồm nội dung, các đáp án và form để đối chiếu.
 - `figures/README.md`, `screenshots/README.md`: thông tin thư mục ảnh riêng của ngân hàng này.
@@ -66,3 +66,10 @@ Mỗi phần tử `questions` có `id` (bắt đầu `C001`), `topic`, `type`, `
 
 - Bổ sung 6 câu có ảnh `C191–C196`; 2 hình cắt trực tiếp: đồ thị RTD và ba biểu thức R(T).
 - 8 ảnh đề gốc mới lưu ở `screenshots/`, trong đó ảnh câu photocell được liên kết vào `C054` và ảnh Ni200 thứ hai là biến thể trong `C192`.
+
+## Đợt 4 hoàn thiện — Ngân hàng 266 câu (13/11/2026)
+
+- Từ `C191–C266`: **76 câu mới** (6 câu có ảnh RTD, 16 câu quang học dạng văn bản, 29 câu RTD/thermistor, 25 câu diode/thermocouple/IC và nhiệt khác).
+- 8 screenshot gốc và 2 hình cắt trực tiếp trong `figures/` đã được lưu. C054 và C192 lưu ảnh thay đổi thứ tự lựa chọn, không tạo câu trùng.
+- Đáp án từng mã câu được trình bày tại [`dap_an_dot4.md`](dap_an_dot4.md). Những câu học thuật thiếu điều kiện hoặc có nhiều đáp án phù hợp giữ `review_status: needs_review`.
+- Các câu trùng với thứ tự radio khác nhau được thêm vào `option_variants`, bảo đảm có thể tái hiện form gốc.

@@ -3926,7 +3926,19 @@
         "control": "radio",
         "option_order": "preserve"
       },
-      "screenshot": "screenshots/original-062342.png"
+      "screenshot": "screenshots/original-062342.png",
+      "option_variants": [
+        {
+          "options": [
+            "R(T) = R0(1+AT + BT2 + C[T-1000C]T3)",
+            "R(T) = R0(1+\nT)",
+            "R(T) = R0(1+AT + BT + CT2)",
+            "R(T) = R0[1+A(T-T0) + B(T-T0)2]"
+          ],
+          "answer": "R(T) = R0[1+A(T-T0) + B(T-T0)2]",
+          "source_note": "Bảo toàn bản phương án gốc bị lỗi xuống dòng/định dạng LaTeX."
+        }
+      ]
     },
     {
       "id": "C196",
@@ -4275,7 +4287,18 @@
         "layout": "vertical",
         "control": "radio",
         "option_order": "preserve"
-      }
+      },
+      "option_variants": [
+        {
+          "options": [
+            "T( oF) = 9/5 T( oC) - 32",
+            "T( oF) = 9/5 T( oC) + 32",
+            "T( oF) = 5/9 T( oC) + 32",
+            "T( oF) = 5/9 T( oC) - 32"
+          ],
+          "answer": "T( oF) = 9/5 T( oC) + 32"
+        }
+      ]
     },
     {
       "id": "C217",
@@ -4311,7 +4334,16 @@
         "layout": "vertical",
         "control": "radio",
         "option_order": "preserve"
-      }
+      },
+      "option_variants": [
+        {
+          "options": [
+            "Sai số hệ thống",
+            "Sai số ngẫu nhiên"
+          ],
+          "answer": "Sai số hệ thống"
+        }
+      ]
     },
     {
       "id": "C219",
@@ -4335,7 +4367,19 @@
       "alternative_answers": [
         "Pt1000"
       ],
-      "source_note": "Pt100/Pt1000 cùng loại platinum RTD, phạm vi nhiệt độ do cấu tạo và cấp công nghiệp quyết định, không chỉ bởi giá trị R0."
+      "source_note": "Pt100/Pt1000 cùng loại platinum RTD, phạm vi nhiệt độ do cấu tạo và cấp công nghiệp quyết định, không chỉ bởi giá trị R0.",
+      "option_variants": [
+        {
+          "options": [
+            "Pt1000",
+            "RTD silic",
+            "thermistor",
+            "Pt100"
+          ],
+          "answer": "Pt100",
+          "source_note": "Pt1000 cũng có thể có cùng dải nhiệt độ; xem cảnh báo cần rà soát ở câu chính."
+        }
+      ]
     },
     {
       "id": "C220",
@@ -4492,7 +4536,18 @@
         "layout": "vertical",
         "control": "radio",
         "option_order": "preserve"
-      }
+      },
+      "option_variants": [
+        {
+          "options": [
+            "Mạch điện tử tiêu dùng",
+            "Lò luyện kim",
+            "Hệ thống đo công nghiệp",
+            "Thiết bị đo lường quân sự"
+          ],
+          "answer": "Mạch điện tử tiêu dùng"
+        }
+      ]
     },
     {
       "id": "C228",
@@ -4549,7 +4604,18 @@
         "layout": "vertical",
         "control": "radio",
         "option_order": "preserve"
-      }
+      },
+      "option_variants": [
+        {
+          "options": [
+            "Cảm biến có điện trở định danh là 100 Ω ở 0 oC",
+            "Cả 3 đáp án nêu trong câu đều đúng",
+            "Chiều dài của cảm biến là 100 m",
+            "Cảm biến nhiệt điện trở làm bằng vật liệu chì"
+          ],
+          "answer": "Cảm biến có điện trở định danh là 100 Ω ở 0 oC"
+        }
+      ]
     },
     {
       "id": "C231",
@@ -4653,7 +4719,18 @@
         "layout": "vertical",
         "control": "radio",
         "option_order": "preserve"
-      }
+      },
+      "option_variants": [
+        {
+          "options": [
+            "138,5 Ω tại nhiệt độ 100 oC",
+            "100 Ω tại nhiệt độ 100 oC",
+            "100,385 Ω tại nhiệt độ 100 oC",
+            "138,5 Ω tại nhiệt độ 100 K"
+          ],
+          "answer": "138,5 Ω tại nhiệt độ 100 oC"
+        }
+      ]
     },
     {
       "id": "C236",
@@ -4898,7 +4975,18 @@
       "alternative_answers": [
         "0,78 mW"
       ],
-      "source_note": "Đề có hai phương án cùng đúng theo các mức làm tròn: 0,778 mW và 0,78 mW."
+      "source_note": "Đề có hai phương án cùng đúng theo các mức làm tròn: 0,778 mW và 0,78 mW.",
+      "option_variants": [
+        {
+          "options": [
+            "7,78 mW",
+            "0,778 mW",
+            "0,78 mW",
+            "0,0778 mW"
+          ],
+          "answer": "0,778 mW"
+        }
+      ]
     },
     {
       "id": "C250",
@@ -4967,7 +5055,18 @@
         "layout": "vertical",
         "control": "radio",
         "option_order": "preserve"
-      }
+      },
+      "option_variants": [
+        {
+          "options": [
+            "Để ổn định dòng điện cung cấp",
+            "Để bảo vệ cảm biến khỏi quá nhiệt",
+            "Để tăng độ nhạy của cảm biến",
+            "Để triệt tiêu ảnh hưởng của nhiệt độ tham chiếu"
+          ],
+          "answer": "Để triệt tiêu ảnh hưởng của nhiệt độ tham chiếu"
+        }
+      ]
     },
     {
       "id": "C254",
@@ -5045,7 +5144,18 @@
         "layout": "vertical",
         "control": "radio",
         "option_order": "preserve"
-      }
+      },
+      "option_variants": [
+        {
+          "options": [
+            "Hiệu ứng Seebeck",
+            "Hiệu ứng Hall",
+            "Hiệu ứng Peltier",
+            "Hiệu ứng Joule"
+          ],
+          "answer": "Hiệu ứng Seebeck"
+        }
+      ]
     },
     {
       "id": "C258",
@@ -5064,7 +5174,18 @@
         "layout": "vertical",
         "control": "radio",
         "option_order": "preserve"
-      }
+      },
+      "option_variants": [
+        {
+          "options": [
+            "Độ nhạy thấp giúp đo chính xác hơn",
+            "Dải đo nhiệt độ hẹp",
+            "Chi phí thấp và dễ chế tạo",
+            "Không cần tiếp xúc trực tiếp với vật thể đo"
+          ],
+          "answer": "Không cần tiếp xúc trực tiếp với vật thể đo"
+        }
+      ]
     },
     {
       "id": "C259",
@@ -5083,7 +5204,18 @@
         "layout": "vertical",
         "control": "radio",
         "option_order": "preserve"
-      }
+      },
+      "option_variants": [
+        {
+          "options": [
+            "IC tích hợp đo nhiệt độ",
+            "RTD",
+            "Thermocouple",
+            "Diode"
+          ],
+          "answer": "IC tích hợp đo nhiệt độ"
+        }
+      ]
     },
     {
       "id": "C260",
@@ -5102,7 +5234,18 @@
         "layout": "vertical",
         "control": "radio",
         "option_order": "preserve"
-      }
+      },
+      "option_variants": [
+        {
+          "options": [
+            "Nhiệt phát xạ hồng ngoại",
+            "Tạo suất điện động khi có chênh lệch nhiệt độ",
+            "Thay đổi điện trở theo nhiệt độ",
+            "Giãn nở khác nhau của hai kim loại"
+          ],
+          "answer": "Giãn nở khác nhau của hai kim loại"
+        }
+      ]
     },
     {
       "id": "C261",
@@ -5184,7 +5327,18 @@
         "layout": "vertical",
         "control": "radio",
         "option_order": "preserve"
-      }
+      },
+      "option_variants": [
+        {
+          "options": [
+            "Cho tín hiệu đầu ra là điện áp tuyến tính",
+            "Không bị ảnh hưởng bởi độ ẩm",
+            "Hoạt động được trong môi trường chân không",
+            "Có thể dùng như công tắc nhiệt cơ học"
+          ],
+          "answer": "Có thể dùng như công tắc nhiệt cơ học"
+        }
+      ]
     },
     {
       "id": "C265",
