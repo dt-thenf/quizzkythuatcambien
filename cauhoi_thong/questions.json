@@ -2550,7 +2550,8 @@
             "False"
           ],
           "answer_label": "True",
-          "answer": true
+          "answer": "True",
+          "answer_value": true
         }
       ]
     },

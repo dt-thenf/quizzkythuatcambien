@@ -59,3 +59,5 @@ Mỗi phần tử `questions` có `id` (bắt đầu `C001`), `topic`, `type`, `
 - Những câu có cùng lời dẫn nhưng bộ phương án khác nhau được quản lý bằng `variant_key` hoặc `option_variants`, không mất nguyên bản form. `screenshot_variants` giữ ảnh đề trùng đã đổi thứ tự radio.
 - Một số câu gốc có vấn đề học thuật hoặc nhiều phương án sai: đánh dấu `review_status=needs_review`, ghi `source_note` và `alternative_answers` nếu thích hợp để rà soát trước khi công bố web thi chính thức.
 - Đã kiểm tra 190 ID duy nhất, trong đó 159 single_choice, 9 true_false, 15 fill_blank, 7 multiple_choice.
+
+- [Đáp án đợt 3: C050–C190](dap_an_dot3.md) cung cấp mã câu, dạng câu, đáp án và liên kết hình; các câu cần rà soát được đánh dấu.
