@@ -3,7 +3,7 @@
   "title": "Ngân hàng câu hỏi cauhoi_thong",
   "source": "Câu hỏi được bổ sung từ các lượt mới theo yêu cầu người dùng",
   "language": "vi",
-  "count": 156,
+  "count": 189,
   "answer_visibility": "Store answers separately from quiz UI in production",
   "questions": [
     {
@@ -3071,6 +3071,637 @@
         "Hiệu ứng từ điện"
       ],
       "answer": "Hiệu ứng quang điện trong bán dẫn",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C157",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Khi cường độ ánh sáng tăng, điện trở của LDR thay đổi như thế nào?",
+      "options": [
+        "Lúc tăng lúc giảm",
+        "Không đổi",
+        "Giảm xuống",
+        "Tăng lên"
+      ],
+      "answer": "Giảm xuống",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C158",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Ưu điểm chính của ống nhân quang (Photomultiplier) là gì?",
+      "options": [
+        "Khuếch đại tín hiệu cực lớn từ ánh sáng yếu",
+        "Không cần nguồn cấp điện",
+        "Chi phí thấp",
+        "Kích thước nhỏ gọn"
+      ],
+      "answer": "Khuếch đại tín hiệu cực lớn từ ánh sáng yếu",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C159",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Nhược điểm chính của tế bào quang điện chân không so với photodiode hiện đại là gì?",
+      "options": [
+        "Tốc độ đáp ứng chậm hơn",
+        "Ít nhạy sáng hơn",
+        "Không hoạt động ở bước sóng UV",
+        "Kích thước cồng kềnh"
+      ],
+      "answer": "Kích thước cồng kềnh",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C160",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Trong tế bào quang điện chân không, khi ánh sáng chiếu vào catot:",
+      "options": [
+        "Các electron bị giữ lại trong catot",
+        "Các electron bị phát ra và di chuyển về anode",
+        "Tăng nhiệt độ của toàn hệ thống",
+        "Tạo ra lỗ trống và điện tử tự do trong bán dẫn"
+      ],
+      "answer": "Các electron bị phát ra và di chuyển về anode",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C161",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Trong cảm biến khuếch tán, ánh sáng phản xạ từ:",
+      "options": [
+        "Đầu thu",
+        "Bức tường",
+        "Bề mặt của vật cần phát hiện",
+        "Gương"
+      ],
+      "answer": "Bề mặt của vật cần phát hiện",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C162",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Trong các loại cảm biến quang, loại nào phù hợp nhất để đo nhịp tim?",
+      "options": [
+        "Quang điện trở",
+        "Quang thu phát độc lập",
+        "Quang phản xạ ngược",
+        "Quang khuếch tán"
+      ],
+      "answer": "Quang khuếch tán",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "source_note": "Đề hỏi cảm biến phản xạ quang: đo nhịp tim bằng phản xạ quang học PPG."
+    },
+    {
+      "id": "C163",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Trong cảm biến phản xạ khuếch tán, tín hiệu thu được phụ thuộc vào:",
+      "options": [
+        "Ánh sáng môi trường",
+        "Nhiệt độ vật",
+        "Phản xạ từ chính vật thể",
+        "Tín hiệu từ gương phản xạ"
+      ],
+      "answer": "Phản xạ từ chính vật thể",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C164",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Photodiode hoạt động tốt nhất ở chế độ nào",
+      "options": [
+        "Chế độ điện trở cao",
+        "Chế độ không phân cực",
+        "Chế độ phân cực thuận",
+        "Chế độ phân cực ngược"
+      ],
+      "answer": "Chế độ phân cực ngược",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C165",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Trong hệ thống tự động đóng nắp chai, loại cảm biến nào thường được dùng để kiểm tra sự có mặt của nắp?",
+      "options": [
+        "Diffuse sensor",
+        "Retro-reflective sensor",
+        "Photomultiplier",
+        "LDR"
+      ],
+      "answer": "Diffuse sensor",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C166",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Trong encoder quang, phần tử cảm biến quang thường được sử dụng là:",
+      "options": [
+        "LDR",
+        "Thermistor",
+        "PIR",
+        "Photodiode hoặc phototransistor"
+      ],
+      "answer": "Photodiode hoặc phototransistor",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C167",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Cảm biến phản xạ gương sử dụng:",
+      "options": [
+        "Sợi quang học",
+        "Gương để phản chiếu ánh sáng trở lại đầu phát",
+        "Hai module phát và thu riêng biệt",
+        "Ánh sáng laser"
+      ],
+      "answer": "Gương để phản chiếu ánh sáng trở lại đầu phát",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C168",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Loại cảm biến nào ít phụ thuộc nhất vào màu sắc và độ phản xạ của vật?",
+      "options": [
+        "Hồng ngoại thụ động",
+        "Quang phản xạ ngược",
+        "Quang khuếch tán",
+        "Thu phát độc lập"
+      ],
+      "answer": "Thu phát độc lập",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C169",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Cảm biến nào dễ bị ảnh hưởng nhất bởi màu sắc bề mặt vật?",
+      "options": [
+        "Phản xạ ngược",
+        "Phản xạ khuếch tán",
+        "Thu phát độc lập",
+        "Tất cả như nhau"
+      ],
+      "answer": "Phản xạ khuếch tán",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C170",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Một hệ thống cần phát hiện vật trong môi trường bụi nhiều. Lựa chọn nào phù hợp nhất?",
+      "options": [
+        "Phản xạ ngược",
+        "Quang điện trở",
+        "Thu phát độc lập",
+        "Phản xạ khuếch tán"
+      ],
+      "answer": "Thu phát độc lập",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C171",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Cảm biến through-beam thường được sử dụng trong ứng dụng nào sau đây?",
+      "options": [
+        "Nhận biết vị trí chính xác của cảm biến",
+        "Nhận biết vật thể bằng phản xạ ánh sáng",
+        "Đếm số lượng vật thể trên băng chuyền tốc độ cao",
+        "Phân biệt màu sắc của vật thể"
+      ],
+      "answer": "Đếm số lượng vật thể trên băng chuyền tốc độ cao",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C172",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Trong các loại cảm biến quang công nghiệp, loại nào phù hợp nhất để báo mức chất lỏng trong bồn?",
+      "options": [
+        "Quang điện trở",
+        "Quang thu phát độc lập",
+        "Quang khuếch tán",
+        "Quang phản xạ ngược"
+      ],
+      "answer": "Quang thu phát độc lập",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "review_status": "needs_review",
+      "source_note": "Chọn through-beam theo cấu hình phát hiện mức qua chùm tia; thực tế phụ thuộc tính trong suốt bồn/chất lỏng và phương án lắp đặt."
+    },
+    {
+      "id": "C173",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Trong các ứng dụng công nghiệp bụi bẩn hoặc có nhiễu ánh sáng mạnh, loại cảm biến nào được ưu tiên sử dụng?",
+      "options": [
+        "Photodiode",
+        "Retro-reflective sensor",
+        "Diffuse sensor",
+        "Through-beam sensor"
+      ],
+      "answer": "Through-beam sensor",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C174",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Trong cảm biến through beam, tín hiệu được tạo ra khi:",
+      "options": [
+        "Không có ánh sáng",
+        "Không có vật chắn tia sáng",
+        "Có vật chắn tia giữa phát và thu",
+        "Ánh sáng phản xạ trở lại"
+      ],
+      "answer": "Có vật chắn tia giữa phát và thu",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C175",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Trong cảm biến báo cháy quang học (smoke detector), phần tử quang thường dùng là:",
+      "options": [
+        "SPAD",
+        "Photodiode",
+        "LDR",
+        "Phototransistor"
+      ],
+      "answer": "Photodiode",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "source_note": "Trong nhiều thiết kế smoke detector dùng LED IR + photodiode, một số thiết kế dùng phototransistor."
+    },
+    {
+      "id": "C176",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Phototransistor có đặc điểm gì khác so với photodiode?",
+      "options": [
+        "Có thể phát sáng",
+        "Có thể dùng trong môi trường tối hoàn toàn",
+        "Có khuếch đại tín hiệu ánh sáng",
+        "Có điện trở cao hơn"
+      ],
+      "answer": "Có khuếch đại tín hiệu ánh sáng",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C177",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Thiết bị nào dưới đây không phản ứng với ánh sáng?",
+      "options": [
+        "Photodiode",
+        "LDR",
+        "Phototransistor",
+        "Biến trở thường"
+      ],
+      "answer": "Biến trở thường",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C178",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Loại cảm biến nào phù hợp nhất để phát hiện vật thể nhỏ hoặc mờ?",
+      "options": [
+        "retroreflective sensor",
+        "LDR",
+        "through beam sensor",
+        "diffuse sensor"
+      ],
+      "answer": "through beam sensor",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C179",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Điện trở của LDR thay đổi như thế nào khi cường độ chiếu sáng tăng?",
+      "options": [
+        "Tăng rồi giảm",
+        "Tăng",
+        "Không thay đổi",
+        "Giảm"
+      ],
+      "answer": "Giảm",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C180",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Trong các cảm biến quang công nghiệp, bộ phát ánh sáng thường sử dụng phần tử nào?",
+      "options": [
+        "LDR",
+        "Photodiode",
+        "Phototransistor",
+        "LED (Light Emitting Diode)"
+      ],
+      "answer": "LED (Light Emitting Diode)",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C181",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "LDR là viết tắt của gì?",
+      "options": [
+        "Linear Diode Resistor",
+        "Light Dependent Resistor",
+        "Light Dependent Relay",
+        "Light Delay Resistor"
+      ],
+      "answer": "Light Dependent Resistor",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C182",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Tại sao trong hầu hết cảm biến quang công nghiệp người ta không dùng laser thay cho LED?",
+      "options": [
+        "Laser có công suất quá thấp",
+        "Laser không thể điều chế tín hiệu",
+        "Laser đắt hơn, yêu cầu an toàn cao và không cần thiết trong nhiều ứng dụng",
+        "Laser không phát được ánh sáng hồng ngoại"
+      ],
+      "answer": "Laser đắt hơn, yêu cầu an toàn cao và không cần thiết trong nhiều ứng dụng",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C183",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Cảm biến khuếch tán (diffuse sensor) được sử dụng hiệu quả nhất trong trường hợp nào sau đây?",
+      "options": [
+        "Phân loại sản phẩm theo màu sắc hoặc bề mặt",
+        "Phát hiện các vật trong suốt",
+        "Phát hiện vật thể ở khoảng cách xa",
+        "Đếm sản phẩm trong môi trường bụi"
+      ],
+      "answer": "Phân loại sản phẩm theo màu sắc hoặc bề mặt",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C184",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "LDR chủ yếu được sử dụng trong:",
+      "options": [
+        "Thiết bị đo tốc độ",
+        "Điều khiển ánh sáng tự động",
+        "Hệ thống điều khiển nhiệt độ",
+        "Thiết bị y tế"
+      ],
+      "answer": "Điều khiển ánh sáng tự động",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C185",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Ứng dụng điển hình của cảm biến phản xạ gương (retro-reflective) là gì?",
+      "options": [
+        "Đo tốc độ gió",
+        "Phát hiện màu sắc vật thể",
+        "Đo mức chất lỏng",
+        "Phát hiện vật thể ở khoảng cách trung bình với cấu trúc lắp đặt đơn giản"
+      ],
+      "answer": "Phát hiện vật thể ở khoảng cách trung bình với cấu trúc lắp đặt đơn giản",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C186",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Ưu điểm chính của photodiode so với LDR là gì?",
+      "options": [
+        "Độ nhạy thấp hơn",
+        "Giá rẻ hơn",
+        "Phản ứng nhanh hơn",
+        "Dễ sử dụng hơn"
+      ],
+      "answer": "Phản ứng nhanh hơn",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C187",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Photomultiplier hoạt động bằng cách:",
+      "options": [
+        "Khuếch đại số lượng electron sinh ra bởi ánh sáng",
+        "Phát ra ánh sáng khi có dòng điện",
+        "Tăng điện trở khi có ánh sáng",
+        "Biến dòng điện thành ánh sáng"
+      ],
+      "answer": "Khuếch đại số lượng electron sinh ra bởi ánh sáng",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C188",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Thiết bị nào sau đây có tốc độ phản ứng nhanh nhất với ánh sáng?",
+      "options": [
+        "LDR",
+        "Photodiode",
+        "Phototransistor",
+        "Photomultiplier"
+      ],
+      "answer": "Photodiode",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C189",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Nhược điểm của cảm biến phản xạ gương là:",
+      "options": [
+        "Không nhận được phản xạ",
+        "Khó căn chỉnh",
+        "Giá thành cao",
+        "Không hoạt động trong bóng tối"
+      ],
+      "answer": "Khó căn chỉnh",
       "ui": "radio",
       "form": {
         "layout": "vertical",
