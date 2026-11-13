@@ -3,7 +3,7 @@
   "title": "Ngân hàng câu hỏi cauhoi_thong",
   "source": "Câu hỏi được bổ sung từ các lượt mới theo yêu cầu người dùng",
   "language": "vi",
-  "count": 190,
+  "count": 196,
   "answer_visibility": "Store answers separately from quiz UI in production",
   "questions": [
     {
@@ -1153,7 +1153,22 @@
       ],
       "answer": "Năng lượng của photon chiếu vào lớn hơn công thoát của vật liệu làm tế bào quang điện",
       "figure": "figures/photoelectric-cell-circuit.png",
-      "screenshot": "screenshots/original-060451.png"
+      "screenshot": "screenshots/original-060451.png",
+      "option_variants": [
+        {
+          "options": [
+            "Năng lượng của photon chiếu vào lớn hơn công thoát của vật liệu làm tế bào quang điện",
+            "Cường độ ánh sáng phải đủ mạnh",
+            "Cần cấp nguồn điện và bước sóng ánh sáng có năng lượng lớn hơn công thoát của anode",
+            "Phải có hiệu điện thế đặt lên hai điện cực anode và cathode của tế bào quang điện"
+          ],
+          "answer": "Năng lượng của photon chiếu vào lớn hơn công thoát của vật liệu làm tế bào quang điện",
+          "screenshot": "screenshots/original-062026.png"
+        }
+      ],
+      "screenshot_variants": [
+        "screenshots/original-062026.png"
+      ]
     },
     {
       "id": "C055",
@@ -3777,6 +3792,152 @@
         "option_order": "preserve"
       },
       "source_note": "Biến thể với 4 phương án về độ linh động, khoảng cách điện cực và diện tích chiếu sáng; khác bài có phương án 'quang điện trở làm bằng kim loại'."
+    },
+    {
+      "id": "C191",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Cho sự phụ thuộc của điện trở vào nhiệt độ của 4 loại cảm biến nhiệt điện trở (3 kim loại và 1 bán dẫn) như hình đồ thị. Phát biểu nào sau đây sai?",
+      "options": [
+        "Độ nhạy của RTD nickel là lớn nhất",
+        "Dải làm việc của RTD copper là ngắn nhất",
+        "Dải làm việc của RTD platinum là rộng nhất",
+        "Các cảm biến RTD kim loại đều tuyến tính"
+      ],
+      "answer": "Các cảm biến RTD kim loại đều tuyến tính",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "figure": "figures/rtd-comparison-graph.png",
+      "screenshot": "screenshots/original-062054.png",
+      "source_note": "Ni có đường R–T phi tuyến ngoài miền xấp xỉ; theo bảng vật liệu RTD ở Chương 3, platinum có dải rộng, nickel nhạy và phi tuyến."
+    },
+    {
+      "id": "C192",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Cảm biến RTD Ni200 có nghĩa là gì?",
+      "options": [
+        "Điện trở tại nhiệt độ 100 °C là 200Ω",
+        "Điện trở tại nhiệt độ 0 °F là 200Ω",
+        "Điện trở tại nhiệt độ 0 °C là 200Ω",
+        "Điện trở tại nhiệt độ 0 K là 200Ω"
+      ],
+      "answer": "Điện trở tại nhiệt độ 0 °C là 200Ω",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "screenshot": "screenshots/original-062117.png",
+      "option_variants": [
+        {
+          "options": [
+            "Điện trở tại nhiệt độ 0 K là 200Ω",
+            "Điện trở tại nhiệt độ 0 °F là 200Ω",
+            "Điện trở tại nhiệt độ 100 °C là 200Ω",
+            "Điện trở tại nhiệt độ 0 °C là 200Ω"
+          ],
+          "answer": "Điện trở tại nhiệt độ 0 °C là 200Ω",
+          "screenshot": "screenshots/original-063045.png"
+        }
+      ],
+      "screenshot_variants": [
+        "screenshots/original-063045.png"
+      ]
+    },
+    {
+      "id": "C193",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Cho sự phụ thuộc của điện trở vào nhiệt độ của 4 loại cảm biến nhiệt điện trở (3 kim loại và 1 bán dẫn) như hình đồ thị. Cảm biến nhiệt điện trở nào có dải làm việc rộng nhất?",
+      "options": [
+        "Nickel",
+        "Platinum",
+        "Bán dẫn (semiconductor)",
+        "Copper"
+      ],
+      "answer": "Platinum",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "figure": "figures/rtd-comparison-graph.png",
+      "screenshot": "screenshots/original-062150.png"
+    },
+    {
+      "id": "C194",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Cho các biểu thức miêu tả sự phụ thuộc của điện trở vào nhiệt độ như sau. Ba công thức trên theo thứ tự mô tả sự phụ thuộc của cảm biến nhiệt điện trở nào?",
+      "options": [
+        "Kim loại – ô xít – silic",
+        "Kim loại – silic – ôxít",
+        "Silic – kim loại – ôxít",
+        "Silic – ôxít – kim loại"
+      ],
+      "answer": "Silic – ôxít – kim loại",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "figure": "figures/rtd-three-equations.png",
+      "screenshot": "screenshots/original-062329.png",
+      "formulae": [
+        "R(T)=R0(1+a(T−T0)+b(T−T0)^2)",
+        "R(T)=R0 exp[β(1/T−1/T0)]",
+        "R(T)=R0(1+α(T−T0))"
+      ]
+    },
+    {
+      "id": "C195",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Hàm truyền mô tả sự phụ thuộc của điện trở RTD silic vào nhiệt độ là:",
+      "options": [
+        "R(T) = R₀(1+AT + BT² + C[T−1000C]T³)",
+        "R(T) = R₀(1+AT + BT + CT²)",
+        "R(T) = R₀[1+A(T−T₀)+B(T−T₀)²]",
+        "R(T) = R₀(1+αT)"
+      ],
+      "answer": "R(T) = R₀[1+A(T−T₀)+B(T−T₀)²]",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "screenshot": "screenshots/original-062342.png"
+    },
+    {
+      "id": "C196",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Cho sự phụ thuộc của điện trở vào nhiệt độ của 4 loại cảm biến nhiệt điện trở (3 kim loại và 1 bán dẫn) như hình đồ thị. Cảm biến nhiệt điện trở nào có độ nhạy lớn nhất?",
+      "options": [
+        "Nickel",
+        "Bán dẫn (semiconductor)",
+        "Platinum",
+        "Copper"
+      ],
+      "answer": "Bán dẫn (semiconductor)",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "figure": "figures/rtd-comparison-graph.png",
+      "screenshot": "screenshots/original-062404.png",
+      "source_note": "Theo đồ thị, độ dốc |dR/dT| của đường semiconductor cao hơn các RTD kim loại trong một phần dải."
     }
   ]
 }

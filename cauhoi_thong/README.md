@@ -1,10 +1,10 @@
 # Ngân hàng câu hỏi cauhoi_thong
 
-Đây là **ngân hàng đề mới, độc lập**, đã có **190 câu hỏi**. Tất cả câu hỏi được gửi sau khi thư mục này được tạo sẽ được thêm vào đây nếu chưa trùng **trong chính ngân hàng này**.
+Đây là **ngân hàng đề mới, độc lập**, đã có **196 câu hỏi**. Tất cả câu hỏi được gửi sau khi thư mục này được tạo sẽ được thêm vào đây nếu chưa trùng **trong chính ngân hàng này**.
 
 ## Cấu trúc
 
-- `questions.json`: dữ liệu câu hỏi và đáp án; hiện có 190 câu `C001–C190`.
+- `questions.json`: dữ liệu câu hỏi và đáp án; hiện có 196 câu `C001–C196`.
 - `figures/`: ảnh chỉ chứa phần sơ đồ, biểu đồ hoặc hình minh họa **cắt trực tiếp từ ảnh người dùng gửi**, không dựng lại.
 - `screenshots/`: ảnh chụp đầy đủ câu hỏi, gồm nội dung, các đáp án và form để đối chiếu.
 - `figures/README.md`, `screenshots/README.md`: thông tin thư mục ảnh riêng của ngân hàng này.
@@ -61,3 +61,8 @@ Mỗi phần tử `questions` có `id` (bắt đầu `C001`), `topic`, `type`, `
 - Đã kiểm tra 190 ID duy nhất, trong đó 159 single_choice, 9 true_false, 15 fill_blank, 7 multiple_choice.
 
 - [Đáp án đợt 3: C050–C190](dap_an_dot3.md) cung cấp mã câu, dạng câu, đáp án và liên kết hình; các câu cần rà soát được đánh dấu.
+
+## Đợt 4 — Ảnh RTD/nhiệt độ (13/11/2026)
+
+- Bổ sung 6 câu có ảnh `C191–C196`; 2 hình cắt trực tiếp: đồ thị RTD và ba biểu thức R(T).
+- 8 ảnh đề gốc mới lưu ở `screenshots/`, trong đó ảnh câu photocell được liên kết vào `C054` và ảnh Ni200 thứ hai là biến thể trong `C192`.
