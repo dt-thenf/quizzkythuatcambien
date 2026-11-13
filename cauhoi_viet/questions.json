@@ -70,7 +70,19 @@
         "19",
         "72"
       ],
-      "ui": "radio"
+      "ui": "radio",
+      "option_variants": [
+        {
+          "options": [
+            "72",
+            "82",
+            "19",
+            "68"
+          ],
+          "answer": "72",
+          "source_batch": "2026-11-13 batch Viet"
+        }
+      ]
     },
     {
       "id": "C006",
@@ -222,8 +234,42 @@
         "Dùng bộ phản xạ đối diện"
       ],
       "ui": "dropdown_per_row",
-      "screenshot": "screenshots/image(2).png",
-      "source_question_number": 14
+      "screenshot": "screenshots/original-070619.png",
+      "source_question_number": 14,
+      "option_variants": [
+        {
+          "options": [
+            "Tỷ số dòng quang/công suất quang",
+            "Dùng bộ phản xạ đối diện",
+            "Điện trở thay đổi theo độ chiếu sáng",
+            "Dòng khi không có ánh sáng tới"
+          ],
+          "answer": [
+            {
+              "left": "LDR",
+              "right": "Điện trở thay đổi theo độ chiếu sáng"
+            },
+            {
+              "left": "Retro-reflective",
+              "right": "Dùng bộ phản xạ đối diện"
+            },
+            {
+              "left": "Responsivity",
+              "right": "Tỷ số dòng quang/công suất quang"
+            },
+            {
+              "left": "Dark current",
+              "right": "Dòng khi không có ánh sáng tới"
+            }
+          ],
+          "source_batch": "2026-11-13 batch Viet",
+          "screenshot": "screenshots/original-070619.png"
+        }
+      ],
+      "screenshot_variants": [
+        "screenshots/image(2).png",
+        "screenshots/original-070619.png"
+      ]
     },
     {
       "id": "C015",
@@ -1245,7 +1291,24 @@
       ],
       "ui": "radio",
       "figure": "figures/ldr-voltage-divider.png",
-      "screenshot": "screenshots/image(20261112-183617).png"
+      "screenshot": "screenshots/original-070529.png",
+      "option_variants": [
+        {
+          "options": [
+            "0.460 V",
+            "5.080 V",
+            "0.920 V",
+            "6.920 V"
+          ],
+          "answer": "0.920 V",
+          "source_batch": "2026-11-13 batch Viet",
+          "screenshot": "screenshots/original-070529.png"
+        }
+      ],
+      "screenshot_variants": [
+        "screenshots/image(20261112-183617).png",
+        "screenshots/original-070529.png"
+      ]
     },
     {
       "id": "C086",
@@ -1296,8 +1359,42 @@
         "option_order": "preserve",
         "score_points": 0.2
       },
-      "screenshot": "screenshots/image(20261112-184503).png",
-      "source_question_number": 24
+      "screenshot": "screenshots/original-070956.png",
+      "source_question_number": 24,
+      "option_variants": [
+        {
+          "options": [
+            "Tách đường cấp dòng và đo áp",
+            "Tạo điện áp nhiệt điện",
+            "Mối nối nhiệt độ tham chiếu",
+            "Hiệu ứng tạo emf do chênh nhiệt"
+          ],
+          "answer": [
+            {
+              "left": "Thermocouple",
+              "right": "Tạo điện áp nhiệt điện"
+            },
+            {
+              "left": "Seebeck",
+              "right": "Hiệu ứng tạo emf do chênh nhiệt"
+            },
+            {
+              "left": "Cold junction",
+              "right": "Mối nối nhiệt độ tham chiếu"
+            },
+            {
+              "left": "Đo RTD bốn dây",
+              "right": "Tách đường cấp dòng và đo áp"
+            }
+          ],
+          "source_batch": "2026-11-13 batch Viet",
+          "screenshot": "screenshots/original-070956.png"
+        }
+      ],
+      "screenshot_variants": [
+        "screenshots/image(20261112-184503).png",
+        "screenshots/original-070956.png"
+      ]
     },
     {
       "id": "C088",
@@ -1580,7 +1677,19 @@
         "0° và 0°",
         "90° và 90°"
       ],
-      "ui": "radio"
+      "ui": "radio",
+      "option_variants": [
+        {
+          "options": [
+            "Chỉ một hướng bất kỳ",
+            "90° và 90°",
+            "±45°",
+            "0° và 0°"
+          ],
+          "answer": "±45°",
+          "source_batch": "2026-11-13 batch Viet"
+        }
+      ]
     },
     {
       "id": "C108",
@@ -1677,8 +1786,25 @@
         "Nhiệt điện"
       ],
       "ui": "radio",
-      "screenshot": "screenshots/image(20261112-193345).png",
-      "figure": "figures/proximity-symbols.png"
+      "screenshot": "screenshots/original-071617.png",
+      "figure": "figures/proximity-symbols.png",
+      "option_variants": [
+        {
+          "options": [
+            "Quang",
+            "Điện dung",
+            "Nhiệt điện",
+            "Điện cảm"
+          ],
+          "answer": "Điện dung",
+          "source_batch": "2026-11-13 batch Viet",
+          "screenshot": "screenshots/original-071617.png"
+        }
+      ],
+      "screenshot_variants": [
+        "screenshots/image(20261112-193345).png",
+        "screenshots/original-071617.png"
+      ]
     },
     {
       "id": "C116",
@@ -1693,8 +1819,25 @@
         "Điện dung"
       ],
       "ui": "radio",
-      "screenshot": "screenshots/image(20261112-193359).png",
-      "figure": "figures/proximity-symbols.png"
+      "screenshot": "screenshots/original-071640.png",
+      "figure": "figures/proximity-symbols.png",
+      "option_variants": [
+        {
+          "options": [
+            "Quang",
+            "Điện dung",
+            "Áp điện",
+            "Điện cảm"
+          ],
+          "answer": "Điện cảm",
+          "source_batch": "2026-11-13 batch Viet",
+          "screenshot": "screenshots/original-071640.png"
+        }
+      ],
+      "screenshot_variants": [
+        "screenshots/image(20261112-193359).png",
+        "screenshots/original-071640.png"
+      ]
     },
     {
       "id": "C117",
@@ -1709,8 +1852,25 @@
         "RTD kim loại"
       ],
       "ui": "radio",
-      "screenshot": "screenshots/image(20261112-193410).png",
-      "figure": "figures/proximity-symbols.png"
+      "screenshot": "screenshots/original-071656.png",
+      "figure": "figures/proximity-symbols.png",
+      "option_variants": [
+        {
+          "options": [
+            "Cảm biến điện dung",
+            "Cặp nhiệt điện",
+            "RTD kim loại",
+            "Cảm biến quang"
+          ],
+          "answer": "Cảm biến quang",
+          "source_batch": "2026-11-13 batch Viet",
+          "screenshot": "screenshots/original-071656.png"
+        }
+      ],
+      "screenshot_variants": [
+        "screenshots/image(20261112-193410).png",
+        "screenshots/original-071656.png"
+      ]
     },
     {
       "id": "C118",
@@ -2168,7 +2328,17 @@
         "Đúng"
       ],
       "ui": "radio",
-      "answer_label": "Đúng"
+      "answer_label": "Đúng",
+      "option_variants": [
+        {
+          "options": [
+            "Đúng",
+            "Sai"
+          ],
+          "answer": true,
+          "source_batch": "2026-11-13 batch Viet"
+        }
+      ]
     },
     {
       "id": "C136",
@@ -2181,7 +2351,8 @@
         "Đúng"
       ],
       "ui": "radio",
-      "answer_label": "Đúng"
+      "answer_label": "Đúng",
+      "option_variants": []
     },
     {
       "id": "C137",
@@ -2194,7 +2365,17 @@
         "Đúng"
       ],
       "ui": "radio",
-      "answer_label": "Đúng"
+      "answer_label": "Đúng",
+      "option_variants": [
+        {
+          "options": [
+            "Đúng",
+            "Sai"
+          ],
+          "answer": true,
+          "source_batch": "2026-11-13 batch Viet"
+        }
+      ]
     },
     {
       "id": "C138",
@@ -2207,7 +2388,8 @@
         "Đúng"
       ],
       "ui": "radio",
-      "answer_label": "Sai"
+      "answer_label": "Sai",
+      "option_variants": []
     },
     {
       "id": "C139",
@@ -2220,7 +2402,8 @@
         "Sai"
       ],
       "ui": "radio",
-      "answer_label": "Đúng"
+      "answer_label": "Đúng",
+      "option_variants": []
     },
     {
       "id": "C140",
@@ -2233,7 +2416,8 @@
         "Sai"
       ],
       "ui": "radio",
-      "answer_label": "Sai"
+      "answer_label": "Sai",
+      "option_variants": []
     },
     {
       "id": "C141",
@@ -2246,7 +2430,17 @@
         "Sai"
       ],
       "ui": "radio",
-      "answer_label": "Đúng"
+      "answer_label": "Đúng",
+      "option_variants": [
+        {
+          "options": [
+            "Sai",
+            "Đúng"
+          ],
+          "answer": true,
+          "source_batch": "2026-11-13 batch Viet"
+        }
+      ]
     },
     {
       "id": "C142",
@@ -2259,7 +2453,8 @@
         "Sai"
       ],
       "ui": "radio",
-      "answer_label": "Đúng"
+      "answer_label": "Đúng",
+      "option_variants": []
     },
     {
       "id": "C143",
@@ -2272,7 +2467,17 @@
         "Sai"
       ],
       "ui": "radio",
-      "answer_label": "Sai"
+      "answer_label": "Sai",
+      "option_variants": [
+        {
+          "options": [
+            "Sai",
+            "Đúng"
+          ],
+          "answer": false,
+          "source_batch": "2026-11-13 batch Viet"
+        }
+      ]
     },
     {
       "id": "C144",
@@ -2285,7 +2490,8 @@
         "Sai"
       ],
       "ui": "radio",
-      "answer_label": "Đúng"
+      "answer_label": "Đúng",
+      "option_variants": []
     },
     {
       "id": "C145",
@@ -2298,7 +2504,17 @@
         "Đúng"
       ],
       "ui": "radio",
-      "answer_label": "Đúng"
+      "answer_label": "Đúng",
+      "option_variants": [
+        {
+          "options": [
+            "Đúng",
+            "Sai"
+          ],
+          "answer": true,
+          "source_batch": "2026-11-13 batch Viet"
+        }
+      ]
     },
     {
       "id": "C146",
@@ -2311,7 +2527,17 @@
         "Đúng"
       ],
       "ui": "radio",
-      "answer_label": "Sai"
+      "answer_label": "Sai",
+      "option_variants": [
+        {
+          "options": [
+            "Đúng",
+            "Sai"
+          ],
+          "answer": false,
+          "source_batch": "2026-11-13 batch Viet"
+        }
+      ]
     },
     {
       "id": "C147",
@@ -2324,7 +2550,17 @@
         "Sai"
       ],
       "ui": "radio",
-      "answer_label": "Đúng"
+      "answer_label": "Đúng",
+      "option_variants": [
+        {
+          "options": [
+            "Sai",
+            "Đúng"
+          ],
+          "answer": true,
+          "source_batch": "2026-11-13 batch Viet"
+        }
+      ]
     },
     {
       "id": "C148",
@@ -2337,7 +2573,17 @@
         "Sai"
       ],
       "ui": "radio",
-      "answer_label": "Sai"
+      "answer_label": "Sai",
+      "option_variants": [
+        {
+          "options": [
+            "Sai",
+            "Đúng"
+          ],
+          "answer": false,
+          "source_batch": "2026-11-13 batch Viet"
+        }
+      ]
     },
     {
       "id": "C149",
@@ -2350,7 +2596,8 @@
         "Đúng"
       ],
       "ui": "radio",
-      "answer_label": "Đúng"
+      "answer_label": "Đúng",
+      "option_variants": []
     },
     {
       "id": "C150",
@@ -2363,7 +2610,8 @@
         "Đúng"
       ],
       "ui": "radio",
-      "answer_label": "Sai"
+      "answer_label": "Sai",
+      "option_variants": []
     },
     {
       "id": "C151",
@@ -2376,7 +2624,17 @@
         "Sai"
       ],
       "ui": "radio",
-      "answer_label": "Đúng"
+      "answer_label": "Đúng",
+      "option_variants": [
+        {
+          "options": [
+            "Sai",
+            "Đúng"
+          ],
+          "answer": true,
+          "source_batch": "2026-11-13 batch Viet"
+        }
+      ]
     },
     {
       "id": "C152",
@@ -2389,7 +2647,17 @@
         "Đúng"
       ],
       "ui": "radio",
-      "answer_label": "Đúng"
+      "answer_label": "Đúng",
+      "option_variants": [
+        {
+          "options": [
+            "Đúng",
+            "Sai"
+          ],
+          "answer": true,
+          "source_batch": "2026-11-13 batch Viet"
+        }
+      ]
     },
     {
       "id": "C153",
@@ -2402,7 +2670,17 @@
         "Sai"
       ],
       "ui": "radio",
-      "answer_label": "Sai"
+      "answer_label": "Sai",
+      "option_variants": [
+        {
+          "options": [
+            "Sai",
+            "Đúng"
+          ],
+          "answer": false,
+          "source_batch": "2026-11-13 batch Viet"
+        }
+      ]
     },
     {
       "id": "C154",
@@ -2415,7 +2693,17 @@
         "Đúng"
       ],
       "ui": "radio",
-      "answer_label": "Sai"
+      "answer_label": "Sai",
+      "option_variants": [
+        {
+          "options": [
+            "Đúng",
+            "Sai"
+          ],
+          "answer": false,
+          "source_batch": "2026-11-13 batch Viet"
+        }
+      ]
     },
     {
       "id": "C155",
@@ -2429,7 +2717,19 @@
         "Cặp nhiệt điện",
         "LDR đo bằng mạch chia áp"
       ],
-      "ui": "radio"
+      "ui": "radio",
+      "option_variants": [
+        {
+          "options": [
+            "LDR đo bằng mạch chia áp",
+            "Cặp nhiệt điện",
+            "RTD Pt100",
+            "Tụ điện đo độ ẩm"
+          ],
+          "answer": "Cặp nhiệt điện",
+          "source_batch": "2026-11-13 batch Viet"
+        }
+      ]
     },
     {
       "id": "C156",
@@ -2443,7 +2743,19 @@
         "Tần số sóng mang",
         "Điện trở"
       ],
-      "ui": "radio"
+      "ui": "radio",
+      "option_variants": [
+        {
+          "options": [
+            "Tần số sóng mang",
+            "Bước sóng phát xạ",
+            "Điện trở",
+            "Điện tích áp điện"
+          ],
+          "answer": "Điện trở",
+          "source_batch": "2026-11-13 batch Viet"
+        }
+      ]
     },
     {
       "id": "C157",
@@ -2457,7 +2769,19 @@
         "σ=q(nμn+pμp)",
         "σ=q/(nμn+pμp)"
       ],
-      "ui": "radio"
+      "ui": "radio",
+      "option_variants": [
+        {
+          "options": [
+            "σ=(n+p)/q",
+            "σ=q(nμp−pμn)",
+            "σ=q(nμn+pμp)",
+            "σ=q/(nμn+pμp)"
+          ],
+          "answer": "σ=q(nμn+pμp)",
+          "source_batch": "2026-11-13 batch Viet"
+        }
+      ]
     },
     {
       "id": "C158",
@@ -2471,7 +2795,19 @@
         "m và cm²",
         "mm và cm²"
       ],
-      "ui": "radio"
+      "ui": "radio",
+      "option_variants": [
+        {
+          "options": [
+            "mm và cm²",
+            "cm và mm²",
+            "m và cm²",
+            "cm và cm²"
+          ],
+          "answer": "cm và cm²",
+          "source_batch": "2026-11-13 batch Viet"
+        }
+      ]
     },
     {
       "id": "C159",
@@ -2485,7 +2821,19 @@
         "0,20 cm²",
         "20 cm²"
       ],
-      "ui": "radio"
+      "ui": "radio",
+      "option_variants": [
+        {
+          "options": [
+            "20 cm²",
+            "0,20 cm²",
+            "2,0 cm²",
+            "0,020 cm²"
+          ],
+          "answer": "0,20 cm²",
+          "source_batch": "2026-11-13 batch Viet"
+        }
+      ]
     },
     {
       "id": "C160",
@@ -2499,7 +2847,19 @@
         "385 Ω",
         "138,5 Ω"
       ],
-      "ui": "radio"
+      "ui": "radio",
+      "option_variants": [
+        {
+          "options": [
+            "385 Ω",
+            "100,385 Ω",
+            "138,5 Ω",
+            "103,85 Ω"
+          ],
+          "answer": "138,5 Ω",
+          "source_batch": "2026-11-13 batch Viet"
+        }
+      ]
     },
     {
       "id": "C161",
@@ -2513,7 +2873,19 @@
         "Seebeck",
         "Doppler"
       ],
-      "ui": "radio"
+      "ui": "radio",
+      "option_variants": [
+        {
+          "options": [
+            "Peltier",
+            "Doppler",
+            "Hall",
+            "Seebeck"
+          ],
+          "answer": "Seebeck",
+          "source_batch": "2026-11-13 batch Viet"
+        }
+      ]
     },
     {
       "id": "C162",
@@ -2527,7 +2899,19 @@
         "Nhiệt độ mối tham chiếu",
         "Điện trở cách điện của vỏ bằng không"
       ],
-      "ui": "radio"
+      "ui": "radio",
+      "option_variants": [
+        {
+          "options": [
+            "Màu sắc mối nóng",
+            "Độ chiếu sáng môi trường",
+            "Nhiệt độ mối tham chiếu",
+            "Điện trở cách điện của vỏ bằng không"
+          ],
+          "answer": "Nhiệt độ mối tham chiếu",
+          "source_batch": "2026-11-13 batch Viet"
+        }
+      ]
     },
     {
       "id": "C163",
@@ -2541,7 +2925,19 @@
         "Có thể tùy ý dùng °C hoặc K",
         "°F"
       ],
-      "ui": "radio"
+      "ui": "radio",
+      "option_variants": [
+        {
+          "options": [
+            "Có thể tùy ý dùng °C hoặc K",
+            "°F",
+            "°C",
+            "K"
+          ],
+          "answer": "K",
+          "source_batch": "2026-11-13 batch Viet"
+        }
+      ]
     },
     {
       "id": "C164",
@@ -2555,7 +2951,19 @@
         "Chỉ lớp kim loại tiếp xúc",
         "Chỉ lớp vỏ bảo vệ"
       ],
-      "ui": "radio"
+      "ui": "radio",
+      "option_variants": [
+        {
+          "options": [
+            "Chỉ dây nối ngoài",
+            "Chỉ lớp kim loại tiếp xúc",
+            "Vùng nghèo",
+            "Chỉ lớp vỏ bảo vệ"
+          ],
+          "answer": "Vùng nghèo",
+          "source_batch": "2026-11-13 batch Viet"
+        }
+      ]
     },
     {
       "id": "C165",
@@ -2569,7 +2977,19 @@
         "Bật đèn khi trời tối",
         "Đo từ trường bằng Hall"
       ],
-      "ui": "radio"
+      "ui": "radio",
+      "option_variants": [
+        {
+          "options": [
+            "Bật đèn khi trời tối",
+            "Đo từ trường bằng Hall",
+            "Đo lực bằng biến dạng đàn hồi",
+            "Đo nhiệt độ bằng Seebeck"
+          ],
+          "answer": "Bật đèn khi trời tối",
+          "source_batch": "2026-11-13 batch Viet"
+        }
+      ]
     },
     {
       "id": "C166",
@@ -2583,7 +3003,19 @@
         "Span",
         "Độ phân giải"
       ],
-      "ui": "radio"
+      "ui": "radio",
+      "option_variants": [
+        {
+          "options": [
+            "Độ phân giải",
+            "Span",
+            "Thời gian lấy mẫu",
+            "Hysteresis"
+          ],
+          "answer": "Hysteresis",
+          "source_batch": "2026-11-13 batch Viet"
+        }
+      ]
     },
     {
       "id": "C167",
@@ -2597,7 +3029,19 @@
         "160 °C",
         "−40 °C"
       ],
-      "ui": "radio"
+      "ui": "radio",
+      "option_variants": [
+        {
+          "options": [
+            "120 °C",
+            "200 °C",
+            "−40 °C",
+            "160 °C"
+          ],
+          "answer": "200 °C",
+          "source_batch": "2026-11-13 batch Viet"
+        }
+      ]
     },
     {
       "id": "C168",
@@ -2611,7 +3055,19 @@
         "0,025 V/°C",
         "0,425 V/°C"
       ],
-      "ui": "radio"
+      "ui": "radio",
+      "option_variants": [
+        {
+          "options": [
+            "0,40 V/°C",
+            "0,425 V/°C",
+            "40 °C/V",
+            "0,025 V/°C"
+          ],
+          "answer": "0,025 V/°C",
+          "source_batch": "2026-11-13 batch Viet"
+        }
+      ]
     },
     {
       "id": "C169",
@@ -2625,7 +3081,19 @@
         "Không đổi",
         "Giảm 2 lần"
       ],
-      "ui": "radio"
+      "ui": "radio",
+      "option_variants": [
+        {
+          "options": [
+            "Giảm 2 lần",
+            "Tăng 4 lần",
+            "Không đổi",
+            "Tăng 2 lần"
+          ],
+          "answer": "Tăng 4 lần",
+          "source_batch": "2026-11-13 batch Viet"
+        }
+      ]
     },
     {
       "id": "C170",
@@ -2639,7 +3107,19 @@
         "Luôn không cần hiệu chuẩn",
         "Luôn không có độ trễ"
       ],
-      "ui": "radio"
+      "ui": "radio",
+      "option_variants": [
+        {
+          "options": [
+            "Bù sai số và truyền dữ liệu đã xử lý",
+            "Luôn không cần hiệu chuẩn",
+            "Luôn không có độ trễ",
+            "Luôn bỏ hoàn toàn nguồn điện"
+          ],
+          "answer": "Bù sai số và truyền dữ liệu đã xử lý",
+          "source_batch": "2026-11-13 batch Viet"
+        }
+      ]
     },
     {
       "id": "C171",
@@ -2653,7 +3133,19 @@
         "Chai nhựa rỗng không kim loại",
         "Miếng gỗ khô không kim loại"
       ],
-      "ui": "radio"
+      "ui": "radio",
+      "option_variants": [
+        {
+          "options": [
+            "Tấm thép",
+            "Miếng gỗ khô không kim loại",
+            "Tấm kính không phủ kim loại",
+            "Chai nhựa rỗng không kim loại"
+          ],
+          "answer": "Tấm thép",
+          "source_batch": "2026-11-13 batch Viet"
+        }
+      ]
     },
     {
       "id": "C172",
@@ -2667,7 +3159,19 @@
         "Chỉ màu sơn",
         "Chỉ hệ số Seebeck"
       ],
-      "ui": "radio"
+      "ui": "radio",
+      "option_variants": [
+        {
+          "options": [
+            "Chỉ màu sơn",
+            "Hằng số điện môi",
+            "Chỉ hệ số Seebeck",
+            "Chỉ vận tốc âm trong vật"
+          ],
+          "answer": "Hằng số điện môi",
+          "source_batch": "2026-11-13 batch Viet"
+        }
+      ]
     },
     {
       "id": "C173",
@@ -2681,7 +3185,19 @@
         "Một đầu phát–thu và gương phản xạ",
         "Chỉ một cuộn cảm và lõi kim loại"
       ],
-      "ui": "radio"
+      "ui": "radio",
+      "option_variants": [
+        {
+          "options": [
+            "Đầu phát và đầu thu đặt đối diện hai phía vùng phát hiện",
+            "Một đầu phát–thu chỉ nhận phản xạ từ vật",
+            "Một đầu phát–thu và gương phản xạ",
+            "Chỉ một cuộn cảm và lõi kim loại"
+          ],
+          "answer": "Đầu phát và đầu thu đặt đối diện hai phía vùng phát hiện",
+          "source_batch": "2026-11-13 batch Viet"
+        }
+      ]
     },
     {
       "id": "C174",
@@ -2695,7 +3211,19 @@
         "Tiệm cận điện dung",
         "Quang phản xạ ngược"
       ],
-      "ui": "radio"
+      "ui": "radio",
+      "option_variants": [
+        {
+          "options": [
+            "Tiệm cận điện dung",
+            "Tiệm cận điện cảm",
+            "Quang phản xạ ngược",
+            "Quang thu–phát độc lập"
+          ],
+          "answer": "Quang phản xạ ngược",
+          "source_batch": "2026-11-13 batch Viet"
+        }
+      ]
     },
     {
       "id": "C175",
@@ -2709,7 +3237,19 @@
         "Khác độ phản xạ bề mặt",
         "Khác điện tích electron cơ bản"
       ],
-      "ui": "radio"
+      "ui": "radio",
+      "option_variants": [
+        {
+          "options": [
+            "Khác điện tích electron cơ bản",
+            "Khác hệ số Seebeck",
+            "Khác độ phản xạ bề mặt",
+            "Khác điện trở dây kích thích RTD"
+          ],
+          "answer": "Khác độ phản xạ bề mặt",
+          "source_batch": "2026-11-13 batch Viet"
+        }
+      ]
     },
     {
       "id": "C176",
@@ -2723,7 +3263,19 @@
         "Mọi vật trong suốt",
         "Chỉ nước tinh khiết"
       ],
-      "ui": "radio"
+      "ui": "radio",
+      "option_variants": [
+        {
+          "options": [
+            "Chỉ nước tinh khiết",
+            "Mọi vật trong suốt",
+            "Từ trường",
+            "Mọi kim loại bất kể từ tính"
+          ],
+          "answer": "Từ trường",
+          "source_batch": "2026-11-13 batch Viet"
+        }
+      ]
     },
     {
       "id": "C177",
