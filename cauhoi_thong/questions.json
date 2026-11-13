@@ -3,7 +3,7 @@
   "title": "Ngân hàng câu hỏi cauhoi_thong",
   "source": "Câu hỏi được bổ sung từ các lượt mới theo yêu cầu người dùng",
   "language": "vi",
-  "count": 118,
+  "count": 156,
   "answer_visibility": "Store answers separately from quiz UI in production",
   "questions": [
     {
@@ -2373,6 +2373,704 @@
         "Cảm biến tiệm cận"
       ],
       "answer": "Cảm biến tiệm cận",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C119",
+      "topic": "optical",
+      "type": "true_false",
+      "prompt": "Vùng nghèo của diode được hình thành do sự khuếch tán của các hạt tải không cơ bản",
+      "answer": false,
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_label": "False",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "source_note": "Vùng nghèo hình thành do các hạt tải đa số khuếch tán qua tiếp giáp rồi tái hợp, để lại ion bất động; câu nêu 'hạt tải không cơ bản' là sai."
+    },
+    {
+      "id": "C120",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Phototransistor khác với photodiode ở điểm nào?",
+      "options": [
+        "Không phản ứng với ánh sáng",
+        "Cần bộ lọc sáng",
+        "Khuếch đại dòng điện",
+        "Độ nhạy kém hơn"
+      ],
+      "answer": "Khuếch đại dòng điện",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C121",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Yếu tố nào ít tác động tới cảm biến quang nhất?",
+      "options": [
+        "Âm thanh môi trường xung quanh",
+        "Độ ẩm",
+        "Bước sóng ánh sáng",
+        "Nhiệt độ"
+      ],
+      "answer": "Âm thanh môi trường xung quanh",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C122",
+      "topic": "optical",
+      "type": "fill_blank",
+      "prompt": "Phototransistor có khả năng khuếch đại dòng nhờ cơ chế hoạt động của ________.",
+      "answer": "transistor lưỡng cực",
+      "ui": "text_input",
+      "input_hint": "Chỉ điền phần còn thiếu.",
+      "accepted_answers": [
+        "BJT",
+        "transistor lưỡng cực",
+        "bipolar junction transistor"
+      ]
+    },
+    {
+      "id": "C123",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Dòng điện bão hòa trong tế bào quang điện chân không tỷ lệ thuận với:",
+      "options": [
+        "Cả thông lượng ánh sáng và điện áp giữa anode và cathode",
+        "Điện áp đặt lên điện cực anode và cathode",
+        "Bước sóng ánh sáng",
+        "Thông lượng ánh sáng chiếu vào"
+      ],
+      "answer": "Thông lượng ánh sáng chiếu vào",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C124",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Nguyên lý hoạt động chính của LDR dựa vào:",
+      "options": [
+        "Hiệu ứng quang dẫn",
+        "Hiệu ứng quang điện ngoài",
+        "Hiệu ứng nhiệt điện",
+        "Hiệu ứng Hall"
+      ],
+      "answer": "Hiệu ứng quang dẫn",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C125",
+      "topic": "optical",
+      "type": "true_false",
+      "prompt": "Cảm biến quang thu phát độc lập có khoảng cách phát hiện vật lớn hơn cảm biến quang thu phát chung",
+      "answer": true,
+      "options": [
+        "Sai",
+        "Đúng"
+      ],
+      "answer_label": "Đúng",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C126",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Ưu điểm chính của photodiode PIN so với photodiode thường là gì?",
+      "options": [
+        "Ít nhạy sáng hơn",
+        "Tốc độ đáp ứng nhanh hơn",
+        "Điện dung tiếp giáp lớn hơn",
+        "Hoạt động không cần điện áp"
+      ],
+      "answer": "Tốc độ đáp ứng nhanh hơn",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C127",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Trong tế bào quang điện, bộ phận nào phát electron khi chiếu sáng?",
+      "options": [
+        "Phototransistor",
+        "Anode",
+        "Grid",
+        "Cathode"
+      ],
+      "answer": "Cathode",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C128",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Photodiode thường hoạt động hiệu quả nhất khi được phân cực:",
+      "options": [
+        "Ngược",
+        "Thuận",
+        "Cả thuận và ngược",
+        "Không phân cực"
+      ],
+      "answer": "Ngược",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C129",
+      "topic": "optical",
+      "type": "true_false",
+      "prompt": "Thiết bị nhân quang hoạt động dựa trên hiệu ứng quang điện trong",
+      "answer": false,
+      "options": [
+        "Sai",
+        "Đúng"
+      ],
+      "answer_label": "Sai",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C130",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "So với photodiode, phototransistor có đặc điểm gì?",
+      "options": [
+        "Độ nhạy thấp hơn",
+        "Có khuếch đại nội do transistor",
+        "Không cần khuếch đại",
+        "Tốc độ nhanh hơn"
+      ],
+      "answer": "Có khuếch đại nội do transistor",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C131",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Tế bào quang điện chân không (vacuum tube) hoạt động dựa trên:",
+      "options": [
+        "Hiệu ứng quang dẫn",
+        "Hiệu ứng quang điện",
+        "Hiệu ứng nhiệt điện",
+        "Hiệu ứng từ điện"
+      ],
+      "answer": "Hiệu ứng quang điện",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C132",
+      "topic": "optical",
+      "type": "true_false",
+      "prompt": "Vùng nghèo của photodiode PIN lớn hơn photodiode PN:",
+      "answer": true,
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer_label": "True",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C133",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Sự khác biệt chính giữa APD và SPAD là gì?",
+      "options": [
+        "SPAD không có khuếch đại",
+        "APD không có vùng depletion",
+        "SPAD hoạt động dưới breakdown",
+        "APD khuếch đại analog, SPAD tạo xung digital"
+      ],
+      "answer": "APD khuếch đại analog, SPAD tạo xung digital",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C134",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Bộ nhân quang (photomultiplier tube) được dùng trong trường hợp:",
+      "options": [
+        "Ứng dụng đo nhiệt độ",
+        "Cường độ ánh sáng mạnh",
+        "Đo ánh sáng liên tục",
+        "Ánh sáng rất yếu"
+      ],
+      "answer": "Ánh sáng rất yếu",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C135",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Nguyên lý hoạt động của photodiode dựa vào",
+      "options": [
+        "Cặp điện tử - lỗ trống sinh ra trong vùng bán dẫn p khi có ánh sáng chiếu vào",
+        "TrueCặp điện tử - lỗ trống sinh ra trong vùng bán dẫn n khi có ánh sáng chiếu và",
+        "Sự thay đổi điện dung giữa hai cực của diode khi có ánh sáng chiếu vào",
+        "Cặp điện tử - lỗ trống sinh ra trong vùng nghèo khi có ánh sáng chiếu vào"
+      ],
+      "answer": "Cặp điện tử - lỗ trống sinh ra trong vùng nghèo khi có ánh sáng chiếu vào",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "source_note": "Phương án 2 có tiền tố 'True' bị dính vào văn bản gốc, giữ nguyên để bảo toàn form."
+    },
+    {
+      "id": "C136",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "So với PIN photodiode, APD có nhược điểm chính nào?",
+      "options": [
+        "Không có dòng quang điện",
+        "Yêu cầu điện áp cao và nhiễu lớn hơn",
+        "Không tuyến tính",
+        "Không hoạt động ở ánh sáng yếu"
+      ],
+      "answer": "Yêu cầu điện áp cao và nhiễu lớn hơn",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C137",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Cho biết bán dẫn CdS có bề rộng vùng cấm là 2,41 eV. Dùng CdS làm vật liệu cảm biến quang điện trở. Cảm biến có thể phát hiện được ánh sáng có bước sóng nào dưới đây?",
+      "options": [
+        "750 nm",
+        "500 nm",
+        "950 nm",
+        "650 nm"
+      ],
+      "answer": "500 nm",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "calculation": "λc=1240/2,41≈515 nm; 500 nm nhỏ hơn λc"
+    },
+    {
+      "id": "C138",
+      "topic": "optical",
+      "type": "fill_blank",
+      "prompt": "Trong tế bào quang điện chân không, cathode được phủ vật liệu có ________ thấp để dễ phát xạ electron.",
+      "answer": "công thoát",
+      "ui": "text_input",
+      "input_hint": "Chỉ điền phần còn thiếu.",
+      "accepted_answers": [
+        "công thoát",
+        "work function"
+      ]
+    },
+    {
+      "id": "C139",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Trong hệ thống LiDAR đo khoảng cách chính xác theo thời gian bay (ToF), loại photodiode nào phù hợp nhất?",
+      "options": [
+        "PIN",
+        "SPAD",
+        "PN",
+        "APD"
+      ],
+      "answer": "SPAD",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C140",
+      "topic": "optical",
+      "type": "fill_blank",
+      "prompt": "Trong photodiode, khi chiếu sáng, các cặp electron–hole được sinh ra ở vùng ________.",
+      "answer": "nghèo",
+      "ui": "text_input",
+      "input_hint": "Chỉ điền phần còn thiếu.",
+      "accepted_answers": [
+        "nghèo",
+        "vùng nghèo",
+        "depletion"
+      ]
+    },
+    {
+      "id": "C141",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Chọn phát biểu đúng về photodiode",
+      "options": [
+        "Photodiode hoạt động dựa trên hiệu ứng quang điện tại lớp bán dẫn loại p",
+        "Photodiode hoạt động dựa trên hiệu ứng quang điện tại lớp bán dẫn loại n",
+        "Photodiode hoạt động dựa trên hiệu ứng quang điện tại vùng nghèo của tiếp giáp p-n",
+        "Photodiode hoạt động dựa trên hiệu ứng quang điện trên toàn bộ lớp bán dẫn p-n"
+      ],
+      "answer": "Photodiode hoạt động dựa trên hiệu ứng quang điện tại vùng nghèo của tiếp giáp p-n",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C142",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Cho ý nghĩa của các đại lượng sau: σ là độ dẫn điện của thanh bán dẫn; q là điện tích hạt tải; n, p: mật độ electron, lỗ trống; µ(n), µ(p): độ linh động của electron, lỗ trống. Độ dẫn điện của chất bán dẫn thuần được xác định bởi công thức:",
+      "options": [
+        "σ=q[nμ(n)+pμ(p)]",
+        "σ=nμ(n)+pμ(p)",
+        "σ=qnμ(n)",
+        "σ=qpμ(p)"
+      ],
+      "answer": "σ=q[nμ(n)+pμ(p)]",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C143",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Phát biểu nào đúng?",
+      "options": [
+        "SPAD tạo tín hiệu dạng xung khi có photon",
+        "PIN luôn có độ nhạy cao nhất",
+        "SPAD đo chính xác cường độ ánh sáng liên tục",
+        "APD không có khuếch đại"
+      ],
+      "answer": "SPAD tạo tín hiệu dạng xung khi có photon",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C144",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Nhược điểm chính của phototransistor là gì?",
+      "options": [
+        "Không tạo được dòng quang điện",
+        "Không phụ thuộc nhiệt độ",
+        "Điện áp hoạt động rất cao",
+        "Tốc độ đáp ứng chậm hơn photodiode"
+      ],
+      "answer": "Tốc độ đáp ứng chậm hơn photodiode",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C145",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Photodiode ở chế độ photovoltaic sẽ:",
+      "options": [
+        "Tạo ra dòng điện rất lớn",
+        "Cần phân cực ngược để hoạt động",
+        "Không đáp ứng với ánh sáng hồng ngoại",
+        "Hoạt động như một nguồn điện khi có ánh sáng"
+      ],
+      "answer": "Hoạt động như một nguồn điện khi có ánh sáng",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C146",
+      "topic": "optical",
+      "type": "true_false",
+      "prompt": "Chế độ quang dẫn của photodiode hoạt động không cần nguồn nuôi",
+      "answer": false,
+      "options": [
+        "Sai",
+        "Đúng"
+      ],
+      "answer_label": "Sai",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C147",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Loại cảm biến nào dưới đây hoạt động dựa vào sự thay đổi điện trở khi được chiếu sáng?",
+      "options": [
+        "Photodiode",
+        "Phototransistor",
+        "Light-dependent resistor (LDR)",
+        "pin mặt trời"
+      ],
+      "answer": "Light-dependent resistor (LDR)",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C148",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Loại photodiode nào có độ nhạy cao nhất?",
+      "options": [
+        "PN",
+        "PIN",
+        "SPAD (Single-Photon Avalanche Diode)",
+        "APD (Avalanche Photodiode)"
+      ],
+      "answer": "SPAD (Single-Photon Avalanche Diode)",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "source_note": "'Độ nhạy cao nhất' hiểu theo khả năng phát hiện photon đơn lẻ, không phải độ tuyến tính đo quang thông liên tục."
+    },
+    {
+      "id": "C149",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Yếu tố nào sau đây ảnh hưởng trực tiếp đến dòng điện tạo ra trong tế bào quang điện chân không?",
+      "options": [
+        "Áp suất khí bên trong ống",
+        "Diện tích điện cực anode",
+        "Nhiệt độ môi trường",
+        "Cường độ và bước sóng của ánh sáng chiếu tới"
+      ],
+      "answer": "Cường độ và bước sóng của ánh sáng chiếu tới",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C150",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Phototransistor hoạt động dựa trên cơ chế nào?",
+      "options": [
+        "Hiệu ứng Hall",
+        "Chỉ tạo điện áp, không có dòng",
+        "Hiệu ứng nhiệt điện",
+        "Ánh sáng tạo dòng base → khuếch đại dòng collector"
+      ],
+      "answer": "Ánh sáng tạo dòng base → khuếch đại dòng collector",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C151",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Tế bào quang điện chân không hoạt động dựa trên:",
+      "options": [
+        "Sự khuếch đại ánh sáng",
+        "Hiện tượng quang điện ngoài",
+        "Hiện tượng phát xạ nhiệt điện tử",
+        "Hiện tượng quang dẫn trong chất bán dẫn"
+      ],
+      "answer": "Hiện tượng quang điện ngoài",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C152",
+      "topic": "optical",
+      "type": "fill_blank",
+      "prompt": "LDR (Light Dependent Resistor) còn được gọi là ________.",
+      "answer": "quang điện trở",
+      "ui": "text_input",
+      "input_hint": "Chỉ điền phần còn thiếu.",
+      "accepted_answers": [
+        "quang điện trở",
+        "quang trở",
+        "photoresistor"
+      ]
+    },
+    {
+      "id": "C153",
+      "topic": "optical",
+      "type": "fill_blank",
+      "prompt": "Photodiode hoạt động ở chế độ không phân cực được ứng dụng phổ biến trong ________.",
+      "answer": "pin mặt trời",
+      "ui": "text_input",
+      "input_hint": "Chỉ điền phần còn thiếu.",
+      "accepted_answers": [
+        "pin mặt trời",
+        "solar cell",
+        "cảm biến quang chế độ photovoltaic"
+      ],
+      "review_status": "needs_review",
+      "source_note": "Câu điền khuyết không cung cấp thêm ngữ cảnh về ứng dụng; chế độ không phân cực là photovoltaic, thường dùng trong pin mặt trời hoặc mạch đo ánh sáng."
+    },
+    {
+      "id": "C154",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Photodiode hoạt động ở chế độ phân cực nào",
+      "options": [
+        "Không phân cực",
+        "Ngược",
+        "Thuận",
+        "Cả thuận và ngược"
+      ],
+      "answer": "Ngược",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C155",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Vai trò chính của vùng nghèo trong photodiode là gì?",
+      "options": [
+        "Giảm điện áp hoạt động",
+        "Hấp thụ photon và tạo electron–hole",
+        "Khuếch đại tín hiệu",
+        "Tăng điện trở mạch"
+      ],
+      "answer": "Hấp thụ photon và tạo electron–hole",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "source_note": "Trong mô hình thực tế, điện trường vùng nghèo tách và thu hạt tải; đây là đáp án phù hợp nhất trong các lựa chọn được cung cấp."
+    },
+    {
+      "id": "C156",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Photodiode hoạt động dựa trên hiện tượng nào?",
+      "options": [
+        "Hiệu ứng nhiệt điện",
+        "Hiệu ứng quang điện trong bán dẫn",
+        "Hiệu ứng Hall",
+        "Hiệu ứng từ điện"
+      ],
+      "answer": "Hiệu ứng quang điện trong bán dẫn",
       "ui": "radio",
       "form": {
         "layout": "vertical",
