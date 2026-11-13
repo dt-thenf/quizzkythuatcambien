@@ -40,7 +40,7 @@ Mỗi phần tử `questions` có `id` (bắt đầu `C001`), `topic`, `type`, `
 
 ## Đợt 2 — 35 câu mới (13/11/2026)
 
-- Đã bổ sung `C015–C049` (27 câu chọn một đáp án, 1 câu Đúng/Sai, 7 câu điền khuyết); một câu điền lặp lại nguyên nội dung nên không thêm bản trùng.
+- Đã bổ sung `C015–C049` (28 câu chọn một đáp án, 1 câu Đúng/Sai, 6 câu điền khuyết); một câu điền lặp lại nguyên nội dung nên không thêm bản trùng.
 - Các câu về CO₂ được gắn chủ đề `gas`, kèm nguồn datasheet Figaro và ghi chú khác biệt giữa CDM7160-C00 Rev. 03/18 (300–5.000 ppm) và Rev. 05/19 (360–5.000 ppm). Đây là khác biệt phiên bản, không thay đổi lựa chọn gốc của đề.
 - `accepted_answers` (nếu có) chứa các cách viết đồng nghĩa cho bài điền khuyết; `source_note` và `verification` là metadata phục vụ rà soát nguồn, không hiển thị bắt buộc trong form.
 - Không tạo ảnh vì 35 câu mới đều là văn bản. Toàn bộ ảnh đã có tại `figures/` và `screenshots/` được giữ nguyên.
