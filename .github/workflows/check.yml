@@ -1,0 +1,16 @@
+name: Check offline quiz
+on:
+  push:
+  pull_request:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/build.mjs
+      - run: node --test tests/quiz.test.mjs
+      - name: Ensure the ready-to-use HTML is up to date
+        run: git diff --exit-code -- index.html
