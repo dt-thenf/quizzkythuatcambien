@@ -44,3 +44,9 @@ Mỗi phần tử `questions` có `id` (bắt đầu `C001`), `topic`, `type`, `
 - Các câu về CO₂ được gắn chủ đề `gas`, kèm nguồn datasheet Figaro và ghi chú khác biệt giữa CDM7160-C00 Rev. 03/18 (300–5.000 ppm) và Rev. 05/19 (360–5.000 ppm). Đây là khác biệt phiên bản, không thay đổi lựa chọn gốc của đề.
 - `accepted_answers` (nếu có) chứa các cách viết đồng nghĩa cho bài điền khuyết; `source_note` và `verification` là metadata phục vụ rà soát nguồn, không hiển thị bắt buộc trong form.
 - Không tạo ảnh vì 35 câu mới đều là văn bản. Toàn bộ ảnh đã có tại `figures/` và `screenshots/` được giữ nguyên.
+
+## Đợt 3 — Ảnh quang điện
+
+- Đã nhập 7 câu ảnh (C050–C056), lưu 9 screenshot gốc và 4 hình được cắt trực tiếp từ ảnh đề.
+- Mạch photodiode phân cực thuận/ngược là hai trường hợp khác nhau dù phần chữ câu hỏi giống nhau; phân biệt bằng variant_key và figure.
+- screenshot_variants lưu các ảnh trùng nội dung với thứ tự radio khác nhau.

@@ -3,7 +3,7 @@
   "title": "Ngân hàng câu hỏi cauhoi_thong",
   "source": "Câu hỏi được bổ sung từ các lượt mới theo yêu cầu người dùng",
   "language": "vi",
-  "count": 49,
+  "count": 56,
   "answer_visibility": "Store answers separately from quiz UI in production",
   "questions": [
     {
@@ -1025,6 +1025,175 @@
         ]
       },
       "source_note": "Điều kiện vận hành của CDM7160: 0–85% RH, không ngưng tụ; 90% RH có ngưng tụ nằm ngoài giới hạn."
+    },
+    {
+      "id": "C050",
+      "topic": "optical",
+      "type": "single_choice",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "prompt": "Một detector bán dẫn lý tưởng có năng lượng vùng cấm Eg = 0,80 eV. Bước sóng cắt của detector xấp xỉ bằng:",
+      "options": [
+        "1,55 µm",
+        "0,65 µm",
+        "0,80 µm",
+        "1,24 µm"
+      ],
+      "answer": "1,55 µm",
+      "screenshot": "screenshots/original-055322.png",
+      "calculation": "λc≈1,24/Eg (µm)=1,55 µm"
+    },
+    {
+      "id": "C051",
+      "topic": "optical",
+      "type": "single_choice",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "prompt": "Một quang điện trở có độ dẫn điện σ = 25 S/m, khoảng cách giữa hai điện cực L = 2 mm, chiều rộng w = 0,5 mm và chiều dày d = 0,1 mm. Điện trở của cảm biến xấp xỉ bằng:",
+      "options": [
+        "160 Ω",
+        "16 kΩ",
+        "400 Ω",
+        "1,6 kΩ"
+      ],
+      "answer": "1,6 kΩ",
+      "screenshot": "screenshots/original-055520.png",
+      "calculation": "R=L/(σwd)=0,002/[25×0,0005×0,0001]=1600 Ω"
+    },
+    {
+      "id": "C052",
+      "topic": "optical",
+      "type": "single_choice",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "prompt": "Cho khối bán dẫn pha tạp loại n có kích thước như hình: Điện trở tối của khối bán dẫn được xác định bởi công thức nào sau đây:",
+      "options": [
+        "c",
+        "a",
+        "d",
+        "b"
+      ],
+      "answer": "b",
+      "screenshot": "screenshots/original-060055.png",
+      "figure": "figures/n-type-semiconductor-slab.png",
+      "formula_options": {
+        "a": "R = A/(L q n μn)",
+        "b": "R = L/(A q n μn)",
+        "c": "R = A/(L q p μp)",
+        "d": "R = L/(A q p μp)"
+      }
+    },
+    {
+      "id": "C053",
+      "topic": "optical",
+      "type": "single_choice",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "prompt": "Cho một sơ đồ hoạt động của photodiode như hình vẽ. Khi chiếu chùm laser với bước sóng thích hợp vào photodiode thì điện áp ra trên điện trở R thay đổi thế nào?",
+      "options": [
+        "Giảm",
+        "Lúc tăng lúc giảm",
+        "Tăng",
+        "Không đổi"
+      ],
+      "answer": "Tăng",
+      "variant_key": "photodiode-reverse-bias",
+      "figure": "figures/photodiode-reverse-bias.png",
+      "screenshot": "screenshots/original-060902.png",
+      "screenshot_variants": [
+        "screenshots/original-060330.png"
+      ],
+      "source_note": "Mạch photodiode phân cực ngược. Giữ hai bản đề cùng nội dung, có thứ tự phương án khác nhau."
+    },
+    {
+      "id": "C054",
+      "topic": "optical",
+      "type": "single_choice",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "prompt": "Cho tế bào quang điện như hình vẽ. Điều kiện nào cần thiết để có dòng điện chạy trong mạch?",
+      "options": [
+        "Phải có hiệu điện thế đặt lên hai điện cực anode và cathode của tế bào quang điện",
+        "Cần cấp nguồn điện và bước sóng ánh sáng có năng lượng lớn hơn công thoát của anode",
+        "Cường độ ánh sáng phải đủ mạnh",
+        "Năng lượng của photon chiếu vào lớn hơn công thoát của vật liệu làm tế bào quang điện"
+      ],
+      "answer": "Năng lượng của photon chiếu vào lớn hơn công thoát của vật liệu làm tế bào quang điện",
+      "figure": "figures/photoelectric-cell-circuit.png",
+      "screenshot": "screenshots/original-060451.png"
+    },
+    {
+      "id": "C055",
+      "topic": "optical",
+      "type": "single_choice",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "prompt": "Cho khối bán dẫn pha tạp loại n có kích thước như hình: Số điện tử sinh ra trong một giây trong một đơn vị thể tích khi được chiếu sáng xác định bởi công thức nào sau đây:",
+      "options": [
+        "c)",
+        "b)",
+        "d)",
+        "a)"
+      ],
+      "answer": "c)",
+      "figure": "figures/n-type-semiconductor-slab.png",
+      "screenshot": "screenshots/original-060659.png",
+      "formula_options": {
+        "a": "g = η(1−R)λ/(A L hc) [thiếu φ ở ảnh]",
+        "b": "g = A L η(1−R)λφ/(hc)",
+        "c": "g = η(1−R)λφ/(A L hc)",
+        "d": "g = A L η(1−R)λ/(hc)"
+      }
+    },
+    {
+      "id": "C056",
+      "topic": "optical",
+      "type": "single_choice",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "prompt": "Cho một sơ đồ hoạt động của photodiode như hình vẽ. Khi chiếu chùm laser với bước sóng thích hợp vào photodiode thì điện áp ra trên điện trở R thay đổi thế nào?",
+      "options": [
+        "Tăng",
+        "Giảm",
+        "Không đổi",
+        "Thay đổi bất kì"
+      ],
+      "answer": "Giảm",
+      "variant_key": "photodiode-forward-bias",
+      "figure": "figures/photodiode-forward-bias.png",
+      "screenshot": "screenshots/original-060749.png",
+      "screenshot_variants": [
+        "screenshots/original-060731.png"
+      ],
+      "source_note": "Mạch photodiode phân cực thuận; ánh sáng gây dòng quang ngược, giảm điện áp trên R."
     }
   ]
 }

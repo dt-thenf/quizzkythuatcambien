@@ -6,3 +6,5 @@ Lưu hình sơ đồ/biểu đồ **cắt từ ảnh câu hỏi mới** vào th�
 | --- | --- | --- |
 | `sensitivity-input-quantity.png` | `C001-original.png` | `(25, 102, 600, 240)` |
 | `sensor-selection-0-80mm.png` | `C002-original.png` | `(23, 90, 872, 462)` |
+
+Bốn hình kỹ thuật cắt trực tiếp từ ảnh đợt 3: n-type-semiconductor-slab.png, photodiode-forward-bias.png, photodiode-reverse-bias.png, photoelectric-cell-circuit.png.
