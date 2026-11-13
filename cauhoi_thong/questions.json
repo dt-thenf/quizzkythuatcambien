@@ -3,7 +3,7 @@
   "title": "Ngân hàng câu hỏi cauhoi_thong",
   "source": "Câu hỏi được bổ sung từ các lượt mới theo yêu cầu người dùng",
   "language": "vi",
-  "count": 212,
+  "count": 241,
   "answer_visibility": "Store answers separately from quiz UI in production",
   "questions": [
     {
@@ -4195,6 +4195,548 @@
         "gương",
         "reflector"
       ]
+    },
+    {
+      "id": "C213",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Nguyên lý đo của nhiệt kế giãn nở dùng chất lỏng là khi nhiệt độ thay đổi thì:",
+      "options": [
+        "điện trở suất của vật liệu thay đổi",
+        "chiều dài của vật liệu thay đổi",
+        "thể tích của vật liệu thay đổi",
+        "điện trở của vật liệu thay đổi"
+      ],
+      "answer": "thể tích của vật liệu thay đổi",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C214",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Ưu điểm chính của RTD kim loại so với thermistor là:",
+      "options": [
+        "Dễ chế tạo hơn",
+        "Tuyến tính cao hơn",
+        "Giá thành rẻ hơn",
+        "Độ nhạy cao hơn"
+      ],
+      "answer": "Tuyến tính cao hơn",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C215",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Thermistor là gì?",
+      "options": [
+        "Nhiệt điện trở bán dẫn",
+        "Nhiệt điện trở hợp kim kim loại",
+        "Nhiệt điện trở kim loại",
+        "Nhiệt điện trở oxit bán dẫn"
+      ],
+      "answer": "Nhiệt điện trở bán dẫn",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "review_status": "needs_review",
+      "alternative_answers": [
+        "Nhiệt điện trở oxit bán dẫn"
+      ],
+      "source_note": "Oxit bán dẫn là một nhóm thermistor phổ biến; hai phương án bán dẫn và oxit bán dẫn đều phù hợp. Lựa chọn đáp án khái quát hơn."
+    },
+    {
+      "id": "C216",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Mối quan hệ giữa nhiệt độ Celcius và nhiệt độ Farenheit là:",
+      "options": [
+        "T( oF) = 5/9 T( oC) - 32",
+        "T( oF) = 9/5 T( oC) - 32",
+        "T( oF) = 5/9 T( oC) + 32",
+        "T( oF) = 9/5 T( oC) + 32"
+      ],
+      "answer": "T( oF) = 9/5 T( oC) + 32",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C217",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "RTD silicon phù hợp nhất cho ứng dụng nào?",
+      "options": [
+        "Đo nhiệt độ trong các thiết bị bán dẫn",
+        "Đo nhiệt độ môi trường",
+        "Đo nhiệt độ cơ thể người",
+        "Đo nhiệt độ trong ống khói công nghiệp"
+      ],
+      "answer": "Đo nhiệt độ trong các thiết bị bán dẫn",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C218",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Tự đốt nóng (self-heating) gây ra loại sai số nào?",
+      "options": [
+        "Sai số ngẫu nhiên",
+        "Sai số hệ thống"
+      ],
+      "answer": "Sai số hệ thống",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C219",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "cảm biến nhiệt điện trở nào có dải đo nhiệt độ rộng nhất?",
+      "options": [
+        "thermistor",
+        "RTD silic",
+        "Pt100",
+        "Pt1000"
+      ],
+      "answer": "Pt100",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "review_status": "needs_review",
+      "alternative_answers": [
+        "Pt1000"
+      ],
+      "source_note": "Pt100/Pt1000 cùng loại platinum RTD, phạm vi nhiệt độ do cấu tạo và cấp công nghiệp quyết định, không chỉ bởi giá trị R0."
+    },
+    {
+      "id": "C220",
+      "topic": "thermal",
+      "type": "true_false",
+      "prompt": "RTD silic có độ nhạy cao hơn RTD kim loại vì RTD silic có hàm truyền bậc hai còn RTD kim loại có hàm truyền bậc 1. Phát biểu này đúng hay sai?",
+      "options": [
+        "Đúng",
+        "Sai"
+      ],
+      "answer": false,
+      "answer_label": "Sai",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "source_note": "Bậc của mô hình không tự xác định độ dốc/độ nhạy; phụ thuộc các hệ số và nhiệt độ."
+    },
+    {
+      "id": "C221",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Các kim loại thường dùng nhất để chế tạo RTD là:",
+      "options": [
+        "Pt, Ni, Ag, W",
+        "Pt, Cu, Ni",
+        "Pt, Cu, Si, Ni",
+        "Pt, Cu, Ni, W"
+      ],
+      "answer": "Pt, Cu, Ni",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C222",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Đầu ra của RTD loại nào cho sai số lớn nhất?",
+      "options": [
+        "4 dây",
+        "3 dây",
+        "2 dây"
+      ],
+      "answer": "2 dây",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C223",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Sai số gây ra do tự đốt nóng của nhiệt điện trở kim loại nào là bé nhất?",
+      "options": [
+        "Thermistor",
+        "RTD Pt",
+        "RTD Si",
+        "RTD Ni"
+      ],
+      "answer": "RTD Pt",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "review_status": "needs_review",
+      "source_note": "Không thể suy ra sai số tự đốt nóng chỉ từ vật liệu: phụ thuộc dòng điện, điện trở và khả năng tản nhiệt."
+    },
+    {
+      "id": "C224",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "RTD nào có sai số do tự đốt nóng (self-heating) bé nhất",
+      "options": [
+        "Balco2000",
+        "Pt100",
+        "Pt1000",
+        "Ni1000"
+      ],
+      "answer": "Pt1000",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "review_status": "needs_review",
+      "source_note": "Lựa chọn Pt1000 chỉ có thể ưu tiên khi mạch kích thích phù hợp, ví dụ cùng điện áp, không phải quy luật vật liệu."
+    },
+    {
+      "id": "C225",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "RTD nào có giá thành cao nhất?",
+      "options": [
+        "RTD Ni1000",
+        "RTD Pt100",
+        "RTD Pt1000",
+        "RTD Balco2000"
+      ],
+      "answer": "RTD Pt1000",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "review_status": "needs_review",
+      "source_note": "Giá còn phụ thuộc kết cấu, độ chính xác, vỏ, hãng và số lượng; câu hỏi không đủ dữ liệu giá để kết luận chắc chắn."
+    },
+    {
+      "id": "C226",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Nhiệt điện trở có hệ số nhiệt dương là loại cảm biến mà:",
+      "options": [
+        "Đo được nhiệt độ nhỏ hơn 0 oC",
+        "Đo được nhiệt độ lớn hơn 0 oC",
+        "Giá trị điện trở tăng khi nhiệt độ tăng",
+        "Giá trị điện trở giảm khi nhiệt độ tăng"
+      ],
+      "answer": "Giá trị điện trở tăng khi nhiệt độ tăng",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C227",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Thermistor thường được sử dụng trong:",
+      "options": [
+        "Mạch điện tử tiêu dùng",
+        "Thiết bị đo lường quân sự",
+        "Lò luyện kim",
+        "Hệ thống đo công nghiệp"
+      ],
+      "answer": "Mạch điện tử tiêu dùng",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C228",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "RTD 3 dây giúp giảm:",
+      "options": [
+        "Độ nhạy",
+        "Chi phí sản xuất",
+        "Sai số do điện trở dây dẫn",
+        "Sai số do tự đốt nóng"
+      ],
+      "answer": "Sai số do điện trở dây dẫn",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C229",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Cảm biến nhiệt điện trở NTC là:",
+      "options": [
+        "Cảm biến có hệ số nhiệt điện trở không phụ thuộc vào nhiệt độ",
+        "Chỉ đo được nhiệt độ âm",
+        "Điện trở của cảm biến giảm khi nhiệt độ tăng",
+        "Cảm biến có hệ số nhiệt điện trở dương"
+      ],
+      "answer": "Điện trở của cảm biến giảm khi nhiệt độ tăng",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C230",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Cảm biến Pt100 mang ý nghĩa là: 0 oC",
+      "options": [
+        "Chiều dài của cảm biến là 100 m",
+        "Cảm biến có điện trở định danh là 100 Ω ở 0 oC",
+        "Cả 3 đáp án nêu trong câu đều đúng",
+        "Cảm biến nhiệt điện trở làm bằng vật liệu chì"
+      ],
+      "answer": "Cảm biến có điện trở định danh là 100 Ω ở 0 oC",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C231",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Độ nhạy của RTD Pt100 là:",
+      "options": [
+        "0,00038/°C",
+        "0,00385/°C",
+        "1,000/°C",
+        "0,385/°C"
+      ],
+      "answer": "0,385/°C",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "review_status": "needs_review",
+      "source_note": "Độ nhạy tuyệt đối tại 0°C là dR/dT≈0,385 Ω/°C, còn hệ số nhiệt tương đối (TCR) 0,00385 °C⁻¹. Đề ghi đơn vị /°C thay vì Ω/°C."
+    },
+    {
+      "id": "C232",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Cho 4 loại RTD loại dây quấn platinum dưới đây. RTD nào có độ nhạy cao nhất?",
+      "options": [
+        "RTD Pt200",
+        "RTD Pt1000",
+        "RTD Pt100",
+        "RTD Pt500"
+      ],
+      "answer": "RTD Pt1000",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "source_note": "Giả sử cùng TCR và xét độ nhạy tuyệt đối dR/dT=αR0."
+    },
+    {
+      "id": "C233",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "RTD silicon có thể đo được trong khoảng nhiệt độ nào?",
+      "options": [
+        "-200 đến 800 °C",
+        "-100 đến 500 °C",
+        "0 đến 400 °C",
+        "-50 đến 150 °C"
+      ],
+      "answer": "-50 đến 150 °C",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C234",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Nguyên lý hoạt động của nhiệt kế giãn nở là:",
+      "options": [
+        "Dựa trên sự giãn nở chất khí khi tăng nhiệt độ",
+        "Dựa trên sự giãn nở chất lỏng khi tăng nhiệt độ",
+        "Dựa trên sự phụ thuộc điện trở suất của vật liệu khi tăng nhiệt độ",
+        "Dựa trên sự giãn nở chất rắn khi tăng nhiệt độ"
+      ],
+      "answer": "Dựa trên sự giãn nở chất lỏng khi tăng nhiệt độ",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "review_status": "needs_review",
+      "alternative_answers": [
+        "Dựa trên sự giãn nở chất khí khi tăng nhiệt độ",
+        "Dựa trên sự giãn nở chất rắn khi tăng nhiệt độ"
+      ],
+      "source_note": "Nhiệt kế giãn nở có thể dựa trên chất khí, chất lỏng hoặc chất rắn; câu có nhiều phương án đúng nếu không chỉ rõ loại nhiệt kế."
+    },
+    {
+      "id": "C235",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "RTD Pt100 có hệ số nhiệt điện trở TCR 0,00385 /oC có điện trở bằng:",
+      "options": [
+        "100,385 Ω tại nhiệt độ 100 oC",
+        "138,5 Ω tại nhiệt độ 100 K",
+        "100 Ω tại nhiệt độ 100 oC",
+        "138,5 Ω tại nhiệt độ 100 oC"
+      ],
+      "answer": "138,5 Ω tại nhiệt độ 100 oC",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C236",
+      "topic": "thermal",
+      "type": "true_false",
+      "prompt": "RTD dạng màng có độ chính xác cao hơn RTD dạng ống dây",
+      "options": [
+        "Sai",
+        "Đúng"
+      ],
+      "answer": false,
+      "answer_label": "Sai",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "source_note": "RTD dây quấn thường có độ chính xác và ổn định tốt hơn loại màng mỏng, không có quan hệ 'luôn' tuyệt đối."
+    },
+    {
+      "id": "C237",
+      "topic": "thermal",
+      "type": "fill_blank",
+      "prompt": "Kim loại platinum được dùng trong RTD vì có đặc tính ________ với nhiệt độ.",
+      "answer": "tuyến tính",
+      "ui": "text_input",
+      "input_hint": "Chỉ điền phần còn thiếu.",
+      "accepted_answers": [
+        "tuyến tính",
+        "ổn định"
+      ],
+      "source_note": "Theo tài liệu: platinum ổn định, dải nhiệt độ rộng và R(T) gần tuyến tính trên các khoảng xác định."
+    },
+    {
+      "id": "C238",
+      "topic": "thermal",
+      "type": "fill_blank",
+      "prompt": "RTD loại 2 dây thường gặp sai số do ________ của dây dẫn.",
+      "answer": "điện trở",
+      "ui": "text_input",
+      "input_hint": "Chỉ điền phần còn thiếu.",
+      "accepted_answers": [
+        "điện trở",
+        "điện trở phụ"
+      ]
+    },
+    {
+      "id": "C239",
+      "topic": "thermal",
+      "type": "fill_blank",
+      "prompt": "Thermistor thường làm bằng vật liệu bán dẫn dạng ________.",
+      "answer": "ôxít kim loại",
+      "ui": "text_input",
+      "input_hint": "Chỉ điền phần còn thiếu.",
+      "accepted_answers": [
+        "ôxít kim loại",
+        "oxit kim loại",
+        "oxide"
+      ]
+    },
+    {
+      "id": "C240",
+      "topic": "thermal",
+      "type": "fill_blank",
+      "prompt": "RTD platinum phổ biến nhất là loại ________ vì có độ tuyến tính và ổn định cao.",
+      "answer": "Pt100",
+      "ui": "text_input",
+      "input_hint": "Chỉ điền phần còn thiếu.",
+      "accepted_answers": [
+        "Pt100",
+        "Pt1000"
+      ],
+      "source_note": "Pt100 phổ biến trong đo nhiệt độ công nghiệp; Pt1000 cũng rất phổ biến trong một số ứng dụng."
+    },
+    {
+      "id": "C241",
+      "topic": "thermal",
+      "type": "fill_blank",
+      "prompt": "RTD là viết tắt của cụm từ ________.",
+      "answer": "Resistance Temperature Detector",
+      "ui": "text_input",
+      "input_hint": "Chỉ điền phần còn thiếu."
     }
   ]
 }
