@@ -3,7 +3,7 @@
   "title": "Ngân hàng câu hỏi Kỹ thuật cảm biến",
   "source": "Các câu hỏi và hình ảnh được người dùng cung cấp trong cuộc trò chuyện ngày 12/11/2026",
   "language": "vi",
-  "count": 226,
+  "count": 241,
   "answer_visibility": "Store answers separately from quiz UI in production",
   "questions": [
     {
@@ -3990,6 +3990,265 @@
         "Nối thêm điện trở dây"
       ],
       "answer": "Bốn dây",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "source_batch": "2026-11-13 Viet"
+    },
+    {
+      "id": "C227",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Pt100 có R₀ = 100 Ω tại 0 °C, α = 0,00385 °C⁻¹. Theo mô hình tuyến tính, R tại 57 °C là bao nhiêu?",
+      "options": [
+        "100.219 Ω",
+        "121.945 Ω",
+        "78.055 Ω",
+        "131.945 Ω"
+      ],
+      "answer": "121.945 Ω",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "source_batch": "2026-11-13 Viet"
+    },
+    {
+      "id": "C228",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Cặp nhiệt điện có αab = 34 µV/K không đổi, đầu nóng 140 °C, đầu lạnh 17 °C. Điện áp xấp xỉ bằng bao nhiêu?",
+      "options": [
+        "4.760 mV",
+        "4182.000 mV",
+        "0.418 mV",
+        "4.182 mV"
+      ],
+      "answer": "4.182 mV",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "source_batch": "2026-11-13 Viet"
+    },
+    {
+      "id": "C229",
+      "topic": "thermal",
+      "type": "numeric",
+      "prompt": "Thanh silic dài 29 mm, rộng 13 mm, dày 2.2 mm. n = p = 3.1×10¹² cm⁻³, µn = 1340, µp = 470 cm²/(V·s), q = 1,6×10⁻¹⁹ C. Tính điện trở theo kΩ. Chỉ nhập số theo đơn vị yêu cầu, dùng dấu chấm thập phân.",
+      "answer": 11.29462232652395,
+      "unit": "kΩ",
+      "display_answer": "11.294622",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số theo đơn vị yêu cầu, dùng dấu chấm thập phân.",
+      "calculation": "R=L/(q(nμn+pμp)A); L=2.9 cm, A=1.3×0.22=0.286 cm².",
+      "source_batch": "2026-11-13 Viet"
+    },
+    {
+      "id": "C230",
+      "topic": "thermal",
+      "type": "numeric",
+      "prompt": "RTD có R₀ = 325 Ω tại 20 °C và α = 0.0037 °C⁻¹. Đo R = 418.795000 Ω. Theo mô hình tuyến tính, tính T theo °C. Chỉ nhập số theo đơn vị yêu cầu, dùng dấu chấm thập phân.",
+      "answer": 98,
+      "unit": "°C",
+      "display_answer": "98",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số theo đơn vị yêu cầu, dùng dấu chấm thập phân.",
+      "calculation": "T=20+(418.795/325−1)/0.0037=98 °C.",
+      "source_batch": "2026-11-13 Viet"
+    },
+    {
+      "id": "C231",
+      "topic": "thermal",
+      "type": "numeric",
+      "prompt": "NTC có R₀ = 10 kΩ tại 25 °C, β = 3550 K. Dùng R = R₀exp[β(1/T−1/T₀)], T theo K. Tính R tại 45 °C theo kΩ. Lấy T(K) = t(°C)+273,15. Chỉ nhập số theo đơn vị yêu cầu, dùng dấu chấm thập phân.",
+      "answer": 4.730757950445047,
+      "unit": "kΩ",
+      "display_answer": "4.730758",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số theo đơn vị yêu cầu, dùng dấu chấm thập phân.",
+      "calculation": "R=10exp[3550(1/318.15−1/298.15)]≈4.730758 kΩ.",
+      "source_batch": "2026-11-13 Viet"
+    },
+    {
+      "id": "C232",
+      "topic": "electromagnetic",
+      "type": "true_false",
+      "prompt": "Từ thông có đơn vị tesla.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": false,
+      "answer_label": "False",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "source_batch": "2026-11-13 Viet"
+    },
+    {
+      "id": "C233",
+      "topic": "electromagnetic",
+      "type": "true_false",
+      "prompt": "Cảm biến từ trở biến đổi điện trở theo từ trường hoặc hướng từ.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": true,
+      "answer_label": "True",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "source_batch": "2026-11-13 Viet"
+    },
+    {
+      "id": "C234",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "Với tụ phẳng, thông số nào ở mẫu số?",
+      "options": [
+        "Hằng số ε₀",
+        "Diện tích A",
+        "Khoảng cách d",
+        "Điện môi εr"
+      ],
+      "answer": "Khoảng cách d",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "source_batch": "2026-11-13 Viet"
+    },
+    {
+      "id": "C235",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "Tụ cảm biến có C = 21 pF. Khoảng cách bản tụ tăng 3 lần, A và ε giữ nguyên. Điện dung mới là bao nhiêu?",
+      "options": [
+        "7.000 pF",
+        "24.000 pF",
+        "21.000 pF",
+        "63.000 pF"
+      ],
+      "answer": "7.000 pF",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "source_batch": "2026-11-13 Viet"
+    },
+    {
+      "id": "C236",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "LVDT có V1 = 1.71 V, V2 = 2.67 V cùng tham chiếu pha. Theo quy ước Vout = V2−V1, đầu ra bằng bao nhiêu?",
+      "options": [
+        "-0.960 V",
+        "1.920 V",
+        "0.960 V",
+        "4.380 V"
+      ],
+      "answer": "0.960 V",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "source_batch": "2026-11-13 Viet"
+    },
+    {
+      "id": "C237",
+      "topic": "electromagnetic",
+      "type": "numeric",
+      "prompt": "Tụ phẳng có A = 120 mm², d = 0.70 mm, εr = 2.6. Dùng ε₀ = 8,85×10⁻¹² F/m, bỏ qua hiệu ứng mép. Tính C theo pF. Chỉ nhập số theo đơn vị yêu cầu, dùng dấu chấm thập phân.",
+      "answer": 3.9445714285714293,
+      "unit": "pF",
+      "display_answer": "3.944571",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số theo đơn vị yêu cầu, dùng dấu chấm thập phân.",
+      "calculation": "C=ε0 εr A/d=3.944571 pF.",
+      "source_batch": "2026-11-13 Viet"
+    },
+    {
+      "id": "C238",
+      "topic": "electromagnetic",
+      "type": "fill_blank",
+      "prompt": "Tên hiệu ứng tạo điện áp ngang do dòng điện và từ trường là _____. Điền thuật ngữ, không thêm dấu chấm cuối câu.",
+      "answer": "Hall",
+      "ui": "text_input",
+      "input_hint": "Điền thuật ngữ, không thêm dấu chấm cuối câu.",
+      "source_batch": "2026-11-13 Viet"
+    },
+    {
+      "id": "C239",
+      "topic": "mechanical",
+      "type": "true_false",
+      "prompt": "Ứng suất pháp có đơn vị N·m.",
+      "options": [
+        "True",
+        "False"
+      ],
+      "answer": false,
+      "answer_label": "False",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "source_batch": "2026-11-13 Viet"
+    },
+    {
+      "id": "C240",
+      "topic": "mechanical",
+      "type": "single_choice",
+      "prompt": "Hiệu chuẩn span của cân cần gì?",
+      "options": [
+        "Chỉ nhấn tare khi cân rỗng",
+        "Chỉ tăng ODR",
+        "Chỉ đổi cáp",
+        "Tải chuẩn"
+      ],
+      "answer": "Tải chuẩn",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "source_batch": "2026-11-13 Viet"
+    },
+    {
+      "id": "C241",
+      "topic": "mechanical",
+      "type": "single_choice",
+      "prompt": "Giữ v và θ không đổi, giảm λ một nửa làm |fD| thay đổi thế nào?",
+      "options": [
+        "Bằng 0",
+        "Giảm một nửa",
+        "Tăng gấp đôi",
+        "Không đổi"
+      ],
+      "answer": "Tăng gấp đôi",
       "ui": "radio",
       "form": {
         "layout": "vertical",
