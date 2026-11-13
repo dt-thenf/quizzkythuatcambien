@@ -5858,9 +5858,10 @@
       "topic": "electromagnetic",
       "type": "true_false",
       "prompt": "Tụ điện ở đầu của cảm biến tiệm cận điện dung được cấu tạo từ hai tấm điện cực đặt song song với nhau.",
-      "options": {
-        "source_note": "Cảm biến tiệm cận điện dung công nghiệp dùng điện cực cảm biến và điện cực tham chiếu, thường hình trụ rỗng và đĩa; không phải hai bản song song cổ điển."
-      },
+      "options": [
+        "True",
+        "False"
+      ],
       "answer": false,
       "answer_label": "False",
       "ui": "radio",
@@ -5868,7 +5869,8 @@
         "layout": "vertical",
         "control": "radio",
         "option_order": "preserve"
-      }
+      },
+      "source_note": "Cảm biến tiệm cận điện dung công nghiệp dùng điện cực cảm biến và điện cực tham chiếu, thường hình trụ rỗng và đĩa; không phải hai bản song song cổ điển."
     },
     {
       "id": "C278",
@@ -5913,9 +5915,10 @@
       "topic": "electromagnetic",
       "type": "true_false",
       "prompt": "Tụ điện ở đầu của cảm biến tiệm cận điện dung có dạng xylanh",
-      "options": {
-        "source_note": "Một bản điện cực thường dạng xi lanh rỗng, bản kia là đĩa trong lỗ mở."
-      },
+      "options": [
+        "True",
+        "False"
+      ],
       "answer": true,
       "answer_label": "True",
       "ui": "radio",
@@ -5923,7 +5926,8 @@
         "layout": "vertical",
         "control": "radio",
         "option_order": "preserve"
-      }
+      },
+      "source_note": "Một bản điện cực thường dạng xi lanh rỗng, bản kia là đĩa trong lỗ mở."
     },
     {
       "id": "C281",
@@ -6230,9 +6234,10 @@
       "topic": "electromagnetic",
       "type": "true_false",
       "prompt": "Điện dung của tụ điện (cổ điển) có thể đạt đến 1F?",
-      "options": {
-        "source_note": "Tụ điện thông thường ít khi đạt 1 F; siêu tụ điện có thể đạt hoặc vượt mức này, nên câu phụ thuộc cách hiểu 'cổ điển'."
-      },
+      "options": [
+        "True",
+        "False"
+      ],
       "answer": false,
       "answer_label": "False",
       "ui": "radio",
@@ -6240,7 +6245,8 @@
         "layout": "vertical",
         "control": "radio",
         "option_order": "preserve"
-      }
+      },
+      "source_note": "Tụ điện thông thường ít khi đạt 1 F; siêu tụ điện có thể đạt hoặc vượt mức này, nên câu phụ thuộc cách hiểu 'cổ điển'."
     },
     {
       "id": "C297",
@@ -6384,9 +6390,10 @@
       "topic": "electromagnetic",
       "type": "true_false",
       "prompt": "Cuộn dây có nhiều vòng thì từ trường sinh ra càng mạnh.",
-      "options": {
-        "source_note": "Đúng nếu giữ các thông số khác (cường độ dòng điện, lõi, hình học) không đổi."
-      },
+      "options": [
+        "True",
+        "False"
+      ],
       "answer": true,
       "answer_label": "True",
       "ui": "radio",
@@ -6394,7 +6401,8 @@
         "layout": "vertical",
         "control": "radio",
         "option_order": "preserve"
-      }
+      },
+      "source_note": "Đúng nếu giữ các thông số khác (cường độ dòng điện, lõi, hình học) không đổi."
     },
     {
       "id": "C305",
