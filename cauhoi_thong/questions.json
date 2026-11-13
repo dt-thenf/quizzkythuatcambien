@@ -3,7 +3,7 @@
   "title": "Ngân hàng câu hỏi cauhoi_thong",
   "source": "Câu hỏi được bổ sung từ các lượt mới theo yêu cầu người dùng",
   "language": "vi",
-  "count": 241,
+  "count": 266,
   "answer_visibility": "Store answers separately from quiz UI in production",
   "questions": [
     {
@@ -4737,6 +4737,481 @@
       "answer": "Resistance Temperature Detector",
       "ui": "text_input",
       "input_hint": "Chỉ điền phần còn thiếu."
+    },
+    {
+      "id": "C242",
+      "topic": "optical",
+      "type": "single_choice",
+      "prompt": "Độ nhạy của photodiode phụ thuộc:",
+      "options": [
+        "Nhiệt độ, bước sóng.",
+        "Nhiệt độ, bước sóng, hệ số hấp thụ",
+        "Nhiệt độ, bước song, hệ số hấp thụ, hiệu suất lượng tử, chiều dày lớp bán dẫn.",
+        "Nhiệt độ, bước song, hệ số hấp thụ, hiệu suất lượng tử."
+      ],
+      "answer": "Nhiệt độ, bước song, hệ số hấp thụ, hiệu suất lượng tử, chiều dày lớp bán dẫn.",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C243",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Một diode silicon có điện áp thuận là 0,712 V tại 0°C. Nếu điện áp giảm xuống còn 0,646 V, nhiệt độ tương ứng là bao nhiêu? Biết độ nhạy là 1,457 mV/°C.",
+      "options": [
+        "45°C",
+        "30°C",
+        "50°C",
+        "60°C"
+      ],
+      "answer": "45°C",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "calculation": "(0,712−0,646)×1000/1,457 ≈45,3°C"
+    },
+    {
+      "id": "C244",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "công suất tiêu thụ của diode là 0,77 mW và thông số tự đốt nóng là 0,22°C/mW, sai số do tự đốt nóng là:",
+      "options": [
+        "0,33°C",
+        "0,17°C",
+        "0,22°C",
+        "0,11°C"
+      ],
+      "answer": "0,17°C",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "calculation": "0,77×0,22=0,1694°C"
+    },
+    {
+      "id": "C245",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Cặp nhiệt điện loại K có hệ số Seebeck là 41 µV/°C. Nếu nhiệt độ nóng là 400°C và lạnh là 100°C, suất điện động là:",
+      "options": [
+        "12,3 mV",
+        "3,2 mV",
+        "1,23 mV",
+        "8,2 mV"
+      ],
+      "answer": "12,3 mV",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "calculation": "41 µV/°C×(400−100)°C=12.300 µV=12,3 mV"
+    },
+    {
+      "id": "C246",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Một cảm biến diode hoạt động trong khoảng -45°C đến +45°C. Chênh lệch điện áp trong dải đo là 0,131 V. Độ nhạy là:",
+      "options": [
+        "1,31 mV/°C",
+        "1,457 mV/°C",
+        "2,91 mV/°C",
+        "1,01 mV/°C"
+      ],
+      "answer": "1,457 mV/°C",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "calculation": "131 mV/90 °C≈1,456 mV/°C"
+    },
+    {
+      "id": "C247",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Cảm biến nhiệt âm thanh hoạt động dựa trên mối quan hệ nào?",
+      "options": [
+        "Nhiệt độ – tốc độ truyền âm",
+        "Nhiệt độ – điện trở",
+        "Nhiệt độ – suất điện động",
+        "Nhiệt độ – độ lệch góc"
+      ],
+      "answer": "Nhiệt độ – tốc độ truyền âm",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C248",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Đặc điểm nào sau đây là đúng với cảm biến nhiệt độ p-n junction (diode hoặc transistor)?",
+      "options": [
+        "Không xảy ra hiện tượng tự đốt nóng",
+        "Điện áp đầu ra không phụ thuộc nhiệt độ",
+        "Điện áp phân cực thuận tuyến tính theo nhiệt độ",
+        "Dải đo nhiệt độ từ 0°C đến 100°C"
+      ],
+      "answer": "Điện áp phân cực thuận tuyến tính theo nhiệt độ",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C249",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Diode hoạt động với dòng điện 1 mA, tại -45°C có điện áp là 0,778 V. Công suất tiêu thụ là bao nhiêu?",
+      "options": [
+        "0,78 mW",
+        "7,78 mW",
+        "0,778 mW",
+        "0,0778 mW"
+      ],
+      "answer": "0,778 mW",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "calculation": "0,778 V×0,001 A=0,000778 W=0,778 mW",
+      "review_status": "needs_review",
+      "alternative_answers": [
+        "0,78 mW"
+      ],
+      "source_note": "Đề có hai phương án cùng đúng theo các mức làm tròn: 0,778 mW và 0,78 mW."
+    },
+    {
+      "id": "C250",
+      "topic": "thermal",
+      "type": "numeric",
+      "prompt": "Sai số đo nhiệt độ của diode trong không khí tĩnh là bao nhiêu độ C khi dòng điện qua là 1 mA, điện áp 0,6465 V, và hệ số tự đốt nóng là 220°C/W?",
+      "answer": 0.14223,
+      "display_answer": "0.14223",
+      "unit": "°C",
+      "ui": "numeric_input",
+      "input_hint": "Chỉ nhập số theo đơn vị yêu cầu, dùng dấu chấm thập phân.",
+      "calculation": "P=0,001×0,6465=0,0006465 W; ΔT=220×0,0006465=0,14223 °C"
+    },
+    {
+      "id": "C251",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Trong cảm biến nhiệt độ loại diode, thông số nào của vật liệu bán dẫn quyết định sự thay đổi điện áp theo nhiệt độ?",
+      "options": [
+        "Điện trở suất",
+        "Độ rộng vùng cấm (Eg)",
+        "Hằng số điện môi",
+        "Độ dẫn điện"
+      ],
+      "answer": "Độ rộng vùng cấm (Eg)",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C252",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Cặp nhiệt điện loại K được cấu tạo từ cặp vật liệu nào sau đây?",
+      "options": [
+        "Platinum – Rhodium",
+        "Đồng – Constantan",
+        "Chromel – Alumel",
+        "Sắt – Constantan"
+      ],
+      "answer": "Chromel – Alumel",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C253",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Tại sao cần sử dụng mạch bù trong cặp nhiệt điện?",
+      "options": [
+        "Để bảo vệ cảm biến khỏi quá nhiệt",
+        "Để triệt tiêu ảnh hưởng của nhiệt độ tham chiếu",
+        "Để ổn định dòng điện cung cấp",
+        "Để tăng độ nhạy của cảm biến"
+      ],
+      "answer": "Để triệt tiêu ảnh hưởng của nhiệt độ tham chiếu",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C254",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Cặp nhiệt điện có hệ số Seebeck là 40 µV/°C. Nếu chênh lệch nhiệt độ giữa hai đầu là 200°C, suất điện động tạo ra là:",
+      "options": [
+        "10 mV",
+        "4 mV",
+        "6 mV",
+        "8 mV"
+      ],
+      "answer": "8 mV",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "calculation": "40 µV/°C×200°C=8000 µV=8 mV"
+    },
+    {
+      "id": "C255",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Đối với cảm biến nhiệt độ IC như LM35, điện áp đầu ra là 250 mV. Nhiệt độ đo được là:",
+      "options": [
+        "0,25°C",
+        "250°C",
+        "25°C",
+        "2,5°C"
+      ],
+      "answer": "25°C",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "calculation": "LM35 có 10 mV/°C: 250/10=25°C"
+    },
+    {
+      "id": "C256",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Trong cảm biến hồng ngoại, bộ phận nào tạo ra bản đồ nhiệt?",
+      "options": [
+        "LED phát sáng",
+        "Gương phản xạ",
+        "Mạch khuếch đại",
+        "Mảng pixel cảm biến"
+      ],
+      "answer": "Mảng pixel cảm biến",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C257",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Trong cảm biến cặp nhiệt điện, suất điện động sinh ra do hiệu ứng gì?",
+      "options": [
+        "Hiệu ứng Peltier",
+        "Hiệu ứng Seebeck",
+        "Hiệu ứng Hall",
+        "Hiệu ứng Joule"
+      ],
+      "answer": "Hiệu ứng Seebeck",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C258",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Ưu điểm chính của cảm biến nhiệt độ hồng ngoại là gì?",
+      "options": [
+        "Dải đo nhiệt độ hẹp",
+        "Chi phí thấp và dễ chế tạo",
+        "Độ nhạy thấp giúp đo chính xác hơn",
+        "Không cần tiếp xúc trực tiếp với vật thể đo"
+      ],
+      "answer": "Không cần tiếp xúc trực tiếp với vật thể đo",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C259",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "LM35 là cảm biến loại nào sau đây?",
+      "options": [
+        "IC tích hợp đo nhiệt độ",
+        "Diode",
+        "Thermocouple",
+        "RTD"
+      ],
+      "answer": "IC tích hợp đo nhiệt độ",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C260",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Cảm biến lưỡng kim hoạt động dựa vào nguyên lý gì?",
+      "options": [
+        "Giãn nở khác nhau của hai kim loại",
+        "Thay đổi điện trở theo nhiệt độ",
+        "Nhiệt phát xạ hồng ngoại",
+        "Tạo suất điện động khi có chênh lệch nhiệt độ"
+      ],
+      "answer": "Giãn nở khác nhau của hai kim loại",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C261",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Độ nhạy của cảm biến nhiệt độ p-n junction (diode) thông thường là bao nhiêu?",
+      "options": [
+        "1 mV/°C",
+        "0,1 mV/°C",
+        "10 mV/°C",
+        "100 mV/°C"
+      ],
+      "answer": "10 mV/°C",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "review_status": "needs_review",
+      "source_note": "Chương 3 của bài giảng ghi độ nhạy khoảng 10 mV/°C, nhưng ví dụ diode p-n đơn thông thường có dVf/dT khoảng −2 mV/°C; câu có khác biệt giữa bài giảng và mô hình diode điển hình."
+    },
+    {
+      "id": "C262",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "sự chênh lệch nhiệt độ giữa hai đầu dây điện trở dùng để đo đại lượng nào?",
+      "options": [
+        "Dòng điện",
+        "Điện trở suất",
+        "Lưu lượng chất lỏng",
+        "Tốc độ truyền âm"
+      ],
+      "answer": "Lưu lượng chất lỏng",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "review_status": "needs_review",
+      "source_note": "Có thể hiểu nguyên lý đo lưu lượng bằng trao đổi nhiệt trên dây nung, nhưng câu mô tả hai đầu dây điện trở chưa đủ rõ."
+    },
+    {
+      "id": "C263",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Tính sai số tương đối khi đọc nhiệt độ tại -45°C nếu điện áp sai lệch là 0,249 mV và điện áp đo được là 0,778 V.",
+      "options": [
+        "0,42%",
+        "0,32%",
+        "0,38%",
+        "0,22%"
+      ],
+      "answer": "0,38%",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "calculation": "Giả sử độ nhạy 1,457 mV/°C từ câu liên quan: |ΔT|≈0,249/1,457=0,171°C; tương đối so với |−45°C|: 0,171/45×100≈0,38%.",
+      "source_note": "Nếu hiểu sai số tương đối của điện áp thì ≈0,032%, không có trong đáp án; chọn 0,38% khi hiểu sai số nhiệt độ như ngữ cảnh."
+    },
+    {
+      "id": "C264",
+      "topic": "thermal",
+      "type": "single_choice",
+      "prompt": "Một đặc điểm nổi bật của cảm biến nhiệt độ cơ – nhiệt (bimetal sensor) là gì?",
+      "options": [
+        "Có thể dùng như công tắc nhiệt cơ học",
+        "Hoạt động được trong môi trường chân không",
+        "Không bị ảnh hưởng bởi độ ẩm",
+        "Cho tín hiệu đầu ra là điện áp tuyến tính"
+      ],
+      "answer": "Có thể dùng như công tắc nhiệt cơ học",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      }
+    },
+    {
+      "id": "C265",
+      "topic": "thermal",
+      "type": "fill_blank",
+      "prompt": "Cấu hình mấy dây giúp giảm sai số do điện trở dây dẫn?",
+      "answer": "4",
+      "ui": "text_input",
+      "input_hint": "Chỉ điền phần còn thiếu.",
+      "accepted_answers": [
+        "4",
+        "4 dây"
+      ],
+      "source_note": "4-wire Kelvin giảm mạnh ảnh hưởng điện trở dây; 3-wire cũng có khả năng bù gần đúng."
+    },
+    {
+      "id": "C266",
+      "topic": "thermal",
+      "type": "fill_blank",
+      "prompt": "Độ nhạy của thermistor cao nhưng lại có nhược điểm là quan hệ nhiệt độ - điện trở ________.",
+      "answer": "phi tuyến",
+      "ui": "text_input",
+      "input_hint": "Chỉ điền phần còn thiếu.",
+      "accepted_answers": [
+        "phi tuyến",
+        "không tuyến tính"
+      ]
     }
   ]
 }
