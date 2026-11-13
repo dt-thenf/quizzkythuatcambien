@@ -1,0 +1,11 @@
+{
+  "name": "quizz-ky-thuat-cam-bien",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Trắc nghiệm Kỹ thuật cảm biến, hoạt động ngoại tuyến trong một tệp HTML",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/quiz.test.mjs"
+  },
+  "engines": { "node": ">=20" }
+}
