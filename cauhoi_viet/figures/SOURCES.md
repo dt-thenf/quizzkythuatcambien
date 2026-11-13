@@ -39,3 +39,10 @@ Các hình dưới đây được cắt **trực tiếp** từ ảnh chụp mớ
 | `ldr-light-47k.png` | `image(20261112-193935).png` | (220, 201, 750, 946) |
 | `ldr-dim-150k.png` | `image(20261112-193946).png` | (220, 205, 745, 960) |
 | `ldr-bright-10k.png` | `image(20261112-194002).png` | (225, 199, 755, 1000) |
+
+## Đợt cập nhật ảnh nguồn 13/11/2026 — Viet
+
+- `ldr-voltage-divider.png` được làm mới bằng hình cắt trực tiếp từ loạt ảnh mạch LDR `original-070529.png` và `original-070703.png` (nguồn lưu tại `../screenshots/`).
+- `proximity-symbols.png` được làm mới bằng hình ký hiệu trực tiếp từ loạt ảnh `original-071349.png`, `original-071617.png`, `original-071640.png`, `original-071656.png`.
+- Các câu dạng matching thuần văn bản `C211`, `C214` được giữ nguyên ảnh form gốc, không tạo hình minh họa giả.
+- 10 ảnh chụp gốc được lưu trong `../screenshots/` và dùng để đối chiếu thứ tự đáp án, giao diện radio, nhập số và dropdown.

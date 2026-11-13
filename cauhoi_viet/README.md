@@ -4,7 +4,7 @@ Nguồn dữ liệu: các câu hỏi người dùng cung cấp trong hội tho�
 
 ## Cấu trúc
 
-- `questions.json`: 210 câu hỏi, mã C001–C210; giữ tất cả biến thể số liệu và phương án từ hội thoại.
+- `questions.json`: 241 câu hỏi, mã C001–C241; giữ tất cả biến thể số liệu và phương án từ hội thoại.
 - `figures/*.png`: **14 hình được cắt trực tiếp từ ảnh câu hỏi gốc** do người dùng cung cấp, không phải hình vẽ lại. Có bản kê nguồn và tọa độ cắt tại `figures/SOURCES.md`.
 - `screenshots/`: chứa **ảnh chụp gốc từ hội thoại** để đối chiếu form. Đã bổ sung ảnh chụp gốc cho câu ghép cặp, sơ đồ LDR, RTD, ký hiệu cảm biến, đường chuẩn và accelerometer tại các đường dẫn tương ứng. Đã khôi phục đủ ảnh gốc mà toàn bộ trường `screenshot` trong `questions.json` tham chiếu đến; các liên kết ảnh hiện có trong repo.
 
@@ -45,7 +45,7 @@ Mỗi phần tử `questions` có:
 - Tất cả câu hỏi có mã duy nhất.
 - Mọi câu `single_choice` có đáp án nằm trong `options`.
 - Mọi cặp `matching` có mô tả nằm trong `options`.
-- 47 true_false, 69 single_choice, 53 numeric, 23 fill_blank, 18 matching = 210.
+- 54 true_false, 80 single_choice, 61 numeric, 25 fill_blank, 21 matching = 241.
 
 ## Bổ sung ảnh nguồn lên GitHub
 
@@ -61,3 +61,12 @@ Khi bổ sung câu mới, tạo `id` mới, giữ nguyên câu cũ; không xóa 
 - Trắc nghiệm và Đúng/Sai giữ nguyên thứ tự mảng `options` từ giao diện gốc. Với câu True/False có lựa chọn `Đúng`/`Sai`, trường `answer` boolean và `answer_label` chứa lựa chọn đúng để render theo tiếng Việt.
 - Câu ghép cặp có `form.control = "select"`, `form.placeholder = "[ Choose ]"`, `form.pair_points` nếu có, và có thể có `form.source_options_raw` để giữ nguyên biểu diễn HTML thoát ký tự từ ảnh LMS.
 - `screenshot` trỏ tới ảnh đầy đủ của câu gốc; `figure` trỏ tới phần hình minh họa được cắt từ ảnh, không bao gồm lựa chọn đáp án.
+
+## Đợt cập nhật 13/11/2026 — Đối chiếu ngân hàng Viet
+
+- Từ **210 lên 241 câu**: bổ sung **31 câu mới C211–C241** sau khi đối chiếu với câu đã có; không tạo mã mới cho bản trùng câu chữ, kể cả bản chỉ đổi thứ tự radio.
+- Lưu 10 ảnh gốc trong `screenshots/original-070325.png` ... `original-071701.png`. Hai hình dùng chung (`ldr-voltage-divider.png`, `proximity-symbols.png`) đã được cập nhật từ ảnh câu hỏi mới.
+- `C211`, `C213`, `C214` là câu **ghép cặp** với mảng `answer=[{left,right}]`, `ui=dropdown_per_row`; giữ thứ tự lựa chọn và placeholder như bản chụp. `C212` là bài chia áp LDR dạng `numeric`.
+- Các câu từ loạt này trùng ngân hàng trước vẫn được giữ bằng `option_variants`, không đưa vào đếm 31 câu mới.
+- Danh sách đáp án và liên kết ảnh cho câu mới: [`dap_an_C211_C241.md`](dap_an_C211_C241.md).
+- Ngân hàng `cauhoi_thong` là độc lập và không được thay đổi trong đợt này.
