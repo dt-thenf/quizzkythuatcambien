@@ -73,3 +73,9 @@ Mỗi phần tử `questions` có `id` (bắt đầu `C001`), `topic`, `type`, `
 - 8 screenshot gốc và 2 hình cắt trực tiếp trong `figures/` đã được lưu. C054 và C192 lưu ảnh thay đổi thứ tự lựa chọn, không tạo câu trùng.
 - Đáp án từng mã câu được trình bày tại [`dap_an_dot4.md`](dap_an_dot4.md). Những câu học thuật thiếu điều kiện hoặc có nhiều đáp án phù hợp giữ `review_status: needs_review`.
 - Các câu trùng với thứ tự radio khác nhau được thêm vào `option_variants`, bảo đảm có thể tái hiện form gốc.
+
+## Đợt 5 — Hình điện dung & ký hiệu (13/11/2026)
+
+- Thêm `C267–C270`: 2 câu điện dung có hình, 1 câu ghép ký hiệu, 1 câu đơn vị ứng suất. 3 ảnh mới về RTD được lưu làm `option_variants` cho `C194–C196`, không tạo trùng.
+- 7 ảnh gốc được lưu trong `screenshots/`; 5 hình được cắt trực tiếp, trong đó thay thế 2 hình RTD cũ bằng vùng cắt từ ảnh mới nhất.
+- Các câu không đủ dữ kiện để chọn một đáp án duy nhất được đánh dấu `review_status=needs_review`.

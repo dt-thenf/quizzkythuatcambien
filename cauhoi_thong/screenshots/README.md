@@ -5,3 +5,5 @@ Lưu screenshot gốc của câu hỏi mới, bao gồm cả form lựa chọn v
 Đợt 3: ảnh gốc original-055322.png, original-055520.png, original-060055.png, original-060330.png, original-060451.png, original-060659.png, original-060731.png, original-060749.png, original-060902.png.
 
 Đợt 4: 8 ảnh nguyên gốc original-062026.png, original-062054.png, original-062117.png, original-062150.png, original-062329.png, original-062342.png, original-062404.png, original-063045.png.
+
+Đợt 5: original-063611.png, original-063619.png, original-063630.png, original-063658.png, original-064122.png, original-064325.png, original-064907.png.

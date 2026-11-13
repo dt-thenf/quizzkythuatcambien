@@ -12,3 +12,13 @@
 | --- | --- | --- |
 | rtd-comparison-graph.png | original-062150.png | (18,129,784,418) |
 | rtd-three-equations.png | original-062329.png | (35,85,623,320) |
+
+## Đợt 5 — Cắt mới từ đề (13/11/2026)
+
+| Hình cắt | Ảnh đề | Vùng crop (left, top, right, bottom), px |
+| --- | --- | --- |
+| rtd-comparison-graph.png | original-063611.png | (38,148,778,434) |
+| rtd-three-equations.png | original-063619.png | (25,80,590,305) |
+| capacitive-proximity-geometry.png | original-063658.png | (48,88,895,327) |
+| capacitive-capacitance-variation.png | original-064122.png | (32,93,875,410) |
+| sensor-symbols-1-6.png | original-064325.png | (27,119,761,553) |

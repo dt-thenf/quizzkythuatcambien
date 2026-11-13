@@ -3,7 +3,7 @@
   "title": "Ngân hàng câu hỏi cauhoi_thong",
   "source": "Câu hỏi được bổ sung từ các lượt mới theo yêu cầu người dùng",
   "language": "vi",
-  "count": 266,
+  "count": 270,
   "answer_visibility": "Store answers separately from quiz UI in production",
   "questions": [
     {
@@ -3901,11 +3901,27 @@
         "option_order": "preserve"
       },
       "figure": "figures/rtd-three-equations.png",
-      "screenshot": "screenshots/original-062329.png",
+      "screenshot": "screenshots/original-063619.png",
       "formulae": [
         "R(T)=R0(1+a(T−T0)+b(T−T0)^2)",
         "R(T)=R0 exp[β(1/T−1/T0)]",
         "R(T)=R0(1+α(T−T0))"
+      ],
+      "option_variants": [
+        {
+          "options": [
+            "Silic– kim loại – ôxit",
+            "Kim loại – ô xít – silic",
+            "Silic – ôxít – kim loại",
+            "Kim loại – silic – ôxít"
+          ],
+          "answer": "Silic – ôxít – kim loại",
+          "screenshot": "screenshots/original-063619.png"
+        }
+      ],
+      "screenshot_variants": [
+        "screenshots/original-062329.png",
+        "screenshots/original-063619.png"
       ]
     },
     {
@@ -3926,7 +3942,7 @@
         "control": "radio",
         "option_order": "preserve"
       },
-      "screenshot": "screenshots/original-062342.png",
+      "screenshot": "screenshots/original-063630.png",
       "option_variants": [
         {
           "options": [
@@ -3937,7 +3953,21 @@
           ],
           "answer": "R(T) = R0[1+A(T-T0) + B(T-T0)2]",
           "source_note": "Bảo toàn bản phương án gốc bị lỗi xuống dòng/định dạng LaTeX."
+        },
+        {
+          "options": [
+            "R(T) = R₀[1+A(T-T₀) + B(T-T₀)²]",
+            "R(T) = R0(1+AT + BT + CT²)",
+            "R(T) = R₀(1+AT + BT² + C[T-1000C]T³)",
+            "R(T) = R₀(1+αT)"
+          ],
+          "answer": "R(T) = R₀[1+A(T-T₀) + B(T-T₀)²]",
+          "screenshot": "screenshots/original-063630.png"
         }
+      ],
+      "screenshot_variants": [
+        "screenshots/original-062342.png",
+        "screenshots/original-063630.png"
       ]
     },
     {
@@ -3959,8 +3989,24 @@
         "option_order": "preserve"
       },
       "figure": "figures/rtd-comparison-graph.png",
-      "screenshot": "screenshots/original-062404.png",
-      "source_note": "Theo đồ thị, độ dốc |dR/dT| của đường semiconductor cao hơn các RTD kim loại trong một phần dải."
+      "screenshot": "screenshots/original-063611.png",
+      "source_note": "Theo đồ thị, độ dốc |dR/dT| của đường semiconductor cao hơn các RTD kim loại trong một phần dải.",
+      "option_variants": [
+        {
+          "options": [
+            "Copper",
+            "Nickel",
+            "Bán dẫn (semiconductor)",
+            "Platinum"
+          ],
+          "answer": "Bán dẫn (semiconductor)",
+          "screenshot": "screenshots/original-063611.png"
+        }
+      ],
+      "screenshot_variants": [
+        "screenshots/original-062404.png",
+        "screenshots/original-063611.png"
+      ]
     },
     {
       "id": "C197",
@@ -5366,6 +5412,156 @@
         "phi tuyến",
         "không tuyến tính"
       ]
+    },
+    {
+      "id": "C267",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "Trong 3 cách thay đổi điện dung dưới đây, cách nào được chọn để chế tạo cảm biến tiệm cận điện dung phát hiện vật thể?",
+      "options": [
+        "(c)",
+        "(a)",
+        "(b)"
+      ],
+      "answer": "(c)",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "figure": "figures/capacitive-proximity-geometry.png",
+      "screenshot": "screenshots/original-063658.png"
+    },
+    {
+      "id": "C268",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "Trong số các cách để thay đổi điện dung của tụ như các hình dưới đây. Theo dự đoán của em, cách nào điện dung sẽ thay đổi lớn nhất",
+      "options": [
+        "(d)",
+        "(e)",
+        "(b)",
+        "(c)",
+        "(a)"
+      ],
+      "answer": "(e)",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "figure": "figures/capacitive-capacitance-variation.png",
+      "screenshot": "screenshots/original-064122.png",
+      "review_status": "needs_review",
+      "source_note": "Độ biến thiên điện dung còn phụ thuộc kích thước điện cực, khoảng cách, biên độ chuyển động và vật liệu; đáp án (e) dựa trên cấu trúc nhiều bản cực xen kẽ và phương dịch chuyển trong hình."
+    },
+    {
+      "id": "C269",
+      "topic": "electromagnetic",
+      "type": "matching",
+      "prompt": "Cho ký hiệu các cảm biến đánh số thứ tự từ (1) đến (6) như hình: Ghép loại cảm biến bên trái với số kí hiệu bên phải",
+      "left_items": [
+        "through beam sensor, bộ phát",
+        "through beam sensor, bộ thu",
+        "cảm biến tiệm cận điện cảm",
+        "cảm biến tiệm cận điện dung",
+        "cảm biến từ điện trở",
+        "cảm biến quang phản xạ ngược",
+        "cảm biến quang khuếch tán",
+        "cảm biến tiệm cận điện cảm đầu ra tương tự"
+      ],
+      "right_options": [
+        "(4)",
+        "(3)",
+        "(5)",
+        "(2)",
+        "(1)",
+        "(6)"
+      ],
+      "answer": {
+        "through beam sensor, bộ phát": "(1)",
+        "through beam sensor, bộ thu": "(3)",
+        "cảm biến tiệm cận điện cảm": "(2)",
+        "cảm biến tiệm cận điện dung": "(6)",
+        "cảm biến từ điện trở": "(5)",
+        "cảm biến quang phản xạ ngược": "(3)",
+        "cảm biến quang khuếch tán": "(3)",
+        "cảm biến tiệm cận điện cảm đầu ra tương tự": "(4)"
+      },
+      "pairs": [
+        {
+          "label": "through beam sensor, bộ phát",
+          "answer": "(1)"
+        },
+        {
+          "label": "through beam sensor, bộ thu",
+          "answer": "(3)"
+        },
+        {
+          "label": "cảm biến tiệm cận điện cảm",
+          "answer": "(2)"
+        },
+        {
+          "label": "cảm biến tiệm cận điện dung",
+          "answer": "(6)"
+        },
+        {
+          "label": "cảm biến từ điện trở",
+          "answer": "(5)"
+        },
+        {
+          "label": "cảm biến quang phản xạ ngược",
+          "answer": "(3)"
+        },
+        {
+          "label": "cảm biến quang khuếch tán",
+          "answer": "(3)"
+        },
+        {
+          "label": "cảm biến tiệm cận điện cảm đầu ra tương tự",
+          "answer": "(4)"
+        }
+      ],
+      "ui": "matching_dropdown",
+      "form": {
+        "layout": "vertical",
+        "control": "select",
+        "option_order": "preserve",
+        "allow_repeat": true
+      },
+      "figure": "figures/sensor-symbols-1-6.png",
+      "screenshot": "screenshots/original-064325.png",
+      "review_status": "needs_review",
+      "source_note": "8 hàng ghép nhưng hình chỉ có 6 ký hiệu; ký hiệu quang (3) không đủ thông tin để phân biệt thu phát độc lập với phản xạ ngược và khuếch tán. Đáp án cho các nhóm quang chỉ là suy luận, cần kiểm tra đề gốc."
+    },
+    {
+      "id": "C270",
+      "topic": "electromagnetic",
+      "type": "single_choice",
+      "prompt": "Đơn vị ứng suất là:",
+      "options": [
+        "N/m",
+        "N/m²",
+        "Bar",
+        "Pa"
+      ],
+      "answer": "Pa",
+      "ui": "radio",
+      "form": {
+        "layout": "vertical",
+        "control": "radio",
+        "option_order": "preserve"
+      },
+      "figure": null,
+      "screenshot": "screenshots/original-064907.png",
+      "review_status": "needs_review",
+      "alternative_answers": [
+        "N/m²",
+        "Bar"
+      ],
+      "source_note": "Pa = N/m² là đơn vị SI của ứng suất; bar cũng là đơn vị áp suất/ứng suất phi SI. Đề radio vì vậy không có một lựa chọn duy nhất nếu không yêu cầu đơn vị SI."
     }
   ]
 }

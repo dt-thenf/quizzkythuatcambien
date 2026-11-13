@@ -10,3 +10,5 @@ Lưu hình sơ đồ/biểu đồ **cắt từ ảnh câu hỏi mới** vào th�
 Bốn hình kỹ thuật cắt trực tiếp từ ảnh đợt 3: n-type-semiconductor-slab.png, photodiode-forward-bias.png, photodiode-reverse-bias.png, photoelectric-cell-circuit.png.
 
 Đợt 4: `rtd-comparison-graph.png` cắt từ original-062150.png, `rtd-three-equations.png` cắt từ original-062329.png.
+
+Đợt 5: `capacitive-proximity-geometry.png`, `capacitive-capacitance-variation.png`, `sensor-symbols-1-6.png`; recrop và thay thế `rtd-comparison-graph.png`, `rtd-three-equations.png` trực tiếp từ ảnh mới.
